@@ -159,14 +159,14 @@
           <p>Lets discuss what you need.</p>
           <form>
           <div class="form-group">
-            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            <input arial-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
           </div>
           <div class="form-group">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+            <input arial-label="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
-            <textarea class="form-control" rows="5" id="comment" placeholder="What can we help you with?"></textarea>
+            <textarea arial-label="textarea" class="form-control" rows="5" id="comment" placeholder="What can we help you with?"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -184,6 +184,7 @@ export default {
     title: 'Best Web Design Home Contractors, Renovation, Landscaping SEO'
   }
 }
+
 </script>
 
 <style lang="scss">
@@ -207,9 +208,9 @@ export default {
   background: url('../img/hero-bg.jpg') center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 65px;
+  margin-top: 70px;
   @include bp-tablet-sm {
-    margin-top: 55px; 
+    margin-top: 70px; 
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -291,7 +292,7 @@ export default {
   }
   .btn-primary {
     background: $white;
-    color: $primary;
+    color: $dark-blue;
   }
 }
 

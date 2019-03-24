@@ -141,12 +141,12 @@ a {
 }
 
 .inner-hero {
-  margin-top: 65px;
+  margin-top: 70px;
   padding-top: 100px;
   padding-bottom: 100px;
 	background-image: linear-gradient(to right, #412caf, #0671bc);
 	@include bp-tablet-sm {
-		margin-top: 60px;
+		margin-top: 70px;
 	}
   h1 {
     color: $white;

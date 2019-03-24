@@ -1,33 +1,25 @@
 <template>
   <div class="layout">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <g-link class="nav__link navbar-brand" to="/"><g-image alt="infused agency" src="~/img/logo.jpg" class="img-fluid" /></g-link>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <g-link class="nav__link nav-link" to="/work">Work</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav__link nav-link" to="/web-design">Web Design</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav__link nav-link" to="/seo">SEO</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav__link nav-link" to="/about">About</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav__link nav-link" to="/about">Blog</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav__link nav-link" to="/contact">Contact</g-link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div>
+      <b-navbar class="fixed-top" toggleable="lg" type="light">
+        <b-navbar-brand><g-link class="nav__link navbar-brand" to="/"><g-image alt="infused agency" src="~/img/logo.jpg" class="img-fluid" /></g-link></b-navbar-brand>
+
+        <b-navbar-toggle target="nav_collapse" />
+
+        <b-collapse is-nav id="nav_collapse">
+          
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto">
+            <b-nav-item to="/work"><g-link class="nav__link" to="/work">Work</g-link></b-nav-item>
+            <b-nav-item to="/web-design"><g-link class="nav__link" to="/web-design">Web Design</g-link></b-nav-item>
+            <b-nav-item to="/seo"><g-link class="nav__link" to="/seo">SEO</g-link></b-nav-item>
+            <b-nav-item to="/about"><g-link class="nav__link" to="/about">About</g-link></b-nav-item>
+            <b-nav-item to="/contact"><g-link class="nav__link" to="/contact">Contact</g-link></b-nav-item>
+          </b-navbar-nav>
+
+        </b-collapse>
+      </b-navbar>
+    </div>
     <slot/>
   </div>
 </template>
@@ -42,6 +34,9 @@ query {
 
 <style scoped lang="scss">
 @import "../scss/_base.scss";
+.navbar-toggler {
+  border: none;
+}
 .navbar {
   background: $white;
   opacity: .95;
@@ -50,14 +45,24 @@ query {
   @include bp-tablet-sm {
     padding: .5rem 1rem;
   }
-  .nav-link, .navbar-brand {
+  .nav__link, .navbar-brand {
     color: $dark-grey !important;
     font-size: 16px;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+  .nav__link {
     padding-right: 20px !important;
     padding-left: 20px !important;
+    @include bp-tablet {
+      &:hover, &:focus {
+        color: $primary !important;
+      }
+    }
   }
   .navbar-brand {
-    margin-top: -10px;
+    margin-top: -5px;
     @include bp-tablet-sm {
       margin-top: 0px;
       padding-left: 0px !important;
@@ -72,10 +77,9 @@ query {
       border-bottom: $primary solid 3px;
       padding-bottom: 20px;
     }
-  }
-  .navbar-brand {
-    font-weight: 500;
-    text-transform: uppercase;
+    @include bp-tablet {
+      border-bottom: none !important;
+    }
   }
 }
 </style>
