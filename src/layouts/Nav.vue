@@ -45,16 +45,32 @@ query {
 .navbar {
   background: $white;
   opacity: .95;
-  padding: 1.5rem 1rem;
+  padding-bottom: 0px;
   box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+  @include bp-tablet-sm {
+    padding: .5rem 1rem;
+  }
   .nav-link, .navbar-brand {
     color: $dark-grey !important;
     font-size: 16px;
     padding-right: 20px !important;
     padding-left: 20px !important;
+  }
+  .navbar-brand {
+    margin-top: -10px;
+    @include bp-tablet-sm {
+      margin-top: 0px;
+      padding-left: 0px !important;
+    }
+  }
+  .nav-link {
+    border-bottom: $white solid 3px;
+    padding-bottom: 20px;
     &:hover, &:focus {
       color: $primary !important;
       text-decoration: none;
+      border-bottom: $primary solid 3px;
+      padding-bottom: 20px;
     }
   }
   .navbar-brand {
