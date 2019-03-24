@@ -14,6 +14,21 @@
     </div>
    </section>
 
+   <!--PDF-->
+   <section class="pdf">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-8">
+           <h2>Need a website that brings in sales?</h2>
+           <p>Download our <strong>free</strong> checklist PDF on how to get more local sales through Google Search</p>
+         </div>
+         <div class="col-md-4">
+           <a href="#"><button type="button" class="btn btn-primary">Download Free PDF</button></a>
+         </div>
+       </div>
+     </div>
+   </section>
+
    <!--Intro-->
    <section class="intro">
     <div class="container">
@@ -246,6 +261,26 @@ export default {
     h4 {
       margin-bottom: 0px;
     }
+  }
+}
+
+// PDF
+.pdf {
+  background: linear-gradient(to right, #412caf, #0671bc);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .row {
+    align-items: center;
+  }
+  h2,p {
+    color: $white;
+  }
+  h2 {
+    margin-bottom: 0px;
+  }
+  .btn-primary {
+    background: $white;
+    color: $primary;
   }
 }
 
