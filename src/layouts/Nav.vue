@@ -55,10 +55,8 @@ query {
   .nav__link {
     padding-right: 20px !important;
     padding-left: 20px !important;
-    @include bp-tablet {
-      &:hover, &:focus {
-        color: $primary !important;
-      }
+    &:hover, &:focus {
+      color: $primary !important;
     }
   }
   .navbar-brand {

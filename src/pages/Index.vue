@@ -268,7 +268,7 @@ export default {
 
 // PDF
 .pdf {
-  background: linear-gradient(to right, #412caf, #0671bc);
+  background: linear-gradient(to right, #2caf73, #0671bc);
   padding-top: 60px;
   padding-bottom: 60px;
   @include bp-tablet {
