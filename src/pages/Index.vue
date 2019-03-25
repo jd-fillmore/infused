@@ -161,7 +161,7 @@
           <div class="form-group">
             <input aria-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
           </div>
-          <div class="form-group">
+          <div class="form-group y">
             <input aria-label="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
