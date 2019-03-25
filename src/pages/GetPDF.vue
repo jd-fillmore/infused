@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-            <h1>About</h1>
-            <p>A bit about our company</p>
+            <h1>More sales. More Profits. More Growth.</h1>
+            <p>Download our free checklist PDF on how to get more local sales through Google Search</p>
           </div>
         </div>
       </div>
@@ -39,9 +39,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About',
+    title: 'Get Your Free PDF',
     meta: [
-      { key: 'description', name: 'description', content: 'Learn more about the core values, hardworking team and how we accomplish your business goals at Infused.' }
+      { key: 'description', name: 'description', content: 'Download your FREE PDF on how to get more local landscaping sales through Google Search.' }
     ]
   }
 }

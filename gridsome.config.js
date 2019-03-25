@@ -25,5 +25,68 @@ module.exports = {
     types.forEach(type => addStyleResource(config.module.rule('sass').oneOf(type)))
 	},
   siteName: 'Infused Agency',
-  plugins: []
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
+    }
+  },
+
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'posts/**/*.md',
+        typeName: 'Post',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/exclude-me'],
+        config: {
+          '/articles/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/work': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/web-design': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/seo': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/contact': {
+            changefreq: 'monthly',
+            priority: 0.7
+          }
+        }
+      }
+    }
+  ]
 }

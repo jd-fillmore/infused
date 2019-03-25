@@ -40,7 +40,7 @@
 /*----------------------Variables---------------------*/
 
 $white: #fff;
-$primary: #4285f4;
+$primary: #4CAF50;
 $light-grey: #f9f9f9;
 $dark-grey: #232222;
 $light-blue: #436b92;
@@ -50,12 +50,15 @@ $orange: #dc4225;
 /*-----------------------General----------------------*/
 
 h1,h2,h3,h4,h5,h6 {
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
   font-family: 'Source Sans Pro', sans-serif;
   color: $primary;
-  font-weight: bold;
+  font-weight: bold !important;
 	line-height: 1.6;
 	margin-bottom: 20px;
+	@include bp-tablet {
+		line-height: 1.4;
+	}
 }
 
 h1 {
@@ -103,7 +106,7 @@ h6 {
 ul,ol,p {
   font-family: "Roboto", sans-serif;
   color: $light-blue;
-  line-height: 2;
+  line-height: 1.8;
   font-size: 18px;
 }
 
@@ -138,10 +141,13 @@ a {
 }
 
 .inner-hero {
-  margin-top: 95px;
+  margin-top: 70px;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: linear-gradient(to right, #412caf, #0671bc);
+	background-image: linear-gradient(to right, #412caf, #0671bc);
+	@include bp-tablet-sm {
+		margin-top: 70px;
+	}
   h1 {
     color: $white;
   }
@@ -155,5 +161,9 @@ a {
 
 .inner-content {
   padding-top: 100px;
-  padding-bottom: 100px;
+	padding-bottom: 100px;
+	@include bp-tablet {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 }

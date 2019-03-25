@@ -4,36 +4,137 @@
     <section class="inner-hero">
       <div class="container">
         <div class="row text-center">
-          <div class="col-md-12">
+          <div class="col-lg-12">
             <h1>Search Engine Optimization (SEO)</h1>
-            <p>A bit about our company</p>
+            <p>Getting you more sales through Google Search</p>
           </div>
         </div>
       </div>
     </section>
-    <!--Content-->
-    <section class="inner-content">
+    
+     <!--Intro-->
+     <section class="intro">
+      <div class="container">
+        <div class="row text-center cards">
+        <div class="col-lg-4">
+          <div class="card">
+            <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+            <h4>Organic SEO</h4>
+            <p>We focus on where the clicks happen - on organic listings. Not paid ads.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+            <h4>Content Development</h4>
+            <p>Professionally written and tactfully placed content drivces traffic directly to you.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+            <h4>Analytics &amp; Reports</h4>
+            <p>Tracking analytics every month to make sure you're getting the highest conversions and ROI.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--Process-->
+    <section class="process">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <p>stuff</p>
+          <div class="col-lg-12">
+            <h2>Our Process</h2>
+            <p>Our web design process that helps create a sales generating website</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <h3>1. Research</h3>
+            <p>Before we dive into your project, we'll sit down and do some research into most effective keywords you'd like to rank for, based on your company's future goals.</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>2. Analysis</h3>
+            <p>At the same time, we'll analyze your competition. What are they ranking for? Are there areas we can take advantage of that your competition isn't already?</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>3. Launch</h3>
+            <p>After we've done our researc, analysis and optimized your website for SEO, we'll launch the systems we've created for you onto the web. We will then submit them to Google.</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>4. Monthly Efforts</h3>
+            <p>We're not done here. Google won't rank your website just because. There will be monthly efforts and investments in order for your website to crawl up the rankings over time.</p>
           </div>
         </div>
       </div>
     </section>
+
     <Footer></Footer>
   </Layout>
 </template>
 
 <style scoped lang="scss">
 @import "../scss/_base.scss";
+
+// Intro
+.intro {
+  background: $light-grey;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @include bp-tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .cards {
+    .col-lg-4 {
+      display: flex;
+    }
+    .card {
+      padding: 30px;
+      border: none;
+      box-shadow: 0px 20px 100px #EDEFF2;
+      transition: .2s;
+      &:focus, &:hover {
+        box-shadow: 0px 20px 100px #c7c7c7;
+        transform: translate3D(0, -5px, 0);
+        transition: .2s;
+      }
+      @include bp-tablet {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      h4 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+.process {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @include bp-tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  h3 {
+    color: $light-blue;
+  }
+}
+
 </style>
 
 
 <script>
 export default {
   metaInfo: {
-    title: 'About'
+    title: 'Search Engine Optimization',
+    meta: [
+      { key: 'description', name: 'description', content: 'Infused offers SEO (search engine optimization) to Niagara businesses and beyond as a business growth strategy. Click here to learn more.' }
+    ]
   }
 }
 </script>
