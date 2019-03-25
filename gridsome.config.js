@@ -54,39 +54,6 @@ module.exports = {
       options: {
         publicPath: `/admin`
       }
-    },
-    {
-      use: '@gridsome/plugin-sitemap',
-      options: {
-        cacheTime: 600000, // default
-        exclude: ['/exclude-me'],
-        config: {
-          '/articles/*': {
-            changefreq: 'weekly',
-            priority: 0.5
-          },
-          '/work': {
-            changefreq: 'monthly',
-            priority: 0.7
-          },
-          '/web-design': {
-            changefreq: 'monthly',
-            priority: 0.7
-          },
-          '/seo': {
-            changefreq: 'monthly',
-            priority: 0.7
-          },
-          '/about': {
-            changefreq: 'monthly',
-            priority: 0.7
-          },
-          '/contact': {
-            changefreq: 'monthly',
-            priority: 0.7
-          }
-        }
-      }
     }
   ]
 }
