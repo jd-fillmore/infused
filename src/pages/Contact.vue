@@ -52,7 +52,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Contact Us'
+    title: 'Contact Us',
+    meta: [
+      { key: 'description', name: 'description', content: 'Contact Infused today for website design and development, SEO and internet marketing to grow your business.' }
+    ]
   }
 }
 </script>

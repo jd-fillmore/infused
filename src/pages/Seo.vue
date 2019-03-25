@@ -131,7 +131,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Search Engine Optimization'
+    title: 'Search Engine Optimization',
+    meta: [
+      { key: 'description', name: 'description', content: 'Infused offers SEO (search engine optimization) to Niagara businesses and beyond as a business growth strategy. Click here to learn more.' }
+    ]
   }
 }
 </script>

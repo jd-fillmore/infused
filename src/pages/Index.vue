@@ -183,7 +183,7 @@ export default {
   metaInfo: {
     title: 'Best Web Design Home Contractors, Renovation, Landscaping SEO',
     meta: [
-      { name: 'description', content: 'foo' },
+      { key: 'description', name: 'description', content: 'Best contractor web design company. We help our contractor, home renovation, remodeling and landscaping clients. Click here now!' }
     ]
   }
 }

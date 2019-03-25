@@ -39,9 +39,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About',
+    title: 'Get Your Free PDF',
     meta: [
-      { key: 'description', name: 'description', content: 'foo' }
+      { key: 'description', name: 'description', content: 'Download your FREE PDF on how to get more local landscaping sales through Google Search.' }
     ]
   }
 }

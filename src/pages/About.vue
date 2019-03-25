@@ -41,7 +41,7 @@ export default {
   metaInfo: {
     title: 'About',
     meta: [
-      { key: 'description', name: 'description', content: 'foo' }
+      { key: 'description', name: 'description', content: 'Learn more about the core values, hardworking team and how we accomplish your business goals at Infused.' }
     ]
   }
 }

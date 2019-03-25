@@ -141,7 +141,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Web Design'
+    title: 'Web Design',
+    meta: [
+      { key: 'description', name: 'description', content: 'Infused offers website design & development tailored to your contractor business in order to help engage and convert your customers. Click here to learn how.' }
+    ]
   }
 }
 </script>
