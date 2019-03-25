@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: develop
+  name: github
+  repo: https://github.com/jd-fillmore/infused-gridsome/tree/develop
 
 media_folder: "uploads"
 public_folder: "../uploads"
