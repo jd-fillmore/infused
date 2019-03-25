@@ -159,14 +159,14 @@
           <p>Lets discuss what you need.</p>
           <form name="home-contact" method="POST" data-netlify="true">
           <div class="form-group">
-            <input arial-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            <input aria-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
           </div>
           <div class="form-group">
-            <input arial-label="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+            <input aria-label="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group">
-            <textarea arial-label="textarea" class="form-control" rows="5" id="comment" placeholder="What can we help you with?"></textarea>
+            <textarea aria-label="textarea" class="form-control" rows="5" id="comment" placeholder="What can we help you with?"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
