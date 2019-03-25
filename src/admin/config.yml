@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: https://github.com/jd-fillmore/infused-gridsome/
   branch: develop
 
 media_folder: "uploads"
