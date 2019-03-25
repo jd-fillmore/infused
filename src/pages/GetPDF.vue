@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-            <h1>About</h1>
-            <p>A bit about our company</p>
+            <h1>More sales. More Profits. More Growth.</h1>
+            <p>Download our free checklist PDF on how to get more local sales through Google Search</p>
           </div>
         </div>
       </div>

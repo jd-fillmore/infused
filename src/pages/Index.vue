@@ -6,9 +6,9 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h1>Contractor website design &amp; SEO for Landscapers, Home Renovation &amp; More</h1>
-          <h2>More sales. More Profits. More Growth.</h2>
-          <button type="button" class="btn btn-primary">Learn How</button>
+          <h1>More sales. More Profits. More Growth.</h1>
+          <p>We help landscaping, design, renovation and architecture companies get more projects.</p>
+          <g-link to="/get-pdf"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@
            <p>Download our <strong>free</strong> checklist PDF on how to get more local sales through Google Search</p>
          </div>
          <div class="col-lg-4">
-           <a href="#"><button type="button" class="btn btn-primary">Download Free PDF</button></a>
+           <g-link to="/get-pdf"><button type="button" class="btn btn-primary">Download Free PDF</button></g-link>
          </div>
        </div>
      </div>
@@ -157,7 +157,7 @@
         </div>
         <div class="col-lg-6">
           <p>Lets discuss what you need.</p>
-          <form>
+          <form name="home-contact" method="POST" data-netlify="true">
           <div class="form-group">
             <input arial-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
           </div>
@@ -181,7 +181,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Best Web Design Home Contractors, Renovation, Landscaping SEO'
+    title: 'Best Web Design Home Contractors, Renovation, Landscaping SEO',
+    meta: [
+      { name: 'description', content: 'foo' },
+    ]
   }
 }
 
@@ -220,20 +223,13 @@ export default {
       box-shadow: none;
     }
   }
-  h1,h2 {
-    color: $white;
-  }
   h1 {
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    color: $white;
+    margin-bottom: 0px;
   }
-  h2 {
-    font-size: 44px;
-    font-weight: 800;
-    @include bp-tablet {
-      font-size: 24px;
-    }
+  p {
+    color: #d6d6d6;
+    margin-bottom: 30px;
   }
 }
 
