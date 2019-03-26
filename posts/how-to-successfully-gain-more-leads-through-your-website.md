@@ -2,7 +2,7 @@
 title: How To Successfully Gain More Leads Through Your Website
 date: 2019-03-26T23:03:10.331Z
 ---
-One of the main pain points with a lot of my clients before coming to me, is that their online presence is not doing anything for them. Sure - having an online presence is important,<!--more--> but simply having a <a href="https://infused.agency/website-design/">website</a> online, in most cases, doesn't do anything for any company.
+One of the main pain points with a lot of my clients before coming to me, is that their online presence is not doing anything for them. Sure - having an online presence is important,<!--more--> but simply having a <a href="https://infused.agency/web-design/">website</a> online, in most cases, doesn't do anything for any company.
 
 "But I have a Wix / Weebly / Squarespace / any other do-it-yourself website builder, that's enough for me!"
 
@@ -55,6 +55,6 @@ SEO is where the bread and butter is. Organically ranking your website highly in
 
 Social media marketing can also be very successful. It takes a lot of research - but when done properly, it has amazing results.
 
-If you are interested in custom website design or search engine optimization for your business, <a href="https://infused.agency/work-with-us/">c</a>ontact us today to send you a quote!
+If you are interested in custom website design or search engine optimization for your business, <a href="https://infused.agency/contact/">Contact</a> us today to send you a quote!
 
 <h3>Like the post? Share it!</h3>

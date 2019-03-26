@@ -24,4 +24,3 @@ Humans are wired to find visuals appealing. Use this to your advantage on your l
 <h2>10. Always Be Testing!</h2>
 Your first landing page may not be converting well, even if you use all of these principles. Each industry is different, and for each niche - different approaches will work, and others.. not so much. It's important to A/B test with at the very least, two different types of landing pages. You'll then be in a much better place to see what elements work where, and which don't.
 <h3>Like the post? Share it!</h3>
-[DISPLAY_ULTIMATE_SOCIAL_ICONS]
