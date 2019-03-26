@@ -14,6 +14,7 @@
             <b-nav-item to="/web-design"><g-link class="nav__link" to="/web-design">Web Design</g-link></b-nav-item>
             <b-nav-item to="/seo"><g-link class="nav__link" to="/seo">SEO</g-link></b-nav-item>
             <b-nav-item to="/about"><g-link class="nav__link" to="/about">About</g-link></b-nav-item>
+            <b-nav-item to="/blog"><g-link class="nav__link" to="/blog">Blog</g-link></b-nav-item>
             <b-nav-item to="/contact"><g-link class="nav__link" to="/contact">Contact</g-link></b-nav-item>
           </b-navbar-nav>
 
