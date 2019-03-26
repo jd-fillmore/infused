@@ -15,8 +15,16 @@
     <section class="inner-content">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <p>stuff</p>
+          <!--Content-->
+          <div
+            v-for="edge in $page.posts.edges"
+            :key="edge.node.id"
+            class="col-md-12 text-center"
+          >
+            <h2>
+              <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
+            </h2>
+            <p>{{ edge.node.excerpt }}</p>
           </div>
         </div>
       </div>
@@ -25,8 +33,23 @@
   </Layout>
 </template>
 
-<script>
+<page-query>
+query BlogPosts {
+  posts: allPost {
+    edges {
+      node {
+        id
+        title
+        path
+        date (format: "D. MMMM YYYY")
+        excerpt
+      }
+    }
+  }
+}
+</page-query>
 
+<script>
 export default {
   metaInfo: {
     title: 'Blog'
