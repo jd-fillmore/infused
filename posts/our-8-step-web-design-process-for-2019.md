@@ -7,6 +7,7 @@ There are so many different tools on the market today for agencies and freelance
 Yes - part of your web design process for 2019 should help revamp your client's current site, but more importantly, it should be able to solve their business goals as well. Your client's target audience should be able to easily absorb the content on your client's website, and the aesthetics and content should also be able to pull their audience in.
 <h2>Our 8 Step Web Design Process For 2019</h2>
 Without further ado, lets go over our 8 step web design process for 2019.
+
 <h2>1. Identifying Design Goals</h2>
 
 This is arguably the most important step when it comes to any <a href="http://www.printmag.com/featured/phases-of-the-web-design-process/" target="_blank" rel="noopener noreferrer">web design process</a>. During this first stage, the agency needs to determine the client's website end goal(s). Often times, there could be more than one goal. It's imperative to ask the client exactly what they expect out of their website in terms of functionality, aesthetics - but also, what they expect in terms of a return of investment that their new web design will give them.
@@ -20,6 +21,7 @@ Some sample questions you could use for your clients:
  	<li>What does the client <em>not </em>like in a website? What do they find annoying or cumbersome?</li>
  	<li>How do they expect to achieve their goals?</li>
 </ul>
+
 These questions need clearly defined answers in order for the <a href="https://infused.agency/website-design/">web design process</a> to be a success. Often times, you may find that the client realizes part way through that they may have other goals that the web design could offer, that they have never even thought of before. This is great, as it gets the client's gears turning in their heads.
 
 Making sure that you and the client both understand and identify goals early upfront, greatly increases the success of the web design project. Not to mention, it's a great starting point in your web design process.
@@ -40,6 +42,7 @@ One thing that can (and often does) happen is something called, "<a href="https:
  	<li>Mis-managed client expectations</li>
 </ul>
 Make sure that your project scope is clearly defined at the beginning of any project, as part of your main contract and there shouldn't be any issues moving forward with your client.
+
 <h2>3. Produce The Sitemap And Wire-frame</h2>
 
 A clearly defined web design sitemap and wire-frame will clearly demonstrate to both yourself and the client how the website will flow. It explains the relationship between all elements within the website, and how your client's users will navigate throughout it.
@@ -121,4 +124,5 @@ After the website is launched, we have a general checklist we go through. This c
  	<li>Set up Google Search Console to monitor traffic (if it's not already setup)</li>
 </ul>
 <h2>Concluding our web design process post for 2019</h2>
+
 As you can see, there are many steps in order to launch a successful website. It's time consuming, but absolutely imperative (and worth it!) in order to ensure that your online presence becomes a success.

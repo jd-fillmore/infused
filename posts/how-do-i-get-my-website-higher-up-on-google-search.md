@@ -11,6 +11,7 @@ You need to get your website higher up on <a href="https://en.wikipedia.org/wiki
 
 Lets go over some key points and answer the age-old question, "how do I get my website higher up on Google Search?"
 <h2>1. Publish relevant content on your website</h2>
+
 There's a few ways on how to improve Google search ranking. It's known that Google favours websites that <a href="https://seositecheckup.com/articles/5-reasons-why-fresh-content-is-critical-for-your-website-and-seo" target="_blank" rel="noopener noreferrer">pump out fresh content,</a> versus websites that don't. Think about it - if you had answers to questions, or you were looking for a local product or service, would it look better if the company had a 'blog' or 'resources' page? And on that page, had a bunch of helpful articles, videos and even podcasts that were updated on a weekly basis?
 
 And to top it off - the content is <strong>relevant?</strong>
@@ -19,12 +20,14 @@ If that were me, that would give me the impression that the company is definitel
 
 If you publish relevant content on your website, you'll no longer be asking how you get your website higher in Google search. Because over time, you will see that your website will start to climb in Google's rankings as the weeks go by. You'll notice better rankings, people trusting you more and giving you more credibility, and hopefully an increase in sales. A win-win for everyone!
 <h2>2. Regularly update content to climb Google Search</h2>
+
 Another way on how to improve Google search results is to regularly update your content on your website. Like I stated above - it's been shown that Google wants you to update your website regularly. Reason being, is because it shows that you actually care. You are actually provide your users with up-to-date, relevant and expert information, in the space that you are in.
 
 The whole point of Google's Search is to give it's users what they are looking for. Google wants to give it's users the best possible answers to questions they may have, and serve up the best possible pages they can that answer the searches that your customers search for.
 
 So again - if I'm a potential customer of yours, and I see that you are regularly posting and are regularly active on your blog, I'm going to buy from you. Regularly updating your website's content is a great way on how to get your website higher up in Google Search.
 <h2>3. Move higher up in Google Search using meta data</h2>
+
 The third way on getting your website to the top of Google, is by using your meta data properly.
 
 What is meta data?
@@ -34,10 +37,12 @@ Every single web page online has two pieces in it's web page code that are key f
  	<li>Meta title</li>
  	<li>Meta description</li>
 </ul>
+
 This is called meta data. Anytime you use Google Search and you see the blue titles? Those are meta titles. The descriptions directly under those? Those are the meta descriptions.
 
 It's absolutely key that you properly optimize both the meta title and meta description of your page, in order to get your website higher up in Google.
 <h2>4. Have a worthy website to link to in order to go higher</h2>
+
 Another way for how to get keyword ranking up in Google, is making sure that you have a worthy website to link to. People like to share websites with their friends and family when they find a cool article, or find a great answer to a question they have. Or, for any sort of other reason.
 
 The point is, the reason they share the website, is because they see value in the page that they are sharing. If they did not, then of course they would not be sharing it.
@@ -48,6 +53,7 @@ In most cases, people link to a website in general because the service or produc
 
 So one of the best ways that you can get your website higher in Google, is to create a website with great content so that people will share and link to it.
 <h2>5. Use good alt tags on your website</h2>
+
 The last way in helping on how to rank high in Google search, is to use good and relevant alt tags.
 
 What is an alt tag?

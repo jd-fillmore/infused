@@ -74,12 +74,14 @@ The best websites on the internet have amazing user experience. The worst websit
 
 If your website is setup with search engine optimization in mind from the get go, this correlates exactly with a better overall user experience. It is because your website is structure properly with search engine optimization best practices, and therefore, your user experience inherits that.
 <h2>Local search engine optimization = more customers</h2>
+
 If your business website does one thing really, really well, it should have local search engine optimization in place.
 
 Like I stated above - the only way that you can get more organic, local business online, is if your website is optimized locally with best search engine practices. If it's not, you won't be getting anyone local contacting you. Instead, they will be going to your competitors.
 
 The better search engine optimization practices that you have on your site, targeting local customers, the more traffic and customers you will see.
 <h2>SEO will have great ROI for your business</h2>
+
 The return on your investment for search engine optimization is out of this world.
 
 Would you spend $1,000 to make $10,000? I know I would.
@@ -90,4 +92,5 @@ If you just got one customer from your website using SEO, it pays for itself. Th
 
 Search engine optimization works just that well.
 <h2>So... How can search engine optimization help your business?</h2>
+
 We've seen multiple ways how search engine optimization can your help your business above. It goes without saying that since organic search is the highest type of search performed today, that 95% of your local customers are looking for you, and that SEO has a great return on investment, it's a no brainer to invest in SEO.

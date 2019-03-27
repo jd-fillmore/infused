@@ -16,7 +16,9 @@ So, lets get to it. Here's the checklist below:
  	<li>Learn how to improve your company website by providing a good user experience</li>
 </ul>
 <h2>How do we boost our business sales with web design?</h2>
+
 Without further ado, lets attempt to answer the question with practical answers, "how do we boost our business sales with web design?".
+
 <h2>1. Figure out how to improve website speed &amp; performance</h2>
 
 One of the best ways to optimize your website, especially for Google, is to improve website speed. Why should you improve your website's speed?
@@ -51,8 +53,5 @@ Beyond the tips above, lets go over other ways on how to improve your company we
  	<li><strong>Eliminate noise. </strong>Another key factor in how to boost your business sales with your web design, is eliminating noise. Having too many pages that don't contribute to your overall business goals on your website, can drastically affect your user experience in a bad way. Keeping your website aligned with your business goals, will greatly improve your website's performance.</li>
 </ul>
 <h2>Concluding our answers to how to boost business sales with web design</h2>
+
 As you can see, we went over the best ways to optimize your website speed and performance, in order to boost business sales with web design. <a href="https://infused.agency/contact/">Shoot us an email</a> today so we can take care of these problems for you!
-
-Sharing is caring!
-
-[DISPLAY_ULTIMATE_SOCIAL_ICONS]

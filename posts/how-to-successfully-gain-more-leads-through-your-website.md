@@ -13,6 +13,7 @@ So, what does work?
 Lets go through a couple ways on how to successfully gain more leads through your website.
 
 <h2>A Clear-Cut User Flow and Call To Actions</h2>
+
 Lets define a couple things here.
 
 What is a User Flow?
@@ -34,6 +35,7 @@ The great thing about having a custom website design made for you is that the sk
 For example - right when the user hits your website, you have about 2 seconds to grab their attention. A strong head line, guiding them to a bold call to action (a button with strong copy text) will force users to make a decision. This is the beginning to a strong foundation of User Flow and call-to-actions.
 
 <h2>Marketing Your Website</h2>
+
 Having a custom website design that contains a strong User Flow and call-to-actions is absolutely great.
 
 But, like a YouTube video - what's the point of having it online if no one is going to view it?
@@ -49,6 +51,7 @@ There's a few ways of doing this:
  	<li>Instagram marketing</li>
  	<li>Twitter marketing</li>
 </ul>
+
 Pay-Per-Click is when you advertise your website through Google (these are the little Ads at the top of any Google search). More often than not, this does not work as people generally don't click on these.
 
 SEO is where the bread and butter is. Organically ranking your website highly in Google takes months (if not years to do, depending on the competition), but it is by far the best way to get the most traffic to your site. If you have a website that lands in the top 3 searches of a keyword phrase, you're gold!

@@ -9,7 +9,8 @@ Some of the best <a href="https://en.wikipedia.org/wiki/Search_engine_optimizati
 You just have to know what those are!
 
 Lets go through 11<!--more--> of the best <span style="font-size: 1rem;">SEO strategies for 2019.</span>
-<h2>1. Make your site blazing fast</h2>
+<h2>1. Make your site blazing fast</h2>
+
 
 Google is all about pleasing it's users. A big part of that, is not having anyone on the internet wait a long time for anything to load up.
 
@@ -137,6 +138,7 @@ On a local, or even a global scale, that's a HUGE number. In the millions.
 
 So, don't forget to optimize your site for Yahoo and Bing as well! Signing up for both webmaster tools for both platforms would be a great start.
 <h2>10. Concentrate hugely on User Experience (UX) as part of your SEO strategies</h2>
+
 This is the future of search engine optimization, by a long shot.
 
 In fact, it's already in practice. It's been shown that the longer your audience stays on a particular page of your website, the more valuable it is. Meaning, if Google knows a lot of people are reading your content, and staying longer on your site, then it must mean your website is valuable.
@@ -147,6 +149,7 @@ They climb in the ranks!
 
 Making sure that you deliver engaging content, and that your reads love reading it (and keep coming back), is absolutely huge for your online presence.
 <h2>Conclusion</h2>
+
 Doing just one, or two, or three of these things for your SEO strategies will not concretely help you rank better. You have to do everything at once, on a consistent month to month basis to see any sort of increase for your online Google presence.
 
 Hope you enjoyed the post! Please share if found this content valuable.

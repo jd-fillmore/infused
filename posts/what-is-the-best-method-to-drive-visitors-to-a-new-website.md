@@ -16,7 +16,9 @@ So, lets get to it. Here’s the checklist below:
  	<li>Engage Your Audience Online</li>
 </ul>
 <h2>How to drive massive traffic to your website</h2>
+
 Without further ado, lets attempt to answer the question with practical answers, “What is the best method to drive visitors to a new website?”.
+
 <h3>Google My Business</h3>
 
 One of the best ways on how to get traffic to your website fast, is using something called <a href="https://www.google.com/intl/en_ca/business/" target="_blank" rel="noopener noreferrer">Google My Business</a>.
@@ -56,6 +58,7 @@ Some great local directories to get you started are:
  	<li>Bing</li>
  	<li>Yahoo</li>
 </ul>
+
 Another set of directories that you should definitely consider are relevant directories.
 
 For example, say you're a shoe store and want to get on some relevant directories. Simply Google "shoe store directory" and Google will give you back a bunch of relevant directories to that business.
@@ -97,6 +100,7 @@ One great way is to join relevant Facebook groups and answer questions that peop
 
 You'll soon become to go-to authority on the subject. Soon, you'll have people contacting you privately, asking to take on new projects. It's an amazing strategy.
 <h3>Conclusion on what is the best method to drive visits to a new website..</h3>
+
 There's no one best method to drive visits to a new website.
 
 However, with the combination of the methods above, I guarantee you that you will end up with a boat load of massive traffic coming to your website.

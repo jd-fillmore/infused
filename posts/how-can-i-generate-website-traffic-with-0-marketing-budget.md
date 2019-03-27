@@ -7,8 +7,11 @@ One of the biggest questions that we come across from our clients is, "how can I
 Well, thankfully, there are a far amount of ways to do this. Depending on the size of your company, you do not have to have a massive marketing budget to generate website traffic. You can start off small (which most companies do), and scale up from there.
 
 <h2>Ways you can generate website traffic with $0 marketing budget</h2>
+
 Lets go over a few of those ways in this post. And by the end of it, write yourself an action plan and start taking action.
+
 <h2>Blogging</h2>
+
 Publishing rich, weekly, educational content that relates directly to your niche is an amazing way to get generate website traffic with a $0 marketing budget.
 
 It is very similar to what we do here at Infused. We generate weekly content (for example, our last one was answering a <a href="https://infused.agency/blog/how-much-does-it-cost-to-build-a-website-for-a-small-business/">question</a> about the cost of a website) that answers questions for our readers. The idea here is to write in-depth articles, at least once a week, that are a minimum of one thousand words.
@@ -24,10 +27,13 @@ There's a few very important points to add, that will help the SEO-side of your 
  	<li>Use rich media, like images, videos, podcasts and more throughout your post. This keeps people on your page longer, which is also a factor in how Google ranks web pages. The longer people stay on your site, the higher you are in Google results, and the more website traffic you generate.</li>
  	<li>Make sure to internally link to pages within your site that are relevant, and externally link to websites that are in your niche. This tells Google what your website is about.</li>
 </ul>
+
 There's a plethora of more on-page <a href="https://infused.agency/best-seo-company/">SEO optimization techniques</a> that we can educate you about. Feel free to give us a shout.
 
 Regardless, those points above will alone make sure that your blog post is in tip-top shape.
+
 <h2>Using social media to generate website traffic</h2>
+
 So, you have made a blog post. Awesome. Now.. how do you generate free traffic to it?
 
 Welcome to social media!
@@ -50,12 +56,14 @@ Here's some ideas:
  	<li>For Instagram and Facebook, after you have written the blog post, have a web designer create a professional graphic to go along with it (as mentioned above), and post away. Make sure you use relevant hash tags to your business and niche, to garner even more people's attention, in the hopes of generating more website traffic.</li>
 </ul>
 <h2>Start a podcast - it takes a $0 marketing budget</h2>
+
 Starting a podcast is easy, and free.
 
 Don't know what to talk about? Easy. Write a blog article, then read that article out loud. Record it, upload it send it to the world.
 
 On your podcast profile (a good one to sign up for is SoundCloud), you can have a link back to your website. This is a great way to drive generate traffic back to your site without a marketing budget.
 <h2>Guest posting</h2>
+
 What is guest posting?
 
 In a nutshell, guest posting is when you write an article that is not published to your site. Instead, find a website in a relevant niche that your business is in, and email them.
@@ -68,6 +76,7 @@ The value in this is that when someone goes to their site and reads your article
 
 This has a great chance in terms of generating website traffic. Best part is? It costs $0. Takes nothing out of your marketing budget.
 <h2>Free Webinar</h2>
+
 Using a free webinar is a great idea to help generate website traffic to your website.
 
 A webinar is essentially setting up a live video feed on your website. You can amp it up and get people excited by advertising about it on your social media pages. So when the day comes, the people that have signed up for your webinar are attending.
@@ -76,4 +85,5 @@ The key here, is to make that you tell your followers to also share this with as
 
 The idea behind a webinar is to provide them with pure value. Don't sell. Just provide value. At the end of the video, drop a call-to-action that's focused around how you can help them further.
 <h2>Conclusion</h2>
+
 In conclusion, use blogging to your advantage and use it often. Once you have written an in-depth and educational blog post, use social media platforms and podcasts to promote them, as well as guest posting and free webinars, with links directly back to your website to generate website traffic with a $0 marketing budget.
