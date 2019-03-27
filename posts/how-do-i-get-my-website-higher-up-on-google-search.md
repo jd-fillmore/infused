@@ -7,7 +7,8 @@ One of the most important things about having a <a href="https://en.wikipedia.or
 If you don't get any <a href="https://infused.agency/website-design/">website traffic</a>, then what good is your website?
 
 You need to get your website higher up on <a href="https://en.wikipedia.org/wiki/Google_Search" target="_blank" rel="noopener noreferrer">Google search</a>, in order for people to actually find your website. Once your website is higher up, then you will start to see the traffic rolling in. And hopefully, if your <a href="https://infused.agency/search-engine-optimization/">website is optimized</a>,
-<h2>So.. how do you get your website higher up on Google Search?</h2>
+<h2>So.. how do you get your website higher up on Google Search?</h2>
+
 
 Lets go over some key points and answer the age-old question, "how do I get my website higher up on Google Search?"
 <h2>1. Publish relevant content on your website</h2>
@@ -59,3 +60,14 @@ Example - if I have a picture of a brown duck, I'll set the alt tag's content as
 Coming from a Google Search perspective, in order to get your website higher in Google Search, it's very important that you actually set the alt tag to the main keyword that you are trying to rank for. Just one image on the page, though. You don't want to over do it, because Google can usually tell at that point. That's called keyword stuffing, and that can get your website penalized from Google.
 
 In conclusion, in order to get your website higher up on Google Search, you have to publish relevant content on your website, regularly update your website's content, use correct meta data, have a worthy website to link to and lastly, use good alt tags on your website.
+
+<script>
+export default {
+  metaInfo: {
+    title: 'About',
+    meta: [
+      { key: 'description', name: 'description', content: 'Learn more about the core values, hardworking team and how we accomplish your business goals at Infused.' }
+    ]
+  }
+}
+</script>
