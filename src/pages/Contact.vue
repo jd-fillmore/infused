@@ -28,14 +28,14 @@
               <p>Lets discuss what you need.</p>
               <form name="contact" method="POST" data-netlify="true">
               <div class="form-group">
-                <input arial-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                <input arial-label="name" type="name" class="form-control" id="name" aria-describedby="name" placeholder="Name">
               </div>
               <div class="form-group">
-                <input arial-label="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                <input arial-label="email" type="email" name="email" class="form-control" id="email" placeholder="Email">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
               <div class="form-group">
-                <textarea arial-label="textarea" class="form-control" rows="5" id="comment" placeholder="What can we help you with?"></textarea>
+                <textarea arial-label="textarea" type="textarea" name="textarea" id="textarea" class="form-control" rows="5" placeholder="What can we help you with?"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
