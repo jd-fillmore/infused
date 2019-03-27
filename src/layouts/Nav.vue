@@ -11,6 +11,7 @@
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <g-link class="nav__link" to="/work">Work</g-link>
+            <g-link class="nav__link" to="/work">New</g-link>
             <g-link class="nav__link" to="/web-design">Web Design</g-link>
             <g-link class="nav__link" to="/seo">SEO</g-link>
             <g-link class="nav__link" to="/about">About</g-link>
