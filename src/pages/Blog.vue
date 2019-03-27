@@ -21,12 +21,14 @@
             :key="edge.node.id"
             class="col-md-4"
           >
-            <div class="card">
-              <h2>
-                <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
-              </h2>
-              <p>{{ edge.node.excerpt }}</p>
-            </div>
+            <g-link :to="edge.node.path">
+              <div class="card">
+                <h2>
+                  <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
+                </h2>
+                <p>{{ edge.node.excerpt }}</p>
+              </div>
+            </g-link>
           </div>
         </div>
       </div>
