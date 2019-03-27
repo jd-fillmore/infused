@@ -19,12 +19,14 @@
           <div
             v-for="edge in $page.posts.edges"
             :key="edge.node.id"
-            class="col-md-4 card"
+            class="col-md-4"
           >
-            <h2>
-              <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
-            </h2>
-            <p>{{ edge.node.excerpt }}</p>
+            <div class="card">
+              <h2>
+                <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
+              </h2>
+              <p>{{ edge.node.excerpt }}</p>
+            </div>
           </div>
         </div>
       </div>
