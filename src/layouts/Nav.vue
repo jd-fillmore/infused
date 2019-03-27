@@ -10,7 +10,7 @@
           
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
-            <b-nav-item to="/work"><g-link class="nav__link" to="/work">Work</g-link></b-nav-item>
+            <g-link class="nav__link" to="/work">Work</g-link>
             <b-nav-item to="/web-design"><g-link class="nav__link" to="/web-design">Web Design</g-link></b-nav-item>
             <b-nav-item to="/seo"><g-link class="nav__link" to="/seo">SEO</g-link></b-nav-item>
             <b-nav-item to="/about"><g-link class="nav__link" to="/about">About</g-link></b-nav-item>
