@@ -63,6 +63,13 @@ export default {
     box-shadow: 0 20px 100px #edeff2;
     padding: 30px;
     margin-bottom: 30px;
+    border: none;
+    transition: .2s;
+    &:focus, &:hover {
+      box-shadow: 0 20px 100px #c7c7c7;
+      transition: .2s;
+      transform: translate3D(0,-5px,0);
+    }
   }
 }
 </style>
