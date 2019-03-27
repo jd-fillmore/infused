@@ -8,7 +8,7 @@
         <div class="col-lg-12">
           <h1>More sales. More Profits. More Growth.</h1>
           <p>We help landscaping, design, renovation and architecture companies get more projects.</p>
-          <g-link to="/get-pdf"><button type="button" class="btn btn-primary">Learn How</button></g-link>
+          <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
       </div>
     </div>
@@ -20,10 +20,10 @@
        <div class="row">
          <div class="col-lg-8">
            <h2>Need a website that brings in sales?</h2>
-           <p>Download our <strong>free</strong> checklist PDF on how to get more local sales through Google Search</p>
+           <p>Contact us for your free consultation. Lets talk about your current web situation.</p>
          </div>
          <div class="col-lg-4">
-           <g-link to="/get-pdf"><button type="button" class="btn btn-primary">Download Free PDF</button></g-link>
+           <g-link to="/contact"><button type="button" class="btn btn-primary">Contact Us Now</button></g-link>
          </div>
        </div>
      </div>

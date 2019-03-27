@@ -9,7 +9,6 @@ If you don't get any <a href="https://infused.agency/website-design/">website tr
 You need to get your website higher up on <a href="https://en.wikipedia.org/wiki/Google_Search" target="_blank" rel="noopener noreferrer">Google search</a>, in order for people to actually find your website. Once your website is higher up, then you will start to see the traffic rolling in. And hopefully, if your <a href="https://infused.agency/search-engine-optimization/">website is optimized</a>,
 <h2>So.. how do you get your website higher up on Google Search?</h2>
 
-
 Lets go over some key points and answer the age-old question, "how do I get my website higher up on Google Search?"
 <h2>1. Publish relevant content on your website</h2>
 There's a few ways on how to improve Google search ranking. It's known that Google favours websites that <a href="https://seositecheckup.com/articles/5-reasons-why-fresh-content-is-critical-for-your-website-and-seo" target="_blank" rel="noopener noreferrer">pump out fresh content,</a> versus websites that don't. Think about it - if you had answers to questions, or you were looking for a local product or service, would it look better if the company had a 'blog' or 'resources' page? And on that page, had a bunch of helpful articles, videos and even podcasts that were updated on a weekly basis?

@@ -1,14 +1,34 @@
 <template>
   <Layout>
-    <Section class="post">
-
-      <div class="post-header container-sm text-center mb">
-        <h1 v-html="$page.post.title"/>
+    <!--Hero-->
+    <section class="inner-hero">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h1 v-html="$page.post.title"/>
+          </div>
+        </div>
       </div>
+    </section>
+    <!--Content-->
+    <section class="inner-content single-blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <Section class="post">
 
-      <p class="lead" v-html="$page.post.excerpt"/>
+            <g-link class="nav__link" to="/blog">Back to Blog</g-link>
 
-      <div v-html="$page.post.content"/>
+            <p class="lead" v-html="$page.post.excerpt"/>
+
+            <div v-html="$page.post.content"/>
+
+            <g-link class="nav__link" to="/blog">Back to Blog</g-link>
+
+            </Section>
+          </div>
+        </div>
+      </div>
     </Section>
   </Layout>
 </template>
@@ -41,5 +61,9 @@ export default {
 </script>
 
 <style lang="scss">
-// Your styles goes here
+.single-blog {
+  h1,h2 {
+    margin-bottom: 30px;
+  }
+}
 </style>
