@@ -157,7 +157,7 @@
         </div>
         <div class="col-lg-6">
           <p>Lets discuss what you need.</p>
-          <form name="home-contact" method="POST" data-netlify="true">
+          <!-- <form name="home-contact" method="POST" data-netlify="true">
           <div class="form-group">
             <input aria-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
           </div>
@@ -169,7 +169,7 @@
             <textarea aria-label="textarea" class="form-control" rows="5" id="comment" placeholder="What can we help you with?"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </form> -->
         </div>
       </div>
     </div>
