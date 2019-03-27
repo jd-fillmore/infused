@@ -27,18 +27,25 @@
             <div class="col-lg-6">
               <p>Lets discuss what you need.</p>
               <form name="contact" method="POST" data-netlify="true">
-              <div class="form-group">
-                <input arial-label="name" type="name" class="form-control" id="name" aria-describedby="name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <input arial-label="email" type="email" name="email" class="form-control" id="email" placeholder="Email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <textarea arial-label="textarea" type="textarea" name="textarea" id="textarea" class="form-control" rows="5" placeholder="What can we help you with?"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
             </div>
           </div>
         </div>
