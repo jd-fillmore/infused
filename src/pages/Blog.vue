@@ -74,6 +74,9 @@ export default {
       transition: .2s;
       transform: translate3D(0,-5px,0);
     }
+    h2 {
+      line-height: 1.2;
+    }
   }
 }
 </style>
