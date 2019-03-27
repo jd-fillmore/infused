@@ -19,7 +19,7 @@
           <div
             v-for="edge in $page.posts.edges"
             :key="edge.node.id"
-            class="col-md-12 text-center"
+            class="col-md-4 text-center"
           >
             <h2>
               <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
