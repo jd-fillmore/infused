@@ -12,14 +12,14 @@
       </div>
     </section>
     <!--Content-->
-    <section class="inner-content">
+    <section class="inner-content blog-overview">
       <div class="container">
         <div class="row">
           <!--Content-->
           <div
             v-for="edge in $page.posts.edges"
             :key="edge.node.id"
-            class="col-md-4 text-center"
+            class="col-md-4 card"
           >
             <h2>
               <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
@@ -56,3 +56,13 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+.blog-overview {
+  .card {
+    box-shadow: 0 20px 100px #edeff2;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+}
+</style>
