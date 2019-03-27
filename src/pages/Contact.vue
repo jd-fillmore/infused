@@ -26,7 +26,7 @@
             </div>
             <div class="col-lg-6">
               <p>Lets discuss what you need.</p>
-              <form>
+              <form name="contact" method="POST" data-netlify="true">
               <div class="form-group">
                 <input arial-label="name" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
               </div>
