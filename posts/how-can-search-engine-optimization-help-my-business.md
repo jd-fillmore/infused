@@ -24,6 +24,7 @@ At a high level:
  	<li><strong>It has a great ROI</strong></li>
 </ul>
 <h2>How can search engine optimization help my business?</h2>
+
 Without further ado, lets go ahead and see how search engine optimization can help your business!
 
 Sometimes you might a little bit of website traffic trickling in from your social media, whenever you post something. Other times, you'll get a bit of traffic to your business website if you show your website to family or friends.
@@ -66,6 +67,7 @@ They know that if they continue to put effort into their search engine optimizat
 
 The more keyword searches that you show up for in Google, the more trust and credibility that you show toward your prospects.
 <h2>It creates a better user experience for your business</h2>
+
 What is user experience? (Or, "UX" for short)?
 
 User experience is how difficult or easy the experience is for the user on your website - in terms of finding what they are looking for.
