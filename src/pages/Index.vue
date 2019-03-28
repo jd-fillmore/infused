@@ -7,7 +7,7 @@
       <div class="row text-center">
         <div class="col-lg-12">
           <h1>More sales. More Profits. More Growth.</h1>
-          <p>We help landscaping, design, renovation and architecture companies get more projects.</p>
+          <p>We design websites and market them for landscaping, design, renovation and architecture companies.</p>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
       </div>
@@ -19,11 +19,11 @@
      <div class="container">
        <div class="row">
          <div class="col-lg-8">
-           <h2>Need a website that brings in sales?</h2>
-           <p>Contact us for your free consultation. Lets talk about your current web situation.</p>
+           <h2>Need a website that brings in projects?</h2>
+           <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
          </div>
          <div class="col-lg-4">
-           <g-link to="/contact"><button type="button" class="btn btn-primary">Contact Us Now</button></g-link>
+           <a href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
          </div>
        </div>
      </div>
@@ -150,6 +150,7 @@
         <div class="col-lg-6">
           <h2>Are you looking to...</h2>
           <ul>
+            <li>Get your website re-designed?</li>
             <li>Get more sales?</li>
             <li>Maximize profits?</li>
             <li>Never look for another project?</li>
@@ -157,7 +158,8 @@
         </div>
         <div class="col-lg-6">
           <p>Lets discuss what you need.</p>
-          <p>Email us at <a href="mailto: hello@infused.agency">hello@infused.agency</a></p>
+          <p>Book your free 30 minute consultation now.</p>
+          <a href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
         </div>
       </div>
     </div>

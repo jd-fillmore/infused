@@ -19,6 +19,7 @@
             <div class="col-lg-6">
               <h2>Are you looking to...</h2>
               <ul>
+                <li>Get your website re-designed?</li>
                 <li>Get more sales?</li>
                 <li>Maximize profits?</li>
                 <li>Never look for another project?</li>
@@ -26,7 +27,8 @@
             </div>
             <div class="col-lg-6">
               <p>Lets discuss what you need.</p>
-              <p>Email us at <a href="mailto: hello@infused.agency">hello@infused.agency</a></p>
+              <p>Book your free 30 minute consultation now.</p>
+              <a href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
             </div>
           </div>
         </div>
