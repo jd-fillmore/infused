@@ -23,7 +23,7 @@
            <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
          </div>
          <div class="col-lg-4">
-           <a href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
+           <a rel="noopener" href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
          </div>
        </div>
      </div>
@@ -98,7 +98,7 @@
             <li>Experiencing growth</li>
             <li>Doesn’t have to look for clients anymore</li>
           </ul>
-          <a href="http://sankoconstruction.ca" target="_blank"><button type="submit" class="btn btn-primary">View Website</button></a>
+          <a rel="noopener" href="http://sankoconstruction.ca" target="_blank"><button type="submit" class="btn btn-primary">View Website</button></a>
         </div>
       </div>
     </div>
@@ -159,7 +159,7 @@
         <div class="col-lg-6">
           <p>Lets discuss what you need.</p>
           <p>Book your free 30 minute consultation now.</p>
-          <a href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
+          <a rel="noopener" href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
         </div>
       </div>
     </div>
