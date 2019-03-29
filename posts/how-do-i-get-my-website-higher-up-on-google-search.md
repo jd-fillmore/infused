@@ -65,15 +65,3 @@ Example - if I have a picture of a brown duck, I'll set the alt tag's content as
 Coming from a Google Search perspective, in order to get your website higher in Google Search, it's very important that you actually set the alt tag to the main keyword that you are trying to rank for. Just one image on the page, though. You don't want to over do it, because Google can usually tell at that point. That's called keyword stuffing, and that can get your website penalized from Google.
 
 In conclusion, in order to get your website higher up on Google Search, you have to publish relevant content on your website, regularly update your website's content, use correct meta data, have a worthy website to link to and lastly, use good alt tags on your website.
-
-<script>
-export default {
-  metaInfo() {
-    return {
-      title: 'test',
-      meta: [
-        { name: "description", content: 'In this post, we answer the question, "how do I get my website higher up on Google"? Click here to find out the answer right now!' }
-     ]
-   }
-}
-</script>
