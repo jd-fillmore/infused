@@ -68,11 +68,12 @@ In conclusion, in order to get your website higher up on Google Search, you have
 
 <script>
 export default {
-  metaInfo: {
-    title: 'About',
-    meta: [
-      { key: 'description', name: 'description', content: 'Learn more about the core values, hardworking team and how we accomplish your business goals at Infused.' }
-    ]
-  }
+  metaInfo() {
+    return {
+      title: 'How Do I Get My Website Higher Up On Google?',
+      meta: [
+        { name: "description", content: 'In this post, we answer the question, "how do I get my website higher up on Google"? Click here to find out the answer right now!' }
+     ]
+   }
 }
 </script>
