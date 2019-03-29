@@ -70,7 +70,7 @@ In conclusion, in order to get your website higher up on Google Search, you have
 export default {
   metaInfo() {
     return {
-      title: 'How Do I Get My Website Higher Up On Google?',
+      title: 'test',
       meta: [
         { name: "description", content: 'In this post, we answer the question, "how do I get my website higher up on Google"? Click here to find out the answer right now!' }
      ]
