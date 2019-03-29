@@ -1,6 +1,7 @@
 ---
 title: 10 of the best SEO strategies for 2019
 date: 2019-03-26T23:53:24.128Z
+excerpt: test
 ---
 Some of the best <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noopener noreferrer">SEO</a> strategies any business can use in 2019 are right under your nose, and relatively easy for a <a href="https://infused.agency/best-seo-company/">professional</a> to take care of for you.
 
