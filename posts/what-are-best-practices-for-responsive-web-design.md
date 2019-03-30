@@ -1,6 +1,9 @@
 ---
 title: What Are Best Practices For Responsive Web Design?
 date: 2019-03-26T23:43:48.251Z
+excerpt: >-
+  Ever wonder what are the best practices for responsive web design? We answer
+  exactly that. Click here now!
 ---
 I'm sure you have seen your fair share of non <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank" rel="noopener noreferrer">responsive web design</a> examples online - and you're probably thinking,<!--more--> "it's 2018 - and there are STILL non responsive web design templates being used?!"
 
