@@ -171,9 +171,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Best Home Renovation Web Design, Landscaping, Contractors',
+    title: 'Marketing Services For Contractors, Landscape Website Design',
     meta: [
-      { key: 'description', name: 'description', content: 'We are the best home renovation web design and development company that serves landscaping, contractors, architects and more. Click here to get a free quote!' }
+      { key: 'description', name: 'description', content: 'We have the best marketing services for contractors, as well as landscape website design and contract web design services. We also serve home renovation web design.' }
     ]
   }
 }
