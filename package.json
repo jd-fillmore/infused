@@ -15,7 +15,7 @@
     "@gridsome/plugin-sitemap": "^0.1.1",
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.2.1",
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.15",
     "gridsome": "^0.5.0",
