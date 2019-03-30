@@ -1,6 +1,9 @@
 ---
 title: Our 8 Step Web Design Process For 2019
 date: 2019-03-26T23:14:58.047Z
+excerpt: >-
+  In this post, we go over our 8 step web design process for 2019. Lots of value
+  here! Don't miss it.
 ---
 There are so many different tools on the market today for agencies and freelancers alike to utilize for their web step by step web design processes. On one hand, a lot of agencies tend to just focus on how "pretty" a design is. <!--more-->Which, in our opinion, is sort of the opposite of what they should actually be doing.
 
