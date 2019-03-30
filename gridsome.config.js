@@ -25,6 +25,7 @@ module.exports = {
     types.forEach(type => addStyleResource(config.module.rule('sass').oneOf(type)))
 	},
   siteName: 'Infused Agency',
+  siteUrl: 'https://infused.agency',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -59,6 +60,22 @@ module.exports = {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        config: {
+          '/posts/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.7
+          }
+        }
       }
     }
   ]
