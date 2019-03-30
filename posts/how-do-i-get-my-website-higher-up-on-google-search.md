@@ -1,6 +1,9 @@
 ---
 title: ' How do I get my website higher up on Google search?'
 date: 2019-03-27T00:00:13.528Z
+excerpt: >-
+  How do I get my website higher up on Google search? You may have asked this
+  question in the past. Find the answer!
 ---
 One of the most important things about having a <a href="https://en.wikipedia.org/wiki/Website" target="_blank" rel="noopener noreferrer">website</a> online, is making sure you get enough traffic to your website.
 
