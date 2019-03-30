@@ -6,27 +6,12 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h1>More sales. More Profits. More Growth.</h1>
-          <p>We design websites and market them for landscaping, design, renovation and architecture companies.</p>
+          <h1>Marketing services for contractors &amp; website design for landscaping, architecture and other construction.</h1>
+          <p>We help you with marketing services and website design for your contractor, landscaping, architecture or other construction business. Find out how we can <strong>Infuse</strong> your online presence.</p>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
       </div>
     </div>
-   </section>
-
-   <!--PDF-->
-   <section class="pdf">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8">
-           <h2>Need a website that brings in projects?</h2>
-           <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
-         </div>
-         <div class="col-lg-4">
-           <a rel="noopener" href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
-         </div>
-       </div>
-     </div>
    </section>
 
    <!--Intro-->
@@ -34,8 +19,8 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h2>We <strong>Only</strong> Build Sales-Generating Websites</h2>
-          <h4>Specifically for Landscaping, Home Renovation, Home Builders, Remodeling, Architecture, Design and other Construction businesses</h4>
+          <h2>We <strong>Only</strong> Build Sales-Generating Website Designs</h2>
+          <h4>Marketing services for contractors, landscaping, architecture, home renovation and other construction businesses.</h4>
         </div>
       </div>
       <div class="row text-center cards">
@@ -61,8 +46,8 @@
       <div class="row">
         <div class="col-lg-12">
           <p>We build premium, conversion-focused websites that <strong>actually bring you more sales</strong>.</p>
-          <p>We're interested in working with a business that <strong>fully understands</strong> that referrals don't last forever, and that having an inbound sales-generating website will give them consistent leads.</p>
-          <p>We're <strong>not interested</strong> in working with a business who thinks either a) their current website, that doesn't generate sales, is just fine or b) think their referrals will last forever. Because they won't.</p>
+          <p>We're interested in doing marketing services for contractors and working with businesses that <strong>fully understand</strong> that referrals don't last forever, and that having an inbound sales-generating website design for their landscaping, home renovation, architecture or other construction business will give them consistent leads.</p>
+          <p>We're <strong>not interested</strong> in working with businesses who thinks either a) their current website, that doesn't generate sales, is just fine or b) think their referrals will last forever. Because they won't.</p>
         </div>
       </div>
     </div>
@@ -75,7 +60,7 @@
       <div class="row text-center">
         <div class="col-lg-12">
           <h2>Featured Project</h2>
-          <g-image alt="Sanko Construction" src="~/img/sanko.png" class="img-fluid" />
+          <g-image alt="landscaping website design" src="~/img/landscaping-website-design.png" class="img-fluid" />
           <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
           <p><em>- Owner, Sanko Construction</em></p>
         </div>
@@ -83,7 +68,7 @@
       <!--Image-->
       <div class="row">
         <div class="col-lg-8">
-          <g-image alt="Sanko Construction" src="~/img/sanko.jpg" class="img-fluid" />
+          <g-image alt="marketing services for contractors" src="~/img/marketing-services-for-contractors.jpg" class="img-fluid" />
         </div>
         <div class="col-lg-4">
           <h3>Before</h3>
@@ -103,6 +88,46 @@
       </div>
     </div>
    </section>
+
+   <!--Process-->
+    <section class="process">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Our Process</h2>
+            <p>A look into our marketing services for contractors, and website design process for landscaping, home renovation, architecture and other construction businesses.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>1. Discovery</h3>
+            <p>What's holding your business back from growing? What do you expect to get out of web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>2. Plan</h3>
+            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>3. Design</h3>
+            <p>This is the fun part. We will produce a unique web design that powers and infuses your online presence as a whole. Your web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>4. Develop</h3>
+            <p>Once we have your web design approved and ready to go, it's time to step into the website development phase. Our web designers, as well as website developers will step in and create your high performance website, aimed to rank extremely well in Google's search engine. They will start adding content, uploading media, testing and more.</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>5. Launch</h3>
+            <p>One of the most important milestones in your project, is launching your new web design project. Our team will triple-check all of the content for any sort of spelling mistakes, make sure all links are working correctly, and lastly, making sure that's it shows up in Google searches.</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>6. Promote</h3>
+            <p>At Infused, we believe that your web design project has just begun once the site has launched. You may have an amazing web design - but without traffic? It won't do anything for your business. The internet marketing aspect comes into play here and is the utmost important for your business to succeed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
    <!--Industries-->
    <section class="industries">
@@ -164,6 +189,21 @@
       </div>
     </div>
    </section>
+
+   <!--CTA-->
+   <section class="pdf">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8">
+           <h2>Need a website that brings in projects?</h2>
+           <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
+         </div>
+         <div class="col-lg-4">
+           <a rel="noopener" href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
+         </div>
+       </div>
+     </div>
+   </section>
   <Footer></Footer>
   </Layout>
 </template>
@@ -180,7 +220,7 @@ export default {
 
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
 @import "../scss/_base.scss";
 
@@ -215,7 +255,8 @@ export default {
   }
   h1 {
     color: $white;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;
   }
   p {
     color: #d6d6d6;
@@ -256,7 +297,7 @@ export default {
   }
 }
 
-// PDF
+// CTA
 .pdf {
   background: linear-gradient(to right, #2caf73, #0671bc);
   padding-top: 60px;
@@ -290,6 +331,19 @@ export default {
   }
   h3 {
     color: $light-blue;
+  }
+}
+
+// Process
+.process {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(to right, #412caf, #0671bc);
+  h2,h3 {
+    color: $white;
+  }
+  p {
+    color: $light-grey;
   }
 }
 

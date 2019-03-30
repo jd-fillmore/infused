@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Our Process</h2>
-            <p>Our web design process that helps create a sales generating website</p>
+            <p>Our SEO process that helps create a sales generating website</p>
           </div>
         </div>
         <div class="row">
@@ -70,6 +70,21 @@
         </div>
       </div>
     </section>
+
+    <!--CTA-->
+    <section class="pdf">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8">
+           <h2>Need SEO to market your company?</h2>
+           <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
+         </div>
+         <div class="col-lg-4">
+           <a rel="noopener" href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
+         </div>
+       </div>
+     </div>
+   </section>
 
     <Footer></Footer>
   </Layout>
@@ -122,6 +137,32 @@
   }
   h3 {
     color: $light-blue;
+  }
+}
+
+// CTA
+.pdf {
+  background: linear-gradient(to right, #2caf73, #0671bc);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include bp-tablet {
+    text-align: center;
+  }
+  .row {
+    align-items: center;
+  }
+  h2,p {
+    color: $white;
+  }
+  h2 {
+    margin-bottom: 0px;
+    @include bp-tablet {
+      margin-bottom: 20px;
+    }
+  }
+  .btn-primary {
+    background: $white;
+    color: $dark-blue;
   }
 }
 

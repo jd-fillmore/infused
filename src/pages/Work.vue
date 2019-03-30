@@ -17,7 +17,7 @@
       <!--Image-->
       <div class="row">
         <div class="col-md-8">
-          <g-image alt="Sanko Construction" src="~/img/sanko.jpg" class="img-fluid" />
+          <g-image alt="Sanko Construction" src="~/img/marketing-services-for-contractors.jpg" class="img-fluid" />
         </div>
         <div class="col-md-4">
           <h3>Before</h3>

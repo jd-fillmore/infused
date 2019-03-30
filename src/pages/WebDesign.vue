@@ -16,70 +16,67 @@
     <section class="intro">
       <div class="container">
         <div class="row text-center cards">
-        <div class="col-lg-4">
-          <div class="card">
-            <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-            <h4>Modern Design</h4>
-            <p>A modern website design + higher customer engagement = higher conversions.</p>
+          <div class="col-lg-4">
+            <div class="card">
+              <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <h4>Modern Design</h4>
+              <p>A modern website design + higher customer engagement = higher conversions.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <h4>ROI In Mind</h4>
+              <p>Our websites are not "just websites". They're built to get sales.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <h4>Optimized For SEO</h4>
+              <p>We develop websites that are optimized and ready for Google's search engine.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-            <h4>ROI In Mind</h4>
-            <p>Our websites are not "just websites". They're built to get sales.</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-            <h4>Optimized For SEO</h4>
-            <p>We develop websites that are optimized and ready for Google's search engine.</p>
-          </div>
-        </div>
-      </div>
       </div>
     </section>
 
-    <!--Process-->
-    <section class="process">
+    <!--Second-->
+    <section class="main-project">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <h2>Our Process</h2>
-            <p>Our web design process that helps create a sales generating website</p>
+          <div class="col-md-12">
+            <g-image alt="sanko construction responsive" src="~/img/sanko-construction-responsive.jpg" class="img-fluid mx-auto d-block" />
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
-            <h3>1. Discovery</h3>
-            <p>What's holding your business back from growing? What do you expect to get out of web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+          <div class="col-md-6">
+            <p>As a leading web design company that specializes in landscaping, contractor, architecture, home renovation and other construction businesses, you can count on us to design, build and marketing your business specifically. <br><br>We're different than other web design and marketing companies because they don't specialize, and know your industry.
+
+            <strong>We do.</strong>
+            </p>
           </div>
-          <div class="col-lg-4">
-            <h3>2. Plan</h3>
-            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
-          </div>
-          <div class="col-lg-4">
-            <h3>3. Design</h3>
-            <p>This is the fun part. We will produce a unique web design that powers and infuses your online presence as a whole. Your web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <h3>4. Develop</h3>
-            <p>Once we have your web design approved and ready to go, it's time to step into the website development phase. Our web designers, as well as website developers will step in and create your high performance website, aimed to rank extremely well in Google's search engine. They will start adding content, uploading media, testing and more.</p>
-          </div>
-          <div class="col-lg-4">
-            <h3>5. Launch</h3>
-            <p>One of the most important milestones in your project, is launching your new web design project. Our team will triple-check all of the content for any sort of spelling mistakes, make sure all links are working correctly, and lastly, making sure that's it shows up in Google searches.</p>
-          </div>
-          <div class="col-lg-4">
-            <h3>6. Promote</h3>
-            <p>At Infused, we believe that your web design project has just begun once the site has launched. You may have an amazing web design - but without traffic? It won't do anything for your business. The internet marketing aspect comes into play here and is the utmost important for your business to succeed.</p>
+          <div class="col-md-6">
+            <p>We believe in partnering with you when it comes to your new website design. We sit down with you, have weekly meetings to make sure we're hitting your website design and development goals. You have touch points all the way from start to end. <br><br>We're also not afraid to share our expertise and guide you to the best possible website you can have, that <strong>generates sales.</strong></p>
           </div>
         </div>
       </div>
     </section>
+
+    <!--CTA-->
+    <section class="pdf">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-8">
+           <h2>Need a website that brings in projects?</h2>
+           <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
+         </div>
+         <div class="col-lg-4">
+           <a rel="noopener" href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
+         </div>
+       </div>
+     </div>
+   </section>
 
     <Footer></Footer>
   </Layout>
@@ -123,15 +120,41 @@
   }
 }
 
-.process {
+.main-project {
   padding-top: 100px;
   padding-bottom: 100px;
   @include bp-tablet {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  h3 {
-    color: $light-blue;
+  img {
+    margin-bottom: 60px;
+  }
+}
+
+// CTA
+.pdf {
+  background: linear-gradient(to right, #2caf73, #0671bc);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include bp-tablet {
+    text-align: center;
+  }
+  .row {
+    align-items: center;
+  }
+  h2,p {
+    color: $white;
+  }
+  h2 {
+    margin-bottom: 0px;
+    @include bp-tablet {
+      margin-bottom: 20px;
+    }
+  }
+  .btn-primary {
+    background: $white;
+    color: $dark-blue;
   }
 }
 
