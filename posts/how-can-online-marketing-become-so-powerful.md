@@ -1,6 +1,9 @@
 ---
 title: How Can Online Marketing Become So Powerful?
 date: 2019-03-26T23:07:39.761Z
+excerpt: >-
+  In this post we answer, how can online marketing become so powerful? Learn
+  exactly how today!
 ---
 Something that a lot of companies are still utilizing as their sole marketing strategy is offline marketing. Now, the effectiveness here entirely depends on the business. <!--more-->It can work very well as a sort of secondary piece of marketing online the primary online bit, or even tertiary marketing strategy.
 

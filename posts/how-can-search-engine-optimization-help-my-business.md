@@ -1,6 +1,9 @@
 ---
 title: How can search engine optimization help my business?
 date: 2019-03-26T23:59:27.568Z
+excerpt: >-
+  We answer the question of, "how can search engine optimization help my
+  business?". Click here to find out how!
 ---
 There's a few different ways that you can help promote, market and drive website traffic to your website.
 

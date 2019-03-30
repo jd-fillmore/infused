@@ -1,6 +1,9 @@
 ---
 title: How do we boost our business sales with web design?
 date: 2019-03-26T23:57:51.149Z
+excerpt: >-
+  We answer the age-old question, "How do we boost our business sales with web
+  design?". Click here to find out how!
 ---
 One of the top reasons you have a website is boosting sales. One of the most common questions we get asked is, "how do we boost our business sales with <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank" rel="noopener noreferrer">web design</a>?".
 
