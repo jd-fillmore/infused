@@ -171,9 +171,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Best Home Renovation Web Design | Infused Agency',
+    title: 'Best Home Renovation Web Design, Landscaping, Contractors',
     meta: [
-      { key: 'description', name: 'description', content: 'Best contractor web design company. We help our contractor, home renovation, remodeling and landscaping clients. Click here now!' }
+      { key: 'description', name: 'description', content: 'We are the best home renovation web design and development company that serves landscaping, contractors, architects and more. Click here to get a free quote!' }
     ]
   }
 }
