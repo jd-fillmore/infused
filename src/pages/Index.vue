@@ -171,7 +171,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Best Web Design Home Contractors, Renovation, Landscaping SEO',
+    title: 'Best Home Renovation Web Design | Infused Agency',
     meta: [
       { key: 'description', name: 'description', content: 'Best contractor web design company. We help our contractor, home renovation, remodeling and landscaping clients. Click here now!' }
     ]
