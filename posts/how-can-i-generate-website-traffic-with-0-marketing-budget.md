@@ -1,6 +1,10 @@
 ---
 title: How Can I Generate Website Traffic With $0 Marketing Budget?
 date: 2019-03-26T23:55:59.570Z
+excerpt: >-
+  One of the biggest questions that we come across from our clients is, "how can
+  I generate website traffic with $0 marketing budget?". Lets answer that
+  question right now!
 ---
 One of the biggest questions that we come across from our clients is, "how can I generate <a href="https://en.wikipedia.org/wiki/Web_traffic" target="_blank" rel="noopener noreferrer">website traffic</a> with $0 <a href="https://en.wikipedia.org/wiki/Marketing_plan" target="_blank" rel="noopener noreferrer">marketing budget</a>?"
 
