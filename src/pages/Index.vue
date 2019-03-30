@@ -339,6 +339,10 @@ export default {
   padding-top: 100px;
   padding-bottom: 100px;
   background: linear-gradient(to right, #412caf, #0671bc);
+  @include bp-tablet {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   h2,h3 {
     color: $white;
   }

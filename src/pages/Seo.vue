@@ -41,6 +41,28 @@
       </div>
     </section>
 
+    <!--Second-->
+    <section class="main-project">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <g-image alt="seo search engine optimization" src="~/img/seo.jpg" class="img-fluid mx-auto d-block" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>As a company that specializes in SEO for landscaping, contractor, architecture, home renovation and other construction businesses, we know exactly what type of SEO (search engine optimization) strategies it takes to rank these types of business on page one of Google. <br><br>We're different than other search engine optimization businesses because they don't specialize, and know your industry.
+
+            <strong>We do.</strong>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>We believe in partnering with you when it comes to growing your business online through search engine optimization. We sit down with you, have weekly meetings to make sure we're hitting your SEO goals. You have touch points all the way from start to end. <br><br>We're also not afraid to share our expertise and guide you to the best possible SEO strategies you can have, that <strong>generates sales.</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--Process-->
     <section class="process">
       <div class="container">
@@ -125,6 +147,18 @@
         margin-top: 15px;
       }
     }
+  }
+}
+
+.main-project {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @include bp-tablet {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  img {
+    margin-bottom: 60px;
   }
 }
 
