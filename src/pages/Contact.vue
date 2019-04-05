@@ -27,8 +27,8 @@
             </div>
             <div class="col-lg-6">
               <p>Lets discuss what you need.</p>
-              <p>Book your free 30 minute consultation now.</p>
-              <a href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
+              <p>Email us today to book your free 30 minute consultation. We'll go over your current situation, and where you want to be.</p>
+              <a rel="noopener" href="mailto:hello@infused.agency" target="_blank">hello@infused.agency</a>
             </div>
           </div>
         </div>
