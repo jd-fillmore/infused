@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1>Best Web Design &amp; Development Company in Niagara, St. Catharines</h1>
+          <h1>Niagara's Best Web Designers</h1>
           <h2>We create websites and digital strategies that improve your credibility and bring you more business.</h2>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
@@ -60,7 +60,7 @@
       <div class="row text-center">
         <div class="col-lg-12">
           <h2>Featured Niagara Website Design &amp; Digital Strategy Project</h2>
-          <g-image alt="landscaping website design" src="~/img/landscaping-website-design.png" class="img-fluid" />
+          <g-image alt="best niagara web design" src="~/img/best-niagara-web-design.png" class="img-fluid" />
           <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
           <p><em>- Owner, Sanko Construction</em></p>
         </div>
@@ -68,7 +68,7 @@
       <!--Image-->
       <div class="row">
         <div class="col-lg-8">
-          <g-image alt="marketing services for contractors" src="~/img/marketing-services-for-contractors.jpg" class="img-fluid" />
+          <g-image alt="niagara's best web designers" src="~/img/niagara-best-web-designers.jpg" class="img-fluid" />
         </div>
         <div class="col-lg-4">
           <h3>Before</h3>
@@ -163,9 +163,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Best Web Design & Development Company Niagara',
+    title: 'Niagara\'s Best Web Designers',
     meta: [
-      { key: 'description', name: 'description', content: 'We are the best web design and website development company in Niagara and St. Catharines. We offer professional and affordable services to help build your reputation.' }
+      { key: 'description', name: 'description', content: 'Niagara\'s best web designers. At Infused Agency, we offer professional and affordable services to help build your reputation, credibility and bring in more sales online. Click here to learn more.' }
     ]
   }
 }
