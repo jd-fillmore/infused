@@ -47,7 +47,7 @@
            <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
          </div>
          <div class="col-lg-4">
-           <a rel="noopener" href="https://calendly.com/infused-agency/" target="_blank"><button type="button" class="btn btn-primary">Book Now</button></a>
+           <g-link to="/contact"><button type="button" class="btn btn-primary">Book Now</button></g-link>
          </div>
        </div>
      </div>
