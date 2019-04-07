@@ -45,7 +45,7 @@
      <div class="container">
        <div class="row">
          <div class="col-lg-8">
-           <h2>Need a website that brings in projects?</h2>
+           <h2>Need a website that brings in sales?</h2>
            <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
          </div>
          <div class="col-lg-4">
