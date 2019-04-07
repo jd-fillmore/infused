@@ -62,6 +62,10 @@ h1,h2,h3,h4,h5,h6 {
 	}
 }
 
+p {
+	margin-bottom: 30px;
+}
+
 h1 {
 	font-size: 40px;
 	@include bp-mobile {
@@ -164,5 +168,10 @@ a {
 	@include bp-tablet {
 		padding-top: 40px;
 		padding-bottom: 40px;
+	}
+	#shrunk {
+		h2 {
+			margin-top: 20px;
+		}
 	}
 }

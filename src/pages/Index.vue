@@ -45,7 +45,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <p>We build premium, conversion-focused websites that boost your credibility and <strong>actually bring you more sales</strong>.</p>
+          <p>We build premium, <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and <strong>actually bring you <g-link to="/seo">more sales</g-link></strong>.</p>
           <p>As a Niagara-based company, we do our best web design, strategy and development work when working with businesses that <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.</p>
           <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
         </div>
