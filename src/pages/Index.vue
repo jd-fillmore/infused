@@ -4,10 +4,10 @@
    <!--Hero-->
    <section class="hero">
     <div class="container">
-      <div class="row text-center">
+      <div class="row">
         <div class="col-lg-12">
-          <h1>Marketing services for contractors &amp; website design for landscaping, architecture and other construction.</h1>
-          <p>We help you with marketing services and website design for your contractor, landscaping, architecture or other construction business. Find out how we can <strong>Infuse</strong> your online presence.</p>
+          <h1>Best Web Design &amp; Development Company in Niagara, St. Catharines</h1>
+          <h2>We create websites and digital strategies that improve your credibility and bring you more business.</h2>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
       </div>
@@ -19,8 +19,8 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h2>We <strong>Only</strong> Build Sales-Generating Website Designs</h2>
-          <h4>Marketing services for contractors, landscaping, architecture, home renovation and other construction businesses.</h4>
+          <h2>A Niagara Web Design &amp; Development Company That Gets It</h2>
+          <h4>You want to build credibility. You want to get more business in the door. Lets help you with that.</h4>
         </div>
       </div>
       <div class="row text-center cards">
@@ -45,9 +45,9 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <p>We build premium, conversion-focused websites that <strong>actually bring you more sales</strong>.</p>
-          <p>We're interested in doing marketing services for contractors and working with businesses that <strong>fully understand</strong> that referrals don't last forever, and that having an inbound sales-generating website design for their landscaping, home renovation, architecture or other construction business will give them consistent leads.</p>
-          <p>We're <strong>not interested</strong> in working with businesses who thinks either a) their current website, that doesn't generate sales, is just fine or b) think their referrals will last forever. Because they won't.</p>
+          <p>We build premium, conversion-focused websites that boost your credibility and <strong>actually bring you more sales</strong>.</p>
+          <p>As a Niagara-based company, we do our best web design, strategy and development work when working with businesses that <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.</p>
+          <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h2>Featured Project</h2>
+          <h2>Featured Niagara Website Design &amp; Digital Strategy Project</h2>
           <g-image alt="landscaping website design" src="~/img/landscaping-website-design.png" class="img-fluid" />
           <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
           <p><em>- Owner, Sanko Construction</em></p>
@@ -83,7 +83,13 @@
             <li>Experiencing growth</li>
             <li>Doesn’t have to look for clients anymore</li>
           </ul>
-          <a rel="noopener" href="http://sankoconstruction.ca" target="_blank"><button type="submit" class="btn btn-primary">View Website</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <g-link to="/work"><button type="submit" class="btn btn-primary">View More Work</button></g-link>
         </div>
       </div>
     </div>
@@ -129,45 +135,6 @@
       </div>
     </section>
 
-   <!--Industries-->
-   <section class="industries">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>Industries We Serve</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <ul>
-            <li>Home Improvement</li>
-            <li>Basement Remodeling</li>
-            <li>Solar</li>
-            <li>Foundation Repair</li>
-            <li>Flood Restoration</li>
-            <li>Home Builders</li>
-            <li>Landscape Designers</li>
-            <li>Swimming Pool Builders</li>
-            <li>Bathroom Designers</li>
-          </ul>
-        </div>
-        <div class="col-lg-6">
-          <ul>
-            <li>Kitchen Remodeling</li>
-            <li>Bathroom Remodeling</li>
-            <li>Masonry</li>
-            <li>Fire &amp; Water Restoration</li>
-            <li>Architects &amp; Building Designers</li>
-            <li>Landscape Architects</li>
-            <li>Landscape Contractors</li>
-            <li>Kitchen Designers</li>
-            <li>General Contractors</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-   </section>
-
    <!--CTA-->
    <section class="cta">
     <div class="container">
@@ -189,21 +156,6 @@
       </div>
     </div>
    </section>
-
-   <!--CTA-->
-   <section class="pdf">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8">
-           <h2>Need a website that brings in projects?</h2>
-           <p>Email us to book your free 30 minute consultation. We'll talk about exactly what you need.</p>
-         </div>
-         <div class="col-lg-4">
-           <a rel="noopener" href="/contact" target="_blank"><button type="button" class="btn btn-primary">Email Now</button></a>
-         </div>
-       </div>
-     </div>
-   </section>
   <Footer></Footer>
   </Layout>
 </template>
@@ -211,9 +163,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Marketing Services For Contractors, Landscape Website Design',
+    title: 'Best Web Design & Development Company Niagara',
     meta: [
-      { key: 'description', name: 'description', content: 'We have the best marketing services for contractors, as well as landscape website design and contract web design services. We also serve home renovation web design.' }
+      { key: 'description', name: 'description', content: 'We are the best web design and website development company in Niagara and St. Catharines. We offer professional and affordable services to help build your reputation.' }
     ]
   }
 }
@@ -254,12 +206,20 @@ export default {
     }
   }
   h1 {
-    color: $white;
     margin-bottom: 20px;
     line-height: 1.4;
+    font-size: 16px;
+  }
+  h1,h2,p {
+    color: $white;
+  }
+  h2 {
+    line-height: 1.2;
+    margin-bottom: 30px;
   }
   p {
-    color: #d6d6d6;
+    font-size: 36px;
+    line-height: 1.2;
     margin-bottom: 30px;
   }
 }

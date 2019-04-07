@@ -51,9 +51,9 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <p>As a leading web design company that specializes in landscaping, contractor, architecture, home renovation and other construction businesses, you can count on us to design, build and marketing your business specifically. <br><br>We're different than other web design and marketing companies because they don't specialize, and know your industry.
+            <p>As a leading web design company, you can count on us to design, build and marketing your business specifically. <br><br>We're different than other web design and marketing companies because they don't specialize, and know your industry.
 
-            <strong>We do.</strong>
+            <strong>We do.</strong> We've worked with numerous industries, and have been for years. We know what it takes to succeed online in many different niches.
             </p>
           </div>
           <div class="col-md-6">

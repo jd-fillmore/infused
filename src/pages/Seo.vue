@@ -51,9 +51,9 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <p>As a company that specializes in SEO for landscaping, contractor, architecture, home renovation and other construction businesses, we know exactly what type of SEO (search engine optimization) strategies it takes to rank these types of business on page one of Google. <br><br>We're different than other search engine optimization businesses because they don't specialize, and know your industry.
+            <p>As a company that specializes in SEO for numerous different industries, know exactly what type of SEO (search engine optimization) strategies it takes to rank these types of business on page one of Google. <br><br>We're different than other search engine optimization businesses because they don't specialize, and know your industry.
 
-            <strong>We do.</strong>
+            <strong>We do.</strong> We've worked with numerous industries, and have been for years. We know what it takes to succeed online in many different niches.
             </p>
           </div>
           <div class="col-md-6">
@@ -163,6 +163,7 @@
 }
 
 .process {
+  background: $light-grey;
   padding-top: 100px;
   padding-bottom: 100px;
   @include bp-tablet {
