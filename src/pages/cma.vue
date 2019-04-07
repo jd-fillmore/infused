@@ -25,7 +25,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Solution</h2>
-            <p>We sat down with Mark and educated him on the reasons why having a modern design builds credibility and trust to not only his current clients, but new clients that find his site as well. From there, we worked with alongside Mark perfecting his new website design. His new website features a design that is clean, engaging, and most of all, easy to navigate. It's also mobile-friendly, so new potential clients can browse the site easily.</p>
+            <p>We sat down with Mark and educated him on the reasons why having a <g-link to="/web-design">modern design</g-link> builds credibility and trust to not only his current clients, but new clients that find his site as well. From there, we worked with alongside Mark perfecting his new website design. His new website features a design that is clean, engaging, and most of all, easy to navigate. It's also mobile-friendly, so new potential clients can browse the site easily.</p>
             <p>Here's his new website below:</p>
             <g-image alt="canadian mortgage authority new website" src="~/img/cma-new.jpg" class="img-fluid" />
           </div>
@@ -33,7 +33,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Result</h2>
-            <p>With Mark's new website up and running, after a few months of SEO efforts, he ranks #1 in multiple cities for multiple keywords on Google. These cities include Grimsby, Hamilton, Welland, Brantford and more.</p>
+            <p>With Mark's new website up and running, after a few months of <g-link to="/seo">SEO efforts</g-link>, he ranks #1 in multiple cities for multiple keywords on Google. These cities include Grimsby, Hamilton, Welland, Brantford and more.</p>
             <p>Here's a screenshot below :</p>
             <g-image alt="canadian mortgage authority results" src="~/img/cma-results.jpg" class="img-fluid" />
           </div>

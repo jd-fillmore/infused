@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1>Urban Cravings</h1>
-            <p>Web Design, Development and Digital Strategy</p>
+            <h1>Refresh Beauty</h1>
+            <p>Web Design + Development</p>
           </div>
         </div>
       </div>
@@ -17,23 +17,21 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Challenge</h2>
-            <p>We were put in contact by a colleague about Urban Cravings web situation. They had just opened up a physical location, and business was growing rapidly. However, they did not have any sort of online presence. This was difficult as people were constantly messagin them through Facebook, or texting them, asking for their menu. They needed to get a modern designed website online quickly. They also wanted to rank in Google, so when local people searched for salad bars, they would come up.</p>
+            <p>We were put in contact with Refresh Beauty via referral. The owner of Refresh Beauty, Teresa Ruggi, wanted to get a website designed and developed to show off her mobile makeup business. Having no website online at the time of discussion, she was not only missing out on potential leads, but this meant her credibility was lacking as well.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <h2>Solution</h2>
-            <p>We met up with Urban Cravings and educated them on how important it was for them to get a new, <g-link to="/web-design">mobile-friendly</g-link> and well-designed website up and running for their new restaurant business. We also discussed certain ways that we could bring her website to the forefront of Google, as they had previously requested.</p>
+            <p>We met up with Refresh Beauty and educated them on how important it was for them to get a new, mobile-friendly and <g-link to="/web-design">well-designed website</g-link> up and running for their new restaurant business. We also discussed certain ways that we could bring her website to the forefront of Google, as they had previously requested.</p>
             <p>Here's their new website below:</p>
-            <g-image alt="urban cravings new website" src="~/img/urban-new.jpg" class="img-fluid" />
+            <g-image alt="refresh beauty new website" src="~/img/refresh-new.jpg" class="img-fluid" />
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <h2>Result</h2>
-            <p>With Urban Craving's new website up and running, after a few months of <g-link to="/seo">SEO efforts</g-link>, they rank #1 in a few different cities for multiple keywords on Google. These cities include Niagara, St. Catharines and more. This means that they get inbound leads without having to lift a finger.</p>
-            <p>Here's a screenshot below :</p>
-            <g-image alt="urban cravings results" src="~/img/urban-results.jpg" class="img-fluid" />
+            <p>With Refresh Beauty's new website up and running, they now have a modern and cleanly designed online prescence, that is mobile-friendly and indexed by Google. This has been amazing for our client, as it as built credibility and trust in her brand. She's received many referrals solely based on her newly designed website.</p>
           </div>
         </div>
       </div>
@@ -97,9 +95,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Urban Cravings Case Study',
+    title: 'Refresh Beauty Case Study',
     meta: [
-      { key: 'description', name: 'description', content: 'Urban Cravings website was designed, developed and marketed by Infused Agency. Click here to view the case study.' }
+      { key: 'description', name: 'description', content: 'Refresh Beauty had their website designed and developed by Infused Agency. Click here to view the case study.' }
     ]
   }
 }

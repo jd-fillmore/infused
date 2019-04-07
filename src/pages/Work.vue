@@ -12,27 +12,34 @@
       </div>
     </section>
     <!--Content-->
-    <section class="inner-content">
+    <section class="inner-content" id="work">
       <div class="container">
-      <!--Image-->
-      <div class="row">
-        <div class="col-md-8">
-          <g-image alt="Sanko Construction" src="~/img/marketing-services-for-contractors.jpg" class="img-fluid" />
+        <div class="row">
+          <div class="col-lg-4">
+            <g-image alt="canadian mortgage authority" src="~/img/cma.jpg" class="img-fluid" />
+            <g-link to="/cma"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
+          </div>
+          <div class="col-lg-4">
+            <g-image alt="urban cravings" src="~/img/urban-cravings.jpg" class="img-fluid" />
+            <g-link to="/urban-cravings"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
+          </div>
+          <div class="col-lg-4">
+            <g-image alt="refresh beauty" src="~/img/refresh.jpg" class="img-fluid" />
+            <g-link to="/refresh-beauty"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h3>Before</h3>
-          <ul>
-            <li>Zero sales from website</li>
-            <li>Poor trust and credibility to the public</li>
-            <li>Wanted to do something about it</li>
-          </ul>
-          <h3>After</h3>
-          <ul>
-            <li>Consistent sales solely from website</li>
-            <li>Experiencing growth</li>
-            <li>Doesn’t have to look for clients anymore</li>
-          </ul>
-          <a href="http://sankoconstruction.ca" target="_blank"><button type="submit" class="btn btn-primary">View Website</button></a>
+        <div class="row two">
+          <div class="col-lg-4">
+            <g-image alt="chris cutaia" src="~/img/chris.jpg" class="img-fluid" />
+            <g-link to="/chris-cutaia"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
+          </div>
+          <div class="col-lg-4">
+            <g-image alt="sanko construction" src="~/img/sanko-construction.jpg" class="img-fluid" />
+            <g-link to="/sanko-construction"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
+          </div>
+          <div class="col-lg-4">
+            &nbsp;
+          </div>
         </div>
       </div>
     </div>
@@ -41,10 +48,27 @@
   </Layout>
 </template>
 
+<style scoped lang="scss">
+@import "../scss/_base.scss";
+
+#work {
+  .two {
+    margin-top: 30px;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+</style>
+
 <script>
 export default {
   metaInfo: {
-    title: 'Work'
+    title: 'Work',
+    meta: [
+      { key: 'description', name: 'description', content: 'Check out the detailed case studies based on the results that Infused Agency has put forth for their clients. Click here to view now.' }
+    ]
   }
 }
 </script>
