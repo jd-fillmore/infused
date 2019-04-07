@@ -311,14 +311,13 @@ export default {
   }
 }
 
-// Industries
-.industries {
-  background: url('../img/industries.jpg') center center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  h2,ul {
-    color: $white;
+// CTA
+
+.cta {
+  a {
+    color: $dark-blue;
   }
 }
+
 
 </style>
