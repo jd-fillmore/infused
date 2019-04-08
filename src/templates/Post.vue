@@ -19,8 +19,6 @@
 
             <g-link class="nav__link" to="/blog">Back to Blog</g-link>
 
-            <p class="lead" v-html="$page.post.excerpt"/>
-
             <div v-html="$page.post.content"/>
 
             <g-link class="nav__link" to="/blog">Back to Blog</g-link>
