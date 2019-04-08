@@ -24,7 +24,7 @@ module.exports = {
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
     types.forEach(type => addStyleResource(config.module.rule('sass').oneOf(type)))
 	},
-  siteName: 'Infused Agency',
+  siteName: 'Infused',
   siteUrl: 'https://infused.agency',
   transformers: {
     remark: {
