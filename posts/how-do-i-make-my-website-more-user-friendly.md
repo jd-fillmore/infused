@@ -84,7 +84,7 @@ One of the best things you can do in terms of improving user experience and conv
 
 A design that is modern, clean with clear-cut call to actions will improve user experience for customers ten-fold.
 
-## Concluding our answer to how to make your website more user friendly
+## Concluding our answer to "how do I make my website more user friendly"
 
 There you have it. Some of the best ways to improve user experience for customers is to ask what the customers want to see, increasing the speed of your website, improve your website accessibility, pack your website with educational content, create an easy-to-use navigation and provide a modern, clean web design.
 
