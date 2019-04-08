@@ -22,8 +22,6 @@ Below are the main points we'll answer in this post:
 
 ## How do I make my website more user friendly?
 
-![How do I make my website more user friendly](/../uploads/how-do-i-make-my-website-more-user-friendly.jpg)
-
 Without further ado, lets get into it. Let's answer the question, "how do I make my website more user friendly?".
 
 ## 1. Ask customers what they want to see
