@@ -60,7 +60,7 @@
       <div class="row text-center">
         <div class="col-lg-12">
           <h2>Featured Project</h2>
-          <g-image alt="best niagara web design" src="~/img/best-niagara-web-design.png" class="img-fluid" />
+          <g-image alt="best niagara web design" src="~/img/niagara-web-design.png" class="img-fluid" />
           <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
           <p><em>- Owner, Sanko Construction</em></p>
         </div>
