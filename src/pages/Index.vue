@@ -163,9 +163,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Niagara\'s Best Web Designers',
+    title: 'Niagara Web Design',
     meta: [
-      { key: 'description', name: 'description', content: 'Niagara\'s best web designers. At Infused Agency, we offer professional and affordable services to help build your reputation, credibility and bring in more sales online. Click here to learn more.' }
+      { key: 'description', name: 'description', content: 'Niagara web design. At Infused Agency, we offer professional and affordable services to help build your reputation, credibility and bring in more sales online. Click here to learn more.' }
     ]
   }
 }
