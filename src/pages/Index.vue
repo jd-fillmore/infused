@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1>Niagara's Best Web Designers</h1>
+          <h1>Niagara Web Design</h1>
           <h2>We create websites and digital strategies that improve your credibility and bring you more business.</h2>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h2>A Niagara Web Design &amp; Development Company That Gets It</h2>
+          <h2>Niagara Web Design Company That Gets It</h2>
           <h4>You want to build credibility. You want to get more business in the door. Lets help you with that.</h4>
         </div>
       </div>
@@ -59,7 +59,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h2>Featured Niagara Website Design &amp; Digital Strategy Project</h2>
+          <h2>Featured Project</h2>
           <g-image alt="best niagara web design" src="~/img/best-niagara-web-design.png" class="img-fluid" />
           <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
           <p><em>- Owner, Sanko Construction</em></p>
@@ -101,7 +101,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Our Process</h2>
-            <p>A look into our marketing services for contractors, and website design process for landscaping, home renovation, architecture and other construction businesses.</p>
+            <p>A look web design process for Niagara &amp; beyond businesses.</p>
           </div>
         </div>
         <div class="row">
