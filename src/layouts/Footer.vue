@@ -6,7 +6,7 @@
 				<p class="title">About</p>
 				<p>Infused Agency is a Niagara web design, website development, SEO and digital strategy company. We help local and non-local businesses build their credibility online, as well as help bring in more sales.</p>
 				<p class="title">Areas Served</p>
-				<p><g-link to="/niagara-falls-web-design">Niagara Falls</g-link>, <g-link to="/st-catharines-web-design">St. Catharines</g-link>, <g-link to="/welland-web-design">Welland</g-link>, <g-link to="/thorold-falls-web-design">Thorold</g-link>, Port Colborne, <g-link to="/fort-erie-web-design">Fort Erie</g-link>, <g-link to="/grimsby-web-design">Grimsby</g-link>, Niagara-on-the-Lake, Pelham, Wainfleet, Vineland, <g-link to="/beamsville-web-design">Beamsville</g-link>.</p>
+				<p><g-link to="/niagara-falls-web-design">Niagara Falls</g-link>, <g-link to="/st-catharines-web-design">St. Catharines</g-link>, <g-link to="/welland-web-design">Welland</g-link>, <g-link to="/thorold-falls-web-design">Thorold</g-link>, Port Colborne, <g-link to="/fort-erie-web-design">Fort Erie</g-link>, <g-link to="/grimsby-web-design">Grimsby</g-link>, Niagara-on-the-Lake, Pelham, Wainfleet, <g-link to="/vineland-web-design">Vineland</g-link>, <g-link to="/beamsville-web-design">Beamsville</g-link>.</p>
 			</div>
 			<div class="col-lg-4">
 				<p class="title">Office</p>
