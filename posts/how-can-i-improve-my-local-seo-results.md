@@ -5,13 +5,6 @@ excerpt: >-
   In this post we answer, "how can I improve my local SEO results?". There are a
   few different ways, lets dive in. Click here now!
 ---
-lsi:
-
-* how to improve local seo						
-* local seo tips
-* how to improve local search results
-* simple ways to improve seo
-
 You own a local business, and maybe you have a [website](/grimsby-web-design) online. However, you're not getting any [inbound sales](/seo) from your website, or any new local clients or customers, because your website isn't ranking on the first page of Google for keywords that people are searching for.
 
 Your website is, essentially, invisible to your local community.
