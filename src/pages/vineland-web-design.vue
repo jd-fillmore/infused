@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1>Thorold Web Design</h1>
+            <h1>Vineland Web Design</h1>
             <p>
               Email us for a free consultation -
               <a href="mailto:hello@infused.agency">hello@infused.agency</a>
@@ -23,21 +23,21 @@
           <div class="col-md-12">
             <br>
             <br>
-            <g-image alt="Thorold web design" src="~/img/thorold-web-design.jpg" class="img-fluid"/>
+            <g-image alt="Vineland web design" src="~/img/vineland-web-design.jpg" class="img-fluid"/>
             <p>
               If you're looking for a
               <a
-                href="https://www.thorold.ca/en/index.aspx"
+                href="https://vineland.com/"
                 target="_blank"
-              >Thorold</a>
+              >Vineland</a>
               <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank"> web design</a> company that knows how to boost your sales and credibility online, you've come to the right place!
             </p>
             <p>
               Web design is super important if you care about your company brand, the immediate first impression you'll have on new customers and more importantly, the ability to sell your company's product or service without having to lift a finger.
               Web design, in a nut shell, is making sure that when people come to your website, that people can quickly and easily find what they're looking for, and you give them what they need. This is the difference between a web design that does sell, and that doesn't.
             </p>
-            <h2>Why Your Thorold Business Needs A Web Design</h2>
-            <p>Traditionally in the past, companies didn't have to rely on any sort of online presence, because it didn't exist. However now, since everyone who needs something usually Googles what they need, it's imperative to hire a Thorold web design company that knows what they're doing. You have to make sure that your company is professional represented in a mordern way - so that when people go to your website, they're amazed. They're impressed. And ultimately, your Thorold web design converts them into paying customers.</p>
+            <h2>Why Your Vineland Business Needs A Web Design</h2>
+            <p>Traditionally in the past, companies didn't have to rely on any sort of online presence, because it didn't exist. However now, since everyone who needs something usually Googles what they need, it's imperative to hire a Vineland web design company that knows what they're doing. You have to make sure that your company is professional represented in a mordern way - so that when people go to your website, they're amazed. They're impressed. And ultimately, your Vineland web design converts them into paying customers.</p>
           </div>
         </div>
 
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <h2>Our Web Design Clients In Thorold &amp; Beyond</h2>
+              <h2>Our Web Design Clients In Vineland &amp; Beyond</h2>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2>Our Thorold Web Design Helps Boost Your Credibility &amp; Sales</h2>
+            <h2>Our Vineland Web Design Helps Boost Your Credibility &amp; Sales</h2>
             <p>There are countless benefits as to how site can help not only your business, but really any business. But, lets keep the focus on yours for now.</p>
             <h4>A 24/7, full times salesperson</h4>
             <p>
@@ -179,8 +179,8 @@
         <div class="container">
           <div class="row text-center">
             <div class="col-md-12">
-              <h2>Need a Thorold web design for your business?</h2>
-              <p>Email us today for a free consultation for your new Thorold web design.</p>
+              <h2>Need a Vineland web design for your business?</h2>
+              <p>Email us today for a free consultation for your new Vineland web design.</p>
               <a href="mailto:hello@infused.agency">hello@infused.agency</a>
             </div>
           </div>
@@ -193,12 +193,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2>History of Thorold, Ontario</h2>
+            <h2>History of Vineland, Ontario</h2>
             <p>
               <a
-                href="https://en.wikipedia.org/wiki/Thorold"
+                href="https://en.wikipedia.org/wiki/Vineland,_Ontario"
                 target="_blank"
-              >Thorold, Ontario</a> is a small city in the Niagara region, located right alongside the Welland Canal. The Canal passes through the heart of the city, and the Twin Flght Locks, which are located downtown. Both of these areas attract thousands of tourists on a yearly basis. The geography of Thorold includes all sorts of neighbourhoods and communities. Some of them being Allanburg, Beaverdams, Confederation Heights and more. St. Johns was one of the very first areas in the inner most area of the Peninsula to be settled by the Europeans. The first Europeans settled in the area way back in the year of 1792, when a small sawmill had been built on the St. John's Creek.
+              >Vineland, Ontario</a> is very well known for its surrounding wineries, orchards and vineyards. The town also has a great variety of restaurants, as well as local produce.
+          There are a very large number of farms, as well as greenhouses in Vineland, Ontario as those features are a major economic driver. The crops produced in Vineland, Ontario include
+          peaches, pears, apples and cherries. This small town is recognized on a national scale as Canada's premier tender fruit region.
             </p>
           </div>
         </div>
@@ -213,13 +215,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Thorold Web Design",
+    title: "Vineland Web Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Thorold web design. At Infused Agency, it's important that we make sure your newly designed website and digital strategy bring in customers for you. We help with that."
+          "Vineland web design. At Infused Agency, we work with you to make sure your website design brings in more customers, and builds trust and credibility with potential customers."
       }
     ]
   }
