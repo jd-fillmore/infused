@@ -6,7 +6,7 @@
 				<p class="title">About</p>
 				<p>Infused Agency is a Niagara web design, website development, SEO and digital strategy company. We help local and non-local businesses build their credibility online, as well as help bring in more sales.</p>
 				<p class="title">Areas Served</p>
-				<p>Niagara Falls, St. Catharines, Welland, Thorold, Port Colborne, Fort Erie, Grimsby, Lincoln, Niagara-on-the-Lake, Pelham, Wainfleet, Vineland, Beamsville, West Lincoln.</p>
+				<p>Niagara Falls, St. Catharines, Welland, Thorold, Port Colborne, Fort Erie, <g-link to="/grimsby-web-design">Grimsby</g-link>, Lincoln, Niagara-on-the-Lake, Pelham, Wainfleet, Vineland, Beamsville, West Lincoln.</p>
 			</div>
 			<div class="col-lg-4">
 				<p class="title">Office</p>
