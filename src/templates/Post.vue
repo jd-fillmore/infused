@@ -28,6 +28,7 @@
         </div>
       </div>
     </Section>
+    <Footer></Footer>
   </Layout>
 </template>
 
