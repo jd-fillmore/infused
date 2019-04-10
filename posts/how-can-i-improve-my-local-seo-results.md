@@ -26,8 +26,6 @@ In this post, we'll go over a few ways on how to improve local SEO. Some of thes
 
 ## Create a Google My Business account for local SEO
 
-![how can I improve my local seo results](/../uploads/how-can-i-improve-my-local-seo-results.jpg)
-
 One of the best ways on how to improve local search results is creating and optimizing a [Google My Business](https://www.google.com/intl/en_ca/business/) account.
 
 This account puts you on the Google Map - so when people search for the local service or product you offer, you can show up.
