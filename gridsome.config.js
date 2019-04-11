@@ -68,8 +68,8 @@ module.exports = {
         cacheTime: 600000, // default
         config: {
           '/blog/*': {
-            changefreq: 'weekly',
-            priority: 0.5
+            changefreq: 'daily',
+            priority: 0.3
           },
           '/about': {
             changefreq: 'monthly',
