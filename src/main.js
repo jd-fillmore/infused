@@ -13,16 +13,13 @@ import 'bootstrap-vue/dist/bootstrap-vue.min.css'
 // Import Bootstrap JS
 import 'bootstrap-vue/dist/bootstrap-vue.min.js'
 
+require('typeface-source-sans-pro')
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
   // Footer
   Vue.component('Footer', Footer)
   // Import bootstrap
-  Vue.use(BootstrapVue),
-  // Add google fonts
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro'
-  })
+  Vue.use(BootstrapVue)
 }

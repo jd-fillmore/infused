@@ -23,6 +23,7 @@
     "i": "^0.3.6",
     "netlify-cms": "^2.8.0",
     "npm": "^6.9.0",
+    "typeface-source-sans-pro": "0.0.54",
     "vue": "^2.6.10"
   },
   "devDependencies": {
