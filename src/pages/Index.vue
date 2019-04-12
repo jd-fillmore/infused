@@ -163,7 +163,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Niagara\'s Best Web Design & Digital Strategy',
+    title: 'Niagara Web Design & Digital Strategy',
     meta: [
       { key: 'description', name: 'description', content: 'Niagara web design, digital strategy. At Infused Agency, we offer the best web design and digital strategy to help build your reputation, credibility and bring in more sales online. Click here to learn more.' }
     ]
