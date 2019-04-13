@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1>St. Catharines Web Design &amp; Digital Strategy</h1>
-          <h2>We can create a web design and digital strategy that improves your credibility and brings you more business.</h2>
+          <h2>We create a websites and digital strategies that improve your credibility and bring you more business.</h2>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
       </div>
