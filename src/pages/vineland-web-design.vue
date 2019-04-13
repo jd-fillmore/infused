@@ -8,7 +8,7 @@
             <h1>Vineland Web Design</h1>
             <p>
               Email us for a free consultation -
-              <a href="mailto:hello@infused.agency">hello@infused.agency</a>
+              <a href="mailto:jd@infused.agency">jd@infused.agency</a>
             </p>
           </div>
         </div>
@@ -181,7 +181,7 @@
             <div class="col-md-12">
               <h2>Need a Vineland web design for your business?</h2>
               <p>Email us today for a free consultation for your new Vineland web design.</p>
-              <a href="mailto:hello@infused.agency">hello@infused.agency</a>
+              <a href="mailto:jd@infused.agency">jd@infused.agency</a>
             </div>
           </div>
         </div>

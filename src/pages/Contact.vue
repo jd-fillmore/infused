@@ -28,7 +28,7 @@
             <div class="col-lg-6">
               <p>Lets discuss what you need.</p>
               <p>Email us today to book your free 30 minute consultation. We'll go over your current situation, and where you want to be.</p>
-              <a rel="noopener" href="mailto:hello@infused.agency" target="_blank">hello@infused.agency</a>
+              <a rel="noopener" href="mailto:jd@infused.agency" target="_blank">jd@infused.agency</a>
             </div>
           </div>
         </div>

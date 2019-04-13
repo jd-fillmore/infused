@@ -57,4 +57,4 @@ Releasing fresh content is another pillar as to how Google ranks your website. D
 
 ## Need help to improve your local SEO?
 
-Email us today at <a href="mailto:hello@infused.agency">hello@infused.agency</a> for a free consultation.
+Email us today at <a href="mailto:jd@infused.agency">jd@infused.agency</a> for a free consultation.

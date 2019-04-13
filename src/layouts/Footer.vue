@@ -18,7 +18,7 @@
 				<p class="title">Contact</p>
 				<i class="fas fa-phone"></i><a href="tel:(905) 933 - 3115">(905) 933 - 3115</a>
 				<br>
-				<i class="far fa-envelope"></i><a href="mailto:hello@infused.agency">hello@infused.agency</a>
+				<i class="far fa-envelope"></i><a href="mailto:jd@infused.agency">jd@infused.agency</a>
 			</div>
 		</div>
 		<div class="row copy">
