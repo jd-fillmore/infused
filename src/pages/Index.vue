@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1>St. Catharines Web Design &amp; Digital Strategy</h1>
+          <h1>Niagara Web Design &amp; Digital Strategy Agency</h1>
           <h2>We create a websites and digital strategies that improve your credibility and bring you more business.</h2>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
@@ -19,20 +19,20 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-12">
-          <h2>A St. Catharines Web Design Company That Gets It</h2>
+          <h2>A Niagara Web Design Agency That Gets Your Digital Strategy</h2>
           <h4>You want to build credibility. You want to get more business in the door. Lets help you with that.</h4>
         </div>
       </div>
       <div class="row text-center cards">
         <div class="col-lg-4">
           <div class="card">
-            <g-image alt="st. catharines web design" src="~/img/st-catharines-web-design.jpg" class="img-fluid mx-auto d-block" />
+            <g-image alt="Niagara web design" src="~/img/niagara-web-design.jpg" class="img-fluid mx-auto d-block" />
             <h4>More Sales</h4>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="card">
-            <g-image alt="st. catharines digital strategy" src="~/img/st-catharines-digital-strategy.jpg" class="img-fluid mx-auto d-block" />
+            <g-image alt="Niagara digital strategy" src="~/img/niagara-digital-strategy.jpg" class="img-fluid mx-auto d-block" />
             <h4>More Profits</h4>
           </div>
         </div>
@@ -46,7 +46,7 @@
       <div class="row">
         <div class="col-lg-12">
           <p>We build premium, <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and <strong>actually bring you <g-link to="/seo">more sales</g-link></strong>.</p>
-          <p>As a St. Catharines-based company, we do our best web design, strategy and development work when working with businesses that <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.</p>
+          <p>As a Niagara-based company, we do our best web design, strategy and development work when working with businesses that <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.</p>
           <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
         </div>
       </div>
@@ -163,9 +163,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'St. Catharines Web Design & Digital Strategy',
+    title: 'Niagara Web Design & Digital Strategy',
     meta: [
-      { key: 'description', name: 'description', content: 'St. Catharines web design, digital strategy. At Infused Agency, we offer the best web design and digital strategy to help build your reputation, credibility and bring in more sales online. Click here to learn more.' }
+      { key: 'description', name: 'description', content: 'Niagara web design, digital strategy. At Infused Agency, we offer the best web design and digital strategy to help build your reputation, credibility and bring in more sales online. Click here to learn more.' }
     ]
   }
 }
