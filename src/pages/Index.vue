@@ -170,6 +170,22 @@ export default {
   }
 }
 
+<script>
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Infused Agency",
+  "telephone" : "(905) 933 - 3115",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "73 Alexandra Blvd",
+    "addressLocality" : "St. Catharines",
+    "addressRegion" : "ON",
+    "postalCode" : "L2P 1K2"
+  }
+}
+</script>
+
 </script>
 
 <style scoped lang="scss">
