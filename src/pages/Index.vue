@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1>Niagara Web Design &amp; Digital Strategy Agency</h1>
-          <h2>We create a websites and digital strategies that improve your credibility and bring you more business.</h2>
+          <h2>We create websites and digital strategies that improve your credibility and increase your sales.</h2>
           <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
         </div>
       </div>
