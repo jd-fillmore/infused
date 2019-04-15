@@ -27,7 +27,7 @@
         <div class="col-lg-4">
           <div class="card">
             <g-image alt="Niagara web design" src="~/img/niagara-web-design.jpg" class="img-fluid mx-auto d-block" />
-            <h4>100+ websites created this past decade</h4>
+            <h4>100+ websites &amp; digital strategies created</h4>
           </div>
         </div>
         <div class="col-lg-4">
@@ -253,6 +253,7 @@ export default {
     h4 {
       margin-bottom: 0px;
       margin-top: 10px;
+      line-height: 1.2;
     }
   }
 }
