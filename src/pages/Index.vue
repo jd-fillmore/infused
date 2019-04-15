@@ -27,19 +27,19 @@
         <div class="col-lg-4">
           <div class="card">
             <g-image alt="Niagara web design" src="~/img/niagara-web-design.jpg" class="img-fluid mx-auto d-block" />
-            <h4>More Sales</h4>
+            <h4>100+ websites created this past decade</h4>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="card">
             <g-image alt="Niagara digital strategy" src="~/img/niagara-digital-strategy.jpg" class="img-fluid mx-auto d-block" />
-            <h4>More Profits</h4>
+            <h4>$1,000,000+ profits for our clients</h4>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="card">
             <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-            <h4>More Growth</h4>
+            <h4>Free SSL + SEO Framework included</h4>
           </div>
         </div>
       </div>
@@ -169,22 +169,6 @@ export default {
     ]
   }
 }
-
-<script>
-{
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Infused Agency",
-  "telephone" : "(905) 933 - 3115",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "73 Alexandra Blvd",
-    "addressLocality" : "St. Catharines",
-    "addressRegion" : "ON",
-    "postalCode" : "L2P 1K2"
-  }
-}
-</script>
 
 </script>
 
