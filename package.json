@@ -21,7 +21,7 @@
     "gridsome": "^0.5.7",
     "gridsome-plugin-netlify-cms": "^1.0.6",
     "i": "^0.3.6",
-    "netlify-cms": "^2.8.0",
+    "netlify-cms": "^2.9.1",
     "npm": "^6.9.0",
     "typeface-source-sans-pro": "0.0.54",
     "vue": "^2.6.10"
@@ -31,5 +31,8 @@
     "purify-css": "^1.2.5",
     "sass-loader": "^7.1.0",
     "style-resources-loader": "^1.2.1"
+  },
+  "resolutions": {
+    "gridsome/vue-router": "3.0.2"
   }
 }

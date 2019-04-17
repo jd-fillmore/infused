@@ -31,7 +31,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Result</h2>
-            <p>With Refresh Beauty's new website up and running, they now have a modern and cleanly designed online prescence, that is mobile-friendly and indexed by Google. This has been amazing for our client, as it as built credibility and trust in her brand. She's received many referrals solely based on her newly designed website.</p>
+            <p>With Chris' new website up and running, he now has a website that he can not only be proud of, but one that represents him locally. This has been imperative in bringing him in local leads, and his business continues to flourish because of it.</p>
           </div>
         </div>
       </div>
