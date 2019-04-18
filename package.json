@@ -33,6 +33,6 @@
     "style-resources-loader": "^1.2.1"
   },
   "resolutions": {
-    "gridsome/vue-router": "3.0.2"
+    "gridsome/vue-router": "3.0.6"
   }
 }
