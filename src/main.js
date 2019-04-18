@@ -13,7 +13,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.min.css'
 // Import Bootstrap JS
 import 'bootstrap-vue/dist/bootstrap-vue.min.js'
 
-require('typeface-source-sans-pro')
+// require('typeface-source-sans-pro')
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
