@@ -22,7 +22,7 @@
     "gridsome-plugin-netlify-cms": "^1.0.6",
     "i": "^0.3.6",
     "netlify-cms": "^2.9.1",
-    "npm": "^6.9.0",
+    "npm": "^6.10.3",
     "typeface-source-sans-pro": "0.0.54",
     "vue": "^2.6.10"
   },

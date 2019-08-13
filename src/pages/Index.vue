@@ -1,107 +1,133 @@
 <template>
   <Layout>
-   
-   <!--Hero-->
-   <section class="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1>Niagara Web Design &amp; Digital Strategy Agency</h1>
-          <h2>We create websites and digital strategies that improve your credibility and increase your sales.</h2>
-          <g-link to="/contact"><button type="button" class="btn btn-primary">Learn How</button></g-link>
-        </div>
-      </div>
-    </div>
-   </section>
-
-   <!--Intro-->
-   <section class="intro">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-12">
-          <h2>A Niagara Web Design Agency That Gets Your Digital Strategy</h2>
-          <h4>You want to build credibility. You want to get more business in the door. Lets help you with that.</h4>
-        </div>
-      </div>
-      <div class="row text-center cards">
-        <div class="col-lg-4">
-          <div class="card">
-            <g-image alt="Niagara web design" src="~/img/niagara-web-design.jpg" class="img-fluid mx-auto d-block" />
-            <h4>100+ websites &amp; digital strategies created</h4>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <g-image alt="Niagara digital strategy" src="~/img/niagara-digital-strategy.jpg" class="img-fluid mx-auto d-block" />
-            <h4>$1,000,000+ profits for our clients</h4>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-            <h4>Free SSL + SEO Framework included</h4>
+    <!--Hero-->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Niagara Web Development Company</h1>
+            <h2>We create websites and digital strategies that improve your credibility and increase your sales.</h2>
+            <g-link to="/contact">
+              <button type="button" class="btn btn-primary">Learn How</button>
+            </g-link>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <p>We build premium, <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and <strong>actually bring you <g-link to="/seo">more sales</g-link></strong>.</p>
-          <p>As a Niagara-based company, we do our best web design, strategy and development work when working with businesses that <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.</p>
-          <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
-        </div>
-      </div>
-    </div>
-    
-   </section>
+    </section>
 
-   <!--Featured-->
-   <section class="featured">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-12">
-          <h2>Featured Project</h2>
-          <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-          <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
-          <p><em>- Owner, Sanko Construction</em></p>
+    <!--Intro-->
+    <section class="intro">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h2>A Niagara Web Development Company That's Here To Help</h2>
+            <h4>You want to build credibility. You want to get more business in the door. Lets help you with that.</h4>
+          </div>
+        </div>
+        <div class="row text-center cards">
+          <div class="col-lg-4">
+            <div class="card">
+              <g-image
+                alt="Niagara web development company"
+                src="~/img/niagara-web-development-company.jpg"
+                class="img-fluid mx-auto d-block"
+              />
+              <h4>100+ websites &amp; digital strategies created</h4>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <g-image
+                alt="Niagara digital strategy"
+                src="~/img/niagara-digital-strategy.jpg"
+                class="img-fluid mx-auto d-block"
+              />
+              <h4>$1,000,000+ profits for our clients</h4>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <h4>Free SSL + SEO Framework included</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              We build premium,
+              <g-link to="/web-design">conversion-focused websites</g-link>that boost your credibility and
+              <strong>
+                actually bring you
+                <g-link to="/seo">more sales</g-link>
+              </strong>.
+            </p>
+            <p>
+              As a Niagara-based company, we do our best web development, strategy and design work when working with businesses that
+              <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
+            </p>
+            <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
+          </div>
         </div>
       </div>
-      <!--Image-->
-      <div class="row">
-        <div class="col-lg-8">
-          <g-image alt="niagara's best web designers" src="~/img/niagara-best-web-designers.jpg" class="img-fluid" />
-        </div>
-        <div class="col-lg-4">
-          <h3>Before</h3>
-          <ul>
-            <li>Zero sales from website</li>
-            <li>Poor trust and credibility to the public</li>
-            <li>Wanted to do something about it</li>
-          </ul>
-          <h3>After</h3>
-          <ul>
-            <li>Consistent sales solely from website</li>
-            <li>Experiencing growth</li>
-            <li>Doesn’t have to look for clients anymore</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-12">
-          <g-link to="/work"><button type="submit" class="btn btn-primary">View More Work</button></g-link>
-        </div>
-      </div>
-    </div>
-   </section>
+    </section>
 
-   <!--Process-->
+    <!--Featured-->
+    <section class="featured">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h2>Featured Niagara Web Development Project</h2>
+            <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
+            <p>"As a Niagara company, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>
+              <em>- Owner, Sanko Construction</em>
+            </p>
+          </div>
+        </div>
+        <!--Image-->
+        <div class="row">
+          <div class="col-lg-8">
+            <g-image
+              alt="Niagara best web development company"
+              src="~/img/niagara-best-web-designers.jpg"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-4">
+            <h3>Before</h3>
+            <ul>
+              <li>Zero sales from website</li>
+              <li>Poor trust and credibility to the public</li>
+              <li>Wanted to do something about it</li>
+            </ul>
+            <h3>After</h3>
+            <ul>
+              <li>Consistent sales solely from website</li>
+              <li>Experiencing growth</li>
+              <li>Doesn’t have to look for clients anymore</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <g-link to="/work">
+              <button type="submit" class="btn btn-primary">View More Work</button>
+            </g-link>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Process-->
     <section class="process">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <h2>Our Process</h2>
-            <p>A look web design process for Niagara &amp; beyond businesses.</p>
+            <p>A simple web development process for your Niagara-based company:</p>
           </div>
         </div>
         <div class="row">
@@ -135,49 +161,55 @@
       </div>
     </section>
 
-   <!--CTA-->
-   <section class="cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Are you looking to...</h2>
-          <ul>
-            <li>Get your website re-designed?</li>
-            <li>Get more sales?</li>
-            <li>Maximize profits?</li>
-            <li>Never look for another project?</li>
-          </ul>
-        </div>
-        <div class="col-lg-6">
-          <p>Lets discuss what you need.</p>
-          <p>Email us today to book your free 30 minute consultation. We'll go over your current situation, and where you want to be.</p>
-          <a rel="noopener" href="mailto:jd@infused.agency" target="_blank">jd@infused.agency</a>
+    <!--CTA-->
+    <section class="cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Are you looking to...</h2>
+            <ul>
+              <li>Get your website re-designed?</li>
+              <li>Get more sales?</li>
+              <li>Maximize profits?</li>
+              <li>Never look for another project?</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <p>Lets discuss what you need.</p>
+            <p>Email us today to book your free 30 minute consultation. We'll go over your current situation, and where you want to be.</p>
+            <a rel="noopener" href="mailto:jd@infused.agency" target="_blank">jd@infused.agency</a>
+          </div>
         </div>
       </div>
-    </div>
-   </section>
-  <Footer></Footer>
+    </section>
+    <Footer></Footer>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Niagara Web Design & Digital Strategy',
+    title: "Niagara Web Development Company",
     meta: [
-      { key: 'description', name: 'description', content: 'Niagara web design, digital strategy. At Infused Agency, we offer the best web design and digital strategy to help build your reputation, credibility and bring in more sales online. Click here to learn more.' }
+      {
+        key: "description",
+        name: "description",
+        content:
+          "Niagara Web Development Company. At Infused Agency, we offer the best web development company to help build your reputation, credibility and bring in more sales online."
+      }
     ]
   }
-}
-
+};
 </script>
 
 <style scoped lang="scss">
-
 @import "../scss/_base.scss";
 
 // Home
-.intro, .featured, .industries, .cta {
+.intro,
+.featured,
+.industries,
+.cta {
   padding-top: 100px;
   padding-bottom: 100px;
   @include bp-tablet-sm {
@@ -190,18 +222,19 @@ export default {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: url('../img/hero-bg.jpg') center center no-repeat;
+  background: url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   margin-top: 70px;
   @include bp-tablet-sm {
-    margin-top: 70px; 
+    margin-top: 70px;
     padding-top: 100px;
     padding-bottom: 100px;
   }
   .btn-primary {
     box-shadow: none;
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       box-shadow: none;
     }
   }
@@ -210,7 +243,9 @@ export default {
     line-height: 1.4;
     font-size: 16px;
   }
-  h1,h2,p {
+  h1,
+  h2,
+  p {
     color: $white;
   }
   h2 {
@@ -240,15 +275,16 @@ export default {
   .card {
     padding: 30px;
     border: none;
-    box-shadow: 0px 20px 100px #EDEFF2;
-    transition: .2s;
+    box-shadow: 0px 20px 100px #edeff2;
+    transition: 0.2s;
     @include bp-tablet {
       margin-bottom: 20px;
     }
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       box-shadow: 0px 20px 100px #c7c7c7;
       transform: translate3D(0, -5px, 0);
-      transition: .2s;
+      transition: 0.2s;
     }
     h4 {
       margin-bottom: 0px;
@@ -269,7 +305,8 @@ export default {
   .row {
     align-items: center;
   }
-  h2,p {
+  h2,
+  p {
     color: $white;
   }
   h2 {
@@ -304,7 +341,8 @@ export default {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  h2,h3 {
+  h2,
+  h3 {
     color: $white;
   }
   p {
@@ -319,6 +357,4 @@ export default {
     color: $dark-blue;
   }
 }
-
-
 </style>
