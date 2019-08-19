@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1>Niagara Web Development Company</h1>
-            <h2>We create websites and digital strategies that improve your credibility and increase your sales.</h2>
+            <h1>St. Catharines Web Design</h1>
+            <h2>Websites and digital sales funnels that improve your credibility and increase your sales.</h2>
             <g-link to="/contact">
               <button type="button" class="btn btn-primary">Learn How</button>
             </g-link>
@@ -20,7 +20,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>A Niagara Web Development Company That's Here To Help</h2>
+            <h2>A St. Catharines Web Design Company That's Here To Help</h2>
             <h4>You want to build credibility. You want to get more business in the door. Lets help you with that.</h4>
           </div>
         </div>
@@ -55,18 +55,18 @@
         <div class="row">
           <div class="col-lg-12">
             <p>
-              We build premium,
-              <g-link to="/web-design">conversion-focused websites</g-link>that boost your credibility and
+              As a top tier St. Catharines web design company, we build
+              <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and
               <strong>
                 actually bring you
                 <g-link to="/seo">more sales</g-link>
               </strong>.
             </p>
             <p>
-              As a Niagara-based company, we do our best web development, strategy and design work when working with businesses that
+              We do our best web development, strategy and design work when working with businesses that
               <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
             </p>
-            <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
+            <p>Discovery > Strategy > Design > Development > Promotion. As your St. Catharines web design company, We help you every step of the way.</p>
           </div>
         </div>
       </div>
@@ -77,9 +77,9 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>Featured Niagara Web Development Project</h2>
+            <h2>Featured St. Catharines Web Design Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"As a Niagara company, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"As a company near St. Catharines, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -127,21 +127,21 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Our Process</h2>
-            <p>A simple web development process for your Niagara-based company:</p>
+            <p>A simple web design process for your St. Catharines-based company:</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <h3>1. Discovery</h3>
-            <p>What's holding your business back from growing? What do you expect to get out of web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+            <p>What's holding your St. Catharines-based business back from growing? What do you expect to get out of web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
           </div>
           <div class="col-lg-4">
             <h3>2. Plan</h3>
-            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
+            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your St. Catharines web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
           </div>
           <div class="col-lg-4">
             <h3>3. Design</h3>
-            <p>This is the fun part. We will produce a unique web design that powers and infuses your online presence as a whole. Your web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
+            <p>This is the fun part. We will produce a unique web design that powers and infuses your online presence as a whole. Your St. Catharines web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
           </div>
         </div>
         <div class="row">
@@ -189,13 +189,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Development Company",
+    title: "St. Catharines Web Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara Web Development Company. At Infused Agency, we offer the best web development company to help build your reputation, credibility and bring in more sales online."
+          "St Catharines web design. At Infused Agency, we offer the best web design company to help build your reputation, credibility and bring in more sales online."
       }
     ]
   }
