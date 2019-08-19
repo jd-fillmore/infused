@@ -28,8 +28,8 @@
           <div class="col-lg-4">
             <div class="card">
               <g-image
-                alt="Niagara web development company"
-                src="~/img/niagara-web-development-company.jpg"
+                alt="st catharines web design"
+                src="~/img/st-catharines-web-design.jpg"
                 class="img-fluid mx-auto d-block"
               />
               <h4>100+ websites &amp; digital strategies created</h4>
