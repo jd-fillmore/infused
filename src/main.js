@@ -12,6 +12,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.min.css'
 // Import Bootstrap JS
 import 'bootstrap-vue/dist/bootstrap-vue.min.js'
+// Import AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 // require('typeface-source-sans-pro')
 
@@ -24,7 +27,9 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Open+Sans|Poppins'
-  })
+  }),
+  // AOS
+  Vue.use(AOS.init());
   // Import bootstrap
   Vue.use(BootstrapVue)
 }

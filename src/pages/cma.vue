@@ -1,12 +1,12 @@
 <template>
   <Layout>
     <!--Hero-->
-    <section class="inner-hero">
+    <section class="inner-hero" data-aos="fade-in" data-aos-duration="1000">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1>Canadian Mortgage Authority</h1>
-            <p>Web Design, Development and Digital Strategy</p>
+            <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Canadian Mortgage Authority</h1>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">Web Design, Development and Digital Strategy</p>
           </div>
         </div>
       </div>

@@ -1,12 +1,12 @@
 <template>
   <Layout>
     <!--Hero-->
-    <section class="inner-hero">
+    <section class="inner-hero" data-aos="fade-in" data-aos-duration="1000">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-          <h1>Contact</h1>
-          <p>Want more sales from your website? Connect with us</p>
+          <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Contact</h1>
+          <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">Want more sales from your website? Connect with us</p>
           </div>
         </div>
       </div>

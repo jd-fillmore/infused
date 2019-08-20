@@ -1,14 +1,14 @@
 <template>
   <Layout>
     <!--Hero-->
-    <section class="hero">
+    <section class="hero" data-aos="fade-in" data-aos-duration="1000">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1>WordPress Website Design, SEO and Internet Marketing in Grimsby, Ontario</h1>
-            <h2>We create websites that drive brands upward and infuse business growth.</h2>
+            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara WordPress Website Design</h1>
+            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We create websites that drive brands upward and infuse business growth.</h2>
             <g-link to="/contact">
-              <button type="button" class="btn btn-primary">Learn How</button>
+              <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
             </g-link>
           </div>
         </div>
@@ -20,33 +20,33 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>We create digital experiences.</h2>
-            <h4>You want to build credibility. You want to get more business in the door. We can help.</h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000">We create digital experiences.</h2>
+            <h4 data-aos="fade-up" data-aos-duration="1000">You want to build credibility. You want to get more business in the door. We can help.</h4>
           </div>
         </div>
         <div class="row text-center cards">
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="web design grimsby, ontario"
-                src="~/img/grimsby-web-design.jpg"
+                alt="niagara wordpress web design"
+                src="~/img/niagara-wordpress-web-design.jpg"
                 class="img-fluid mx-auto d-block"
               />
               <h4>Website Design</h4>
               
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="seo grimsby ontario"
-                src="~/img/seo-grimsby-ontario.jpg"
+                alt="niagara wordpress development"
+                src="~/img/niagara-wordpress-development.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Website Development</h4>
+              <h4>WordPress Development</h4>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image alt="internet marketing grimsby ontario" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
               <h4>SEO Internet Marketing</h4>
@@ -56,7 +56,7 @@
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top tier web design, internet marketing and SEO company in Grimsby, Ontario, we build
+              As a top tier WordPress website design and development agency in Niagara, Ontario, we build
               <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and
               <strong>
                 actually bring you
@@ -74,13 +74,13 @@
     </section>
 
     <!--Featured-->
-    <section class="featured">
+    <section class="featured" data-aos="fade-in" data-aos-duration="1000">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>Featured Website Design &amp; SEO Project</h2>
+            <h2>Featured WordPress Website Design &amp; SEO Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"As a company near Grimsby, Ontario, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"As a company in Niagara, Ontario, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -88,14 +88,14 @@
         </div>
         <!--Image-->
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
             <g-image
               alt="Niagara best web development company"
               src="~/img/niagara-best-web-designers.jpg"
               class="img-fluid"
             />
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-deloay="500">
             <h3>Before</h3>
             <ul>
               <li>Zero sales from website</li>
@@ -123,7 +123,7 @@
     </section>
 
     <!--Process-->
-    <section class="process">
+    <section class="process" data-aos="fade-in" data-aos-duration="1000">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -163,7 +163,7 @@
     </section>
 
     <!--CTA-->
-    <section class="cta">
+    <section class="cta" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Website Design, SEO, Development in Grimsby, ON",
+    title: "Niagara WordPress Website Design &amp; Development",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Website design, SEO, Development and internet marketing in Grimsby, ON. At Infused Agency, we build your reputation, credibility and bring in more sales online."
+          "Niagara WordPress Website Design &amp; Development. At Infused Agency, we build your reputation, credibility and bring in more sales online."
       }
     ]
   }
