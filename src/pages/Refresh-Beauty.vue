@@ -32,6 +32,7 @@
           <div class="col-lg-12">
             <h2>Result</h2>
             <p>With Refresh Beauty's new website up and running, they now have a modern and cleanly designed online prescence, that is mobile-friendly and indexed by Google. This has been amazing for our client, as it as built credibility and trust in her brand. She's received many referrals solely based on her newly designed website.</p>
+            <a href="http://refreshbeauty.ca/" target="_blank"><button class="btn btn-primary">View Website</button></a>
           </div>
         </div>
       </div>

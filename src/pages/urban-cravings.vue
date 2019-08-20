@@ -32,6 +32,8 @@
           <div class="col-lg-12">
             <h2>Result</h2>
             <p>With Urban Craving's new website up and running, after a few months of <g-link to="/seo">SEO efforts</g-link>, they rank #1 in a few different cities for multiple keywords on Google. These cities include Niagara, St. Catharines and more. This means that they get inbound leads without having to lift a finger.</p>
+            <a href="http://urbancravings.ca/" target="_blank"><button class="btn btn-primary">View Website</button></a>
+            <br><br>
             <p>Here's a screenshot below :</p>
             <g-image alt="urban cravings results" src="~/img/urban-results.jpg" class="img-fluid" />
           </div>

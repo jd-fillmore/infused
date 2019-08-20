@@ -32,6 +32,7 @@
           <div class="col-lg-12">
             <h2>Result</h2>
             <p>With Sanko Construction's new website up and running, this has made a very large impact on his brand's overall trust and credibility to owners that are potentially interested in hiring them for landscaping jobs. He continues to have his calendar filled up, a big part in thanks to his new website design.</p>
+            <a href="http://sankoconstruction.ca/" target="_blank"><button class="btn btn-primary">View Website</button></a>
           </div>
         </div>
       </div>

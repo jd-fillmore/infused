@@ -34,6 +34,9 @@
           <div class="col-lg-12">
             <h2>Result</h2>
             <p>With Mark's new website up and running, after a few months of <g-link to="/seo">SEO efforts</g-link>, he ranks #1 in multiple cities for multiple keywords on Google. These cities include Grimsby, Hamilton, Welland, Brantford and more.</p>
+            <a href="https://canadianmortgageauthority.com/" target="_blank"><button class="btn btn-primary">View Website</button></a>
+            <br>
+            <br>
             <p>Here's a screenshot below :</p>
             <g-image alt="canadian mortgage authority results" src="~/img/cma-results.jpg" class="img-fluid" />
           </div>

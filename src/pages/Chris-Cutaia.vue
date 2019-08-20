@@ -32,6 +32,7 @@
           <div class="col-lg-12">
             <h2>Result</h2>
             <p>With Chris' new website up and running, he now has a website that he can not only be proud of, but one that represents him locally. This has been imperative in bringing him in local leads, and his business continues to flourish because of it.</p>
+            <a href="http://www.chriscutaia.ca/" target="_blank"><button type="button" class="btn btn-primary">View Website</button></a>
           </div>
         </div>
       </div>

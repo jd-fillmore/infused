@@ -13,14 +13,16 @@ import 'bootstrap-vue/dist/bootstrap-vue.min.css'
 // Import Bootstrap JS
 import 'bootstrap-vue/dist/bootstrap-vue.min.js'
 // Import AOS
-// import AOS from 'aos';
-// import 'aos/dist/aos.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 // require('typeface-source-sans-pro')
 
 export default function (Vue, { router, head, isClient }) {
   // AOS
-  // Vue.use(AOS.init());
+  if (process.isClient) {
+    AOS.init()
+  }
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
   // Footer
