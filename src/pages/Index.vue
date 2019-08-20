@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara WordPress Website Design</h1>
+            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara WordPress Web Design &amp; Internet Marketing</h1>
             <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We create websites that drive brands upward and infuse business growth.</h2>
             <g-link to="/contact">
               <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
@@ -32,7 +32,7 @@
                 src="~/img/niagara-wordpress-web-design.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Website Design</h4>
+              <h4>Web Design</h4>
               
             </div>
           </div>
@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara WordPress Website Design &amp; Development",
+    title: "Niagara WordPress Web Design & Internet Marketing",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara WordPress Website Design &amp; Development. At Infused Agency, we build your reputation, credibility and bring in more sales online."
+          "Niagara WordPress Web Design & Internet Marketing. Infused Agency, we build your reputation, credibility and bring in more sales online."
       }
     ]
   }
