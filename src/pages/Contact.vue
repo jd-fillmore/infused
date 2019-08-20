@@ -6,7 +6,7 @@
         <div class="row text-center">
           <div class="col-md-12">
           <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Contact</h1>
-          <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">Want more sales from your website? Connect with us</p>
+          <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">Want more sales from your website? Connect with us!</p>
           </div>
         </div>
       </div>
