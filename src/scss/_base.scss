@@ -49,11 +49,8 @@ $orange: #dc4225;
 
 /*-----------------------General----------------------*/
 
-html, body {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
 h1,h2,h3,h4,h5,h6 {
+	font-family: "Poppins", sans-serif;
   color: $primary;
 	line-height: 1.6;
 	margin-bottom: 20px;
@@ -109,6 +106,7 @@ h6 {
 }
 
 ul,ol,p {
+	font-family: "Open Sans", sans-serif;
   color: $light-blue;
   line-height: 1.8;
   font-size: 18px;

@@ -19,7 +19,12 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
   // Footer
-  Vue.component('Footer', Footer)
+  Vue.component('Footer', Footer),
+  // Google Fonts
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Open+Sans|Poppins'
+  })
   // Import bootstrap
   Vue.use(BootstrapVue)
 }

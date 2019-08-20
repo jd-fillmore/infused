@@ -3,10 +3,10 @@
     <!--Hero-->
     <section class="hero">
       <div class="container">
-        <div class="row">
+        <div class="row text-center">
           <div class="col-lg-12">
-            <h1>St Catharines Web Design</h1>
-            <h2>Websites and digital sales funnels that improve your credibility and increase your sales.</h2>
+            <h1>WordPress Website Design, SEO and Internet Marketing in Grimsby, Ontario</h1>
+            <h2>We create websites that drive brands upward and infuse business growth.</h2>
             <g-link to="/contact">
               <button type="button" class="btn btn-primary">Learn How</button>
             </g-link>
@@ -20,42 +20,43 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>A St Catharines Web Design Company That's Here To Help</h2>
-            <h4>You want to build credibility. You want to get more business in the door. Lets help you with that.</h4>
+            <h2>We create digital experiences.</h2>
+            <h4>You want to build credibility. You want to get more business in the door. We can help.</h4>
           </div>
         </div>
         <div class="row text-center cards">
           <div class="col-lg-4">
             <div class="card">
               <g-image
-                alt="st catharines web design"
-                src="~/img/st-catharines-web-design.jpg"
+                alt="web design grimsby, ontario"
+                src="~/img/grimsby-web-design.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>100+ websites &amp; digital strategies created</h4>
+              <h4>Website Design</h4>
+              
             </div>
           </div>
           <div class="col-lg-4">
             <div class="card">
               <g-image
-                alt="Niagara digital strategy"
-                src="~/img/niagara-digital-strategy.jpg"
+                alt="seo grimsby ontario"
+                src="~/img/seo-grimsby-ontario.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>$1,000,000+ profits for our clients</h4>
+              <h4>Website Development</h4>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="card">
-              <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-              <h4>Free SSL + SEO Framework included</h4>
+              <g-image alt="internet marketing grimsby ontario" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <h4>SEO Internet Marketing</h4>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top tier St Catharines web design company, we build
+              As a top tier web design, internet marketing and SEO company in Grimsby, Ontario, we build
               <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and
               <strong>
                 actually bring you
@@ -63,10 +64,10 @@
               </strong>.
             </p>
             <p>
-              We do our best web development, strategy and design work when working with businesses that
+              We do our best web development, SEO, internet marketing and design work when working with businesses that
               <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
             </p>
-            <p>Discovery > Strategy > Design > Development > Promotion. As your St Catharines web design company, We help you every step of the way.</p>
+            <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
           </div>
         </div>
       </div>
@@ -77,9 +78,9 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>Featured St Catharines Web Design Project</h2>
+            <h2>Featured Website Design &amp; SEO Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"As a company near St Catharines, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"As a company near Grimsby, Ontario, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -189,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "St Catharines Web Design",
+    title: "Website Design, SEO, Development in Grimsby, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "St Catharines web design. At Infused Agency, we offer the best web design company to help build your reputation, credibility and bring in more sales online."
+          "Website design, SEO, Development and internet marketing in Grimsby, ON. At Infused Agency, we build your reputation, credibility and bring in more sales online."
       }
     ]
   }
