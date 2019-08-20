@@ -128,21 +128,21 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Our Process</h2>
-            <p>A simple web design process for your St Catharines-based company:</p>
+            <p>A simple web design process for your Niagara-based company:</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <h3>1. Discovery</h3>
-            <p>What's holding your St Catharines-based business back from growing? What do you expect to get out of web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+            <p>What's holding your Niagara-based business back from growing? What do you expect to get out of WordPress web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
           </div>
           <div class="col-lg-4">
             <h3>2. Plan</h3>
-            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your St Catharines web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
+            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your Niagara WordPress web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
           </div>
           <div class="col-lg-4">
             <h3>3. Design</h3>
-            <p>This is the fun part. We will produce a unique web design that powers and infuses your online presence as a whole. Your St Catharines web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
+            <p>This is the fun part. We will produce a unique WordPress web design that powers and infuses your online presence as a whole. Your Niagara WordPress web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
           </div>
         </div>
         <div class="row">
