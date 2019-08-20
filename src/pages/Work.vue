@@ -38,7 +38,8 @@
             <g-link to="/sanko-construction"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
           </div>
           <div class="col-lg-4">
-            &nbsp;
+            <g-image alt="holly oaks" src="~/img/hollyoaks.jpg" class="img-fluid" />
+            <g-link to="/holly-oaks"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
           </div>
         </div>
       </div>
@@ -52,8 +53,17 @@
 @import "../scss/_base.scss";
 
 #work {
+  img {
+    width: 100%;
+    @include bp-tablet-sm {
+      margin-top: 20px;
+    }
+  }
   .two {
     margin-top: 30px;
+    @include bp-tablet-sm {
+      margin-top: 0px;
+    }
   }
   button {
     width: 100%;
