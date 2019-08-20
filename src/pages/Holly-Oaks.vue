@@ -33,7 +33,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Result</h2>
-            <p>With Mark's new website up and running, after a few months of <g-link to="/seo">SEO efforts</g-link>, he ranks #1 in multiple cities for multiple keywords on Google. These cities include Grimsby, Hamilton, Welland, Brantford and more.</p>
+            <p>With their new website up and running, after a few months of <g-link to="/seo">SEO efforts</g-link>, they rank #1 in multiple cities for multiple keywords on Google. This helps them bring in more clientele without having to spend money on advertising.</p>
             <a href="https://hollyoaks.ca/" target="_blank"><button class="btn btn-primary">View Website</button></a>
             <br>
             <br>
