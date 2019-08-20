@@ -19,6 +19,8 @@ import 'aos/dist/aos.css'
 // require('typeface-source-sans-pro')
 
 export default function (Vue, { router, head, isClient }) {
+  // AOS
+  Vue.use(AOS.init());
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
   // Footer
@@ -28,8 +30,6 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Open+Sans|Poppins'
   }),
-  // AOS
-  Vue.use(AOS.init());
   // Import bootstrap
   Vue.use(BootstrapVue)
 }
