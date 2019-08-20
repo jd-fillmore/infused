@@ -17,6 +17,9 @@
 				<i class="fas fa-phone"></i><a href="tel:(905) 933 - 3115">(905) 933 - 3115</a>
 				<br>
 				<i class="far fa-envelope"></i><a href="mailto:jd@infused.agency">jd@infused.agency</a>
+				<br><br>
+				<a class="insta" href="https://instagram.com/infused.agency" target="_blank"><font-awesome :icon="['fab', 'instagram']" /></a>
+				<a href="https://www.facebook.com/infused.agency/" target="_blank"><font-awesome :icon="['fab', 'facebook']" /></a>
 			</div>
 		</div>
 		<div class="row copy">
@@ -46,6 +49,9 @@ footer {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+	.svg-inline--fa {
+		font-size: 20px;
+	}
   p {
     &.title {
       font-weight: bold;
@@ -58,6 +64,9 @@ footer {
 	}
 	a {
 		color: $dark-blue;
+		&.insta {
+			margin-right: 10px;
+		}
 	}
 }
 
