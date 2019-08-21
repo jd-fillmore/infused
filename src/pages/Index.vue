@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara WordPress Web Design &amp; Internet Marketing</h1>
+            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Infused Agency</h1>
             <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We create websites that drive brands upward and infuse business growth.</h2>
             <g-link to="/contact">
               <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
@@ -28,8 +28,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="niagara wordpress web design"
-                src="~/img/niagara-wordpress-web-design.jpg"
+                alt="check one"
+                src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
               <h4>Web Design</h4>
@@ -39,24 +39,24 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="niagara wordpress development"
-                src="~/img/niagara-wordpress-development.jpg"
+                alt="check two"
+                src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>WordPress Development</h4>
+              <h4>Web Development</h4>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
-              <g-image alt="internet marketing grimsby ontario" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-              <h4>SEO Internet Marketing</h4>
+              <g-image alt="check three" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <h4>SEO</h4>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top tier WordPress website design and development agency in Niagara, Ontario, we build
+              As a top tier web design and development agency, we build
               <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and
               <strong>
                 actually bring you
@@ -64,7 +64,7 @@
               </strong>.
             </p>
             <p>
-              We do our best web development, SEO, internet marketing and design work when working with businesses that
+              We do our best ReactJS web development, SEO, and design work when working with businesses that
               <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
             </p>
             <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
@@ -78,9 +78,9 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>Featured WordPress Website Design &amp; SEO Project</h2>
+            <h2>Featured Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"As a company in Niagara, Ontario, we get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -128,21 +128,21 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Our Process</h2>
-            <p>A simple web design process for your Niagara-based company:</p>
+            <p>A simple web design process that gets you sales:</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <h3>1. Discovery</h3>
-            <p>What's holding your Niagara-based business back from growing? What do you expect to get out of WordPress web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+            <p>What's holding your business back from growing? What do you expect to get out of web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
           </div>
           <div class="col-lg-4">
             <h3>2. Plan</h3>
-            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your Niagara WordPress web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
+            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
           </div>
           <div class="col-lg-4">
             <h3>3. Design</h3>
-            <p>This is the fun part. We will produce a unique WordPress web design that powers and infuses your online presence as a whole. Your Niagara WordPress web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
+            <p>This is the fun part. We will produce a unique WordPress web design that powers and infuses your online presence as a whole. Your web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
           </div>
         </div>
         <div class="row">
@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara WordPress Web Design & Internet Marketing",
+    title: "Niagara ReactJS Web Development, Web Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara WordPress Web Design & Internet Marketing. Infused Agency, we build your reputation, credibility and bring in more sales online."
+          "Infused Agency is a Niagara-based web design, ReactJS web development and digital marketing agency. We build your reputation, credibility and bring you more sales online."
       }
     ]
   }
