@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Infused Agency</h1>
-            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We create affordable websites that drive brands upward and infuse business growth.</h2>
+            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara Web Designers & SEO Experts</h1>
+            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We build websites and digital sales funnels that bring you more business.</h2>
             <g-link to="/contact">
               <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
             </g-link>
@@ -28,8 +28,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="check one"
-                src="~/img/check.jpg"
+                alt="niagara web design"
+                src="~/img/niagara-web-design.jpg"
                 class="img-fluid mx-auto d-block"
               />
               <h4>Web Design</h4>
@@ -39,8 +39,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="check two"
-                src="~/img/check.jpg"
+                alt="niagara seo experts"
+                src="~/img/niagara-seo-experts.jpg"
                 class="img-fluid mx-auto d-block"
               />
               <h4>Web Development</h4>
@@ -48,7 +48,7 @@
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
-              <g-image alt="check three" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <g-image alt="niagara instagram marketing" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
               <h4>SEO</h4>
             </div>
           </div>
@@ -56,7 +56,7 @@
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top tier web design and development agency, we build
+              As top tier Niagara web design &amp; SEO experts we build
               <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and
               <strong>
                 actually bring you
@@ -64,7 +64,7 @@
               </strong>.
             </p>
             <p>
-              We do our best ReactJS web development, SEO, and design work when working with businesses that
+              Our Niagara web design &amp; SEO experts work best when working with businesses that
               <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
             </p>
             <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
@@ -78,9 +78,9 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>Featured Project</h2>
+            <h2>Featured Niagara Web Design &amp; SEO Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"We get so many emails and calls for new jobs through our site, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"With the new web design and SEO, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -98,13 +98,13 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-deloay="500">
             <h3>Before</h3>
             <ul>
-              <li>Zero sales from website</li>
+              <li>Zero Niagara sales from old website</li>
               <li>Poor trust and credibility to the public</li>
               <li>Wanted to do something about it</li>
             </ul>
             <h3>After</h3>
             <ul>
-              <li>Consistent sales solely from website</li>
+              <li>Consistent Niagara sales solely new website &amp; SEO</li>
               <li>Experiencing growth</li>
               <li>Doesn’t have to look for clients anymore</li>
             </ul>
@@ -128,35 +128,35 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Our Process</h2>
-            <p>A simple web design process that gets you sales:</p>
+            <p>A simple process that gets your Niagara business sales:</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <h3>1. Discovery</h3>
-            <p>What's holding your business back from growing? What do you expect to get out of web design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+            <p>What's holding your business back from growing? What do you expect to get out of your website? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
           </div>
           <div class="col-lg-4">
             <h3>2. Plan</h3>
-            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your web design plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
+            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your website plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
           </div>
           <div class="col-lg-4">
             <h3>3. Design</h3>
-            <p>This is the fun part. We will produce a unique WordPress web design that powers and infuses your online presence as a whole. Your web design will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
+            <p>This is the fun part. We will produce a unique website that powers and infuses your online presence as a whole. Your website will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <h3>4. Develop</h3>
-            <p>Once we have your web design approved and ready to go, it's time to step into the website development phase. Our web designers, as well as website developers will step in and create your high performance website, aimed to rank extremely well in Google's search engine. They will start adding content, uploading media, testing and more.</p>
+            <p>Once we have your website approved and ready to go, it's time to step into the website development phase. Our Niagara web design experts, as well as SEO experts will step in and create your high performance website, aimed to rank extremely well in Google's search engine. They will start adding content, uploading media, testing and more.</p>
           </div>
           <div class="col-lg-4">
             <h3>5. Launch</h3>
-            <p>One of the most important milestones in your project, is launching your new web design project. Our team will triple-check all of the content for any sort of spelling mistakes, make sure all links are working correctly, and lastly, making sure that's it shows up in Google searches.</p>
+            <p>One of the most important milestones in your project, is launching your new website project. Our team will triple-check all of the content for any sort of spelling mistakes, make sure all links are working correctly, and lastly, making sure that's it shows up in Google searches.</p>
           </div>
           <div class="col-lg-4">
             <h3>6. Promote</h3>
-            <p>At Infused, we believe that your web design project has just begun once the site has launched. You may have an amazing web design - but without traffic? It won't do anything for your business. The internet marketing aspect comes into play here and is the utmost important for your business to succeed.</p>
+            <p>At Infused, we believe that your website project has just begun once the site has launched. You may have an amazing website - but without traffic? It won't do anything for your business. The internet marketing aspect comes into play here and is the utmost important for your business to succeed.</p>
           </div>
         </div>
       </div>
@@ -170,14 +170,14 @@
             <h2>Are you looking to...</h2>
             <ul>
               <li>Get your website re-designed?</li>
-              <li>Get more sales?</li>
+              <li>Get more sales through SEO?</li>
               <li>Maximize profits?</li>
               <li>Never look for another project?</li>
             </ul>
           </div>
           <div class="col-lg-6">
             <p>Lets discuss what you need.</p>
-            <p>Email us today to book your free 30 minute consultation. We'll go over your current situation, and where you want to be.</p>
+            <p>Email us today to book your free consultation. We'll go over your current situation, and where you want to be.</p>
             <a rel="noopener" href="mailto:jd@infused.agency" target="_blank">jd@infused.agency</a>
           </div>
         </div>
@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara's Best Website Design & ReactJS Development Studio",
+    title: "Niagara Web Designers, SEO Experts & Instagram Marketing",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Infused Agency offers the best and most affordable web design and ReactJS development services in Niagara, ON. We build your reputation, credibility and bring you more sales online."
+          "Niagara experts in Web Design, Wordpress, Custom Websites, E-commerce, Search Engine Optimization, Digital Marketing and Instagram Marketing."
       }
     ]
   }
