@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara Web Designers & SEO Experts</h1>
+            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara Web Design & SEO Experts</h1>
             <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We build websites and digital sales funnels that bring you more business.</h2>
             <g-link to="/contact">
               <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
