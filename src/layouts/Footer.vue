@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-lg-4">
 				<p class="title">About</p>
-				<p>Infused Agency is a Niagara WordPress web design, website development, SEO and digital strategy company. We help local and non-local businesses build their credibility online, as well as help bring in more sales.</p>
+				<p>Infused Agency is a Niagara-based company specializing in ReactJS web development, web design, SEO and digital strategy. We help local and non-local businesses build their credibility online, as well as help bring in more sales.</p>
 			</div>
 			<div class="col-lg-4">
 				<p class="title">Office</p>
