@@ -6,7 +6,7 @@
         <div class="row text-center">
           <div class="col-lg-12">
             <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Infused Agency</h1>
-            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We create websites that drive brands upward and infuse business growth.</h2>
+            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We create affordable websites that drive brands upward and infuse business growth.</h2>
             <g-link to="/contact">
               <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
             </g-link>
@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara ReactJS Web Development, Web Design",
+    title: "Affordable Web Design Niagara | Infused Agency",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Infused Agency is a Niagara-based web design, ReactJS web development and digital marketing agency. We build your reputation, credibility and bring you more sales online."
+          "Infused Agency offers affordable web design services in Niagara, ON. We build your reputation, credibility and bring you more sales online."
       }
     ]
   }
