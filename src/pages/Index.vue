@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Affordable Web Design Niagara | Infused Agency",
+    title: "Niagara's Best Website Design & ReactJS Development Studio",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Infused Agency offers affordable web design services in Niagara, ON. We build your reputation, credibility and bring you more sales online."
+          "Infused Agency offers the best and most affordable web design and ReactJS development services in Niagara, ON. We build your reputation, credibility and bring you more sales online."
       }
     ]
   }
