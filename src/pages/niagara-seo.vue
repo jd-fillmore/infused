@@ -99,7 +99,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Best SEO Niagara | Search Engine Optimizaton Company",
+    title: "Best SEO Niagara",
     meta: [
       {
         key: "description",
