@@ -26,7 +26,7 @@
             <g-image alt="niagara seo" src="~/img/niagara-seo.jpg" class="img-fluid mx-auto d-block"/>
             <br><br>
             <p>
-              Are you struggling with driving traffic to your website? <strong>Niagara SEO</strong> is the single most important factor when generating online traffic and increasing sales on your website.
+              Are you struggling with driving traffic to your website? <strong>Niagara <a href="https://searchengineland.com/guide/what-is-seo" target="_blank">SEO</a></strong> is the single most important factor when generating online traffic and increasing sales on your website.
               <br><br>
               Like many other independent business owners, you are probably reading this because you made the big decision to promote your products or services online. You will soon come to realize that having an online presence alone will not drive sales through the roof—in fact, by launching your website, you are now competing against countless others who are offering the same products and services that you are.
               <br><br>
@@ -45,9 +45,9 @@
               <h2>SEO Niagara Case Study</h2>
               <br><br>
               <g-image alt="best niagara seo" src="~/img/best-niagara-seo.jpg" class="img-fluid mx-auto d-block"/>
-              <p>Urban Cravings came to us wanting to rank their website in Google, in order to gain new local customers. Once we designed and built their website for them, we knew we had to help them out! We did help their business out by utilizing our Niagara SEO package.</p>
-              <p>When a potential customer of theirs would type in "salad bar niagara", they wanted to be the first to show up in the #1 spot in Google. In order to do so, we needed to help them with using one of your SEO Niagara packages.</p>
-              <p>As you can see below, their Niagara SEO results are astounding. Their SEO is so good at this point, that they get tons of customers all of Niagara coming into their shop. Thanks to SEO, this company has grown so much in Niagara over the past couple of years.</p>
+              <p><a href="/urban-cravings">Urban Cravings</a> came to us wanting to rank their website in Google, in order to gain new local customers. Once we designed and built their website for them, we knew we had to help them out! We did help their business out by utilizing our Niagara <a href="/seo">SEO</a> package.</p>
+              <p>When a potential customer of theirs would type in "salad bar niagara", they wanted to be the first to show up in the <a href="https://www.searchenginejournal.com/seo-guide/" target="_blank">#1 spot in Google</a>. In order to do so, we needed to help them with using one of your SEO Niagara packages.</p>
+              <p>As you can see below, their <a href="/seo">Niagara SEO</a> results are astounding. Their SEO is so good at this point, that they get tons of customers all of Niagara coming into their shop. Thanks to SEO, this company has grown so much in Niagara over the past couple of years.</p>
               <g-image alt="urban cravings niagara seo" src="~/img/urban-results.jpg" class="img-fluid mx-auto d-block"/>
             </div>
           </div>
@@ -89,7 +89,7 @@
           </div>
         </div>
       </section>
-      <br><br>
+      <br><br><br>
     </section>
 
     <Footer></Footer>
@@ -99,7 +99,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara SEO | Affordable SEO Services Niagara",
+    title: "Best SEO Niagara | Search Engine Optimizaton Company",
     meta: [
       {
         key: "description",
