@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara Web Design & SEO Experts</h1>
+            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara's Best Web Designers</h1>
             <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We build websites and digital sales funnels that bring you more business.</h2>
             <g-link to="/contact">
               <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
@@ -20,7 +20,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2 data-aos="fade-up" data-aos-duration="1000">We create digital experiences.</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000">A results-driven Niagara web design company</h2>
             <h4 data-aos="fade-up" data-aos-duration="1000">You want to build credibility. You want to get more business in the door. We can help.</h4>
           </div>
         </div>
@@ -78,9 +78,9 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>Featured Niagara Web Design &amp; SEO Project</h2>
+            <h2>Featured Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"With the new web design and SEO, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"With the new website design and SEO, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -134,7 +134,7 @@
         <div class="row">
           <div class="col-lg-4">
             <h3>1. Discovery</h3>
-            <p>What's holding your business back from growing? What do you expect to get out of your website? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+            <p>What's holding your business back from growing? What do you expect to get out of your website design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
           </div>
           <div class="col-lg-4">
             <h3>2. Plan</h3>
@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Designers, SEO Experts & Instagram Marketing",
+    title: "Niagara Web Design, Web Developers and SEO experts!",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara experts in Web Design, Wordpress, Custom Websites, E-commerce, Search Engine Optimization, Digital Marketing and Instagram Marketing."
+          "Niagara experts in Web Design, Wordpress, Custom Websites, E-commerce, Search Engine Optimization (SEO) and Digital Marketing."
       }
     ]
   }
