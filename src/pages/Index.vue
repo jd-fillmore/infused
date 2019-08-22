@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Infused Agency",
+    title: "Infused Agency | Web Design & Development | Niagara, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Infused Agency are experts in Web Design, Wordpress, Custom Websites, E-commerce, Search Engine Optimization (SEO) and Digital Marketing."
+          "Infused Agency is a web design & development agency in Niagara, specializing in Web Design, Wordpress, Custom Websites, E-commerce, Search Engine Optimization (SEO) and Digital Marketing."
       }
     ]
   }
