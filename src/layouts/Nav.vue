@@ -54,6 +54,7 @@ query {
     }
   }
   .nav__link {
+    font-family: "Poppins", sans-serif;
     padding-right: 20px !important;
     padding-left: 20px !important;
     &:hover, &:focus {
