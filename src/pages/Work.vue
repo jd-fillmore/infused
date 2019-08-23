@@ -38,8 +38,9 @@
             <g-link to="/sanko-construction"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="holly oaks" src="~/img/hollyoaks.jpg" class="img-fluid" />
-            <g-link to="/holly-oaks"><button type="submit" class="btn btn-primary">View Case Study</button></g-link>
+            &nbsp;
+            <!-- <g-image alt="holly oaks" src="~/img/hollyoaks.jpg" class="img-fluid" />
+            <g-link to="/holly-oaks"><button type="submit" class="btn btn-primary">View Case Study</button></g-link> -->
           </div>
         </div>
       </div>
