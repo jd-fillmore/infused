@@ -20,7 +20,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2 data-aos="fade-up" data-aos-duration="1000">Increase website conversions, increased sales.</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Increase website traffic, conversions, and sales.</h2>
             <h4 data-aos="fade-up" data-aos-duration="1000">Your current website doesn't bring in sales. We can help.</h4>
           </div>
         </div>
@@ -39,17 +39,17 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="web design optimization"
+                alt="niagara increase website traffic"
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Increase Conversions</h4>
+              <h4>Increase Traffic</h4>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
-              <g-image alt="check three" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-              <h4>Free Website Audits</h4>
+              <g-image alt="niagara increase website conversions" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <h4>Increase Conversions</h4>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
               Our web design &amp; digital marketing experts work best when working with businesses that
               <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
             </p>
-            <p>Our website optimization help increase website conversions, which lead to more revenue for you. We help you every step of the way.</p>
+            <p>Our website optimization helps increase website conversions, increase website traffic and ultimate increases your sales from yoru website. We help you every step of the way.</p>
           </div>
         </div>
       </div>
@@ -104,9 +104,9 @@
             </ul>
             <h3>After</h3>
             <ul>
-              <li>Consistent sales solely new website</li>
+              <li>Increased website traffic</li>
               <li>Increased website conversions</li>
-              <li>Doesn’t have to look for clients anymore</li>
+              <li>Increased sales</li>
             </ul>
           </div>
         </div>
