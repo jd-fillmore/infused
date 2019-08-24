@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Increase Website Conversions, Web Design Optimization | Niagara, ON",
+    title: "Increase Website Traffic & Conversions, Web Design Optimization | Niagara, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Infused Agency is a web design & development agency in Niagara, specializing in helping businesses increase website conversions and web design optimization."
+          "Infused Agency is a web design & development agency in Niagara, specializing in helping businesses increase website traffic, conversions and web design optimization."
       }
     ]
   }
