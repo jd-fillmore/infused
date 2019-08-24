@@ -6,7 +6,7 @@
         <div class="row text-center">
           <div class="col-lg-12">
             <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Infused Agency</h1>
-            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We build websites and digital sales funnels that bring you more business.</h2>
+            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We optimize your website to bring you more revenue.</h2>
             <g-link to="/contact">
               <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
             </g-link>
@@ -20,43 +20,43 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2 data-aos="fade-up" data-aos-duration="1000">We create digital experiences.</h2>
-            <h4 data-aos="fade-up" data-aos-duration="1000">You want to build credibility. You want to get more business in the door. We can help.</h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Increase website conversions, increased sales.</h2>
+            <h4 data-aos="fade-up" data-aos-duration="1000">Your current website doesn't bring in sales. We can help.</h4>
           </div>
         </div>
         <div class="row text-center cards">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="check one"
+                alt="niagara increase website conversions"
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Web Design</h4>
+              <h4>Website Optimization</h4>
               
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="check two"
+                alt="web design optimization"
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Web Development</h4>
+              <h4>Increase Conversions</h4>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image alt="check three" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-              <h4>SEO</h4>
+              <h4>Free Website Audits</h4>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top-tier web design and digital marketing company, we build
+              As a top-tier web design and website optimization company, we build
               <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and
               <strong>
                 actually bring you
@@ -67,7 +67,7 @@
               Our web design &amp; digital marketing experts work best when working with businesses that
               <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
             </p>
-            <p>Discovery > Strategy > Design > Development > Promotion. We help you every step of the way.</p>
+            <p>Our website optimization help increase website conversions, which lead to more revenue for you. We help you every step of the way.</p>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
           <div class="col-lg-12">
             <h2>Featured Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"With the new website design and digital marketing, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"With the new web design optimization, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -105,7 +105,7 @@
             <h3>After</h3>
             <ul>
               <li>Consistent sales solely new website</li>
-              <li>Experiencing growth</li>
+              <li>Increased website conversions</li>
               <li>Doesn’t have to look for clients anymore</li>
             </ul>
           </div>
@@ -190,13 +190,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Infused Agency | Web Design & Development | Niagara, ON",
+    title: "Increase Website Conversions, Web Design Optimization | Niagara, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Infused Agency is a web design & development agency in Niagara, specializing in Web Design, Wordpress, Custom Websites, E-commerce, Search Engine Optimization (SEO) and Digital Marketing."
+          "Infused Agency is a web design & development agency in Niagara, specializing in helping businesses increase website conversions and web design optimization."
       }
     ]
   }
