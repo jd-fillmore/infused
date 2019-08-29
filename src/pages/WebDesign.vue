@@ -112,7 +112,7 @@
                 <li>Re-design at 24 months</li>
               </ul>
               <h3 class="price"><strong><sup>$</sup>199.99</strong></h3>
-              <p class="price-text">price per month, 24 month contract</p>
+              <p class="price-text">price per month, 24 month contract. <br>6-8 week turn-around.</p>
             </div>
           </div>
           <div class="col-lg-4">
@@ -138,7 +138,7 @@
                 <li>Custom CMS</li>
               </ul>
               <h3 class="price"><strong><sup>$</sup>299.99</strong></h3>
-              <p class="price-text">price per month, 24 month contract</p>
+              <p class="price-text">price per month, 24 month contract. <br>10-12 week turn-around.</p>
             </div>
           </div>
         </div>
