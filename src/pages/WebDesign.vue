@@ -63,6 +63,88 @@
       </div>
     </section>
 
+    <!--Pricing-->
+    <section class="pricing">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h2>Pricing</h2>
+          </div>
+        </div>
+        <div class="row cards">
+          <div class="col-lg-4">
+            <div class="card text-center">
+              <h4>Starter Package</h4>
+              <p>Perfect for newcomers.</p>
+              <ul>
+                <li>3 pages</li>
+                <li>Responsive / Mobile-Friendly</li>
+                <li>Template design</li>
+                <li>6-70 Page Speed Score</li>
+                <li>SSL Security</li>
+                <li>Click to call on mobile</li>
+                <li>Google Analytics</li>
+                <li>1 Social Media Link</li>
+              </ul>
+              <h3 class="price"><strong><sup>$</sup>99.99</strong></h3>
+              <p class="price-text">price per month, 24 month contract. <br>2-4 week turn-around.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card text-center lead-gen">
+              <h4>Lead-Gen Package</h4>
+              <p>Attracts new business.</p>
+              <ul>
+                <li class="first">Most Popular</li>
+                <li>10 pages</li>
+                <li>Optimized to generate leads</li>
+                <li>Responsive / Mobile-Friendly</li>
+                <li>SEO Optimization</li>
+                <li>Strong call-to-actions</li>
+                <li>Custom design</li>
+                <li>90-100 Page Speed Score</li>
+                <li>Keyword-optimized</li>
+                <li>SSL Security</li>
+                <li>Click to call on mobile</li>
+                <li>Google Analytics</li>
+                <li>Google Search Console</li>
+                <li>2 Social Media Links</li>
+                <li>Re-design at 24 months</li>
+              </ul>
+              <h3 class="price"><strong><sup>$</sup>199.99</strong></h3>
+              <p class="price-text">price per month, 24 month contract</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card text-center">
+              <h4>Enterprise Package</h4>
+              <p>National growth.</p>
+              <ul>
+                <li>20 pages</li>
+                <li>5 SEO landing pages</li>
+                <li>Optimized to generate leads</li>
+                <li>Responsive / Mobile-Friendly</li>
+                <li>SEO Optimization</li>
+                <li>Strong call-to-actions</li>
+                <li>Custom design</li>
+                <li>100 Page Speed Score</li>
+                <li>Keyword-optimized</li>
+                <li>SSL Security</li>
+                <li>Click to call on mobile</li>
+                <li>Google Analytics</li>
+                <li>Google Search Console</li>
+                <li>3 Social Media Links</li>
+                <li>Re-design at 24 months</li>
+                <li>Custom CMS</li>
+              </ul>
+              <h3 class="price"><strong><sup>$</sup>299.99</strong></h3>
+              <p class="price-text">price per month, 24 month contract</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--CTA-->
     <section class="pdf">
      <div class="container">
@@ -85,8 +167,8 @@
 <style scoped lang="scss">
 @import "../scss/_base.scss";
 
-// Intro
-.intro {
+// Intro / Pricing
+.intro, .pricing {
   background: $light-grey;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -99,6 +181,7 @@
       display: flex;
     }
     .card {
+      width: 100%;
       padding: 30px;
       border: none;
       box-shadow: 0px 20px 100px #EDEFF2;
@@ -129,6 +212,40 @@
   }
   img {
     margin-bottom: 60px;
+  }
+}
+
+// Pricing
+.pricing {
+  .lead-gen {
+      box-shadow: 0px 20px 100px #c7c7c7 !important;
+          transform: translate3D(0, -5px, 0) !important;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    li {
+      border-bottom: #c7c7c7 1px solid;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      &.first {
+        background: #2b83e0;
+        color: #fff;
+        border-bottom: none;
+      }
+    }
+  }
+  h3 {
+    &.price {
+      margin-top: 20px;
+    }
+  }
+  p {
+    &.price-text {
+      margin-top: -20px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
   }
 }
 
