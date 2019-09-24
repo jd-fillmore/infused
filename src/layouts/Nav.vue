@@ -3,8 +3,12 @@
     <div>
       <b-navbar class="fixed-top" toggleable="lg" type="light">
         <b-navbar-brand>
-          <g-link class="nav__link navbar-brand" to="/" title="Niagara Web Design">
-            <g-image alt="niagara web design" src="~/img/niagara-web-design.jpg" class="img-fluid" />
+          <g-link class="nav__link navbar-brand" to="/" title="affordable web design in niagara on">
+            <g-image
+              alt="niagara web design"
+              src="~/img/affordable-web-design-in-niagara-on.jpg"
+              class="img-fluid"
+            />
           </g-link>
         </b-navbar-brand>
 

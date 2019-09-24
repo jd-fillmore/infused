@@ -5,7 +5,11 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara Web Design</h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >Affordable Web Design in Niagara, ON</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
@@ -33,7 +37,7 @@
             <h2
               data-aos="fade-up"
               data-aos-duration="1000"
-            >Increase website traffic, conversions, and sales.</h2>
+            >Increase website sales, the affordable way.</h2>
             <h4
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -205,13 +209,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Top Web Designer in Niagara, ON",
+    title: "Affordable Web Design in Niagara, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Leading web design and development firm in Niagara, specializing in helping businesses increase website traffic, conversions and web design optimization."
+          "Affordable web design and development agency in Niagara, specializing in helping businesses increase website traffic, conversions and web design optimization."
       }
     ]
   }
