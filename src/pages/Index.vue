@@ -5,10 +5,20 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Infused Agency</h1>
-            <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">We optimize your website to bring you more revenue.</h2>
+            <h1 data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Niagara Web Design</h1>
+            <h2
+              data-aos="fade-up"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+            >We optimize your web design to bring you more revenue.</h2>
             <g-link to="/contact">
-              <button data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" type="button" class="btn btn-primary">Learn How</button>
+              <button
+                data-aos="fade-in"
+                data-aos-delay="1000"
+                data-aos-duration="1000"
+                type="button"
+                class="btn btn-primary"
+              >Learn How</button>
             </g-link>
           </div>
         </div>
@@ -20,8 +30,14 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2 data-aos="fade-up" data-aos-duration="1000">Increase website traffic, conversions, and sales.</h2>
-            <h4 data-aos="fade-up" data-aos-duration="1000">Your current website doesn't bring in sales. We can help.</h4>
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >Increase website traffic, conversions, and sales.</h2>
+            <h4
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >Your current website doesn't bring in sales. We can help.</h4>
           </div>
         </div>
         <div class="row text-center cards">
@@ -33,7 +49,6 @@
                 class="img-fluid mx-auto d-block"
               />
               <h4>Website Optimization</h4>
-              
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
@@ -48,7 +63,11 @@
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
-              <g-image alt="niagara increase website conversions" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <g-image
+                alt="niagara increase website conversions"
+                src="~/img/check.jpg"
+                class="img-fluid mx-auto d-block"
+              />
               <h4>Increase Conversions</h4>
             </div>
           </div>
@@ -57,7 +76,7 @@
           <div class="col-lg-12">
             <p>
               As a top-tier web design and website optimization company, we build
-              <g-link to="/web-design">conversion-focused websites</g-link> that boost your credibility and
+              <g-link to="/web-design">conversion-focused websites</g-link>that boost your credibility and
               <strong>
                 actually bring you
                 <g-link to="/seo">more sales</g-link>
@@ -190,13 +209,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Increase Website Traffic & Conversions, Web Design Optimization | Niagara, ON",
+    title: "Top Web Designer in Niagara, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Infused Agency is a web design & development agency in Niagara, specializing in helping businesses increase website traffic, conversions and web design optimization."
+          "Leading web design and development firm in Niagara, specializing in helping businesses increase website traffic, conversions and web design optimization."
       }
     ]
   }
