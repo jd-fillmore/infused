@@ -44,8 +44,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="niagara increase website conversions"
-                src="~/img/check.jpg"
+                alt="niagara web design"
+                src="~/img/niagara-web-design.jpg"
                 class="img-fluid mx-auto d-block"
               />
               <h4>Website Optimization</h4>
@@ -54,7 +54,7 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="niagara increase website traffic"
+                alt="website design niagara"
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
@@ -64,7 +64,7 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image
-                alt="niagara increase website conversions"
+                alt="web developer niagara"
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
