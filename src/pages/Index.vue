@@ -43,11 +43,7 @@
         <div class="row text-center cards">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
-              <g-image
-                alt="niagara web design"
-                src="~/img/niagara-web-design.jpg"
-                class="img-fluid mx-auto d-block"
-              />
+              <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
               <h4>Website Optimization</h4>
             </div>
           </div>
