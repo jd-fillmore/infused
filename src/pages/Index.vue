@@ -9,12 +9,12 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >Affordable Web Design in Niagara, ON</h1>
+            >Best Niagara Web Design &amp; SEO Agency</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >We optimize your web design to bring you more revenue.</h2>
+            >We build websites that make your business money.</h2>
             <g-link to="/contact">
               <button
                 data-aos="fade-in"
@@ -83,10 +83,10 @@
               </strong>.
             </p>
             <p>
-              Our web design &amp; digital marketing experts work best when working with businesses that
+              Our website &amp; digital marketing experts work best when working with businesses that
               <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
             </p>
-            <p>Our website optimization helps increase website conversions, increase website traffic and ultimate increases your sales from yoru website. We help you every step of the way.</p>
+            <p>Our website optimization helps increase website conversions, increase website traffic and ultimate increases your sales from your website. We help you every step of the way.</p>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
           <div class="col-lg-12">
             <h2>Featured Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"With the new web design optimization, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"With the new website, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
@@ -167,7 +167,7 @@
         <div class="row">
           <div class="col-lg-4">
             <h3>4. Develop</h3>
-            <p>Once we have your website approved and ready to go, it's time to step into the website development phase. Our web design experts, as well as SEO experts will step in and create your high performance website, aimed to rank extremely well in Google's search engine. They will start adding content, uploading media, testing and more.</p>
+            <p>Once we have your website approved and ready to go, it's time to step into the website development phase. Our website experts, as well as SEO experts will step in and create your high performance website, aimed to rank extremely well in Google's search engine. They will start adding content, uploading media, testing and more.</p>
           </div>
           <div class="col-lg-4">
             <h3>5. Launch</h3>
@@ -209,13 +209,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Affordable Web Design in Niagara, ON",
+    title: "Best Niagara Web Design, St. Catharines, Welland",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Affordable web design and development agency in Niagara, specializing in helping businesses increase website traffic, conversions and web design optimization."
+          "The best Niagara web design agency, specializing in helping businesses increase website traffic, conversions and web development optimization."
       }
     ]
   }
