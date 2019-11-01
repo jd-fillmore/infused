@@ -5,12 +5,16 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">MC Aesthetics</h1>
+            <h1
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >Health &amp; Beauty Website Design</h1>
             <p
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="1000"
-            >Web Design, Development and Search Engine Optimization</p>
+            >Custom website design, website development and search engine optimization (SEO) for a healthy and beauty company.</p>
           </div>
         </div>
       </div>
@@ -30,7 +34,7 @@
             <p>We talked with Melissa. We discussed how we'd approach the web design, the build itself (using a more powerful platform versus using WordPress), and going over her search engine optimization (SEO) strategy with her. Her new web design below:</p>
             <g-image
               alt="mc aesthestics new website"
-              src="~/img/mc-aesthetics-new.jpg"
+              src="~/img/health-beauty-website-design.jpg"
               class="img-fluid"
             />
           </div>
@@ -112,13 +116,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "MC Aesthetics Case Study",
+    title: "Healthy & Beauty Website Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "MC Aesthetics website was designed, developed and SEO'd by Infused Agency. Click here to view the case study."
+          "MC Aesthetics' healthy & beauty website design was made with SEO and development in mind by Infused. Click here to view the case study."
       }
     ]
   }

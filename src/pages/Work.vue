@@ -33,7 +33,7 @@
           </div>
           <div class="col-lg-4">
             <g-image alt="mc aesthetics" src="~/img/mc-aesthetics.jpg" class="img-fluid" />
-            <g-link to="/mc-aesthetics">
+            <g-link to="/health-beauty-web-design">
               <button type="submit" class="btn btn-primary">View Case Study</button>
             </g-link>
           </div>
