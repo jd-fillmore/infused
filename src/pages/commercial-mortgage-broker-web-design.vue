@@ -133,13 +133,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Commercial Mortgage Broker Website Design",
+    title: "Residential & Commercial Mortgage Broker Website Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "A commercial mortgage broker website design that ranks very high in the search engines! Click here to view the case study."
+          "A residential & commercial mortgage broker website design that ranks very high in the search engines! Click here to view the case study."
       }
     ]
   }
