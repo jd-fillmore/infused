@@ -6,7 +6,11 @@
         <div class="row text-center">
           <div class="col-lg-12">
             <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Web Design</h1>
-            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">Designed and developed with sales generation and conversion in mind</p>
+            <p
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >Designed and developed with sales generation and conversion in mind</p>
           </div>
         </div>
       </div>
@@ -46,18 +50,30 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <g-image alt="sanko construction responsive" src="~/img/sanko-construction-responsive.jpg" class="img-fluid mx-auto d-block" />
+            <g-image
+              alt="sanko construction responsive"
+              src="~/img/residential-landscaping-website-design.jpg"
+              class="img-fluid mx-auto d-block"
+            />
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <p>As a leading web design company, you can count on us to design, build and marketing your business specifically. <br><br>We're different than other web design and marketing companies because they don't specialize, and know your industry.
-
-            <strong>We do.</strong> We've worked with numerous industries, and have been for years. We know what it takes to succeed online in many different niches.
+            <p>
+              As a leading web design company, you can count on us to design, build and marketing your business specifically.
+              <br />
+              <br />
+We're different than other web design and marketing companies because they don't specialize, and know your industry.
+              <strong>We do.</strong> We've worked with numerous industries, and have been for years. We know what it takes to succeed online in many different niches.
             </p>
           </div>
           <div class="col-md-6">
-            <p>We believe in partnering with you when it comes to your new website design. We sit down with you, have weekly meetings to make sure we're hitting your website design and development goals. You have touch points all the way from start to end. <br><br>We're also not afraid to share our expertise and guide you to the best possible website you can have, that <strong>generates sales.</strong></p>
+            <p>
+              We believe in partnering with you when it comes to your new website design. We sit down with you, have weekly meetings to make sure we're hitting your website design and development goals. You have touch points all the way from start to end.
+              <br />
+              <br />We're also not afraid to share our expertise and guide you to the best possible website you can have, that
+              <strong>generates sales.</strong>
+            </p>
           </div>
         </div>
       </div>
@@ -65,18 +81,20 @@
 
     <!--CTA-->
     <section class="pdf">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8">
-           <h2>Need a website that brings in projects?</h2>
-           <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
-         </div>
-         <div class="col-lg-4">
-           <g-link to="/contact"><button type="button" class="btn btn-primary">Book Now</button></g-link>
-         </div>
-       </div>
-     </div>
-   </section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2>Need a website that brings in projects?</h2>
+            <p>Book your free 30 minute consultation. We'll talk about exactly what you need.</p>
+          </div>
+          <div class="col-lg-4">
+            <g-link to="/contact">
+              <button type="button" class="btn btn-primary">Book Now</button>
+            </g-link>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <Footer></Footer>
   </Layout>
@@ -86,7 +104,8 @@
 @import "../scss/_base.scss";
 
 // Intro / Pricing
-.intro, .pricing {
+.intro,
+.pricing {
   background: $light-grey;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -102,12 +121,13 @@
       width: 100%;
       padding: 30px;
       border: none;
-      box-shadow: 0px 20px 100px #EDEFF2;
-      transition: .2s;
-      &:focus, &:hover {
+      box-shadow: 0px 20px 100px #edeff2;
+      transition: 0.2s;
+      &:focus,
+      &:hover {
         box-shadow: 0px 20px 100px #c7c7c7;
         transform: translate3D(0, -5px, 0);
-        transition: .2s;
+        transition: 0.2s;
       }
       @include bp-tablet {
         width: 100%;
@@ -136,8 +156,8 @@
 // Pricing
 .pricing {
   .lead-gen {
-      box-shadow: 0px 20px 100px #c7c7c7 !important;
-          transform: translate3D(0, -5px, 0) !important;
+    box-shadow: 0px 20px 100px #c7c7c7 !important;
+    transform: translate3D(0, -5px, 0) !important;
   }
   ul {
     list-style: none;
@@ -178,7 +198,8 @@
   .row {
     align-items: center;
   }
-  h2,p {
+  h2,
+  p {
     color: $white;
   }
   h2 {
@@ -192,18 +213,22 @@
     color: $dark-blue;
   }
 }
-
 </style>
 
 
 <script>
 export default {
   metaInfo: {
-    title: 'Web Design',
+    title: "Web Design",
     meta: [
-      { key: 'description', name: 'description', content: 'Infused offers website design & development tailored to your contractor business in order to help engage and convert your customers. Click here to learn how.' }
+      {
+        key: "description",
+        name: "description",
+        content:
+          "Infused offers website design & development tailored to your contractor business in order to help engage and convert your customers. Click here to learn how."
+      }
     ]
   }
-}
+};
 </script>
 

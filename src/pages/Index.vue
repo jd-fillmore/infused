@@ -109,8 +109,8 @@
         <div class="row">
           <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
             <g-image
-              alt="Niagara best web development company"
-              src="~/img/niagara-best-web-designers.jpg"
+              alt="small &amp; local business website design in niagara ON"
+              src="~/img/small-local-business-website-design-niagara.jpg"
               class="img-fluid"
             />
           </div>
