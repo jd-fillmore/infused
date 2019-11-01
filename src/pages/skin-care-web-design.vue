@@ -9,12 +9,12 @@
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="500"
-            >Health &amp; Beauty Website Design</h1>
+            >Skin Care Website Design</h1>
             <p
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="1000"
-            >Custom website design, website development and search engine optimization (SEO) for a healthy and beauty company.</p>
+            >Custom website design, website development and search engine optimization (SEO) for a skin care company.</p>
           </div>
         </div>
       </div>
@@ -33,8 +33,8 @@
             <h2>Solution</h2>
             <p>We talked with Melissa. We discussed how we'd approach the web design, the build itself (using a more powerful platform versus using WordPress), and going over her search engine optimization (SEO) strategy with her. Her new web design below:</p>
             <g-image
-              alt="healthy &amp; beauty website design"
-              src="~/img/health-beauty-website-design.jpg"
+              alt="skin care website design"
+              src="~/img/skin-care-website-design.jpg"
               class="img-fluid"
             />
           </div>
@@ -116,13 +116,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Healthy & Beauty Website Design",
+    title: "Skin Care Website Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "MC Aesthetics' healthy & beauty website design was made with SEO and development in mind by Infused. Click here to view the case study."
+          "MC Aesthetics' skin care website design was made with SEO and development in mind by Infused. Click here to view the case study."
       }
     ]
   }
