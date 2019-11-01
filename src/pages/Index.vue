@@ -9,12 +9,12 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >Best Niagara Web Design &amp; SEO Agency</h1>
+            >Small &amp; Local Business Website Design, Niagara ON</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >We build websites that make your business money.</h2>
+            >We build small and local website designs that make money.</h2>
             <g-link to="/contact">
               <button
                 data-aos="fade-in"
@@ -209,13 +209,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Best Niagara Web Design, St. Catharines, Welland",
+    title: "Small & Local Business Website Design | Niagara, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "The best Niagara web design agency, specializing in helping businesses increase website traffic, conversions and web development optimization."
+          "We build small & local business website designs, specializing in helping businesses increase website traffic and conversions. Based in Niagara, ON."
       }
     ]
   }
