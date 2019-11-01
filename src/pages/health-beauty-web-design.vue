@@ -33,7 +33,7 @@
             <h2>Solution</h2>
             <p>We talked with Melissa. We discussed how we'd approach the web design, the build itself (using a more powerful platform versus using WordPress), and going over her search engine optimization (SEO) strategy with her. Her new web design below:</p>
             <g-image
-              alt="mc aesthestics new website"
+              alt="healthy &amp; beauty website design"
               src="~/img/health-beauty-website-design.jpg"
               class="img-fluid"
             />
