@@ -26,8 +26,8 @@
             </g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="urban cravings" src="~/img/urban-cravings.jpg" class="img-fluid" />
-            <g-link to="/urban-cravings">
+            <g-image alt="alc interiors" src="~/img/alc-interiors.jpg" class="img-fluid" />
+            <g-link to="/interior-design-web-design">
               <button type="submit" class="btn btn-primary">View Case Study</button>
             </g-link>
           </div>
@@ -65,7 +65,12 @@
               <button type="submit" class="btn btn-primary">View Case Study</button>
             </g-link>
           </div>
-          <div class="col-lg-4">&nbsp;</div>
+          <div class="col-lg-4">
+            <g-image alt="urban cravings" src="~/img/urban-cravings.jpg" class="img-fluid" />
+            <g-link to="/urban-cravings">
+              <button type="submit" class="btn btn-primary">View Case Study</button>
+            </g-link>
+          </div>
           <div class="col-lg-4">&nbsp;</div>
         </div>
       </div>
