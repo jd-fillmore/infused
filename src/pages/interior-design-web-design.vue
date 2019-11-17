@@ -115,13 +115,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Residential & Commercial Mortgage Broker Website Design",
+    title: "Residential Interior Design Web Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "A residential & commercial mortgage broker website design that ranks very high in the search engines! Click here to view the case study."
+          "A residential interior design web design, created by Infused Agency to get results. Click here to view the case study."
       }
     ]
   }
