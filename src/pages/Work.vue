@@ -71,7 +71,12 @@
               <button type="submit" class="btn btn-primary">View Case Study</button>
             </g-link>
           </div>
-          <div class="col-lg-4">&nbsp;</div>
+          <div class="col-lg-4">
+            <g-image alt="mj dixon" src="~/img/mj-dixon.jpg" class="img-fluid" />
+            <g-link to="/architecture-firm-web-design">
+              <button type="submit" class="btn btn-primary">View Case Study</button>
+            </g-link>
+          </div>
         </div>
       </div>
     </section>
