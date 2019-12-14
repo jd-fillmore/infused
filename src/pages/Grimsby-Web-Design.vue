@@ -63,9 +63,9 @@
               </div>
               <div class="form-group">
                 <textarea
-                  name="Message"
+                  name="message"
                   class="form-control"
-                  id="textarea"
+                  id="Message"
                   rows="3"
                   placeholder="How can we help you?"
                 ></textarea>
