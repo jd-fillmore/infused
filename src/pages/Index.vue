@@ -14,15 +14,15 @@
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >We build small and local website designs that make money.</h2>
-            <g-link to="/contact">
+            >We'll build you a website that brings in business.</h2>
+            <g-link to="/work">
               <button
                 data-aos="fade-in"
                 data-aos-delay="1000"
                 data-aos-duration="1000"
                 type="button"
                 class="btn btn-primary"
-              >Learn How</button>
+              >View Results</button>
             </g-link>
           </div>
         </div>
@@ -196,8 +196,65 @@
           </div>
           <div class="col-lg-6">
             <p>Lets discuss what you need.</p>
-            <p>Email us today to book your free consultation. We'll go over your current situation, and where you want to be.</p>
-            <a rel="noopener" href="mailto:jd@infused.agency" target="_blank">jd@infused.agency</a>
+            <p>Fill out the form below and we'll get back to you ASAP.</p>
+            <form
+              name="contact"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <div class="form-group">
+                <input
+                  name="name"
+                  type="name"
+                  class="form-control"
+                  id="Name"
+                  aria-describedby="namehelp"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  id="Email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  name="company"
+                  type="name"
+                  class="form-control"
+                  id="Company"
+                  aria-describedby="companyname"
+                  placeholder="Company Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  name="url"
+                  type="name"
+                  class="form-control"
+                  id="URL"
+                  aria-describedby="urlhelp"
+                  placeholder="Website URL"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  class="form-control"
+                  id="Message"
+                  rows="3"
+                  placeholder="How can we help you?"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
+            </form>
           </div>
         </div>
       </div>

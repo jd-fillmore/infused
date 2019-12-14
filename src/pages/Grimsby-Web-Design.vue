@@ -49,7 +49,7 @@
                   id="Company"
                   aria-describedby="companyname"
                   placeholder="Company Name"
-                /> />
+                />
               </div>
               <div class="form-group">
                 <input
@@ -59,7 +59,7 @@
                   id="URL"
                   aria-describedby="urlhelp"
                   placeholder="Website URL"
-                /> />
+                />
               </div>
               <div class="form-group">
                 <textarea
