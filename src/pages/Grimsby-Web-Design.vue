@@ -17,29 +17,57 @@
           </div>
           <div class="col-lg-6">
             <form
-              name="contact-form"
+              name="quotesubmission"
               method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="First and Last Name" id="name" />
+                <input
+                  name="name"
+                  type="name"
+                  class="form-control"
+                  id="Name"
+                  aria-describedby="namehelp"
+                  placeholder="Full Name"
+                />
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email" id="email" />
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  id="Email"
+                  placeholder="Email"
+                />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Company Name" id="companyname" />
+                <input
+                  name="companyname"
+                  type="companyname"
+                  class="form-control"
+                  id="companyName"
+                  aria-describedby="companyname"
+                  placeholder="Company Name"
+                /> />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Website URL" id="url" />
+                <input
+                  name="url"
+                  type="url"
+                  class="form-control"
+                  id="url"
+                  aria-describedby="urlhelp"
+                  placeholder="Website URL"
+                /> />
               </div>
               <div class="form-group">
                 <textarea
+                  name="message"
                   class="form-control"
-                  id="exampleFormControlTextarea1"
-                  placeholder="How can we help you?"
+                  id="textarea"
                   rows="3"
+                  placeholder="How can we help you?"
                 ></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
