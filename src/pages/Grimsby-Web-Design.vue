@@ -3,13 +3,49 @@
     <!--Hero-->
     <section class="inner-hero">
       <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6">
             <h1>Grimsby Web Design</h1>
-            <p>
-              Email us for a free consultation -
-              <a href="mailto:jd@infused.agency">jd@infused.agency</a>
-            </p>
+            <h3>Are you looking to...</h3>
+            <ul>
+              <li>Get your website re-designed?</li>
+              <li>Get a new website that brings in business?</li>
+              <li>Get more sales through SEO?</li>
+              <li>Maximize profits?</li>
+            </ul>
+            <p>Please fill out the form and we'll get back to you as soon as possible.</p>
+          </div>
+          <div class="col-lg-6">
+            <form
+              name="contact-form"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="First and Last Name" id="name" />
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" id="email" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Company Name" id="companyname" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Website URL" id="url" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  placeholder="How can we help you?"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
+            </form>
           </div>
         </div>
       </div>
@@ -234,7 +270,8 @@ export default {
 <style scoped lang="scss">
 @import "../scss/_base.scss";
 .inner-hero {
-  a {
+  a,
+  ul {
     color: #fff;
   }
 }
