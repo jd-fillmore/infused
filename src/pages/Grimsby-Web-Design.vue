@@ -43,10 +43,10 @@
               </div>
               <div class="form-group">
                 <input
-                  name="companyname"
-                  type="companyname"
+                  name="company"
+                  type="name"
                   class="form-control"
-                  id="companyName"
+                  id="Company"
                   aria-describedby="companyname"
                   placeholder="Company Name"
                 /> />
@@ -54,16 +54,16 @@
               <div class="form-group">
                 <input
                   name="url"
-                  type="url"
+                  type="name"
                   class="form-control"
-                  id="url"
+                  id="URL"
                   aria-describedby="urlhelp"
                   placeholder="Website URL"
                 /> />
               </div>
               <div class="form-group">
                 <textarea
-                  name="message"
+                  name="Message"
                   class="form-control"
                   id="textarea"
                   rows="3"
