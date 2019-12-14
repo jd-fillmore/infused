@@ -17,7 +17,7 @@
           </div>
           <div class="col-lg-6">
             <form
-              name="quotesubmission"
+              name="contact"
               method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
