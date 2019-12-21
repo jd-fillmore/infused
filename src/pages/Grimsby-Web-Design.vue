@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h1>Grimsby Web Design</h1>
+            <h1>Grimsby Web Application Design & Development</h1>
             <h3>Are you looking to...</h3>
             <ul>
               <li>Get your website re-designed?</li>
@@ -87,7 +87,11 @@
           <div class="col-md-12">
             <br />
             <br />
-            <g-image alt="Grimsby web design" src="~/img/grimsby-web-design.jpg" class="img-fluid" />
+            <g-image
+              alt="Grimsby web design"
+              src="~/img/grimsby-web-application-design-development.jpg"
+              class="img-fluid"
+            />
             <p>
               If you're looking for a
               <a
@@ -282,13 +286,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Top Grimsby Web Design, Development, SEO Agency",
+    title: "Grimsby Web Application Design & Development",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "We're the top Grimsby web design, web development and search engine optimization agency (SEO) in Grimsby, Ontario. Click here for a quote!"
+          "Grimsby's best web application design & development company around. 10+ years in business. Click here to view portfolio."
       }
     ]
   }
