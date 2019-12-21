@@ -9,7 +9,7 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >Small &amp; Local Business Website Design, Niagara ON</h1>
+            >Niagara Web Application Design &amp; Development</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
@@ -37,11 +37,11 @@
             <h2
               data-aos="fade-up"
               data-aos-duration="1000"
-            >Increase website sales, the affordable way.</h2>
+            >Increase website sales, with a great ROI.</h2>
             <h4
               data-aos="fade-up"
               data-aos-duration="1000"
-            >Your current website doesn't bring in sales. We can help.</h4>
+            >Modern, bleeding edge website and web application development.</h4>
           </div>
         </div>
         <div class="row text-center cards">
@@ -110,7 +110,7 @@
           <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
             <g-image
               alt="small &amp; local business website design in niagara ON"
-              src="~/img/small-local-business-website-design-niagara.jpg"
+              src="~/img/niagara-web-application-design-development.jpg"
               class="img-fluid"
             />
           </div>
@@ -266,13 +266,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Small & Local Business Website Design | Niagara, ON",
+    title: "Niagara Web Application Design & Development",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "We build small & local business website designs, specializing in helping businesses increase website traffic and conversions. Based in Niagara, ON."
+          "Niagara's best web application design & development company, located in St. Catharines. Click here to view projects."
       }
     ]
   }
