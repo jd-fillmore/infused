@@ -21,10 +21,15 @@
           </g-link>
           <br />
           <br />
-          <a class="insta" href="https://instagram.com/infused.agency" target="_blank">
+          <a
+            class="insta"
+            href="https://instagram.com/infused.agency"
+            target="_blank"
+            aria-label="instagram"
+          >
             <font-awesome :icon="['fab', 'instagram']" />
           </a>
-          <a href="https://www.facebook.com/infused.agency/" target="_blank">
+          <a href="https://www.facebook.com/infused.agency/" target="_blank" aria-label="facebook">
             <font-awesome :icon="['fab', 'facebook']" />
           </a>
         </div>

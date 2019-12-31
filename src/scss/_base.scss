@@ -49,106 +49,114 @@ $orange: #dc4225;
 
 /*-----------------------General----------------------*/
 
-h1,h2,h3,h4,h5,h6 {
-	font-family: "Poppins", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
   color: $primary;
-	line-height: 1.6;
-	margin-bottom: 20px;
-	@include bp-tablet {
-		line-height: 1.4;
-	}
+  line-height: 1.6;
+  margin-bottom: 20px;
+  @include bp-tablet {
+    line-height: 1.4;
+  }
 }
 
 p {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 h1 {
-	font-size: 40px;
-	@include bp-mobile {
-		font-size: 32px;
-	}
+  font-size: 40px;
+  @include bp-mobile {
+    font-size: 32px;
+  }
 }
 
 h2 {
-	font-size: 2.25rem;
-	@include bp-mobile {
-		font-size: 30px;
-	}
+  font-size: 2.25rem;
+  @include bp-mobile {
+    font-size: 30px;
+  }
 }
 
 h3 {
-	font-size: 30px;
-	@include bp-mobile {
-		font-size: 24px;
-	}
+  font-size: 30px;
+  @include bp-mobile {
+    font-size: 24px;
+  }
 }
 
 h4 {
-	font-size: 24px;
-	@include bp-mobile {
-		font-size: 18px;
-	}
+  font-size: 24px;
+  @include bp-mobile {
+    font-size: 18px;
+  }
 }
 
 h5 {
-	font-size: 20px;
-	@include bp-mobile {
-		font-size: 14px;
-	}
+  font-size: 20px;
+  @include bp-mobile {
+    font-size: 14px;
+  }
 }
 
 h6 {
-	font-size: 18px;
-	@include bp-mobile {
-		font-size: 12px;
-	}
+  font-size: 18px;
+  @include bp-mobile {
+    font-size: 12px;
+  }
 }
 
-ul,ol,p {
-	font-family: "Open Sans", sans-serif;
+ul,
+ol,
+p {
+  font-family: "Open Sans", sans-serif;
   color: $light-blue;
   line-height: 1.8;
   font-size: 18px;
 }
 
 a {
-	transition: .2s;
-	color: $primary;
-	&:hover {
-		text-decoration: underline;
-	}
+  transition: 0.2s;
+  color: $dark-grey;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .btn-primary {
   color: $white;
-	transition: .2s;
-	background: linear-gradient(to right, #412caf, #0671bc);
+  transition: 0.2s;
+  background: linear-gradient(to right, #412caf, #0671bc);
   font-size: 14px;
   font-weight: 600;
-	padding: 15px 65px 15px 65px;
-	text-transform: uppercase;
-	letter-spacing: 2.5px;
-	border-radius: 0px;
-	border: 0;
-	&:hover, &:focus {
-		box-shadow: 0px 5px 20px #afafaf;
-		transform: translate3D(0,-5px,0);
-		cursor: pointer;
-	}
-	@include bp-mobile {
-		width: 100%;
-	}
+  padding: 15px 65px 15px 65px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  border-radius: 0px;
+  border: 0;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 5px 20px #afafaf;
+    transform: translate3D(0, -5px, 0);
+    cursor: pointer;
+  }
+  @include bp-mobile {
+    width: 100%;
+  }
 }
 
 .inner-hero {
   margin-top: 70px;
   padding-top: 100px;
   padding-bottom: 100px;
-	background-image: linear-gradient(to right, #412caf, #0671bc);
-	@include bp-tablet-sm {
-		margin-top: 70px;
-	}
+  background-image: linear-gradient(to right, #412caf, #0671bc);
+  @include bp-tablet-sm {
+    margin-top: 70px;
+  }
   h1 {
     color: $white;
   }
@@ -162,14 +170,14 @@ a {
 
 .inner-content {
   padding-top: 100px;
-	padding-bottom: 100px;
-	@include bp-tablet {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	#shrunk {
-		h2 {
-			margin-top: 20px;
-		}
-	}
+  padding-bottom: 100px;
+  @include bp-tablet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #shrunk {
+    h2 {
+      margin-top: 20px;
+    }
+  }
 }

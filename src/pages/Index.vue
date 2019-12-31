@@ -76,7 +76,7 @@
           <div class="col-lg-12">
             <p>
               As a top-tier web design and website optimization company, we build
-              <g-link to="/web-design">conversion-focused websites</g-link>that boost your credibility and
+              <g-link to="/web-design">conversion-focused websites</g-link>&nbsp;that boost your credibility and
               <strong>
                 actually bring you
                 <g-link to="/seo">more sales</g-link>
@@ -210,6 +210,7 @@
                   class="form-control"
                   id="Name"
                   aria-describedby="namehelp"
+                  aria-label="name"
                   placeholder="Full Name"
                 />
               </div>
@@ -219,6 +220,7 @@
                   type="email"
                   class="form-control"
                   id="Email"
+                  aria-label="email"
                   placeholder="Email"
                 />
               </div>
@@ -229,6 +231,7 @@
                   class="form-control"
                   id="Company"
                   aria-describedby="companyname"
+                  aria-label="company"
                   placeholder="Company Name"
                 />
               </div>
@@ -239,6 +242,7 @@
                   class="form-control"
                   id="URL"
                   aria-describedby="urlhelp"
+                  aria-label="url"
                   placeholder="Website URL"
                 />
               </div>
@@ -248,6 +252,7 @@
                   class="form-control"
                   id="Message"
                   rows="3"
+                  aria-label="message"
                   placeholder="How can we help you?"
                 ></textarea>
               </div>
