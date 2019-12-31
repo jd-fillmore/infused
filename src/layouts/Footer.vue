@@ -26,10 +26,16 @@
             href="https://instagram.com/infused.agency"
             target="_blank"
             aria-label="instagram"
+            rel="noopener"
           >
             <font-awesome :icon="['fab', 'instagram']" />
           </a>
-          <a href="https://www.facebook.com/infused.agency/" target="_blank" aria-label="facebook">
+          <a
+            href="https://www.facebook.com/infused.agency/"
+            target="_blank"
+            aria-label="facebook"
+            rel="noopener"
+          >
             <font-awesome :icon="['fab', 'facebook']" />
           </a>
         </div>

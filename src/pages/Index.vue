@@ -211,7 +211,7 @@
                   id="Name"
                   aria-describedby="namehelp"
                   aria-label="name"
-                  aria-selected="false"
+                  aria-required="true"
                   placeholder="Full Name"
                 />
               </div>
@@ -222,7 +222,7 @@
                   class="form-control"
                   id="Email"
                   aria-label="email"
-                  aria-selected="false"
+                  aria-required="true"
                   placeholder="Email"
                 />
               </div>
@@ -234,7 +234,7 @@
                   id="Company"
                   aria-describedby="companyname"
                   aria-label="company"
-                  aria-selected="false"
+                  aria-required="true"
                   placeholder="Company Name"
                 />
               </div>
@@ -246,7 +246,7 @@
                   id="URL"
                   aria-describedby="urlhelp"
                   aria-label="url"
-                  aria-selected="false"
+                  aria-required="true"
                   placeholder="Website URL"
                 />
               </div>
@@ -257,7 +257,7 @@
                   id="Message"
                   rows="3"
                   aria-label="message"
-                  aria-selected="false"
+                  aria-required="true"
                   placeholder="How can we help you?"
                 ></textarea>
               </div>
