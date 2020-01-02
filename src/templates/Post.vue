@@ -61,8 +61,11 @@ export default {
 
 <style lang="scss">
 .single-blog {
-  h1,h2 {
+  h1 {
     margin-bottom: 30px;
+  }
+  h2 {
+    margin-top: 30px;
   }
 }
 </style>
