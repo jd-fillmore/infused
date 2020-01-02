@@ -9,8 +9,6 @@ Same goes for a website! If you just invested money in a website, without taking
 
 ## How do you build a website with good SEO in mind?
 
-![How do you build a website with good SEO in mind?](/../uploads/how-to-build-a-website-with-good-seo-in-mind.jpg)
-
 There are tons of factors to building a website when it comes to having good SEO in mind. In this post, we'll just scratch the surface with a few beginner tips, going over the must have foundations for building a website with good SEO in mind.
 
 ## Good SEO stems from great keyword research
