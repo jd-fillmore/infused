@@ -1,7 +1,9 @@
 ---
 title: How to build a website with good SEO in mind?
 date: 2020-01-02T16:05:00.194Z
-excerpt: How to build a website with good SEO in mind?
+excerpt: >-
+  In today's post, we answer how to build a website with good SEO in mind. Click
+  here to find out exactly how.
 ---
 A modern designed, beautiful website is a lot like a great YouTube video. It's great, but.. if you don't have any people visiting that video and watching it, what's the point of having one?
 
