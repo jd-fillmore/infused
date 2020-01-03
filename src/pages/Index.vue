@@ -9,7 +9,7 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >Niagara Web Application Design &amp; Development</h1>
+            >Niagara Web Design &amp; Application Development</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
@@ -110,7 +110,7 @@
           <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
             <g-image
               alt="small &amp; local business website design in niagara ON"
-              src="~/img/niagara-web-application-design-development.jpg"
+              src="~/img/niagara-web-design-application-development.jpg"
               class="img-fluid"
             />
           </div>
@@ -276,13 +276,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Application Design & Development",
+    title: "Niagara Web Design & Application Development",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara's best web application design & development company, located in St. Catharines. Click here to view projects."
+          "Niagara's best web design & application development company, located in St. Catharines. We build blazing fast websites that bring more sales to your company. Click here to view projects."
       }
     ]
   }
