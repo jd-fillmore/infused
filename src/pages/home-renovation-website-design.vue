@@ -119,13 +119,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Residential & Commercial Mortgage Broker Website Design",
+    title: "Home Renovation Website Design",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "A residential & commercial mortgage broker website design that ranks very high in the search engines! Click here to view the case study."
+          "A Home Renovation website design that designed, developed and SEO'd by Infused. Click here to view the case study."
       }
     ]
   }
