@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h1>Grimsby Web Application Design & Development</h1>
+            <h1>Grimsby Web Design & Application Development</h1>
             <h3>Are you looking to...</h3>
             <ul>
               <li>Get your website re-designed?</li>
@@ -87,11 +87,7 @@
           <div class="col-md-12">
             <br />
             <br />
-            <g-image
-              alt="Grimsby web design"
-              src="~/img/grimsby-web-application-design-development.jpg"
-              class="img-fluid"
-            />
+            <g-image alt="Grimsby web design" src="~/img/grimsby-web-design.jpg" class="img-fluid" />
             <p>
               If you're looking for a
               <a
@@ -286,13 +282,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Grimsby Web Application Design & Development",
+    title: "Grimsby Web Design & Application Development",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Grimsby's best web application design & development company around. 10+ years in business. Click here to view portfolio."
+          "Grimsby's best web design & application development company around. 10+ years in business. Click here to view portfolio."
       }
     ]
   }
