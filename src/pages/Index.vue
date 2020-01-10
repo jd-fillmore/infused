@@ -99,7 +99,7 @@
           <div class="col-lg-12">
             <h2>Featured Project</h2>
             <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
-            <p>"With the new website, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <p>"With the new website, we get so many emails and calls for new Niagara and St. Catharines jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
             </p>
