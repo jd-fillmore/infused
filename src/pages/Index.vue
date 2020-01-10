@@ -282,7 +282,7 @@ export default {
         key: "description",
         name: "description",
         content:
-          "Niagara's best web design & application development company, located in St. Catharines. We build blazing fast websites that bring more sales to your company. Click here to view projects."
+          "Niagara's best web design & development company, located in St. Catharines. We build blazing fast websites that bring more sales to your company. Click here to view projects."
       }
     ]
   }
