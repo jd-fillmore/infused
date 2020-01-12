@@ -13,6 +13,10 @@
             <br />St. Catharines, ON
             <br />L2P 1K2
           </p>
+          <p class="title">Areas Served</p>
+          <p>
+            <a href="/grimsby-web-design/">Grimsby</a>, St. Catharines, Fort Erie, Welland, Lincoln, Niagara Falls, Niagara-on-the-Lake, Pelham, Port Colborne, Thorold, Wainfleet, West Lincoln.
+          </p>
         </div>
         <div class="col-lg-4">
           <p class="title">Contact</p>

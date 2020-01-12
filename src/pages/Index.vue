@@ -9,7 +9,7 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >Niagara Web Design &amp; Application Development</h1>
+            >Niagara Web Design &amp; SEO Company</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
@@ -98,7 +98,7 @@
         <div class="row text-center">
           <div class="col-lg-12">
             <h2>Featured Project</h2>
-            <g-image alt="sanko" src="~/img/sanko.png" class="img-fluid" />
+            <g-image alt="sanko" src="~/img/niagara-seo-company.png" class="img-fluid" />
             <p>"With the new website, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
             <p>
               <em>- Owner, Sanko Construction</em>
@@ -110,7 +110,7 @@
           <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
             <g-image
               alt="small &amp; local business website design in niagara ON"
-              src="~/img/niagara-web-design-application-development.jpg"
+              src="~/img/niagara-web-design.jpg"
               class="img-fluid"
             />
           </div>
@@ -276,13 +276,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Design & Application Development",
+    title: "Niagara Web Design & SEO Company",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara's best web design & application development company, located in St. Catharines. We build blazing fast websites that bring more sales to your company. Click here to view projects."
+          "Niagara's best web design & SEO company, located in St. Catharines. We build blazing fast websites that bring more sales to your company. Click here to view projects."
       }
     ]
   }
