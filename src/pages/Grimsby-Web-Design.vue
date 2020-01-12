@@ -5,7 +5,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h1>Grimsby Web Design & SEO Company</h1>
+            <<<<<<< HEAD
+            <h1>Grimsby Web Design & SEO Company</h1>=======
+            <h1>Grimsby Web Design & Application Development</h1>>>>>>>> bdb0708d26d65950720c1052aca865155d67a964
             <h3>Are you looking to...</h3>
             <ul>
               <li>Get your website re-designed?</li>

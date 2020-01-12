@@ -9,7 +9,11 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
+<<<<<<< HEAD
             >Niagara Web Design &amp; SEO Company</h1>
+=======
+            >Niagara Web Design &amp; Development, St. Catharines</h1>
+>>>>>>> bdb0708d26d65950720c1052aca865155d67a964
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
