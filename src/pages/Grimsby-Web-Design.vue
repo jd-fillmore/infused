@@ -306,6 +306,9 @@ export default {
   ul {
     color: #fff;
   }
+  h1 {
+    line-height: 1.2;
+  }
 }
 button {
   width: 100%;
