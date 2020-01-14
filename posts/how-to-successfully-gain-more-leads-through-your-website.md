@@ -5,7 +5,7 @@ excerpt: >-
   Ever wondered How To Successfully Gain More Leads Through Your Website? We
   answer that for you!
 ---
-One of the main pain points with a lot of my clients before coming to me, is that their online presence is not doing anything for them. Sure - having an online presence is important,<!--more--> but simply having a <a href="https://infused.agency/web-design/">website</a> online, in most cases, doesn't do anything for any company.
+One of the main pain points with a lot of my clients before coming to me, is that their online presence is not doing anything for them. Sure - having an online presence is important,<!--more--> but simply having a <a href="https://infused.agency/">website</a> online, in most cases, doesn't do anything for any company.
 
 "But I have a Wix / Weebly / Squarespace / any other do-it-yourself website builder, that's enough for me!"
 
