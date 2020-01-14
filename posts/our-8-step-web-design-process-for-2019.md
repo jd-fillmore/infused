@@ -1,5 +1,5 @@
 ---
-title: Our 8 Step Web Design Process For 2019
+title: Our 8 Step Web Design Process For 2020
 date: 2019-03-26T23:14:58.047Z
 excerpt: >-
   In this post, we go over our 8 step web design process for 2019. Lots of value
@@ -9,7 +9,7 @@ There are so many different tools on the market today for agencies and freelance
 
 Yes - part of your web design process for 2019 should help revamp your client's current site, but more importantly, it should be able to solve their business goals as well. Your client's target audience should be able to easily absorb the content on your client's website, and the aesthetics and content should also be able to pull their audience in.
 
-<h2>Our 8 Step Web Design Process For 2019</h2>
+<h2>Our 8 Step Web Design Process For 2020</h2>
 Without further ado, lets go over our 8 step web design process for 2019.
 
 <h2>1. Identifying Design Goals</h2>
@@ -137,6 +137,6 @@ After the website is launched, we have a general checklist we go through. This c
  	<li>Set up Google Analytics (if it's not already setup)</li>
  	<li>Set up Google Search Console to monitor traffic (if it's not already setup)</li>
 </ul>
-<h2>Concluding our web design process post for 2019</h2>
+<h2>Concluding our web design process post for 2020</h2>
 
 As you can see, there are many steps in order to launch a successful website. It's time consuming, but absolutely imperative (and worth it!) in order to ensure that your online presence becomes a success.
