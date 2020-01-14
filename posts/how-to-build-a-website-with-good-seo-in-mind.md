@@ -7,7 +7,7 @@ excerpt: >-
 ---
 A modern designed, beautiful website is a lot like a great YouTube video. It's great, but.. if you don't have any people visiting that video and watching it, what's the point of having one?
 
-Same goes for a website! If you just invested money in a website, without taking into account [good SEO](https://infused.agency/seo) in mind, there's absolutely no way that people will be able to find your site. The entire point of having a successful website is having great [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization), so people will be able to find your website when entering certain search terms within Google.
+Same goes for a website! If you just invested money in a website, without taking into account [good SEO](https://infused.agency/) in mind, there's absolutely no way that people will be able to find your site. The entire point of having a successful website is having great [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization), so people will be able to find your website when entering certain search terms within Google.
 
 ## How do you build a website with good SEO in mind?
 
