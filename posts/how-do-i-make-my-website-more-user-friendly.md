@@ -6,7 +6,7 @@ excerpt: >-
   today's post. It is imperative as this directly correlates with business
   sales. Click here..
 ---
-One of the most important characteristics of a [good website](/web-design) is making sure you improve [user experience](https://en.wikipedia.org/wiki/User_experience) for your customers. This is directly tied to trust, credibility and most importantly, [boosting sales](/seo). 
+One of the most important characteristics of a [good website](https://infused.agency) is making sure you improve [user experience](https://en.wikipedia.org/wiki/User_experience) for your customers. This is directly tied to trust, credibility and most importantly, [boosting sales](/seo). 
 
 On a very high level, there are a few ways on how to improve user experience on your website. You want to do this because improving your user experience will help improve conversions on your website. Which, as stated above, leads directly to more revenue for your business.
 
