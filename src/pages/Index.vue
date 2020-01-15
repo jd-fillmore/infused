@@ -276,13 +276,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Design & SEO Company",
+    title: "Niagara Web Design & SEO",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara's best web design & SEO company, located in St. Catharines. We build blazing fast websites that bring more sales to your company. Click here to view projects."
+          "Niagara's web design & SEO company. We're a digital marketing agency thats brings more sales to your company. Click here."
       }
     ]
   }

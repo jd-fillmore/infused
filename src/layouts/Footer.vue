@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-4">
           <p class="title">About</p>
-          <p>Infused Agency is a Niagara-based company specializing in ReactJS web development, web design, SEO and digital strategy. We help local and non-local businesses build their credibility online, as well as help bring in more sales.</p>
+          <p>Infused Agency is a Niagara web design, SEO company and digital marketing agency. We help local and non-local businesses build their credibility online, as well as help bring in more sales.</p>
         </div>
         <div class="col-lg-4">
           <p class="title">Office</p>
@@ -19,12 +19,7 @@
           </p>
         </div>
         <div class="col-lg-4">
-          <p class="title">Contact</p>
-          <g-link to="/contact">
-            <button type="button" class="btn btn-primary">Book Free Consult</button>
-          </g-link>
-          <br />
-          <br />
+          <p class="title">Follow</p>
           <a
             class="insta"
             href="https://instagram.com/infused.agency"

@@ -1,36 +1,39 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const path = require('path')
+const path = require("path");
 
-function addStyleResource (rule) {
-  rule.use('style-resource')
-    .loader('style-resources-loader')
+function addStyleResource(rule) {
+  rule
+    .use("style-resource")
+    .loader("style-resources-loader")
     .options({
       patterns: [
-				path.resolve(__dirname, './src/assets/sass/_globals.sass'),
-				// you can also use a glob if you'd prefer
-				// path.resolve(__dirname, './src/assets/sass/*.sass'),
-      ],
-    })
+        path.resolve(__dirname, "./src/assets/sass/_globals.sass")
+        // you can also use a glob if you'd prefer
+        // path.resolve(__dirname, './src/assets/sass/*.sass'),
+      ]
+    });
 }
 
 module.exports = {
   chainWebpack: config => {
     // Load variables for all vue-files
-    const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
-    types.forEach(type => addStyleResource(config.module.rule('sass').oneOf(type)))
-	},
-  siteName: 'Infused',
-  siteUrl: 'https://infused.agency',
+    const types = ["vue-modules", "vue", "normal-modules", "normal"];
+    types.forEach(type =>
+      addStyleResource(config.module.rule("sass").oneOf(type))
+    );
+  },
+  siteName: "Infused Agency",
+  siteUrl: "https://infused.agency",
   transformers: {
     remark: {
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
       plugins: [
         // ...global plugins
       ]
@@ -39,10 +42,10 @@ module.exports = {
 
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
+      use: "@gridsome/source-filesystem",
       options: {
-        path: 'posts/**/*.md',
-        typeName: 'Post',
+        path: "posts/**/*.md",
+        typeName: "Post",
         remark: {
           plugins: [
             // ...local plugins
@@ -51,9 +54,9 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: "@gridsome/plugin-google-analytics",
       options: {
-        id: 'UA-112521158-1'
+        id: "UA-112521158-1"
       }
     },
     {
@@ -63,20 +66,20 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/plugin-sitemap',
+      use: "@gridsome/plugin-sitemap",
       options: {
         cacheTime: 600000, // default
         config: {
-          '/blog/*': {
-            changefreq: 'daily',
+          "/blog/*": {
+            changefreq: "daily",
             priority: 0.3
           },
-          '/about': {
-            changefreq: 'monthly',
+          "/about": {
+            changefreq: "monthly",
             priority: 0.7
           }
         }
       }
     }
   ]
-}
+};
