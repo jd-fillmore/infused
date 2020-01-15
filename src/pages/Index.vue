@@ -276,7 +276,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Design & SEO",
+    title: "Niagara Web Design & SEO Company",
     meta: [
       {
         key: "description",
