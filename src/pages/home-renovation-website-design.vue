@@ -50,8 +50,8 @@
           <div class="col-lg-12">
             <h2>Result</h2>
             <p>Although still in development, we project their website ranking in multiple cities in Google, for multiple different keywords. We'd like to give you a showcase, click the link below.</p>
-            <a href="https://cassabella.netlify.com" target="_blank">
-              <button class="btn btn-primary">View Website (still in development)</button>
+            <a href="https://cassabellaconstruction.com" target="_blank">
+              <button class="btn btn-primary">View Website</button>
             </a>
           </div>
         </div>

@@ -14,7 +14,7 @@
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >We'll build you a website that brings in business.</h2>
+            >We build digital stratgies that bring you revenue.</h2>
             <g-link to="/work">
               <button
                 data-aos="fade-in"
@@ -34,10 +34,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >Increase website sales, with a great ROI.</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Increase online sales, with a great ROI.</h2>
             <h4
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -58,7 +55,7 @@
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Increase Traffic</h4>
+              <h4>Increase Leads</h4>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
