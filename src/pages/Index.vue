@@ -14,7 +14,7 @@
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >We build digital stratgies that bring you revenue.</h2>
+            >We build digital strategies that bring you revenue.</h2>
             <g-link to="/work">
               <button
                 data-aos="fade-in"
