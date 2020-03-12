@@ -103,6 +103,12 @@ If you just got one customer from your website using SEO, it pays for itself. Th
 
 Search engine optimization works just that well.
 
+<h2>Using SEO builds business credibility</h2>
+
+The more keywords that your business ranks for in Google, the more visibility you will get. The more visibility you get to customers that are looking for your services, the more brand awareness you create.
+
+The more places that you are online, the more trust and credibility you start building with potential customers!
+
 <h2>So... How can search engine optimization help your business?</h2>
 
 We've seen multiple ways how search engine optimization can your help your business above. It goes without saying that since organic search is the highest type of search performed today, that 95% of your local customers are looking for you, and that SEO has a great return on investment, it's a no brainer to invest in SEO.
