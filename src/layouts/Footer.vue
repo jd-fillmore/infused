@@ -20,23 +20,63 @@
         </div>
         <div class="col-lg-4">
           <p class="title">Follow</p>
-          <a
-            class="insta"
-            href="https://instagram.com/infused.agency"
-            target="_blank"
-            aria-label="instagram"
-            rel="noopener"
-          >
-            <font-awesome :icon="['fab', 'instagram']" />
-          </a>
-          <a
-            href="https://www.facebook.com/infused.agency/"
-            target="_blank"
-            aria-label="facebook"
-            rel="noopener"
-          >
-            <font-awesome :icon="['fab', 'facebook']" />
-          </a>
+          <p>
+            <a
+              class="insta"
+              href="https://instagram.com/infused.agency"
+              target="_blank"
+              aria-label="instagram"
+              rel="noopener"
+            >
+              <font-awesome :icon="['fab', 'instagram']" />
+            </a>
+            <a
+              href="https://www.facebook.com/infused.agency/"
+              target="_blank"
+              aria-label="facebook"
+              rel="noopener"
+            >
+              <font-awesome :icon="['fab', 'facebook']" />
+            </a>
+          </p>
+          <p class="title">Request A Quote</p>
+          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <div class="form-group">
+              <input
+                name="name"
+                type="name"
+                class="form-control"
+                id="Name"
+                aria-describedby="namehelp"
+                placeholder="Full Name"
+              />
+            </div>
+            <div class="form-group">
+              <input name="email" type="email" class="form-control" id="Email" placeholder="Email" />
+            </div>
+            <div class="form-group">
+              <input
+                name="url"
+                type="name"
+                class="form-control"
+                id="URL"
+                aria-describedby="urlhelp"
+                placeholder="Website URL"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                class="form-control"
+                id="Message"
+                rows="3"
+                placeholder="How can we help you?"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
+          </form>
         </div>
       </div>
       <div class="row copy">
