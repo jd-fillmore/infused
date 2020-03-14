@@ -15,7 +15,8 @@
           </p>
           <p class="title">Areas Served</p>
           <p>
-            <a href="/grimsby-web-design/">Grimsby</a>, St. Catharines, Fort Erie, Welland, Lincoln, Niagara Falls, Niagara-on-the-Lake, Pelham, Port Colborne, Thorold, Wainfleet, West Lincoln.
+            <a href="/grimsby-web-design/">Grimsby</a>,
+            <a href="/seo-provider-st-catharines/">St. Catharines</a>, Fort Erie, Welland, Lincoln, Niagara Falls, Niagara-on-the-Lake, Pelham, Port Colborne, Thorold, Wainfleet, West Lincoln.
           </p>
         </div>
         <div class="col-lg-4">
