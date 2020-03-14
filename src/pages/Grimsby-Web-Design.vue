@@ -141,7 +141,7 @@
           <div class="row">
             <div class="col-lg-4">
               <g-image alt="canadian mortgage authority" src="~/img/cma.jpg" class="img-fluid" />
-              <g-link to="/cma">
+              <g-link to="/commercial-mortgage-broker-web-design">
                 <button type="submit" class="btn btn-primary">View Case Study</button>
               </g-link>
             </div>
@@ -171,7 +171,7 @@
                 src="~/img/sanko-construction.jpg"
                 class="img-fluid"
               />
-              <g-link to="/sanko-construction">
+              <g-link to="/residential-landscaping-web-design">
                 <button type="submit" class="btn btn-primary">View Case Study</button>
               </g-link>
             </div>

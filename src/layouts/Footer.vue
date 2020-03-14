@@ -81,7 +81,7 @@
       </div>
       <div class="row copy">
         <div class="col-lg-12">
-          <p>&copy; 2019 Infused. All Rights Reserved.</p>
+          <p>&copy; 2020 Infused. All Rights Reserved.</p>
         </div>
       </div>
     </div>
