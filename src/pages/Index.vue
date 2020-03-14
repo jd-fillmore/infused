@@ -315,13 +315,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Design, SEO &amp; Digital Marketing Company",
+    title: "Niagara Web Design, SEO & Digital Marketing Company",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara's web design, SEO &amp; digital marketing company. We're a digital marketing agency thats brings more sales to your company. Click here to get a quote."
+          "Niagara's web design, SEO & digital marketing company. We're a digital marketing agency thats brings more sales to your company. Click here to get a quote."
       }
     ]
   }
