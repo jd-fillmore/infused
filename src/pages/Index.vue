@@ -3,27 +3,69 @@
     <!--Hero-->
     <section class="hero" data-aos="fade-in" data-aos-duration="1000">
       <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-6">
             <h1
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >Niagara Web Design &amp; SEO Company</h1>
+            >Niagara Web Design, SEO &amp; Digital Marketing Company</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
             >We build digital strategies that bring you revenue.</h2>
-            <g-link to="/work">
-              <button
-                data-aos="fade-in"
-                data-aos-delay="1000"
-                data-aos-duration="1000"
-                type="button"
-                class="btn btn-primary"
-              >View Results</button>
-            </g-link>
+            <p>Need web design, SEO or digital marketing done? Fill out the form and we'll get back to you ASAP.</p>
+          </div>
+          <div class="col-lg-6">
+            <form
+              name="contact"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <div class="form-group">
+                <input
+                  name="name"
+                  type="name"
+                  class="form-control"
+                  id="Name"
+                  aria-describedby="namehelp"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  id="Email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  name="url"
+                  type="name"
+                  class="form-control"
+                  id="URL"
+                  aria-describedby="urlhelp"
+                  placeholder="Website URL"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  class="form-control"
+                  id="Message"
+                  rows="3"
+                  placeholder="How can we help you?"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
+            </form>
           </div>
         </div>
       </div>
@@ -273,13 +315,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Design & SEO Company",
+    title: "Niagara Web Design, SEO &amp; Digital Marketing Company",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara's web design & SEO company. We're a digital marketing agency thats brings more sales to your company. Click here."
+          "Niagara's web design, SEO &amp; digital marketing company. We're a digital marketing agency thats brings more sales to your company. Click here to get a quote."
       }
     ]
   }
@@ -312,8 +354,8 @@ export default {
   margin-top: 70px;
   @include bp-tablet-sm {
     margin-top: 70px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .btn-primary {
     box-shadow: none;
@@ -334,12 +376,15 @@ export default {
   }
   h2 {
     line-height: 1.2;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    @include bp-tablet-sm {
+      font-size: 28px;
+    }
   }
   p {
-    font-size: 36px;
-    line-height: 1.2;
     margin-bottom: 30px;
+    line-height: 1.6;
   }
 }
 
