@@ -9,13 +9,13 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >SEO Provider St. Catharines</h1>
+            >Web Design St. Catharines</h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >We build SEO strategies that grow your business.</h2>
-            <p>Need an SEO provider in St. Catharines that will help your business get seen and bring in revenue? Fill out the form and we'll get back to you ASAP.</p>
+            >Our website designs help grow your business.</h2>
+            <p>Need a web design in St. Catharines that will help grow your business? Fill out the form and we'll get back to you ASAP.</p>
           </div>
           <div class="col-lg-6">
             <form
@@ -90,59 +90,51 @@
             <br />
             <br />
             <br />
-            <h2>Benefits of Using Us As Your St. Catharines SEO Provider</h2>
+            <h2>Modern Web Design Business in St. Catharines</h2>
             <p>
-              There are so many benefits when it comes to providing proper SEO on your
+              There are so many benefits when it comes to using us as your
               <a
                 href="https://infused.agency"
-              >website</a>. Let's go through a few below.
+              >web design firm in St. Catharines</a> to build you a website.
+              Let's go through a few below.
             </p>
-            <h3>A Better User Experience</h3>
+            <h3>Our Designs Provide A Better First Impression</h3>
+            <g-image
+              alt="Web Design St. Catharines"
+              src="~/img/web-design-st-catharines.jpg"
+              class="img-fluid"
+            />
             <p>
-              When your website is optimized for
-              <a href="https://infused.agency/seo">SEO</a>, it provides your potential clients with a natural flow through the website.
+              A lot of other St. Catharines-based web design companies tend use website design templates for their clients.
               <br />
-              <br />The way the text is written, the way the images are optimized, and how the links are structured.
+              <br />With said templates, the web designs used all look the same. They're also bloated with unused code, which slows down your website.
               <br />
-              <br />All of this flow comes together, and at the end of the day SEO provides a much better user experience than if a website is not providing SEO properly to the end-user.
+              <br />Fortunately, we do something different.
               <br />
-              <br />The easier it is for potential customers to use your website, that happier they will be. If it's more difficult for people to use your website - in other words, if they SEO is not set up properly, people will become frustrated.
-              <br />
-              <br />Having your SEO power a great user experience on your website is key to getting more customers.
+              <br />All of our designs are custom tailored to your St. Catharines business. Nothing is re-used. Everything is built from the ground-up, to suit your business needs.
             </p>
-            <h3>SEO Provides A Primary Source of New, Consistent Leads</h3>
+            <h3>Our Website Designs Help You Keep Up With Your Competitors</h3>
             <p>
-              This is a big one.
+              Having a modern designed website, among other things, does a few things for you.
               <br />
-              <br />Word-of-mouth is great. In fact, it's probably one of the best ways to get new business. But what's the problem with word-of-mouth?
+              <br />It helps you bring in more leads, bring in more revenue and has a lasting impression on not only new customers, but current customers as well.
               <br />
-              <br />Simple.
+              <br />However one of the most important things, is that a modern web design helps your St. Catharines business keep up with other businesses in the area as well.
               <br />
+              <br />A lot of businesses these days have great looking websites. You need to make sure your web design also looks great.
               <br />
-              <strong>It's not consistent. It's not always there.</strong>
-              <br />
-              <br />See, the great thing that SEO provides, is that of consistent, new customers that are
-              <strong>ready to buy</strong> coming to you.
-              <br />
-              <br />Even when times are slow. Even when your immediate network has no referrals for you.
-              <br />
-              <br />Once your website is setup with awesome SEO in place, you'll never have to worry about getting new business. It'll always be flowing in.
+              <br />Because if it doesn't, your potential customers will look much more favourably in the direction of your competitors, rather than the direction of your own business.
             </p>
-            <h3>SEO Provides Higher Customer Closing Rates</h3>
+            <h3>Our Web Designs Help Boost Revenue For Your St. Catharines Business</h3>
             <p>
-              <a
-                href="https://99firms.com/blog/seo-statistics/#gref"
-                target="_blank"
-              >Statistics have shown</a>
-              that there is a much higher chance of closing a lead that comes from SEO, versus closing leads that you reach out to.
+              The main difference between our web designs and other web design companies in St. Catharines, is that we focus on one thing when designing your website:
               <br />
-              <br />Why?
               <br />
-              <br />It's because they're looking to buy what you have.
+              <strong>Getting you more revenue.</strong>
               <br />
-              <br />What SEO provides is a platform that where people are searching for the product or service you offer. They're looking to purchase.
+              <br />There's a lot that goes into this - research into your industry, designing a website based around how users interact psychologically with websites, and way more.
               <br />
-              <br />And if you're visible to where people are looking, you will get people interested and you will get more revenue from it.
+              <br />All of this custom research that we do for your St. Catharines-based business that goes into your web design, is all meant to bring in more revenue for you, and for brand recognition.
             </p>
           </div>
         </div>
@@ -156,20 +148,20 @@
           <div class="row">
             <div class="col-lg-12">
               <h2>Local Client Case Study</h2>
+              <g-image
+                alt="Website Design St. Catharines"
+                src="~/img/web-design-st-catharines.jpg"
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <g-image
-                alt="SEO Provider St. Catharines"
-                src="~/img/seo-provider-st-catharines.jpeg"
-                class="img-fluid"
-              />
               <br />
               <br />
-              <p>With Canadian Mortgage Authority, we ranked them on the first page of Google in the Grimsby area for both local map pack, as well as organic listings.</p>
+              <p>With Canadian Mortgage Authority's new website design we made them, they now end up bringing on more clients on a month-to-month basis than ever before.</p>
               <p>
                 <g-link to="/commercial-mortgage-broker-web-design">View the case study of results.</g-link>
               </p>
@@ -187,7 +179,7 @@
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >In St. Catharines and need an SEO Provider?</h2>
+            >Need website design in St. Catharines?</h2>
             <p>Fill out the form and we'll get back to you with a quote ASAP.</p>
           </div>
           <div class="col-lg-6">
@@ -261,13 +253,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "SEO Provider St. Catharines, ON",
+    title: "Web Design St. Catharines, ON",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Need an SEO provider in St. Catharines that will help bring your business get seen and bring in revenue? Click here to request a quote today."
+          "Need a web design in St. Catharines that will help grow your business? We've been designing and building lead-generating websites for ten years. Click here to request a quote today."
       }
     ]
   }
@@ -276,6 +268,9 @@ export default {
 
 <style scoped lang="scss">
 @import "../scss/_base.scss";
+img {
+  width: 600px;
+}
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
