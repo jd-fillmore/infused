@@ -14,12 +14,24 @@
     <section class="inner-content">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <p>
-              Infused is a results-driven and technologically advanced web design, development &amp; internet marketing agency. We began our journey in the year 2016 in Niagara, Ontario as a startup agency, with a vision of one thing; providing companies with incredible digital experiences and help their businesses flourish.
-              <br />
-              <br />We are not in the business of churn &amp; burn projects. We are set on establishing long term growth relationships with our clients. This means doing excellent work, do what we say we will, and get projects done on time. We're always looking out for your best interests first. We're always giving. That's our #1 priority for you.
-            </p>
+          <div class="col-md-6">
+            <h3>SEO</h3>
+            <ul>
+              <li>
+                <a href="/seo-company-montreal">SEO Montreal</a>
+              </li>
+              <li>
+                <a href="/seo-provider-st-catharines">SEO St Catharines</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3>Web Design</h3>
+            <ul>
+              <li>
+                <a href="/grimsby-web-design">Web Design Grimsby</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -36,13 +48,13 @@
 <script>
 export default {
   metaInfo: {
-    title: "About",
+    title: "Cities",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Learn more about the core values, hardworking team and how we accomplish your business goals at Infused."
+          "Learn about the cities that Infused offers web design, SEO and digital marketing services in. Click here to view now."
       }
     ]
   }
