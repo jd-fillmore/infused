@@ -31,6 +31,9 @@
               <li>
                 <a href="/grimsby-web-design">Web Design Grimsby</a>
               </li>
+              <li>
+                <a href="/web-designers-in-calgary">Web Design Calgary</a>
+              </li>
             </ul>
           </div>
         </div>
