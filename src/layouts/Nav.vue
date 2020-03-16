@@ -4,11 +4,12 @@
       <b-navbar class="fixed-top" toggleable="lg" type="light">
         <b-navbar-brand>
           <g-link class="nav__link navbar-brand" to="/" title="affordable web design in niagara on">
-            <g-image
+            <!-- <g-image
               alt="niagara web design"
               src="~/img/affordable-web-design-in-niagara-on.jpg"
               class="img-fluid"
-            />
+            />-->
+            infused
           </g-link>
         </b-navbar-brand>
 
@@ -84,6 +85,8 @@ query {
     }
   }
   .navbar-brand {
+    font-size: 24px;
+    font-weight: 500;
     margin-top: -5px;
     @include bp-tablet-sm {
       margin-top: 0px;
