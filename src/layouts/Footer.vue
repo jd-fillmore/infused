@@ -13,22 +13,10 @@
             <br />St. Catharines, ON
             <br />L2P 1K2
           </p>
-          <a href="/cities">
-            <p class="title">Cities</p>
-          </a>
         </div>
         <div class="col-lg-4">
           <p class="title">Follow</p>
           <p>
-            <a
-              class="insta"
-              href="https://instagram.com/infused.agency"
-              target="_blank"
-              aria-label="instagram"
-              rel="noopener"
-            >
-              <font-awesome :icon="['fab', 'instagram']" />
-            </a>
             <a
               href="https://www.facebook.com/infused.agency/"
               target="_blank"
