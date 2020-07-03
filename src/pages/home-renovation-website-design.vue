@@ -49,7 +49,24 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Result</h2>
-            <p>Although still in development, we project their website ranking in multiple cities in Google, for multiple different keywords. We'd like to give you a showcase, click the link below.</p>
+            <ul>
+              <li>
+                Organic Google Search views
+                <strong>went up over 320%.</strong>
+              </li>
+              <li>
+                Google Map views
+                <strong>went up almost 100%.</strong>
+              </li>
+              <li>
+                Website visits
+                <strong>went up over 250%.</strong>
+              </li>
+              <li>
+                Within the first month,
+                <strong>three new clients.</strong>
+              </li>
+            </ul>
             <a href="https://cassabellaconstruction.com" target="_blank">
               <button class="btn btn-primary">View Website</button>
             </a>

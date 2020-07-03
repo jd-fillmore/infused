@@ -80,14 +80,14 @@
             <h4
               data-aos="fade-up"
               data-aos-duration="1000"
-            >Modern, bleeding edge website and web application development.</h4>
+            >Digital Marketing, Website Design and SEO that bring you more revenue.</h4>
           </div>
         </div>
         <div class="row text-center cards">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="card">
               <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
-              <h4>Website Optimization</h4>
+              <h4>Increase Leads</h4>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
@@ -97,7 +97,7 @@
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Increase Leads</h4>
+              <h4>Increase Revenue</h4>
             </div>
           </div>
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
@@ -107,14 +107,14 @@
                 src="~/img/check.jpg"
                 class="img-fluid mx-auto d-block"
               />
-              <h4>Increase Conversions</h4>
+              <h4>Reduce Costs</h4>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top-tier web design and website optimization company, we build
+              As a top-tier web desig, digital marketing and SEO company, we build
               <g-link to="/web-design">conversion-focused websites</g-link>&nbsp;that boost your credibility and
               <strong>
                 actually bring you
@@ -136,35 +136,55 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2>Featured Project</h2>
-            <g-image alt="sanko" src="~/img/niagara-seo-company.png" class="img-fluid" />
-            <p>"With the new website, we get so many emails and calls for new Niagara jobs, we can be picky. We don't need to advertise or look for jobs anymore."</p>
+            <h2>Featured Client</h2>
+            <h4>Cass-A-Bella Construction</h4>
             <p>
-              <em>- Owner, Sanko Construction</em>
+              "Great Job, WELL DONE. I'm very please with the service and the design of my new web site. If you ever need a new web site I do recommend Infused Agency for their services. JD keep up the great work. Thank you."
+              <br />
+              <em>- Mr. Duarte, Cass-A-Bella Construction</em>
             </p>
           </div>
         </div>
         <!--Image-->
         <div class="row">
-          <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-lg-1">&nbsp;</div>
+          <div class="col-lg-10">
             <g-image
               alt="small &amp; local business website design in niagara ON"
               src="~/img/niagara-web-design.jpg"
-              class="img-fluid"
+              class="img-fluid cass"
             />
           </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-deloay="500">
+          <div class="col-lg-1">&nbsp;</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
             <h3>Before</h3>
             <ul>
               <li>Zero sales from old website</li>
               <li>Poor trust and credibility to the public</li>
-              <li>Wanted to do something about it</li>
+              <li>Wanted more credibility and more clients</li>
             </ul>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-deloay="500">
             <h3>After</h3>
             <ul>
-              <li>Increased website traffic</li>
-              <li>Increased website conversions</li>
-              <li>Increased sales</li>
+              <li>
+                Organic Google Search views
+                <strong>went up over 320%.</strong>
+              </li>
+              <li>
+                Google Map views
+                <strong>went up almost 100%.</strong>
+              </li>
+              <li>
+                Website visits
+                <strong>went up over 250%.</strong>
+              </li>
+              <li>
+                Within the first month,
+                <strong>three new clients.</strong>
+              </li>
             </ul>
           </div>
         </div>
@@ -228,9 +248,8 @@
             <h2>Are you looking to...</h2>
             <ul>
               <li>Get your website re-designed?</li>
-              <li>Get more sales through SEO?</li>
-              <li>Maximize profits?</li>
-              <li>Never look for another project?</li>
+              <li>Increase leads?</li>
+              <li>Increase revenue from your website?</li>
             </ul>
           </div>
           <div class="col-lg-6">
@@ -249,8 +268,6 @@
                   class="form-control"
                   id="Name"
                   aria-describedby="namehelp"
-                  aria-label="name"
-                  aria-required="true"
                   placeholder="Full Name"
                 />
               </div>
@@ -260,21 +277,7 @@
                   type="email"
                   class="form-control"
                   id="Email"
-                  aria-label="email"
-                  aria-required="true"
                   placeholder="Email"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  name="company"
-                  type="name"
-                  class="form-control"
-                  id="Company"
-                  aria-describedby="companyname"
-                  aria-label="company"
-                  aria-required="true"
-                  placeholder="Company Name"
                 />
               </div>
               <div class="form-group">
@@ -284,8 +287,6 @@
                   class="form-control"
                   id="URL"
                   aria-describedby="urlhelp"
-                  aria-label="url"
-                  aria-required="true"
                   placeholder="Website URL"
                 />
               </div>
@@ -295,8 +296,6 @@
                   class="form-control"
                   id="Message"
                   rows="3"
-                  aria-label="message"
-                  aria-required="true"
                   placeholder="How can we help you?"
                 ></textarea>
               </div>
@@ -458,6 +457,12 @@ export default {
   }
   h3 {
     color: $light-blue;
+  }
+  img {
+    margin-bottom: 30px;
+  }
+  button {
+    margin-top: 20px;
   }
 }
 

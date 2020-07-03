@@ -24,9 +24,8 @@
             <h2>Are you looking to...</h2>
             <ul>
               <li>Get your website re-designed?</li>
-              <li>Get more sales?</li>
-              <li>Maximize profits?</li>
-              <li>Never look for another project?</li>
+              <li>Increase leads?</li>
+              <li>Increase revenue from your website?</li>
             </ul>
           </div>
           <div class="col-lg-6">
@@ -54,16 +53,6 @@
                   class="form-control"
                   id="Email"
                   placeholder="Email"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  name="company"
-                  type="name"
-                  class="form-control"
-                  id="Company"
-                  aria-describedby="companyname"
-                  placeholder="Company Name"
                 />
               </div>
               <div class="form-group">
