@@ -5,12 +5,20 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-            <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Work</h1>
+            <h1
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              Work
+            </h1>
             <p
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="1000"
-            >Results we've got for our clients</p>
+            >
+              Results we've got for our clients
+            </p>
           </div>
         </div>
       </div>
@@ -20,72 +28,118 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <g-image alt="cass-a-bella construction" src="~/img/cassabella.jpg" class="img-fluid" />
+            <g-image
+              alt="cass-a-bella construction"
+              src="~/img/cassabella.jpg"
+              class="img-fluid"
+            />
             <g-link to="/home-renovation-website-design">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="canadian mortgage authority" src="~/img/cma.jpg" class="img-fluid" />
+            <g-image
+              alt="canadian mortgage authority"
+              src="~/img/cma.jpg"
+              class="img-fluid"
+            />
             <g-link to="/commercial-mortgage-broker-web-design">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="urban cravings" src="~/img/urban-cravings.jpg" class="img-fluid" />
+            <g-image
+              alt="urban cravings"
+              src="~/img/urban-cravings.jpg"
+              class="img-fluid"
+            />
             <g-link to="/urban-cravings">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
         </div>
         <div class="row two">
           <div class="col-lg-4">
-            <g-image alt="mc aesthetics" src="~/img/mc-aesthetics.jpg" class="img-fluid" />
+            <g-image
+              alt="mc aesthetics"
+              src="~/img/mc-aesthetics.jpg"
+              class="img-fluid"
+            />
             <g-link to="/skin-care-web-design">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="chris cutaia" src="~/img/chris.jpg" class="img-fluid" />
+            <g-image
+              alt="chris cutaia"
+              src="~/img/chris.jpg"
+              class="img-fluid"
+            />
             <g-link to="/chris-cutaia">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="sanko construction" src="~/img/sanko-construction.jpg" class="img-fluid" />
+            <g-image
+              alt="sanko construction"
+              src="~/img/sanko-construction.jpg"
+              class="img-fluid"
+            />
             <g-link to="/residential-landscaping-web-design">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
         </div>
-        <div class="row two">
+        <!-- <div class="row two">
           <div class="col-lg-4">
-            <g-image alt="krysta gauthier" src="~/img/krysta-gauthier.jpg" class="img-fluid" />
+            <g-image
+              alt="krysta gauthier"
+              src="~/img/krysta-gauthier.jpg"
+              class="img-fluid"
+            />
             <g-link to="/krysta-gauthier-mortgage">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="refresh beauty" src="~/img/refresh.jpg" class="img-fluid" />
+            <g-image
+              alt="refresh beauty"
+              src="~/img/refresh.jpg"
+              class="img-fluid"
+            />
             <g-link to="/refresh-beauty">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
           <div class="col-lg-4">
-            <g-image alt="alc interiors" src="~/img/alc-interiors.jpg" class="img-fluid" />
+            <g-image
+              alt="alc interiors"
+              src="~/img/alc-interiors.jpg"
+              class="img-fluid"
+            />
             <g-link to="/interior-design-web-design">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
+              <button type="submit" class="btn btn-primary">
+                View Case Study
+              </button>
             </g-link>
           </div>
-        </div>
-        <div class="row two">
-          <div class="col-lg-4">
-            <g-image alt="mj dixon" src="~/img/mj-dixon.jpg" class="img-fluid" />
-            <g-link to="/architecture-firm-web-design">
-              <button type="submit" class="btn btn-primary">View Case Study</button>
-            </g-link>
-          </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <Footer></Footer>
@@ -123,9 +177,9 @@ export default {
         key: "description",
         name: "description",
         content:
-          "Check out the detailed case studies based on the results that Infused Agency has put forth for their clients. Click here to view now."
-      }
-    ]
-  }
+          "Check out the detailed case studies based on the results that Infused Agency has put forth for their clients. Click here to view now.",
+      },
+    ],
+  },
 };
 </script>
