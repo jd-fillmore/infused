@@ -45,6 +45,25 @@
               </div>
               <div class="form-group">
                 <input
+                  name="phone"
+                  type="phone"
+                  class="form-control"
+                  id="Phone"
+                  aria-describedby="urlhelp"
+                  placeholder="Cell Phone Number"
+                />
+              </div>
+              <div class="form-group">
+                <select name="budget" type="budget" id="Budget">
+                  <option value="select">What's your budget?</option>
+                  <option value="2000">$2,000 - $3,000</option>
+                  <option value="3000">$3,000 - $4,000</option>
+                  <option value="4000">$4,000 - $5,000</option>
+                  <option value="5000">$5,000+</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input
                   name="url"
                   type="name"
                   class="form-control"
@@ -329,6 +348,12 @@ export default {
 
 <style scoped lang="scss">
 @import "../scss/_base.scss";
+
+select {
+  width: 100%;
+  padding: 10px;
+  color: #495057;
+}
 
 // Home
 .intro,
