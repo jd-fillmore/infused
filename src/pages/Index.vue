@@ -133,7 +133,7 @@
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top-tier web desig, digital marketing and SEO company, we build
+              As a top-tier web design, digital marketing and SEO company, we build
               <g-link to="/web-design">conversion-focused websites</g-link>&nbsp;that boost your credibility and
               <strong>
                 actually bring you
