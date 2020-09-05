@@ -163,7 +163,7 @@
     <section id="faq">
       <div class="container">
         <div class="row">
-          <div class="col-mg-12">
+          <div class="col-md-12">
             <h2>Frequently Asked Questions</h2>
           </div>
         </div>
@@ -313,6 +313,9 @@
     }
   }
   .card {
+    @include bp-tablet-sm {
+      margin-bottom: 20px;
+    }
     text-align: center;
     padding: 15px;
     h3 {
