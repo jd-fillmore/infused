@@ -9,12 +9,12 @@
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="500"
-            >Home Renovation Website Design</h1>
+            >Home Builder / Renovation Website Design</h1>
             <p
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="1000"
-            >A home renovation website design, with developed SEO and digital strategy for the Cass-A-Bella Construction</p>
+            >A home builder / renovation website design, with developed SEO and digital strategy for the Cass-A-Bella Construction</p>
           </div>
         </div>
       </div>
