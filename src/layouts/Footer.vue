@@ -52,15 +52,6 @@
               />
             </div>
             <div class="form-group">
-              <select name="budget" type="budget" id="Budget">
-                <option value="select">What's your budget?</option>
-                <option value="2000">$2,000 - $3,000</option>
-                <option value="3000">$3,000 - $4,000</option>
-                <option value="4000">$4,000 - $5,000</option>
-                <option value="5000">$5,000+</option>
-              </select>
-            </div>
-            <div class="form-group">
               <input
                 name="url"
                 type="name"

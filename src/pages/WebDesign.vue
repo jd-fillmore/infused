@@ -88,122 +88,68 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2>Pricing</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="heading">
-              <h2>Beginner</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>1,999
-              </h3>
-              <p>For a business wanting a small website online quickly with minimal functionality</p>
-              <ul>
-                <li>Non-custom design</li>
-                <li>Pre-built WordPress template</li>
-                <li>Ability to edit website</li>
-                <li>Mobile-friendly responsive</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="value">
-              <h4>Best Value, Most Popular</h4>
-            </div>
-            <div class="heading">
-              <h2>Professional</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>2,999
-              </h3>
-              <p>For a business wanting a modern online presence that can bring in leads</p>
-              <ul>
-                <li>Custom, modern design</li>
-                <li>Custom coded</li>
-                <li>Ability to edit website</li>
-                <li>Mobile-friendly responsive</li>
-                <li>Google Analytics</li>
-                <li>Google Search Console</li>
-                <li>Optimized for speed</li>
-                <li>Optimized for performance</li>
-                <li>XML Sitemap</li>
-                <li>Submit website to Google</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="heading">
-              <h2>Enterprise</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>4,999+
-              </h3>
-              <p>For a business that needs more than a static website</p>
-              <ul>
-                <li>Modern web application</li>
-                <li>Custom, modern design</li>
-                <li>Custom coded</li>
-                <li>Custom programming</li>
-                <li>Mobile-friendly responsive</li>
-                <li>Optimized for speed</li>
-                <li>Optimized for performance</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--FAQ-->
-    <section id="faq">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Frequently Asked Questions</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h3>How much do you charge to build a website?</h3>
-            <p>The pricing above is what you will pay. If you require extra revisions at either the design, development or post-launch stage, we're happy to quote that out for you.</p>
-            <h3>How long will it take to complete my website?</h3>
-            <p>Typically around 3-6 weeks. This is highly dependant on each website, and whether content is ready for the website itself.</p>
-            <h3>Do I have to be in the Niagara region to work with you?</h3>
-            <p>Absolutely not! We've serviced local companies in the Niagara region, to the United States and even Australia.</p>
-            <h3>Will I be able to update the site myself when it's finished?</h3>
-            <p>Absolutely. You will receive a training package that outlines exactly how to edit your website without the knowledge code. We make sure it's a very simple and smooth process.</p>
-            <h3>What is the difference in your website packages?</h3>
-            <p>The vary in complexity and functionality from package to package. If you need something very quick and simple, package one is your best bet. If you want something professional that can bring you in revenue, number two is perfect. If you want anything more complex, number three is your go-to.</p>
-            <h3>Will you maintain our website for us?</h3>
-            <p>If you'd like us to! We intentionally build out websites that allow you to maintain them. But if you're too busy to, we understand and can do it for you.</p>
-            <h3>Do you provide website hosting and domain?</h3>
-            <p>Hosting and domain will be set up by us, but ultimately will be under your control.</p>
-            <h3>How much input do I have in the website deisgn process?</h3>
-            <p>There will be a chance to review the design once we've completed it for you. However with the years of experience our team has in what makes a web design effective for your users, your input should be minimal.</p>
-            <h3>Will my website be mobile-friendly?</h3>
-            <p>Yes! More than 50% of people world-wide browse the web on smart phones, so it only makes sense for your website to be completely mobile-friendly as well.</p>
-            <h3>Who writes the content for the website?</h3>
-            <p>Two options here. You can either write it yourself, or one of our on-staff content writers can write it for you.</p>
-            <h3>Do you only create WordPress websites?</h3>
-            <p>Nope! For websites that don't need a content management system, we typically use other modern technologies to get the job done.</p>
-            <h3>What if I need help on my site down the road?</h3>
-            <p>We'll be here! We pride ourself on a 95% client satisfaction rate since 2016. Long-term client relationships are the key to our business, so we make sure we're always here for you.</p>
-            <h3>Is SEO included in my website build?</h3>
-            <p>For package #2, basic on-page SEO is. Anything outside of that we're happy to quote out for you.</p>
-            <h3>How does payment work?</h3>
-            <p>25% upfront, 25% on us sending over the design, 25% on us sending over the full build for testing to you, and 25% on launch.</p>
-            <h3>How do we get started?</h3>
+            <h2>
+              <span>Affordable</span> monthly payments, as it should be.
+            </h2>
             <p>
-              Fill out the inquiry form on our website, or email us at
-              <a
-                href="mailto:hello@infused.agency"
-              >hello@infused.agency</a> with your name, number and exactly what you're looking for in a website.
+              $0, $164.99/mo for a standard 5 page small business website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved.
+              <br />
+              <br />You own your domain, content, listing, and profiles. Cancel at any time.
             </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="heading">
+              <h2>Standard</h2>
+            </div>
+            <div class="card">
+              <h3>
+                <sup>$</sup>164.99 / mo
+              </h3>
+              <h6>For 1 year</h6>
+              <p>Up to 5 pages</p>
+              <ul>
+                <li>Custom design</li>
+                <li>Includes hosting</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="heading">
+              <h2>Standard + Blog</h2>
+            </div>
+            <div class="card">
+              <h3>
+                <sup>$</sup>249.99 / mo
+              </h3>
+              <h6>For 1 year</h6>
+              <p>Up to 15 pages</p>
+              <ul>
+                <li>SEO-optimized</li>
+                <li>Keyword analysis</li>
+                <li>Create / optimize Google My Business listing</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="heading">
+              <h2>Custom</h2>
+            </div>
+            <div class="card">
+              <h3>
+                <sup>$</sup>499 / mo+
+              </h3>
+              <h6>For 1 year</h6>
+              <p>Unlimited pages</p>
+              <ul>
+                <li>Custom functionality</li>
+                <li>E-commerce</li>
+                <li>Membership area</li>
+                <li>Search functionality</li>
+                <li>Complex programming logic</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
