@@ -29,7 +29,7 @@
               </h4>
               <p>Based on our previous discussion, we've established that you're ready to enter the next stage of growth and further stabilize your business with a modern website and additional marketing channels. The best strategy to achieve your growth goals for 2020 and beyond involves a 3-part plan:</p>
               <ol>
-                <li>We'll start with a discovery deep dive, which will accomplish two key things. First, we'll ensure new website design's branding and positioning is consistent across the website. Secondly, we'll go into which parts of your business you want to highlight not only to maximize your user's experience, but also to help maximize your own company's revenue.</li>
+                <li>We'll start with a discovery deep dive, which will accomplish two key things. First, we'll ensure the new website design's branding and positioning is consistent across the website. Secondly, we'll go into which parts of your business you want to highlight not only to maximize your user's experience, but also to help maximize your own company's revenue.</li>
                 <li>We'll create a customized website design derived from our discussion based on your most important business goals. Local SEO keyword implementation on the home page will be key. This design will be implemented flawlessly across your website into a live, functioning site, ensuring a great user-experience.</li>
                 <li>Once launched, we will promote the website through different marketing channels such as Facebook ads, Instagram ads and more. We also specialize in building city-based landing pages that act as sales funnels, and rank very high in Google for the search terms your customers are searching for.</li>
               </ol>
@@ -199,6 +199,7 @@
                 <li>3 local city sales funnel pages, optimized to rank high in Google</li>
                 <li>Create / optimize Google My Business listing</li>
                 <li>Optimized for SEO (meta titles, descriptions, home page with localized SEO)</li>
+                <li>SSL security certificate</li>
                 <li>Create / optimize Google My Business listings for local SEO</li>
                 <li>Contact forms to collect leads</li>
                 <li>Testimonials on city pages</li>
@@ -417,13 +418,12 @@
 <script>
 export default {
   metaInfo: {
-    title: "Web Design",
+    title: "Simpson's Pharmacy - Proposal",
     meta: [
       {
         key: "description",
         name: "description",
-        content:
-          "Infused offers website design & development tailored to your contractor business in order to help engage and convert your customers. Click here to learn how."
+        content: "Please view Simpson's Pharmacy's proposal."
       }
     ]
   }
