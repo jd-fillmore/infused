@@ -153,7 +153,7 @@
               <li>Extremely fast</li>
               <li>Modern</li>
               <li>There are no hosting fees!</li>
-              <li>It's non-hackable and extremely secure (unlike WordPress, which local agencies use)</li>
+              <li>It's non-hackable and extremely secure</li>
               <li>Rank extremely well in Google, leading to more revenue and exposure for you</li>
             </ul>
           </div>
