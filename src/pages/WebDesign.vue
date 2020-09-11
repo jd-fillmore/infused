@@ -91,11 +91,7 @@
             <h2>
               <span>Affordable</span> monthly payments, as it should be.
             </h2>
-            <p>
-              $0, $164.99/mo for a standard 5 page small business website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved.
-              <br />
-              <br />You own your domain, content, listing, and profiles. Cancel at any time.
-            </p>
+            <p>$164.99/mo for a standard 5 page small business website. You own your domain, content, listing, and profiles. Cancel at any time.</p>
           </div>
         </div>
         <div class="row">
@@ -116,6 +112,9 @@
             </div>
           </div>
           <div class="col-md-4">
+            <div class="value">
+              <h4>Best Value, Most Popular</h4>
+            </div>
             <div class="heading">
               <h2>Standard + Blog</h2>
             </div>
