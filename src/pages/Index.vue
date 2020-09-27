@@ -10,7 +10,8 @@
               data-aos-delay="500"
               data-aos-duration="1000"
             >
-              Niagara Web Design, SEO &amp; Digital Marketing Company
+              Niagara Web Design, SEO Provider St. Catharines &amp; Digital
+              Marketing Company
             </h1>
             <h2
               data-aos="fade-up"
