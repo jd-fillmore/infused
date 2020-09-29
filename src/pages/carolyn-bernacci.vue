@@ -161,7 +161,7 @@
         <div class="row">
           <div class="col-md-12">
             <h2>Website Pricing</h2>
-            <p>Three affordable packages to choose from.</p>
+            <p>Three affordable packages to choose from. First month upfront, website launch within a month.</p>
           </div>
         </div>
         <div class="row">
