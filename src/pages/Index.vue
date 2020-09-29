@@ -9,13 +9,21 @@
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-            >Niagara Web Design, SEO &amp; Digital Marketing Company</h1>
+            >
+              Niagara Web Design, SEO Provider St. Catharines &amp; Digital
+              Marketing Company
+            </h1>
             <h2
               data-aos="fade-up"
               data-aos-delay="1000"
               data-aos-duration="1000"
-            >We build digital strategies that bring you revenue.</h2>
-            <p>Need web design, SEO or digital marketing done? Fill out the form and we'll get back to you ASAP.</p>
+            >
+              We build digital strategies that bring you revenue.
+            </h2>
+            <p>
+              Need web design, SEO or digital marketing done? Fill out the form
+              and we'll get back to you ASAP.
+            </p>
           </div>
           <div class="col-lg-6">
             <form
@@ -86,21 +94,37 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h2 data-aos="fade-up" data-aos-duration="1000">Increase online sales, with a great ROI.</h2>
-            <h4
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >Digital Marketing, Website Design and SEO that bring you more revenue.</h4>
+            <h2 data-aos="fade-up" data-aos-duration="1000">
+              Increase online sales, with a great ROI.
+            </h2>
+            <h4 data-aos="fade-up" data-aos-duration="1000">
+              Digital Marketing, Website Design and SEO that bring you more
+              revenue.
+            </h4>
           </div>
         </div>
         <div class="row text-center cards">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <div
+            class="col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
             <div class="card">
-              <g-image alt="check" src="~/img/check.jpg" class="img-fluid mx-auto d-block" />
+              <g-image
+                alt="check"
+                src="~/img/check.jpg"
+                class="img-fluid mx-auto d-block"
+              />
               <h4>Increase Leads</h4>
             </div>
           </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <div
+            class="col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
             <div class="card">
               <g-image
                 alt="website design niagara"
@@ -110,7 +134,12 @@
               <h4>Increase Revenue</h4>
             </div>
           </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+          <div
+            class="col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
             <div class="card">
               <g-image
                 alt="web developer niagara"
@@ -124,18 +153,29 @@
         <div class="row">
           <div class="col-lg-12">
             <p>
-              As a top-tier web design, digital marketing and SEO company, we build
-              <g-link to="/web-design">conversion-focused websites</g-link>&nbsp;that boost your credibility and
+              As a top-tier web design, digital marketing and SEO company, we
+              build
+              <g-link to="/web-design">conversion-focused websites</g-link
+              >&nbsp;that boost your credibility and
               <strong>
                 actually bring you
-                <g-link to="/seo">more sales</g-link>
-              </strong>.
+                <g-link to="/seo">more sales</g-link> </strong
+              >.
             </p>
             <p>
-              Our website &amp; digital marketing experts work best when working with businesses that
-              <strong>fully understand</strong> how impactful the credibility and overall sales of your website can be. We establish close relationships with our clients, and make sure you succeed on building credibility online, and optimizing your website so it can bring in more quality, and consistent sales.
+              Our website &amp; digital marketing experts work best when working
+              with businesses that
+              <strong>fully understand</strong> how impactful the credibility
+              and overall sales of your website can be. We establish close
+              relationships with our clients, and make sure you succeed on
+              building credibility online, and optimizing your website so it can
+              bring in more quality, and consistent sales.
             </p>
-            <p>Our website optimization helps increase website conversions, increase website traffic and ultimate increases your sales from your website. We help you every step of the way.</p>
+            <p>
+              Our website optimization helps increase website conversions,
+              increase website traffic and ultimate increases your sales from
+              your website. We help you every step of the way.
+            </p>
           </div>
         </div>
       </div>
@@ -149,7 +189,10 @@
             <h2>Featured Client</h2>
             <h4>Cass-A-Bella Construction</h4>
             <p>
-              "Great Job, WELL DONE. I'm very please with the service and the design of my new web site. If you ever need a new web site I do recommend Infused Agency for their services. JD keep up the great work. Thank you."
+              "Great Job, WELL DONE. I'm very please with the service and the
+              design of my new web site. If you ever need a new web site I do
+              recommend Infused Agency for their services. JD keep up the great
+              work. Thank you."
               <br />
               <em>- Mr. Duarte, Cass-A-Bella Construction</em>
             </p>
@@ -176,7 +219,12 @@
               <li>Wanted more credibility and more clients</li>
             </ul>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-deloay="500">
+          <div
+            class="col-lg-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-deloay="500"
+          >
             <h3>After</h3>
             <ul>
               <li>
@@ -203,7 +251,9 @@
         <div class="row text-center">
           <div class="col-lg-12">
             <g-link to="/work">
-              <button type="submit" class="btn btn-primary">View More Work</button>
+              <button type="submit" class="btn btn-primary">
+                View More Work
+              </button>
             </g-link>
           </div>
         </div>
@@ -222,29 +272,64 @@
         <div class="row">
           <div class="col-lg-4">
             <h3>1. Discovery</h3>
-            <p>What's holding your business back from growing? What do you expect to get out of your website design? Who is your target audience? These are some of the many questions that help with the diagnosis and eventual solution as to how we can help your business grow.</p>
+            <p>
+              What's holding your business back from growing? What do you expect
+              to get out of your website design? Who is your target audience?
+              These are some of the many questions that help with the diagnosis
+              and eventual solution as to how we can help your business grow.
+            </p>
           </div>
           <div class="col-lg-4">
             <h3>2. Plan</h3>
-            <p>Before we touch a single pixel or a create a single line of code, we need to sit down and strategize a plan of attack. We will go over a few things - the aesthetics of your website plan that attracts your specific audience, create wireframe sketches, website flowcharts and more.</p>
+            <p>
+              Before we touch a single pixel or a create a single line of code,
+              we need to sit down and strategize a plan of attack. We will go
+              over a few things - the aesthetics of your website plan that
+              attracts your specific audience, create wireframe sketches,
+              website flowcharts and more.
+            </p>
           </div>
           <div class="col-lg-4">
             <h3>3. Design</h3>
-            <p>This is the fun part. We will produce a unique website that powers and infuses your online presence as a whole. Your website will be engaging, adapt easily to mobile design best practices, and most importantly, it will be aimed at generating much more business than you're currently getting.</p>
+            <p>
+              This is the fun part. We will produce a unique website that powers
+              and infuses your online presence as a whole. Your website will be
+              engaging, adapt easily to mobile design best practices, and most
+              importantly, it will be aimed at generating much more business
+              than you're currently getting.
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <h3>4. Develop</h3>
-            <p>Once we have your website approved and ready to go, it's time to step into the website development phase. Our website experts, as well as SEO experts will step in and create your high performance website, aimed to rank extremely well in Google's search engine. They will start adding content, uploading media, testing and more.</p>
+            <p>
+              Once we have your website approved and ready to go, it's time to
+              step into the website development phase. Our website experts, as
+              well as SEO experts will step in and create your high performance
+              website, aimed to rank extremely well in Google's search engine.
+              They will start adding content, uploading media, testing and more.
+            </p>
           </div>
           <div class="col-lg-4">
             <h3>5. Launch</h3>
-            <p>One of the most important milestones in your project, is launching your new website project. Our team will triple-check all of the content for any sort of spelling mistakes, make sure all links are working correctly, and lastly, making sure that's it shows up in Google searches.</p>
+            <p>
+              One of the most important milestones in your project, is launching
+              your new website project. Our team will triple-check all of the
+              content for any sort of spelling mistakes, make sure all links are
+              working correctly, and lastly, making sure that's it shows up in
+              Google searches.
+            </p>
           </div>
           <div class="col-lg-4">
             <h3>6. Promote</h3>
-            <p>At Infused, we believe that your website project has just begun once the site has launched. You may have an amazing website - but without traffic? It won't do anything for your business. The internet marketing aspect comes into play here and is the utmost important for your business to succeed.</p>
+            <p>
+              At Infused, we believe that your website project has just begun
+              once the site has launched. You may have an amazing website - but
+              without traffic? It won't do anything for your business. The
+              internet marketing aspect comes into play here and is the utmost
+              important for your business to succeed.
+            </p>
           </div>
         </div>
       </div>
@@ -324,16 +409,17 @@
 <script>
 export default {
   metaInfo: {
-    title: "Niagara Web Design, SEO & Digital Marketing Company",
+    title:
+      "Niagara Web Design, SEO Provider St. Catharines, Digital Marketing Company",
     meta: [
       {
         key: "description",
         name: "description",
         content:
-          "Niagara's web design, SEO & digital marketing company. We're a digital marketing agency thats brings more sales to your company. Click here to get a quote."
-      }
-    ]
-  }
+          "Niagara's web design, St. Catharines' SEO provider & digital marketing company. We're a digital marketing agency thats brings more sales to your company. Click here to get a quote.",
+      },
+    ],
+  },
 };
 </script>
 
