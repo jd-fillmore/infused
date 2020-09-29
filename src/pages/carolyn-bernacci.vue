@@ -147,6 +147,16 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
+            <h2>Key Take-Aways</h2>
+            <ul>
+              <li>Motivation - frustrated as couldn't find any vegan food near. Other customers probably feel this frustration as well.</li>
+              <li>Plant-based food</li>
+              <li>Everyone's too busy to cook</li>
+              <li>More of a destination that's a bit tucked away - therefore, an online presence to attract is imperative</li>
+              <li>Up and running the place in about 5 months but would like an online presence beforehand</li>
+              <li>Home page, about page, menu, contact page</li>
+              <li>Contact information and form to gather inquiries</li>
+            </ul>
             <h2>Project Investment</h2>
             <p>Phase 1 will be that of the web design and development phase. It will be developed on a platform that no other agency has access to, which makes us a very unique choice. We choose this platform to develop all of our websites as it's:</p>
             <ul>
