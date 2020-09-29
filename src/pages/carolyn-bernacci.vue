@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Carolyn Bernacci</h1>
+            <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Plant No. 1</h1>
             <p
               data-aos="fade-in"
               data-aos-duration="1000"
@@ -25,7 +25,7 @@
             <div class="card">
               <h4>
                 Infused Agency &amp;
-                <strong>Carolyn Bernacci</strong>
+                <strong>Plant No. 1</strong>
               </h4>
               <p>Based on our previous discussion, we've established that you're ready to enter the next stage of growth and further stabilize your business with a modern website and additional marketing channels. The best strategy to achieve your growth goals for 2020 and beyond involves a 3-part plan:</p>
               <ol>
@@ -428,12 +428,12 @@
 <script>
 export default {
   metaInfo: {
-    title: "Carolyn Bernacci - Proposal",
+    title: "Plant No. 1 - Proposal",
     meta: [
       {
         key: "description",
         name: "description",
-        content: "Please view Carolyn Bernacci's proposal."
+        content: "Please view Plant No. 1's proposal."
       }
     ]
   }
