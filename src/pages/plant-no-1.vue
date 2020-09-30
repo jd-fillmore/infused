@@ -5,12 +5,20 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-12">
-            <h1 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">Plant No. 1</h1>
+            <h1
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              Plant No. 1
+            </h1>
             <p
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="1000"
-            >Website Design, Development &amp; SEO Proposal</p>
+            >
+              Website Design, Development &amp; SEO Proposal
+            </p>
           </div>
         </div>
       </div>
@@ -27,13 +35,41 @@
                 Infused Agency &amp;
                 <strong>Plant No. 1</strong>
               </h4>
-              <p>Based on our previous discussion, we've established that you're ready to enter the next stage of growth and further stabilize your business with a modern website and additional marketing channels. The best strategy to achieve your growth goals for 2020 and beyond involves a 3-part plan:</p>
+              <p>
+                Based on our previous discussion, we've established that you're
+                ready to enter the next stage of growth and further stabilize
+                your business with a modern website and additional marketing
+                channels. The best strategy to achieve your growth goals for
+                2020 and beyond involves a 3-part plan:
+              </p>
               <ol>
-                <li>We'll start with a discovery deep dive, which will accomplish two key things. First, we'll ensure the new website design's branding and positioning is consistent across the website. Secondly, we'll go into which parts of your business you want to highlight not only to maximize your user's experience, but also to help maximize your own company's revenue.</li>
-                <li>We'll create a customized website design derived from our discussion based on your most important business goals. Local SEO keyword implementation on the home page will be key. This design will be implemented flawlessly across your website into a live, functioning site, ensuring a great user-experience.</li>
-                <li>Once launched, we will promote the website through different marketing channels such as Facebook ads, Instagram ads and more. We also specialize in building city-based landing pages that act as sales funnels, and rank very high in Google for the search terms your customers are searching for.</li>
+                <li>
+                  We'll start with a discovery deep dive, which will accomplish
+                  two key things. First, we'll ensure the new website design's
+                  branding and positioning is consistent across the website.
+                  Secondly, we'll go into which parts of your business you want
+                  to highlight not only to maximize your user's experience, but
+                  also to help maximize your own company's revenue.
+                </li>
+                <li>
+                  We'll create a customized website design derived from our
+                  discussion based on your most important business goals. Local
+                  SEO keyword implementation on the home page will be key. This
+                  design will be implemented flawlessly across your website into
+                  a live, functioning site, ensuring a great user-experience.
+                </li>
+                <li>
+                  Once launched, we will promote the website through different
+                  marketing channels such as Facebook ads, Instagram ads and
+                  more. We also specialize in building city-based landing pages
+                  that act as sales funnels, and rank very high in Google for
+                  the search terms your customers are searching for.
+                </li>
               </ol>
-              <p>To keep things flowing, it's imperative that we do this in a phased approach as you will see below.</p>
+              <p>
+                To keep things flowing, it's imperative that we do this in a
+                phased approach as you will see below.
+              </p>
             </div>
           </div>
           <div class="col-lg-1">&nbsp;</div>
@@ -49,7 +85,10 @@
             <h2>Local, Real Results</h2>
             <h4>Cass-A-Bella Construction</h4>
             <p>
-              "Great Job, WELL DONE. I'm very please with the service and the design of my new web site. If you ever need a new web site I do recommend Infused Agency for their services. JD keep up the great work. Thank you."
+              "Great Job, WELL DONE. I'm very please with the service and the
+              design of my new web site. If you ever need a new web site I do
+              recommend Infused Agency for their services. JD keep up the great
+              work. Thank you."
               <br />
               <em>- Mr. Duarte, Cass-A-Bella Construction</em>
               <br />
@@ -57,7 +96,8 @@
               <a
                 target="_blank"
                 href="https://www.google.com/search?q=infused+agency&oq=infused+agency&aqs=chrome..69i57j0j46j69i60j69i61l3j69i65.2615j0j7&sourceid=chrome&ie=UTF-8#lrd=0x89d3507111975161:0x18a1198be6280a70,1,,,"
-              >Read More 5 Star Google Reviews</a>
+                >Read More 5 Star Google Reviews</a
+              >
             </p>
           </div>
         </div>
@@ -83,7 +123,12 @@
               <li>Wanted more credibility and more clients</li>
             </ul>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-deloay="500">
+          <div
+            class="col-lg-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-deloay="500"
+          >
             <h3>After</h3>
             <ul>
               <li>Modern, blazing fast website designed and developed</li>
@@ -112,7 +157,9 @@
         <div class="row text-center">
           <div class="col-lg-12">
             <a target="_blank" href="https://cassabellaconstruction.com/">
-              <button type="submit" class="btn btn-primary">View Website</button>
+              <button type="submit" class="btn btn-primary">
+                View Website
+              </button>
             </a>
           </div>
         </div>
@@ -128,13 +175,25 @@
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img class="img-fluid mx-auto d-block" src="~../img/cass-1.jpg" alt="1" />
+              <img
+                class="img-fluid mx-auto d-block"
+                src="~../img/cass-1.jpg"
+                alt="1"
+              />
             </div>
             <div class="col-lg-4">
-              <img class="img-fluid mx-auto d-block" src="~../img/cass-2.jpg" alt="2" />
+              <img
+                class="img-fluid mx-auto d-block"
+                src="~../img/cass-2.jpg"
+                alt="2"
+              />
             </div>
             <div class="col-lg-4">
-              <img class="img-fluid mx-auto d-block" src="~../img/cass-3.jpg" alt="3" />
+              <img
+                class="img-fluid mx-auto d-block"
+                src="~../img/cass-3.jpg"
+                alt="3"
+              />
             </div>
           </div>
         </div>
@@ -149,29 +208,90 @@
           <div class="col-md-12">
             <h2>Key Take-Aways</h2>
             <ul>
-              <li>Motivation - frustrated as couldn't find any vegan food near. Other customers probably feel this frustration as well.</li>
+              <li>
+                Motivation - frustrated as couldn't find any vegan food near.
+                Other customers probably feel this frustration as well.
+              </li>
               <li>Plant-based food</li>
               <li>Everyone's too busy to cook</li>
-              <li>More of a destination that's a bit tucked away - therefore, an online presence to attract is imperative</li>
-              <li>Up and running the place in about 5 months but would like an online presence beforehand</li>
+              <li>
+                More of a destination that's a bit tucked away - therefore, an
+                online presence to attract is imperative
+              </li>
+              <li>
+                Up and running the place in about 5 months but would like an
+                online presence beforehand
+              </li>
               <li>Home page, about page, menu, contact page</li>
               <li>Contact information and form to gather inquiries</li>
+              <li>All plant based foods</li>
+              <li>
+                Every effort made to eliminate artificial colours, flavours,
+                gmo's, as much local produce as possible without chemical sprays
+                (there won't be any of this but I never say "never or no" as
+                there are people who will check every ingredient and ask for
+                your suppliers to check their ingredients...these people never
+                stop).
+              </li>
+              <li>
+                Aiming towards zero waste facility with composting of all of our
+                waste and packaging
+              </li>
+              <li>
+                All consumer packaging will be biodegradable or compostable
+              </li>
+              <li>Living wage employer</li>
+              <li>
+                Not just geared to vegans ...must be marketed towards all humans
+              </li>
+              <li>
+                Menu "daily grub" for regular menu items and "artisanal menu"
+                for special events where I put all of my aromatherapy training
+                into good use with high end desserts featuring dried and sugared
+                flowers and natural plant extracts -seasonal items will include
+                picnic basket orders
+              </li>
+              <li>
+                "Daily grub" menu will be prepped and ready to go for lunch and
+                dinner (all comfort foods) including some awesome desserts
+              </li>
+              <li>
+                Order form for catering and B&B's in the area who may have
+                guests with vegan/plant based diets (pandemic will put a big hit
+                on that).
+              </li>
+              <li>
+                Biggest mandate is that it is local, everything is made in house
+                with real food , by local, hard-working people from our
+                beautiful blue planet, which is quickly turning grungy
+              </li>
             </ul>
             <h2>Project Investment</h2>
-            <p>Phase 1 will be that of the web design and development phase. It will be developed on a platform that no other agency has access to, which makes us a very unique choice. We choose this platform to develop all of our websites as it's:</p>
+            <p>
+              Phase 1 will be that of the web design and development phase. It
+              will be developed on a platform that no other agency has access
+              to, which makes us a very unique choice. We choose this platform
+              to develop all of our websites as it's:
+            </p>
             <ul>
               <li>Extremely fast</li>
               <li>Modern</li>
               <li>There are no hosting fees!</li>
               <li>It's non-hackable and extremely secure</li>
-              <li>Rank extremely well in Google, leading to more revenue and exposure for you</li>
+              <li>
+                Rank extremely well in Google, leading to more revenue and
+                exposure for you
+              </li>
             </ul>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
             <h2>Website Pricing</h2>
-            <p>Three affordable packages to choose from. First month upfront, website launch within a month.</p>
+            <p>
+              Three affordable packages to choose from. First month upfront,
+              website launch within a month.
+            </p>
           </div>
         </div>
         <div class="row">
@@ -180,9 +300,7 @@
               <h2>Beginner</h2>
             </div>
             <div class="card">
-              <h3>
-                <sup>$</sup>164.99 / mo
-              </h3>
+              <h3><sup>$</sup>164.99 / mo</h3>
               <h6>For 1 year</h6>
               <p>1 page</p>
               <ul>
@@ -199,25 +317,25 @@
               <h4>Best value, most popular (includes SEO)</h4>
             </div>
             <div class="card">
-              <h3>
-                <sup>$</sup>299.99 / mo
-              </h3>
+              <h3><sup>$</sup>299.99 / mo</h3>
               <h6>For 1 year</h6>
               <p>Up to 10 pages</p>
               <ul>
                 <li>Everything from Beginner package</li>
-                <li>1 local city sale funnel page, optimized to rank high in Google</li>
-                <li>Create / optimize Google My Business listing</li>
-                <li>Optimized for SEO (meta titles, descriptions, home page with localized SEO)</li>
+                <li>
+                  1 local city sale funnel page, optimized to rank high in
+                  Google
+                </li>
+                <li>
+                  Optimized for SEO (meta titles, descriptions, home page with
+                  localized SEO)
+                </li>
                 <li>SSL security certificate</li>
-                <li>Create / optimize Google My Business listings for local SEO</li>
-                <li>Contact forms to collect leads</li>
-                <li>Testimonials on city pages</li>
-                <li>Email signup (link to third party)</li>
-                <li>Store (link to shopify site)</li>
-                <li>Refills (link to third party)</li>
-                <li>Flyers (link to third party)</li>
-                <li>Links to social media platforms</li>
+                <li>
+                  Create / optimize Google My Business listings for local SEO
+                </li>
+                <li>Contact form to collect leads</li>
+                <li></li>
               </ul>
             </div>
           </div>
@@ -226,9 +344,7 @@
               <h2>Enterprise</h2>
             </div>
             <div class="card">
-              <h3>
-                <sup>$</sup>999 / mo+
-              </h3>
+              <h3><sup>$</sup>999 / mo+</h3>
               <h6>For 1 year</h6>
               <p>Unlimited pages</p>
               <ul>
@@ -245,16 +361,31 @@
         <div class="row">
           <div class="col-md-12">
             <h2>Digital Marketing</h2>
-            <p>If the middle package is chosen from Phase 1, which includes SEO, Phase 2 will take place after the website has launched by digitally marketing your site through Facebook ads, Instagram ads or both.</p>
-            <p>Pricing will be charged at $120 / hour and when the time comes, we will be happy to provide a quote based on how we will market online and how long things will take. This will include:</p>
+            <p>
+              If the middle package is chosen from Phase 1, which includes SEO,
+              Phase 2 will take place after the website has launched by
+              digitally marketing your site through Facebook ads, Instagram ads
+              or both.
+            </p>
+            <p>
+              Pricing will be charged at $120 / hour and when the time comes, we
+              will be happy to provide a quote based on how we will market
+              online and how long things will take. This will include:
+            </p>
             <ul>
               <li>Designing ads</li>
               <li>Setting up and managing ad campaigns</li>
               <li>Monthly reports</li>
-              <li>Creation of laser-targeted landing pages, targeted to users specifically coming from the ads themselves</li>
+              <li>
+                Creation of laser-targeted landing pages, targeted to users
+                specifically coming from the ads themselves
+              </li>
               <li>Consulting</li>
             </ul>
-            <p>You can put in as little or as much as you'd like to spend on a daily, weekly or monthly basis.</p>
+            <p>
+              You can put in as little or as much as you'd like to spend on a
+              daily, weekly or monthly basis.
+            </p>
           </div>
         </div>
         <div class="row">
@@ -262,7 +393,9 @@
             <h2>Next Steps</h2>
             <ol>
               <li>Internal buy-in</li>
-              <li>Contract signing and initial deposit (first month upfront)</li>
+              <li>
+                Contract signing and initial deposit (first month upfront)
+              </li>
               <li>We'll get started!</li>
             </ol>
           </div>
@@ -424,7 +557,6 @@
 }
 </style>
 
-
 <script>
 export default {
   metaInfo: {
@@ -433,10 +565,9 @@ export default {
       {
         key: "description",
         name: "description",
-        content: "Please view Plant No. 1's proposal."
-      }
-    ]
-  }
+        content: "Please view Plant No. 1's proposal.",
+      },
+    ],
+  },
 };
 </script>
-
