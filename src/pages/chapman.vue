@@ -322,7 +322,8 @@
             <ol>
               <li>Internal buy-in</li>
               <li>
-                Contract signing and initial deposit (first month upfront)
+                Contract signing and initial deposit (first and last month
+                upfront)
               </li>
               <li>We'll get started!</li>
             </ol>
