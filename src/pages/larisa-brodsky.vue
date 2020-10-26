@@ -10,14 +10,14 @@
               data-aos-duration="1000"
               data-aos-delay="500"
             >
-              Futura Brow
+              Larisa Brodsky
             </h1>
             <p
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="1000"
             >
-              Website Design, Development &amp; SEO Proposal
+              Website Design & Website Development Proposal
             </p>
           </div>
         </div>
@@ -33,14 +33,14 @@
             <div class="card">
               <h4>
                 Infused Agency &amp;
-                <strong>Futura Brow</strong>
+                <strong>Larisa Brodsky</strong>
               </h4>
               <p>
                 Based on our previous discussion, we've established that you're
                 ready to enter the next stage of growth and further stabilize
                 your business with a modern website and additional marketing
                 channels. The best strategy to achieve your growth goals for
-                2020 and beyond involves a 3-part plan:
+                2020 and beyond involves a 2-part plan:
               </p>
               <ol>
                 <li>
@@ -57,14 +57,6 @@
                   SEO keyword implementation on the home page will be key. This
                   design will be implemented flawlessly across your website into
                   a live, functioning site, ensuring a great user-experience.
-                </li>
-                <li>
-                  Once launched (this is optional), we will promote the website
-                  through different marketing channels such as Facebook ads,
-                  Instagram ads and more. We also specialize in building
-                  city-based landing pages that act as sales funnels, and rank
-                  very high in Google for the search terms your customers are
-                  searching for.
                 </li>
               </ol>
               <p>
@@ -209,15 +201,14 @@
           <div class="col-md-12">
             <h2>Key Take-Aways</h2>
             <ul>
+              <li>Focus on a new website for now</li>
+              <li>Projects are small</li>
               <li>
-                FutureBrow.com to be primary domain, FutureBrows.ca to be
-                secondary
+                Want to showcase projects that you're capable of (schools, day
+                care facilities, office buildings, houses, townhomes etc)
               </li>
-              <li>Booking service through third party platform</li>
-              <li>
-                Display 2-3 featured products on the site, no e-comm
-                functionality
-              </li>
+              <li>Likes minimalism</li>
+              <li>Likes http://www.tadao-ando.com/</li>
             </ul>
             <h2>Project Investment</h2>
             <p>
