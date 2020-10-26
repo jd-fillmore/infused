@@ -304,8 +304,8 @@
             <ol>
               <li>Internal buy-in</li>
               <li>
-                Contract signing and initial deposit (25% of project total
-                upfront)
+                Contract signing and initial deposit (first and last month
+                payments upfront)
               </li>
               <li>We'll get started!</li>
             </ol>
