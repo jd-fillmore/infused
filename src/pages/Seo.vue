@@ -96,81 +96,7 @@
       </div>
     </section>
 
-    <!--Pricing-->
-
-    <section id="pricing">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Pricing</h2>
-            <p>Since SEO takes at the very minimum 6-12 months to see any meaningful results, all packages are 6 month packages to start.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="heading">
-              <h2>Beginner</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>499 / mo
-              </h3>
-              <p>For a business wanting to focus on one local area or service to get more leads in</p>
-              <ul>
-                <li>Further optimize site for SEO</li>
-                <li>Competitor research</li>
-                <li>Keyword research</li>
-                <li>Creation of 1 local city / service landing page</li>
-                <li>1 Local citation</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="value">
-              <h4>Best Value, Most Popular</h4>
-            </div>
-            <div class="heading">
-              <h2>Professional</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>999 / mo
-              </h3>
-              <p>For a business wanting to focus on three local areas or services to get more leads in</p>
-              <ul>
-                <li>Further optimize current site for SEO</li>
-                <li>Competitor research</li>
-                <li>Keyword research</li>
-                <li>Create and optimize Google My Business listing</li>
-                <li>Creation of 3 local city / service landing page</li>
-                <li>3 Local citations</li>
-                <li>1 monthly blog post</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="heading">
-              <h2>Enterprise</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>1,999+ / mo
-              </h3>
-              <p>For a business wanting to focus on five local areas or services to get more leads in</p>
-              <ul>
-                <li>Further optimize current site for SEO</li>
-                <li>Competitor research</li>
-                <li>Keyword research</li>
-                <li>Create and optimize Google My Business listing</li>
-                <li>Creation of 5 local city / service landing page</li>
-                <li>5 Local citations</li>
-                <li>2 monthly blog posts</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!--Process-->
     <section class="process">
@@ -374,8 +300,8 @@
 }
 
 .process {
-  padding-top: 100px;
-  padding-bottom: 100px;
+
+ 
   @include bp-tablet {
     padding-top: 60px;
     padding-bottom: 60px;

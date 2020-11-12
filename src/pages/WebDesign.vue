@@ -82,78 +82,7 @@
       </div>
     </section>
 
-    <!--Pricing-->
-
-    <section id="pricing">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>
-              <span>Affordable</span> monthly payments, as it should be.
-            </h2>
-            <p>$164.99/mo for a standard 5 page small business website. You own your domain, content, listing, and profiles. Cancel at any time.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="heading">
-              <h2>Standard</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>164.99 / mo
-              </h3>
-              <h6>For 1 year</h6>
-              <p>Up to 5 pages</p>
-              <ul>
-                <li>Custom design</li>
-                <li>Includes hosting</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="value">
-              <h4>Best Value, Most Popular</h4>
-            </div>
-            <div class="heading">
-              <h2>Standard + Blog</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>249.99 / mo
-              </h3>
-              <h6>For 1 year</h6>
-              <p>Up to 15 pages</p>
-              <ul>
-                <li>SEO-optimized</li>
-                <li>Keyword analysis</li>
-                <li>Create / optimize Google My Business listing</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="heading">
-              <h2>Custom</h2>
-            </div>
-            <div class="card">
-              <h3>
-                <sup>$</sup>499 / mo+
-              </h3>
-              <h6>For 1 year</h6>
-              <p>Unlimited pages</p>
-              <ul>
-                <li>Custom functionality</li>
-                <li>E-commerce</li>
-                <li>Membership area</li>
-                <li>Search functionality</li>
-                <li>Complex programming logic</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    
     <!--CTA-->
     <section class="pdf">
       <div class="container">
