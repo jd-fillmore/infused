@@ -32,21 +32,21 @@ const Example = props => {
             <Nav className="ml-auto" navbar>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Why us?
+                  Why Us?
                 </DropdownToggle>
                 <DropdownMenu right className="animate slideIn">
-                  <DropdownItem>About us</DropdownItem>
-                  <DropdownItem>How we work</DropdownItem>
+                  <DropdownItem>About Us</DropdownItem>
+                  <DropdownItem>How We Work</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  What we do
+                  What We Do
                 </DropdownToggle>
                 <DropdownMenu right className="animate slideIn">
-                  <DropdownItem>Modern websites</DropdownItem>
-                  <DropdownItem>Search engine optimization (SEO)</DropdownItem>
-                  <DropdownItem>Digital strategy</DropdownItem>
+                  <DropdownItem>Modern Websites</DropdownItem>
+                  <DropdownItem>Local SEO</DropdownItem>
+                  <DropdownItem>Digital Strategy</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
