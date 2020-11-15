@@ -1,0 +1,16 @@
+@import "../../src/pages/variables.scss";
+@import "../../src/pages/breakpoints.scss";
+
+.cta {
+  background: $dark-blue;
+  padding: 120px 0px 120px 0px;
+  h2 {
+    font-size: 60px;
+  }
+  h2 {
+    color: $white;
+  }
+  p {
+    color: rgba($white, 0.5);
+  }
+}

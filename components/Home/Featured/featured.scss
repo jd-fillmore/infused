@@ -1,0 +1,47 @@
+@import "../../../src/pages/variables.scss";
+
+.featured {
+  background: $dark-grey;
+  padding: 120px 0px 120px 0px;
+  a {
+    &:hover,
+    &:focus {
+      border-bottom: none;
+    }
+  }
+  h2 {
+    font-size: 60px !important;
+  }
+  h3 {
+    font-size: 50px;
+    font-family: $body;
+    font-weight: 400;
+    color: $light-blue !important;
+  }
+  h2,
+  h3,
+  p {
+    color: $white;
+  }
+  hr {
+    border: 1px solid $purple;
+    width: 75px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  img {
+    padding: 20px 0px 20px 0px;
+  }
+  #testimonial {
+    font-size: 22px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  button {
+    margin-top: 40px;
+  }
+  span {
+    background: linear-gradient(to top, $dark-purple 40%, transparent 40%);
+    padding: 0px 5px 0px 5px;
+  }
+}

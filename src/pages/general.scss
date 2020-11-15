@@ -1,0 +1,46 @@
+@import "../pages/variables.scss";
+@import "../pages/breakpoints.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading;
+  font-weight: 700;
+}
+
+a,
+p,
+ol,
+ul {
+  font-family: $body;
+  line-height: 1.8;
+}
+
+a {
+  color: $light-blue;
+  transition: 0.2s;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  &:focus,
+  &:hover {
+    color: $purple;
+    border-bottom: 2px solid $light-blue;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 60px;
+  @include bp-tablet-sm {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-size: 42px;
+  @include bp-tablet-sm {
+    font-size: 28px;
+  }
+}

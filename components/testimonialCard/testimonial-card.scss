@@ -1,0 +1,10 @@
+@import "../../src/pages/variables.scss";
+@import "../../src/pages/breakpoints.scss";
+
+.testimonial-card {
+  background: $dark-blue;
+  padding: 100px 40px 100px 40px;
+  em {
+    color: rgba($white, 0.5);
+  }
+}

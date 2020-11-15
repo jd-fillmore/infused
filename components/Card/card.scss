@@ -1,0 +1,11 @@
+@import "../../src/pages/variables.scss";
+
+.card {
+  background: $dark-grey !important;
+  border-radius: 0;
+  padding: 100px;
+  margin-bottom: 40px;
+  p {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,44 @@
+@import "../../../src/pages/variables.scss";
+@import "../../../src/pages/breakpoints.scss";
+
+.what-we-do {
+  background: $dark-blue;
+  padding: 120px 0px 120px 0px;
+  h2,
+  h3,
+  p {
+    color: $white;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  hr {
+    border: 1px solid $purple;
+    width: 75px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  span {
+    background: linear-gradient(to top, $dark-purple 40%, transparent 40%);
+    padding: 0px 5px 0px 5px;
+  }
+  .item {
+    align-items: center;
+    p {
+      color: rgba($white, 0.5);
+    }
+  }
+  .hide-mobile {
+    @include bp-tablet-sm {
+      display: none;
+    }
+  }
+  .hide-desktop {
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+}

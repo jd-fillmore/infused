@@ -1,0 +1,12 @@
+@import "../../../../src/pages/variables.scss";
+@import "../../../../src/pages/breakpoints.scss";
+
+.slider {
+  button {
+    &:hover,
+    &:focus {
+      transform: translateY(-10px) !important;
+      border: none;
+    }
+  }
+}
