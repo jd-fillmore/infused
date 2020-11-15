@@ -30,7 +30,7 @@ const Hero = () => {
                     Marketing Company
                   </h1>
                   <h2>
-                    We design & build <span>modern</span> websites.
+                    We do small business web design, SEO & digital strategy.
                   </h2>
                   <p>Expertly-crafted with purpose and meaning.</p>
                   <Link to="/get-estimate">
