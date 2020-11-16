@@ -1,58 +1,50 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { motion } from "framer-motion"
 import { Link } from "gatsby"
 import Card from "../../Card/card"
-import websiteSVG from "../../../src/img/websites.svg"
-import seoSVG from "../../../src/img/seo.svg"
-import strategySVG from "../../../src/img/strategy.svg"
 
 import "../../../node_modules/slick-carousel/slick/slick.css"
 import "../../../node_modules/slick-carousel/slick/slick-theme.css"
 
 import "../WhatWeDo/what-we-do.scss"
 
-const variants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-}
-
-const WhatWeDo = props => {
+const WhatWeDo = ({
+  title,
+  subTitle,
+  boxOneTitle,
+  boxOneDesc,
+  boxOneImg,
+  boxOneImgAlt,
+  boxOneLink,
+  boxTwoTitle,
+  boxTwoDesc,
+  boxTwoImg,
+  boxTwoImgAlt,
+  boxTwoLink,
+  boxThreeTitle,
+  boxThreeDesc,
+  boxThreeImg,
+  boxThreeImgAlt,
+  boxThreeLink,
+}) => {
   return (
     <>
       <section className="what-we-do text-center">
         <Container>
           <Row>
             <Col lg="12">
-              <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={variants}
-                transition={{ duration: 0.5 }}
-              >
-                <h2>What We Can Do For You</h2>
-                <p>
-                  Whether you need a website to showcase your services or want
-                  more local customers from your website - we can design, build
-                  and deliver you a website that's tailor-made to your business
-                  needs.
-                </p>
-                <hr />
-              </motion.div>
+              <h2>{title}</h2>
+              <p>{subTitle}</p>
+              <hr />
             </Col>
           </Row>
           {/* Websites */}
           <Card>
             <Row className="item">
               <Col lg="6" className="text-left">
-                <h3>
-                  Bespoke websites built to <span>convert your visitors</span>.
-                </h3>
-                <p>
-                  We design and build modern websites that help convert users
-                  into paying customers.
-                </p>
-                <Link to="/websites">
+                <h3>{boxOneTitle}</h3>
+                <p>{boxOneDesc}</p>
+                <Link to={boxOneLink}>
                   Discover
                   <svg
                     stroke="currentColor"
@@ -69,11 +61,7 @@ const WhatWeDo = props => {
                 </Link>
               </Col>
               <Col lg="6">
-                <img
-                  src={websiteSVG}
-                  className="img-fluid"
-                  alt="bespoke website design in niagara"
-                />
+                <img src={boxOneImg} className="img-fluid" alt={boxOneImgAlt} />
               </Col>
             </Row>
           </Card>
@@ -83,20 +71,15 @@ const WhatWeDo = props => {
               <Row className="item">
                 <Col lg="6">
                   <img
-                    src={seoSVG}
+                    src={boxTwoImg}
                     className="img-fluid"
-                    alt="seo provider st catharines"
+                    alt={boxTwoImgAlt}
                   />
                 </Col>
                 <Col lg="6" className="text-left">
-                  <h3>
-                    SEO to <span>drive local customers</span> to your website.
-                  </h3>
-                  <p>
-                    Getting local traffic through Google helps bring you more
-                    revenue.
-                  </p>
-                  <Link to="/seo">
+                  <h3>{boxTwoTitle}</h3>
+                  <p>{boxTwoDesc}</p>
+                  <Link to={boxTwoLink}>
                     Discover
                     <svg
                       stroke="currentColor"
@@ -120,14 +103,9 @@ const WhatWeDo = props => {
             <Card>
               <Row className="item">
                 <Col lg="6" className="text-left">
-                  <h3>
-                    SEO to <span>drive local customers</span> to your website.
-                  </h3>
-                  <p>
-                    Getting local traffic to your website helps bring you more
-                    revenue.
-                  </p>
-                  <Link to="/seo">
+                  <h3>{boxTwoTitle}</h3>
+                  <p>{boxTwoDesc}</p>
+                  <Link to={boxTwoLink}>
                     Discover
                     <svg
                       stroke="currentColor"
@@ -145,9 +123,9 @@ const WhatWeDo = props => {
                 </Col>
                 <Col lg="6">
                   <img
-                    src={seoSVG}
+                    src={boxTwoImg}
                     className="img-fluid"
-                    alt="seo provider niagara"
+                    alt={boxTwoImgAlt}
                   />
                 </Col>
               </Row>
@@ -157,14 +135,9 @@ const WhatWeDo = props => {
           <Card>
             <Row className="item">
               <Col lg="6" className="text-left">
-                <h3>
-                  Digital strategy to help bring you <span>more revenue</span>.
-                </h3>
-                <p>
-                  Helping you navigate through the digital world to help
-                  maximize profits.
-                </p>
-                <Link to="/strategy">
+                <h3>{boxThreeTitle}</h3>
+                <p>{boxThreeDesc}</p>
+                <Link to={boxThreeLink}>
                   Discover
                   <svg
                     stroke="currentColor"
@@ -182,9 +155,9 @@ const WhatWeDo = props => {
               </Col>
               <Col lg="6">
                 <img
-                  src={strategySVG}
+                  src={boxThreeImg}
                   className="img-fluid"
-                  alt="digital strategy niagara, st catharines"
+                  alt={boxThreeImgAlt}
                 />
               </Col>
             </Row>

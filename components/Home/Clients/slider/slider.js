@@ -46,12 +46,7 @@ export default class Fade extends Component {
           <Slider {...settings}>
             <div>
               <TestimonialCard>
-                <p>
-                  "Great Job, WELL DONE. I'm very please with the service and
-                  the design of my new web site. If you ever need a new web site
-                  I do recommend Infused Agency for their services. JD keep up
-                  the great work. Thank you."
-                </p>
+                <p>{this.props.testimOne}</p>
                 <em>Mr. Duarte, Cass-A-Bella Construction</em>
               </TestimonialCard>
             </div>
