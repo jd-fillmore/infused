@@ -5,13 +5,13 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-const OurWork = () => {
+const About = () => {
   return (
     <>
       <Nav />
       <InnerHero
-        title="Our Work"
-        description="Our work is our passion. See what we've created for our clients."
+        title="About Us"
+        description="We build modern websites, local SEO and digital strategies to help you grow your business."
       />
       <InnerContent />
       <CTA />
@@ -20,4 +20,4 @@ const OurWork = () => {
   )
 }
 
-export default OurWork
+export default About

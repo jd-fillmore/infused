@@ -1,8 +1,12 @@
 @import "../../../src/pages/variables.scss";
+@import "../../../src/pages/breakpoints.scss";
 
 .featured {
   background: $dark-grey;
   padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
   a {
     &:hover,
     &:focus {
@@ -10,7 +14,7 @@
     }
   }
   h2 {
-    font-size: 60px !important;
+    font-size: 60px;
   }
   h3 {
     font-size: 50px;
@@ -28,6 +32,10 @@
     width: 75px;
     margin-top: 60px;
     margin-bottom: 60px;
+    @include bp-tablet-sm {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
   }
   img {
     padding: 20px 0px 20px 0px;
@@ -36,6 +44,9 @@
     font-size: 22px;
     width: 70%;
     margin: 0 auto;
+    @include bp-tablet-sm {
+      font-size: 18px;
+    }
   }
   button {
     margin-top: 40px;

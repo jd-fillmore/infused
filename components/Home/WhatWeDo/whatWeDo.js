@@ -6,7 +6,6 @@ import Card from "../../Card/card"
 import websiteSVG from "../../../src/img/websites.svg"
 import seoSVG from "../../../src/img/seo.svg"
 import strategySVG from "../../../src/img/strategy.svg"
-import rightSVG from "../../../src/img/right.svg"
 
 import "../../../node_modules/slick-carousel/slick/slick.css"
 import "../../../node_modules/slick-carousel/slick/slick-theme.css"

@@ -1,0 +1,19 @@
+@import "../../src/pages/breakpoints.scss";
+@import "../../src/pages/variables.scss";
+
+.inner-hero {
+  background: $dark-grey;
+  padding: 160px 0px 120px 0px;
+  margin-top: -100px;
+  text-align: center;
+  h1,
+  p {
+    color: $white;
+  }
+  hr {
+    border-bottom: 1px solid $purple;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}

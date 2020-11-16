@@ -13,6 +13,32 @@ export default class Fade extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     }
     return (
       <div>
@@ -54,7 +80,13 @@ export default class Fade extends Component {
             </div>
             <div>
               <TestimonialCard>
-                <p>"I have been working with JD on my new website and the process has been great! He is easy to work with, and has a good understanding of my vision and what I need from a website. I have worked with other web design agencies in the past and I would recommend JD first!"</p>
+                <p>
+                  "I have been working with JD on my new website and the process
+                  has been great! He is easy to work with, and has a good
+                  understanding of my vision and what I need from a website. I
+                  have worked with other web design agencies in the past and I
+                  would recommend JD first!"
+                </p>
                 <em>Jasmine Morvay, KC Interiors</em>
               </TestimonialCard>
             </div>

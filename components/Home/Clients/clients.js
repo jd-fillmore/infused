@@ -1,8 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
 import { motion } from "framer-motion"
-import Button from "../../Button/button"
 import Slider from "./slider/slider"
 
 import "../Clients/clients.scss"

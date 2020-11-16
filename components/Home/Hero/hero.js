@@ -27,14 +27,15 @@ const Hero = () => {
                 <div className="glow">
                   <h1>
                     Niagara Web Design, SEO Provider St. Catharines & Digital
-                    Marketing Company
+                    Marketing Agency
                   </h1>
-                  <h2>
-                    We do small business web design, SEO & digital strategy.
-                  </h2>
-                  <p>Expertly-crafted with purpose and meaning.</p>
-                  <Link to="/get-estimate">
-                    <Button>Get An Estimate</Button>
+                  <h2>Strategic Web Development for Growing Businesses.</h2>
+                  <p>
+                    We build modern websites, local SEO and digital strategies
+                    to help you <span>grow your business</span>.
+                  </p>
+                  <Link to="/get-evaluation">
+                    <Button>Get An Evaluation</Button>
                   </Link>
                 </div>
               </motion.div>

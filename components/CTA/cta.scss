@@ -4,6 +4,9 @@
 .cta {
   background: $dark-blue;
   padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
   h2 {
     font-size: 60px;
   }
@@ -12,5 +15,23 @@
   }
   p {
     color: rgba($white, 0.5);
+    padding: 20px 0px 20px 0px;
+    @include bp-tablet-sm {
+      margin-top: 0px;
+      min-height: auto;
+      padding: 0px;
+    }
+  }
+  a {
+    &:focus,
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  button {
+    @include bp-tablet-sm {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
   }
 }

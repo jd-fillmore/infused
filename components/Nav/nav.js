@@ -7,7 +7,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -22,47 +21,62 @@ const Example = props => {
 
   return (
     <div>
-      <div className="fixed-top">
-        <Navbar expand="lg">
-          <NavbarBrand>
-            <Link to="/">infused</Link>
-          </NavbarBrand>
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Why Us?
-                </DropdownToggle>
-                <DropdownMenu right className="animate slideIn">
+      <Navbar id="nav" expand="lg">
+        <NavbarBrand>
+          <Link to="/" className="logo">
+            infused
+          </Link>
+        </NavbarBrand>
+        <NavbarToggler className="custom-toggler" onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Why Us?
+              </DropdownToggle>
+              <DropdownMenu right className="animate slideIn">
+                <Link to="/about">
                   <DropdownItem>About Us</DropdownItem>
+                </Link>
+                <Link to="/how-we-work">
                   <DropdownItem>How We Work</DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  What We Do
-                </DropdownToggle>
-                <DropdownMenu right className="animate slideIn">
+                </Link>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                What We Do
+              </DropdownToggle>
+              <DropdownMenu right className="animate slideIn">
+                <Link to="/websites">
                   <DropdownItem>Modern Websites</DropdownItem>
+                </Link>
+                <Link to="/seo">
                   <DropdownItem>Local SEO</DropdownItem>
+                </Link>
+                <Link to="/digital-strategy">
                   <DropdownItem>Digital Strategy</DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-              <NavItem>
-                <Link to="/work" className="nav-link">
-                  Our Work
                 </Link>
-              </NavItem>
-              <NavItem>
-                <Link to="/get-estimate" className="nav-link">
-                  Get An Estimate
-                </Link>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <NavItem>
+              <Link to="/work" className="nav-link">
+                Our Work
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/blog" className="nav-link">
+                Blog
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/get-evaluation" className="nav-link">
+                Get An Evaluation
+              </Link>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
     </div>
   )
 }

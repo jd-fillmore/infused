@@ -1,0 +1,17 @@
+@import "../../src/pages/breakpoints.scss";
+@import "../../src/pages/variables.scss";
+
+.inner-content {
+  background: $glow-blue;
+  padding: 120px 0px 120px 0px;
+  h1,
+  p {
+    color: $white;
+  }
+  hr {
+    border-bottom: 1px solid $purple;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}

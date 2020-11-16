@@ -9,6 +9,9 @@ h5,
 h6 {
   font-family: $heading;
   font-weight: 700;
+  @include bp-tablet-sm {
+    line-height: 1.6;
+  }
 }
 
 a,
@@ -39,8 +42,15 @@ h1 {
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 60px;
   @include bp-tablet-sm {
-    font-size: 28px;
+    font-size: 28px !important;
+  }
+}
+
+h3 {
+  font-size: 50px;
+  @include bp-tablet-sm {
+    font-size: 24px !important;
   }
 }

@@ -1,4 +1,5 @@
 @import "../../../src/pages/variables.scss";
+@import "../../../src/pages/breakpoints.scss";
 
 .hero {
   background: url("../../../src/img/niagara-web-design.jpg") center center
@@ -8,7 +9,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-top: -100px;
+  @include bp-tablet-sm {
+    margin-top: 0px;
+    min-height: auto;
+    padding: 60px 0px 60px 0px;
+  }
   h1 {
     font-family: $body;
     font-size: 12px;
@@ -24,12 +30,20 @@
 
   p {
     padding: 10px 0px 20px 0px;
+    @include bp-tablet-sm {
+      padding: 0px 0px 10px 0px;
+    }
   }
 
   h2 {
     font-size: 80px;
     font-weight: 700;
     padding: 30px 0px 20px 0px;
+    @include bp-tablet-sm {
+      padding: 10px 0px 0px 0px;
+      font-size: 32px;
+      line-height: 1.4;
+    }
     span {
       background: linear-gradient(to top, $dark-purple 40%, transparent 40%);
       padding: 0px 5px 0px 5px;

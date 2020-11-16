@@ -9,4 +9,32 @@
       border: none;
     }
   }
+  .slick-dots li button:before {
+    color: $light-blue;
+  }
+  .slick-dots li.slick-active button:before {
+    color: $purple;
+  }
+  .slick-dots {
+    button {
+      &:focus,
+      &:hover {
+        box-shadow: none;
+        transform: translateY(-10px);
+      }
+    }
+  }
+  .slick-prev {
+    left: -25px;
+    @include bp-mobile-sm {
+      left: 10px;
+      z-index: 9999;
+    }
+  }
+  .slick-next {
+    @include bp-mobile-sm {
+      right: 10px;
+      z-index: 9999;
+    }
+  }
 }

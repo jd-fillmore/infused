@@ -5,13 +5,13 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-const OurWork = () => {
+const GetEvaluation = () => {
   return (
     <>
       <Nav />
       <InnerHero
-        title="Our Work"
-        description="Our work is our passion. See what we've created for our clients."
+        title="Get An Evaluation"
+        description="A different approach to the traditional proposal"
       />
       <InnerContent />
       <CTA />
@@ -20,4 +20,4 @@ const OurWork = () => {
   )
 }
 
-export default OurWork
+export default GetEvaluation

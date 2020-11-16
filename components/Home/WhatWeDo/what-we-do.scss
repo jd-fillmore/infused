@@ -4,6 +4,9 @@
 .what-we-do {
   background: $dark-blue;
   padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 1px 0px;
+  }
   h2,
   h3,
   p {
@@ -20,6 +23,10 @@
     width: 75px;
     margin-top: 60px;
     margin-bottom: 60px;
+    @include bp-tablet-sm {
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
   }
   span {
     background: linear-gradient(to top, $dark-purple 40%, transparent 40%);
