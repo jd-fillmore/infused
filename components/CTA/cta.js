@@ -17,8 +17,8 @@ const Hero = () => {
                 Ready to <span>start</span> your project?
               </h2>
               <p>Get in touch with us with what you'd like to accomplish.</p>
-              <Link to="/get-estimate">
-                <Button>Get An Estimate</Button>
+              <Link to="/get-evaluation">
+                <Button>Get An Evaluation</Button>
               </Link>
             </Col>
             <Col lg="7">

@@ -6,6 +6,7 @@
   padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
+    text-align: center;
   }
   h2 {
     font-size: 60px;
@@ -31,7 +32,7 @@
   button {
     @include bp-tablet-sm {
       margin-top: 10px;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
   }
 }

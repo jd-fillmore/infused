@@ -1,0 +1,31 @@
+@import "../pages/variables.scss";
+@import "../pages/breakpoints.scss";
+
+.about {
+  .row {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  p {
+    font-size: 22px;
+  }
+  .hide-mobile {
+    @include bp-tablet-sm {
+      display: none;
+    }
+  }
+  .hide-desktop {
+    @media (min-width: 992px) {
+      display: none;
+    }
+    @include bp-tablet-sm {
+      img {
+        margin-top: 20px;
+      }
+    }
+  }
+}

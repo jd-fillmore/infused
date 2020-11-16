@@ -11,7 +11,7 @@ const Websites = () => {
       <Nav />
       <InnerHero
         title="Modern Websites"
-        description="We don't build Wix, Squarespace or WordPress websites. We build modern websites that bring you revenue."
+        description="We don't build Wix, Squarespace or WordPress websites. We build modern websites that help bring revenue."
       />
       <InnerContent />
       <CTA />

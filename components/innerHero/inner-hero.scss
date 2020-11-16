@@ -6,9 +6,24 @@
   padding: 160px 0px 120px 0px;
   margin-top: -100px;
   text-align: center;
+  @include bp-tablet-sm {
+    padding: 160px 0px 60px 0px;
+  }
   h1,
   p {
     color: $white;
+  }
+  h1 {
+    font-family: $body;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  p {
+    font-family: $heading;
+    font-size: 24px;
+    margin-bottom: 0px;
   }
   hr {
     border-bottom: 1px solid $purple;

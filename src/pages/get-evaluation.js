@@ -11,7 +11,7 @@ const GetEvaluation = () => {
       <Nav />
       <InnerHero
         title="Get An Evaluation"
-        description="A different approach to the traditional proposal"
+        description="A different approach to the traditional proposal."
       />
       <InnerContent />
       <CTA />

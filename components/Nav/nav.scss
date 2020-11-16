@@ -30,9 +30,10 @@
 
 .navbar-brand,
 .logo {
+  border-bottom: none !important;
   &:focus,
   &:hover {
-    border-bottom: none;
+    border-bottom: none !important;
   }
 }
 
