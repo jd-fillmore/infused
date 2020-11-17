@@ -1,0 +1,18 @@
+@import "../pages/breakpoints.scss";
+@import "../pages/variables.scss";
+
+.how-we-work {
+  .row {
+    margin-top: 40px;
+    align-items: center;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  p {
+    &.subtitle {
+      font-size: 22px;
+      color: rgba($white, 0.5);
+    }
+  }
+}

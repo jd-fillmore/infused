@@ -31,4 +31,8 @@
     margin-top: 0px;
     margin-bottom: 30px;
   }
+  span {
+    background: linear-gradient(to top, $dark-purple 40%, transparent 40%);
+    padding: 0px 5px 0px 5px;
+  }
 }
