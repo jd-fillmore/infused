@@ -1,0 +1,17 @@
+@import "../pages/breakpoints.scss";
+@import "../pages/variables.scss";
+
+.websites {
+  .intro {
+    p {
+      font-size: 22px;
+      @include bp-tablet-sm {
+        font-size: 18px;
+      }
+    }
+    img {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+  }
+}

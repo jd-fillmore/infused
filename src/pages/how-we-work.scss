@@ -13,6 +13,9 @@
     &.subtitle {
       font-size: 22px;
       color: rgba($white, 0.5);
+      @include bp-tablet-sm {
+        font-size: 18px;
+      }
     }
   }
 }
