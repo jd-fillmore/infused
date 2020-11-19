@@ -58,8 +58,8 @@ const LocalSEO = () => {
         ]}
         viewsValue="12,000"
         viewsText="photo views per month"
-        leadsValue="800%"
-        leadsText="increase in new calls in first 6 months"
+        leadsValue="13,000%"
+        leadsText="increase in new leads in first 6 months"
         peopleValue="2,500"
         peopleText="people discovering website per month"
         img={featuredImg}
