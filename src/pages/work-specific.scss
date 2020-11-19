@@ -1,0 +1,17 @@
+@import "../pages/breakpoints.scss";
+@import "../pages/variables.scss";
+
+.work-specific {
+  h2 {
+    color: $white;
+  }
+  .row {
+    margin-top: 30px;
+    &:first-child {
+      margin-top: 0px;
+    }
+    @include bp-tablet-sm {
+      margin-top: 0px;
+    }
+  }
+}

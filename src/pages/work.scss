@@ -7,9 +7,9 @@
     margin-bottom: -20px;
   }
   p {
-    &#things-done {
+    &.things-done {
       color: rgba($white, 0.5);
-      margin-bottom: 0px;
+      margin-bottom: 10px;
     }
   }
 }
