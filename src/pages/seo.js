@@ -1,9 +1,17 @@
 import React from "react"
+import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
+import increaseImg from "../img/increase.png"
+import searchImg from "../img/google.png"
+import mapImg from "../img/map.png"
+import featuredImg from "../img/featured-seo.png"
+import Featured from "../../components/Home/Featured/featured"
+
+import "../pages/seo.scss"
 
 const LocalSEO = () => {
   return (
@@ -13,7 +21,56 @@ const LocalSEO = () => {
         title="Local SEO"
         description="We help local businesses rank in the place where their customers are looking - on the first page of Google."
       />
-      <InnerContent />
+      <InnerContent>
+        <section className="websites">
+          <Container className="intro">
+            <Row className="text-center">
+              <Col lg="4">
+                <img
+                  className="img-width"
+                  src={searchImg}
+                  alt="rank high in google"
+                />
+                <p>Show up in Google Search</p>
+              </Col>
+              <Col lg="4">
+                <img className="img-width" src={mapImg} alt="google maps" />
+                <p>Show up in Google Maps</p>
+              </Col>
+              <Col lg="4">
+                <img
+                  className="img-width"
+                  src={increaseImg}
+                  alt="more traffic and sales"
+                />
+                <p>More traffic &amp; sales</p>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      </InnerContent>
+      <Featured
+        title="Our SEO Strategies Help Bring In Sales"
+        subTitle={[
+          "Take a look and see the ",
+          <span>huge difference</span>,
+          "we've made to Cass-A-Bella's online existence.",
+        ]}
+        viewsValue="12,000"
+        viewsText="photo views per month"
+        leadsValue="800%"
+        leadsText="increase in new calls in first 6 months"
+        peopleValue="2,500"
+        peopleText="people discovering website per month"
+        img={featuredImg}
+        imgAlt="local seo featured client"
+        testimonial="Great Job, WELL DONE. I'm very pleased with the service and
+        the design of my new web site. If you ever need a new web site or SEO
+        I do recommend Infused Agency for their services. Keep up
+        the great work. Thank you."
+        btnText="View More Case Studies"
+        btnLink="/work"
+      />
       <CTA />
       <Footer />
     </>

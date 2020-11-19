@@ -55,7 +55,9 @@ const Example = props => {
                   <DropdownItem>Local SEO</DropdownItem>
                 </Link>
                 <Link to="/digital-strategy">
-                  <DropdownItem>Digital Strategy</DropdownItem>
+                  <DropdownItem>
+                    Digital Marketing Strategy Consulting
+                  </DropdownItem>
                 </Link>
               </DropdownMenu>
             </UncontrolledDropdown>
