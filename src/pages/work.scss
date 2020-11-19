@@ -1,0 +1,15 @@
+@import "../pages/breakpoints.scss";
+@import "../pages/variables.scss";
+
+.work {
+  h3 {
+    color: $white;
+    margin-bottom: -20px;
+  }
+  p {
+    &#things-done {
+      color: rgba($white, 0.5);
+      margin-bottom: 0px;
+    }
+  }
+}
