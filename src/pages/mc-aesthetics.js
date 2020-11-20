@@ -7,7 +7,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import Featured from "../../components/Home/Featured/featured"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import featuredImg from "../img/featured-seo.png"
+import featuredImg from "../img/mc-phone.png"
 
 import "../pages/work-specific.scss"
 
@@ -15,15 +15,15 @@ const MCAesthetics = () => {
   return (
     <>
       <Helmet>
-        <title>Cass-A-Bella Construction - Infused</title>
+        <title>MC Aesthetics - Infused</title>
         <meta
           name="description"
-          content="Check out how Infused help Cass-A-Bella Construction with a new website, and helped their online presence with new views and leads."
+          content="Check out how Infused helped MC Aesthetics with a new website, and helped their get them new leads in their surrounding local area."
         />
       </Helmet>
       <Nav />
       <InnerHero
-        title="KD Flowers"
+        title="MC Aesthetics"
         description="How we helped a local floral business skyrocket their revenue"
       />
       <InnerContent>
@@ -33,13 +33,10 @@ const MCAesthetics = () => {
               <Col lg="12">
                 <h2>Challenge</h2>
                 <p>
-                  Fernando of Cass-A-Bella construction came seeking our
-                  expertise initially because his website's design was very out
-                  of date. The user navigation on the website wasn't easy to
-                  follow, the colours were all over the place and the website's
-                  direction was lacking. Fernando then mentioned to us that his
-                  SEO needed a lot of work, as he would like some new leads
-                  coming in consistently from Google.
+                  Melissa Cundell from MC Aesthetics approached us through
+                  referral. She wanted a website that was response, and that
+                  would bring her local inquries around the Ottawa Valley and
+                  Pembroke area.
                 </p>
               </Col>
             </Row>
@@ -47,10 +44,10 @@ const MCAesthetics = () => {
               <Col lg="12">
                 <h2>Solution</h2>
                 <p>
-                  We sat down with KD Flowers and discussed her business vision,
-                  goals, design, among other items regarding her new online
-                  presence. They wanted a website that was not only modern, but
-                  brought in new local customers.
+                  We talked with Melissa about how she'd like her business to be
+                  positioned in terms of digital. We then used our expertise to
+                  cultivate those business goals and that vision through her
+                  website and her online presence.
                 </p>
               </Col>
             </Row>
@@ -58,10 +55,9 @@ const MCAesthetics = () => {
               <Col lg="12">
                 <h2>Result</h2>
                 <p>
-                  We designed, built and launched KD Flowers' new modern
-                  website. We also helped them with ranking locally for keywords
-                  in their area, that people Google for. The numbers speak for
-                  themselves.
+                  After less than a week of launching, MC Aesthetics ranks on
+                  the first page of Google in multiple cities. Because of this,
+                  she's had an influx in new business.
                 </p>
               </Col>
             </Row>
@@ -73,20 +69,17 @@ const MCAesthetics = () => {
         subTitle={[
           "Take a look and see the ",
           <span>huge difference</span>,
-          "we've made to Cass-A-Bella's online existence.",
+          "we've made to MC Aesthetic's online existence.",
         ]}
-        viewsValue="12,000"
-        viewsText="photo views per month"
-        leadsValue="13,000%"
+        viewsValue="800%"
+        viewsText="increase in phone calls"
+        leadsValue="22,000%"
         leadsText="increase in new leads in first 6 months"
-        peopleValue="2,500"
+        peopleValue="3,800"
         peopleText="people discovering website per month"
         img={featuredImg}
         imgAlt="local seo featured client"
-        testimonial="Great Job, WELL DONE. I'm very pleased with the service and
-        the design of my new web site. If you ever need a new web site or SEO
-        I do recommend Infused Agency for their services. Keep up
-        the great work. Thank you."
+        testimonial="They did an amazing job creating a seamless website for my aesthetics clinic. They thoroughly went through each aspect of the web design and was extremely easy to talk to about small tweaks and changes I wanted to see. I felt like I had complete control over my content and design and would highly recommend their services to anyone looking for web design and SEO optimization."
         btnText="View More Case Studies"
         btnLink="/work"
       />
