@@ -1,0 +1,27 @@
+@import "../pages/variables.scss";
+@import "../pages/breakpoints.scss";
+
+.grimsby {
+  h2,
+  h3,
+  h4 {
+    color: $white;
+  }
+  li {
+    color: rgba($white, 0.5);
+  }
+  h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+}
