@@ -22,7 +22,7 @@ const Home = () => {
       <Helmet>
         <title>
           Niagara Web Design, SEO Provider St. Catharines, Digital Marketing
-          Company - Infused
+          Company - Infused Agency
         </title>
         <meta
           name="description"
