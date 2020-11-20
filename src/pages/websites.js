@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -16,6 +17,13 @@ import "../pages/websites.scss"
 const Websites = () => {
   return (
     <>
+      <Helmet>
+        <title>Websites - Infused</title>
+        <meta
+          name="description"
+          content="We don't build Wix, Squarespace or WordPress websites. We build lightning fast, modern websites."
+        />
+      </Helmet>
       <Nav />
       <InnerHero
         title="Modern Websites"

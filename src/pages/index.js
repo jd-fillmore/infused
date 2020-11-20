@@ -35,8 +35,8 @@ const Home = () => {
                     Marketing Agency"
         title="Strategic Web Development for Growing Businesses."
         subTitle="We build modern websites, local SEO and digital strategies to help you grow your business."
-        btnText="Get An Evaluation"
-        btnLink="/get-evaluation"
+        btnText="Get Started"
+        btnLink="/get-started"
       />
       <Featured
         title="Featured Client"

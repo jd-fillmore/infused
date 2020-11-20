@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
 import { Link } from "gatsby"
 import Nav from "../../components/Nav/nav"
@@ -43,6 +44,13 @@ const projects = [
 const OurWork = () => {
   return (
     <>
+      <Helmet>
+        <title>Our Work - Infused</title>
+        <meta
+          name="description"
+          content="We're passionate about putting in the work to deliver to our client's needs. Check out the results we've got for our clients."
+        />
+      </Helmet>
       <Nav />
       <InnerHero
         title="Our Work"

@@ -51,7 +51,7 @@ const Footer = () => {
               <h4>Contact</h4>
               <ul>
                 <li>
-                  <Link to="/get-evaluation">Get An Evaluation</Link>
+                  <Link to="/get-started">Get Started</Link>
                 </li>
               </ul>
               <p>73 Alexandra Blvd, St. Catharines, ON L2P 1K2</p>

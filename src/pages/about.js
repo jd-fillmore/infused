@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
+import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -15,6 +16,13 @@ import "../pages/about.scss"
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About - Infused</title>
+        <meta
+          name="description"
+          content="Learn more about the core values, hardworking team and how we accomplish your business goals at Infused."
+        />
+      </Helmet>
       <Nav />
       <InnerHero
         title="About Us"

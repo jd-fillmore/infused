@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -16,6 +17,13 @@ import "../pages/seo.scss"
 const LocalSEO = () => {
   return (
     <>
+      <Helmet>
+        <title>SEO - Infused</title>
+        <meta
+          name="description"
+          content="Check out how Infused offers and utilizes their SEO expertise to help local businesses get more customers through Google."
+        />
+      </Helmet>
       <Nav />
       <InnerHero
         title="Local SEO"

@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -11,6 +12,13 @@ import "../pages/how-we-work.scss"
 const HowWeWork = () => {
   return (
     <>
+      <Helmet>
+        <title>How We Work - Infused</title>
+        <meta
+          name="description"
+          content="Check out to see the process of how Infused kicks off projects, and works closely with their clients to achieve their online business goals."
+        />
+      </Helmet>
       <Nav />
       <InnerHero
         title="How We Work"

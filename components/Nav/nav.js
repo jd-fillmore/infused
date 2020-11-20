@@ -70,8 +70,8 @@ const Example = props => {
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/get-evaluation" className="nav-link">
-                Get An Evaluation
+              <Link to="/get-started" className="nav-link">
+                Get Started
               </Link>
             </NavItem>
           </Nav>

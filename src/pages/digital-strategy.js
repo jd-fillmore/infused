@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -15,9 +16,16 @@ import "../pages/digital-strategy.scss"
 const DigitalStrategy = () => {
   return (
     <>
+      <Helmet>
+        <title>Digital Marketing Consulting - Infused</title>
+        <meta
+          name="description"
+          content="We help with identifying your digital goals, target audience & brand positioning."
+        />
+      </Helmet>
       <Nav />
       <InnerHero
-        title="Digital Marketing Strategy Consulting"
+        title="Digital Marketing Consulting"
         description="We help with identifying your digital goals, target audience & brand positioning."
       />
       <InnerContent>
