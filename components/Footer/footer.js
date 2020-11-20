@@ -43,7 +43,7 @@ const Footer = () => {
             <Col lg="3">
               <h4>About</h4>
               <p>
-                Infused is a Niagara web design, SEO company and digital
+                Infused Agency is a Niagara web design, SEO company and digital
                 marketing agency. We help local and non-local businesses build
                 their credibility online, as well as help bring in more sales.
               </p>
