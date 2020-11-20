@@ -4,3 +4,12 @@ backend:
 
 media_folder: "static/uploads"
 public_folder: "uploads"
+
+collections:
+  - name: "coding"
+  label: 'Coding'
+  folder: "content/coding"
+  create: true
+  slug: "{{year}}-{{slug}}"
+  fields: 
+    - {label: "Title", name: 'title', widget: "string"}
