@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://infused.agency`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -26,6 +29,9 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-react-helmet`,
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
     },
   ],
 }

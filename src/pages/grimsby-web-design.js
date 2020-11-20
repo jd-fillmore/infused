@@ -150,6 +150,7 @@ const MCAesthetics = () => {
                     <a
                       href="https://en.wikipedia.org/wiki/Web_design"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       {" "}
                       Grimsby web design
@@ -455,6 +456,7 @@ const MCAesthetics = () => {
                     <a
                       href="https://en.wikipedia.org/wiki/Grimsby,_Ontario"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       This town
                     </a>{" "}
