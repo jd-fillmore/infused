@@ -53,12 +53,12 @@ const GetEvaluation = () => {
                 </div>
                 <div class="form-group">
                   <input
-                    name="company"
-                    type="name"
+                    name="phone"
+                    type="phone"
                     class="form-control"
-                    id="Company"
-                    aria-describedby="companyname"
-                    placeholder="Company Name"
+                    id="Phone"
+                    aria-describedby="urlhelp"
+                    placeholder="Cell Phone Number"
                   />
                 </div>
                 <div class="form-group">
@@ -80,9 +80,7 @@ const GetEvaluation = () => {
                     placeholder="How can we help you?"
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">
-                  Submit
-                </button>
+                <button type="submit">Submit</button>
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
               </form>

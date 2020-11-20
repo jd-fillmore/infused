@@ -4,6 +4,36 @@ import { Link } from "gatsby"
 
 import "../Footer/footer.scss"
 
+const pages = [
+  {
+    name: "About Us",
+    link: "/about",
+  },
+  {
+    name: "How We Work",
+    link: "/how-we-work",
+  },
+  {
+    name: "Our Work",
+    link: "/our-work",
+  },
+]
+
+const services = [
+  {
+    name: "Modern Websites",
+    link: "/websites",
+  },
+  {
+    name: "Local SEO",
+    link: "/seo",
+  },
+  {
+    name: "Digital Marketing Consulting",
+    link: "/digital-strategy",
+  },
+]
+
 const Footer = () => {
   return (
     <>
@@ -21,30 +51,21 @@ const Footer = () => {
             <Col lg="3">
               <h4>Pages</h4>
               <ul>
-                <li>
-                  <Link to="/about-us">About Us</Link>
-                </li>
-                <li>
-                  <Link to="/how-we-work">How We Work</Link>
-                </li>
-
-                <li>
-                  <Link to="/work">Our Work</Link>
-                </li>
+                {pages.map(page => (
+                  <li>
+                    <Link to={page.link}>{page.name}</Link>
+                  </li>
+                ))}
               </ul>
             </Col>
             <Col lg="3">
               <h4>Services</h4>
               <ul>
-                <li>
-                  <Link to="/websites">Modern Websites</Link>
-                </li>
-                <li>
-                  <Link to="/seo">Local SEO</Link>
-                </li>
-                <li>
-                  <Link to="/digital-strategy">Digital Strategy</Link>
-                </li>
+                {services.map(service => (
+                  <li>
+                    <Link to={service.link}>{service.name}</Link>
+                  </li>
+                ))}
               </ul>
             </Col>
             <Col lg="3">
