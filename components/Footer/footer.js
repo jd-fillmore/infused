@@ -15,7 +15,7 @@ const pages = [
   },
   {
     name: "Our Work",
-    link: "/our-work",
+    link: "/work",
   },
 ]
 
