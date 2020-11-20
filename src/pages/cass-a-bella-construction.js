@@ -33,7 +33,7 @@ const CassABella = () => {
               <Col lg="12">
                 <h2>Challenge</h2>
                 <p>
-                  Fernando of Cass-A-Bella construction came seeking our
+                  Fernando of Cass-A-Bella Construction came seeking our
                   expertise initially because his website's design was very out
                   of date. The user navigation on the website wasn't easy to
                   follow, the colours were all over the place and the website's
@@ -47,10 +47,13 @@ const CassABella = () => {
               <Col lg="12">
                 <h2>Solution</h2>
                 <p>
-                  We sat down with KD Flowers and discussed her business vision,
-                  goals, design, among other items regarding her new online
-                  presence. They wanted a website that was not only modern, but
-                  brought in new local customers.
+                  We sat down with Cass-A-Bella Construction and discussed how
+                  the websites we build would benefit them. Not only would they
+                  have a modern designed website on a modern platform, but the
+                  website would rank well in Google. This means they would
+                  attract people that are searching for what they offer, and
+                  once people found their site, a great impression would be had
+                  due to the modern design.
                 </p>
               </Col>
             </Row>
@@ -58,10 +61,10 @@ const CassABella = () => {
               <Col lg="12">
                 <h2>Result</h2>
                 <p>
-                  We designed, built and launched KD Flowers' new modern
-                  website. We also helped them with ranking locally for keywords
-                  in their area, that people Google for. The numbers speak for
-                  themselves.
+                  We designed, built and launched Cass-A-Bella Construction's
+                  new modern website. We also helped them with ranking locally
+                  for keywords in their area, that people Google for. The
+                  numbers speak for themselves.
                 </p>
               </Col>
             </Row>

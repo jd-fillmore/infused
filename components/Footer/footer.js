@@ -41,7 +41,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="3">
-              <h4>About</h4>
+              <h3>About</h3>
               <p>
                 Infused Agency is a Niagara web design, SEO company and digital
                 marketing agency. We help local and non-local businesses build
@@ -49,7 +49,7 @@ const Footer = () => {
               </p>
             </Col>
             <Col lg="3">
-              <h4>Pages</h4>
+              <h3>Pages</h3>
               <ul>
                 {pages.map(page => (
                   <li>
@@ -59,7 +59,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg="3">
-              <h4>Services</h4>
+              <h3>Services</h3>
               <ul>
                 {services.map(service => (
                   <li>
@@ -69,7 +69,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg="3">
-              <h4>Contact</h4>
+              <h3>Contact</h3>
               <ul>
                 <li>
                   <Link to="/get-started">Get Started</Link>

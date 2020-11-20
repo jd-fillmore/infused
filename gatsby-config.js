@@ -26,6 +26,14 @@ module.exports = {
       resolve: "gatsby-plugin-sitemap",
     },
     {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://infused.agency",
+        sitemap: "https://infused.agency/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
