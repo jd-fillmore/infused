@@ -10,18 +10,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Cardo`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Poppins`,
-            variants: [`400`, `700`],
-          },
-        ],
+        fonts: [`cardo\:400,700`, `poppins\:400,700`],
+        display: "swap",
       },
     },
     {
