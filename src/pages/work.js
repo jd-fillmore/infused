@@ -15,7 +15,6 @@ import "../pages/work.scss"
 
 const projects = [
   {
-    id: 1,
     title: "KD Flowers",
     desc:
       "A boutique affordable wedding flower business in the heart of St. Catharines.",
@@ -24,7 +23,6 @@ const projects = [
     pic: kdImg,
   },
   {
-    id: 2,
     title: "Cass-A-Bella Construction",
     desc:
       "A contracting company focused on custom home building and renovation in Toronto.",
@@ -33,7 +31,6 @@ const projects = [
     pic: cassImg,
   },
   {
-    id: 3,
     title: "MC Aesthetics",
     desc:
       "An Ottawa-based business specializing in wrinkle relaxers and other beauty services.",
