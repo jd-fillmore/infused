@@ -10,7 +10,7 @@
               data-aos="fade-in"
               data-aos-duration="1000"
               data-aos-delay="1000"
-            >A bit about our company</p>
+            >About our company</p>
           </div>
         </div>
       </div>
