@@ -26,6 +26,12 @@ module.exports = {
       resolve: "gatsby-plugin-sitemap",
     },
     {
+      resolve: "gatsby-plugin-preact",
+    },
+    {
+      resolve: "gatsby-plugin-preload-fonts",
+    },
+    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://infused.agency",
