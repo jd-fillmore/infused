@@ -1,15 +1,18 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: jd-fillmore/infused-gridsome
 
-media_folder: "static/uploads"
-public_folder: "uploads"
+media_folder: "uploads"
+public_folder: "../uploads"
 
 collections:
-  - name: "coding"
-  label: 'Coding'
-  folder: "content/coding"
-  create: true
-  slug: "{{year}}-{{slug}}"
-  fields: 
-    - {label: "Title", name: 'title', widget: "string"}
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
