@@ -24,7 +24,7 @@ const MCAesthetics = () => {
       <Nav />
       <InnerHero
         title="MC Aesthetics"
-        description="How we helped a local floral business skyrocket their revenue"
+        description="How we helped a local aesthetics business increase their leads."
       />
       <InnerContent>
         <section className="work-specific">

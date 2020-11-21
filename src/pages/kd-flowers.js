@@ -24,7 +24,7 @@ const KDFlowers = () => {
       <Nav />
       <InnerHero
         title="KD Flowers"
-        description="How we helped a local floral business skyrocket their revenue"
+        description="How we helped a local floral business skyrocket their revenue."
       />
       <InnerContent>
         <section className="work-specific">

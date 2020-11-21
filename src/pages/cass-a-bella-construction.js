@@ -24,7 +24,7 @@ const CassABella = () => {
       <Nav />
       <InnerHero
         title="Cass-A-Bella Construction"
-        description="How we helped a local custome home builder increase their leads"
+        description="How we helped a local custom home builder increase their leads."
       />
       <InnerContent>
         <section className="work-specific">
