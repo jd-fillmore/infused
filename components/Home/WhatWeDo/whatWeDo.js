@@ -61,7 +61,13 @@ const WhatWeDo = ({
                 </Link>
               </Col>
               <Col lg="6">
-                <img src={boxOneImg} className="img-fluid" alt={boxOneImgAlt} />
+                <img
+                  src={boxOneImg}
+                  width="440"
+                  height="197"
+                  className="img-fluid"
+                  alt={boxOneImgAlt}
+                />
               </Col>
             </Row>
           </Card>
@@ -72,6 +78,8 @@ const WhatWeDo = ({
                 <Col lg="6">
                   <img
                     src={boxTwoImg}
+                    width="440"
+                    height="197"
                     className="img-fluid"
                     alt={boxTwoImgAlt}
                   />
@@ -124,6 +132,8 @@ const WhatWeDo = ({
                 <Col lg="6">
                   <img
                     src={boxTwoImg}
+                    width="440"
+                    height="197"
                     className="img-fluid"
                     alt={boxTwoImgAlt}
                   />
@@ -156,6 +166,8 @@ const WhatWeDo = ({
               <Col lg="6">
                 <img
                   src={boxThreeImg}
+                  width="440"
+                  height="197"
                   className="img-fluid"
                   alt={boxThreeImgAlt}
                 />

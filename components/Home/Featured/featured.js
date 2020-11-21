@@ -47,7 +47,13 @@ const Featured = ({
           </Row>
           <Row>
             <Col lg="12">
-              <img className="img-fluid" src={img} alt={imgAlt} />
+              <img
+                className="img-fluid"
+                width="900"
+                height="1030"
+                src={img}
+                alt={imgAlt}
+              />
               <p id="testimonial">{testimonial}</p>
               <Link to={btnLink}>
                 <Button>{btnText}</Button>

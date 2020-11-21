@@ -2,8 +2,9 @@
 @import "../../../src/pages/breakpoints.scss";
 
 .hero {
-  background: url("../../../src/img/niagara-web-design.jpg") center center
-    no-repeat;
+  // background: url("../../../src/img/niagara-web-design.jpg") center center
+  //   no-repeat;
+  background-image: linear-gradient(to left, $glow-blue, $dark-blue);
   background-size: cover;
   min-height: 100vh; // height of the browser viewport
   display: flex;

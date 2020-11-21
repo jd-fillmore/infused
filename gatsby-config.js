@@ -32,6 +32,12 @@ module.exports = {
       resolve: "gatsby-plugin-preload-fonts",
     },
     {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "en",
+      },
+    },
+    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://infused.agency",

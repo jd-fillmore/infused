@@ -22,7 +22,13 @@ const Hero = () => {
               </Link>
             </Col>
             <Col lg="7">
-              <img className="img-fluid" src={ctaSVG} alt="book a project" />
+              <img
+                width="635"
+                height="335"
+                className="img-fluid"
+                src={ctaSVG}
+                alt="book a project"
+              />
             </Col>
           </Row>
         </Container>
