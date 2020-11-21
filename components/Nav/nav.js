@@ -65,11 +65,6 @@ const Example = props => {
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/blog" className="nav-link">
-                Blog
-              </Link>
-            </NavItem>
-            <NavItem>
               <Link to="/get-started" className="nav-link">
                 Get Started
               </Link>
