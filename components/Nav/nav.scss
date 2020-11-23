@@ -44,6 +44,11 @@
     margin-top: 0px !important;
     padding: 0.5rem 1rem !important;
     background: $dark-blue !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 1030 !important;
   }
   a {
     color: $white !important;
