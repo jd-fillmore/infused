@@ -60,7 +60,7 @@ const MCAesthetics = () => {
         <section className="grimsby">
           {/* <!--Hero--> */}
           <div className="container">
-            <div className="row">
+            <div className="row d-flex align-items-center">
               <div className="col-lg-6">
                 <h3>Are you looking to...</h3>
                 <ul>
@@ -71,68 +71,11 @@ const MCAesthetics = () => {
                 </ul>
               </div>
               <div className="col-lg-6">
-                <p>
-                  Please fill out the form and we'll get back to you as soon as
-                  possible.
-                </p>
-                <form
-                  name="contact"
-                  method="post"
-                  data-netlify="true"
-                  data-netlify-honeypot="bot-field"
-                >
-                  <div class="form-group">
-                    <input
-                      name="name"
-                      type="name"
-                      class="form-control"
-                      id="Name"
-                      aria-describedby="namehelp"
-                      placeholder="Full Name"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      name="email"
-                      type="email"
-                      class="form-control"
-                      id="Email"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      name="phone"
-                      type="phone"
-                      class="form-control"
-                      id="Phone"
-                      aria-describedby="urlhelp"
-                      placeholder="Cell Phone Number"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      name="url"
-                      type="name"
-                      class="form-control"
-                      id="URL"
-                      aria-describedby="urlhelp"
-                      placeholder="Website URL"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <textarea
-                      name="message"
-                      class="form-control"
-                      id="Message"
-                      rows="3"
-                      placeholder="How can we help you?"
-                    ></textarea>
-                  </div>
-                  <button type="submit">Submit</button>
-                  <input type="hidden" name="bot-field" />
-                  <input type="hidden" name="form-name" value="contact" />
-                </form>
+                <img
+                  src={kdImg}
+                  className="img-fluid"
+                  alt="hamilton web design & seo company"
+                />
               </div>
             </div>
           </div>
@@ -140,18 +83,80 @@ const MCAesthetics = () => {
           {/* <!--Intro--> */}
 
           <section className="niche-intro">
+            <br></br>
             <div className="container">
-              <div className="row d-flex align-items-center">
-                <div className="col-md-6">
-                  <br />
-                  <br />
-                  <img
-                    src={kdImg}
-                    className="img-fluid"
-                    alt="hamilton web design & seo company"
-                  />
+              <div className="row">
+                <div className="col-lg-1">&nbsp;</div>
+                <div className="col-lg-10">
+                  <p className="text-center">
+                    Please fill out the form and we'll get back to you as soon
+                    as possible.
+                  </p>
+                  <form
+                    name="contact"
+                    method="post"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                  >
+                    <div class="form-group">
+                      <input
+                        name="name"
+                        type="name"
+                        class="form-control"
+                        id="Name"
+                        aria-describedby="namehelp"
+                        placeholder="Full Name"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        name="email"
+                        type="email"
+                        class="form-control"
+                        id="Email"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        name="phone"
+                        type="phone"
+                        class="form-control"
+                        id="Phone"
+                        aria-describedby="urlhelp"
+                        placeholder="Cell Phone Number"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        name="url"
+                        type="name"
+                        class="form-control"
+                        id="URL"
+                        aria-describedby="urlhelp"
+                        placeholder="Website URL"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        name="message"
+                        class="form-control"
+                        id="Message"
+                        rows="3"
+                        placeholder="How can we help you?"
+                      ></textarea>
+                    </div>
+                    <button className="text-center" type="submit">
+                      Submit
+                    </button>
+                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="form-name" value="contact" />
+                  </form>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-1">&nbsp;</div>
+              </div>
+              <div className="row d-flex align-items-center">
+                <div className="col-md-12">
                   <br />
                   <br />
                   <p>
@@ -179,21 +184,28 @@ const MCAesthetics = () => {
                     that does sell, and that doesn't.
                   </p>
                 </div>
-                <div className="col-md-12"></div>
-                <h2>Why Your Hamilton Business Needs A Successful Website</h2>
-                <p>
-                  Traditionally in the past, companies didn't have to rely on
-                  any sort of online presence, because it didn't exist. However
-                  now, since everyone who needs something usually Googles what
-                  they need, it's imperative to hire a Hamilton website
-                  development company that knows what they're doing. You have to
-                  make sure that your company is professional represented in a
-                  mordern way - so that when people go to your website, they're
-                  amazed. They're impressed. And ultimately, your web design
-                  converts them into paying customers.
-                </p>
               </div>
 
+              <div className="row">
+                <div className="col-md-12">
+                  <h2>Why Your Hamilton Business Needs A Successful Website</h2>
+                  <p>
+                    Traditionally in the past, companies didn't have to rely on
+                    any sort of online presence, because it didn't exist.
+                    However now, since everyone who needs something usually
+                    Googles what they need, it's imperative to hire a Hamilton
+                    website development company that knows what they're doing.
+                    You have to make sure that your company is professional
+                    represented in a mordern way - so that when people go to
+                    your website, they're amazed. They're impressed. And
+                    ultimately, your web design converts them into paying
+                    customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="container">
               <div className="row">
                 <div className="col-md-12">
                   <p>
