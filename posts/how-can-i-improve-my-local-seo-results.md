@@ -1,5 +1,6 @@
 ---
 title: How can I improve my local SEO results?
+slug: /posts/how-can-i-improve-my-local-seo-results/
 date: 2019-04-10T22:46:34.825Z
 excerpt: >-
   In this post we answer, "how can I improve my local SEO results?". There are a

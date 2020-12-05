@@ -1,5 +1,6 @@
 ---
 title: ' How do I get my website higher up on Google search?'
+slug: /posts/how-do-i-get-my-website-higher-up-on-google-search/
 date: 2019-03-27T00:00:13.528Z
 excerpt: >-
   How do I get my website higher up on Google search? You may have asked this

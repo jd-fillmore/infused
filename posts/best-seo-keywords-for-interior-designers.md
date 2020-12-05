@@ -1,5 +1,6 @@
 ---
 title: Best SEO Keywords For Interior Designers
+slug: /posts/best-seo-keywords-for-interior-designers/
 date: 2020-03-13T01:53:50.522Z
 excerpt: >-
   A big part in finding the best SEO keywords for interior designers comes down

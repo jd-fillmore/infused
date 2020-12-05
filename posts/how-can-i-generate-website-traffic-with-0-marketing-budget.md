@@ -1,5 +1,6 @@
 ---
 title: How Can I Generate Website Traffic With $0 Marketing Budget?
+slug: /posts/how-can-i-generate-website-traffic-with-0-marketing-budget/
 date: 2019-03-26T23:55:59.570Z
 excerpt: >-
   One of the biggest questions that we come across from our clients is, "how can

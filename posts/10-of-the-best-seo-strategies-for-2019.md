@@ -1,5 +1,6 @@
 ---
 title: 10 of the best SEO strategies for 2020
+slug: /posts/10-best-seo-strategies-2020/
 date: 2019-03-26T23:53:24.128Z
 excerpt: >-
   In this post, we go over 10 of the best SEO strategies for 2019. If you want

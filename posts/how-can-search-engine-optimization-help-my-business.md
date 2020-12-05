@@ -1,5 +1,6 @@
 ---
 title: How can search engine optimization help my business?
+slug: /posts/how-can-search-engine-optimization-help-my-business/
 date: 2019-03-26T23:59:27.568Z
 excerpt: >-
   We answer the question of, "how can search engine optimization help my

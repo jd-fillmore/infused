@@ -1,5 +1,6 @@
 ---
 title: Best SEO Keywords For Mortgage Brokers
+slug: /posts/best-seo-keywords-for-mortgage-brokers/
 date: 2020-09-27T02:45:46.322Z
 excerpt: "A big part in finding the best SEO keywords for mortgage brokers comes
   down to a couple things:  * What are your customers searching for, in terms of

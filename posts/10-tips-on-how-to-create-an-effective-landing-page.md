@@ -1,5 +1,6 @@
 ---
 title: 10 Tips On How To Create An Effective Landing Page
+slug: /posts/10-tips-how-to-create-effective-landing-page/
 date: 2019-03-26T23:06:51.562Z
 excerpt: >-
   During this post, we go over the 10 tips on how to create an effective landing

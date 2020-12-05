@@ -1,5 +1,6 @@
 ---
 title: How do I make my website more user friendly?
+slug: /posts/how-do-i-make-my-website-more-user-friendly/
 date: 2019-04-08T14:01:54.132Z
 excerpt: >-
   We answer the question, "how do I make my website more user friendly?" in

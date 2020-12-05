@@ -1,5 +1,6 @@
 ---
 title: How To Successfully Gain More Leads Through Your Website
+slug: /posts/how-to-successfully-gain-more-leads-through-your-website/
 date: 2019-03-26T23:03:10.331Z
 excerpt: >-
   Ever wondered How To Successfully Gain More Leads Through Your Website? We

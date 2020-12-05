@@ -1,5 +1,6 @@
 ---
 title: How do we boost our business sales with web design?
+slug: /posts/how-do-we-boost-our-business-sales-with-web-design/
 date: 2019-03-26T23:57:51.149Z
 excerpt: >-
   We answer the age-old question, "How do we boost our business sales with web

@@ -1,5 +1,6 @@
 ---
 title: ' What is the best method to drive visitors to a new website?'
+slug: /posts/what-is-the-best-method-to-drive-visitors-to-a-new-website/
 date: 2019-03-26T23:58:31.129Z
 excerpt: >-
   Do you wonder what is the best method to drive visitors to a new website? Fear

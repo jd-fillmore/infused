@@ -1,5 +1,6 @@
 ---
 title: How to build a website with good SEO in mind?
+slug: /posts/how-to-build-a-website-with-good-seo-in-mind/
 date: 2020-01-02T16:05:00.194Z
 excerpt: >-
   In today's post, we answer how to build a website with good SEO in mind. Click

@@ -1,5 +1,6 @@
 ---
 title: How Can Online Marketing Become So Powerful?
+slug: /posts/how-can-online-marketing-become-so-powerful/
 date: 2019-03-26T23:07:39.761Z
 excerpt: >-
   In this post we answer, how can online marketing become so powerful? Learn

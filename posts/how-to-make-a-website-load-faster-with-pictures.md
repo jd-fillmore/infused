@@ -1,5 +1,6 @@
 ---
 title: How To Make A Website Load Faster With Pictures
+slug: /posts/how-to-make-a-website-load-faster-with-pictures/
 date: 2020-03-14T13:14:38.629Z
 excerpt: >-
   In this post, we'll cover how to make a website load faster with pictures.

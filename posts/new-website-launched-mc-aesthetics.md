@@ -1,5 +1,6 @@
 ---
 title: 'New Website Launched: MC Aesthetics'
+slug: /posts/new-website-launched-mc-aesthetics/
 date: 2020-03-20T18:40:14.025Z
 excerpt: 'New Website Launched: MC Aesthetics'
 ---

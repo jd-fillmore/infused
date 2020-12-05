@@ -1,5 +1,6 @@
 ---
-title: Our 8 Step Web Design Process For 2020
+title: Our 8 Step Web Design Process For 2021
+slug: /posts/our-8-step-web-design-process-for-2021/
 date: 2019-03-26T23:14:58.047Z
 excerpt: >-
   In this post, we go over our 8 step web design process for 2019. Lots of value

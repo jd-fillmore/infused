@@ -1,5 +1,6 @@
 ---
 title: What Are Best Practices For Responsive Web Design?
+slug: /posts/what-are-best-practices-for-responsive-web-design/
 date: 2019-03-26T23:43:48.251Z
 excerpt: >-
   Ever wonder what are the best practices for responsive web design? We answer

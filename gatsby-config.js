@@ -32,6 +32,9 @@ module.exports = {
       resolve: "gatsby-plugin-preload-fonts",
     },
     {
+      resolve: "gatsby-transformer-remark",
+    },
+    {
       resolve: "gatsby-plugin-html-attributes",
       options: {
         lang: "en",
@@ -43,6 +46,13 @@ module.exports = {
         host: "https://infused.agency",
         sitemap: "https://infused.agency/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
       },
     },
     {
