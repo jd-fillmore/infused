@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
@@ -13,6 +14,72 @@ import featuredImg from "../img/niagara-web-design.png"
 import Featured from "../../components/Home/Featured/featured"
 
 import "../pages/websites.scss"
+
+const citiesNiagara = [
+  {
+    name: "Wainfleet",
+    link: "/wainfleet-web-design",
+  },
+  {
+    name: "Port Colborne",
+    link: "/port-colborne-web-design",
+  },
+  {
+    name: "Beamsville-Lincoln",
+    link: "/beamsville-lincoln-web-design",
+  },
+  {
+    name: "Grimsby",
+    link: "/grimsby-web-design",
+  },
+  {
+    name: "Fort Erie",
+    link: "/fort-erie-web-design",
+  },
+  {
+    name: "Thorold",
+    link: "/thorold-web-design",
+  },
+  {
+    name: "Smithville",
+    link: "/smithville-web-design",
+  },
+]
+
+const citiesHamilton = [
+  {
+    name: "Hamilton",
+    link: "/hamilton-web-design",
+  },
+  {
+    name: "Waterdown",
+    link: "/waterdown-web-design",
+  },
+  {
+    name: "Dundas",
+    link: "/dundas-web-design",
+  },
+  {
+    name: "Ancaster",
+    link: "/ancaster-web-design",
+  },
+  {
+    name: "Stoney Creek",
+    link: "/stoney-creek-web-design",
+  },
+  {
+    name: "Burlington",
+    link: "/burlington-web-design",
+  },
+  {
+    name: "Caledonia",
+    link: "/caledonia-web-design",
+  },
+  {
+    name: "Binbrook",
+    link: "/binbrook-web-design",
+  },
+]
 
 const Websites = () => {
   return (
@@ -91,6 +158,37 @@ const Websites = () => {
         btnText="View More Case Studies"
         btnLink="/work"
       />
+      <section className="areas-served">
+      <Container>
+        <Row>
+          <Col lg="12">
+            <h3>Areas Served</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="3">
+            <h5>Niagara</h5>
+            <ul>
+              {citiesNiagara.map(city => (
+                <li>
+                  <Link to={city.link}>{city.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </Col>
+          <Col lg="3">
+            <h5>Hamilton</h5>
+            <ul>
+              {citiesHamilton.map(city => (
+                <li>
+                  <Link to={city.link}>{city.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+      </section>
       <CTA />
       <Footer />
     </>
