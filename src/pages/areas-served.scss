@@ -1,0 +1,20 @@
+@import "../pages/variables.scss";
+@import "../pages/breakpoints.scss";
+
+.areas-served {
+  background: $glow-blue;
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+  h3,h5 {
+    color: $white;
+  }
+  h3 {
+    margin-bottom: 30px;
+  }
+  ul {
+    list-style: none;
+    margin-left: -40px;
+  }
+}

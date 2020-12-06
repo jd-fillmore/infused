@@ -14,6 +14,7 @@ import featuredImg from "../img/niagara-web-design.png"
 import Featured from "../../components/Home/Featured/featured"
 
 import "../pages/websites.scss"
+import "../pages/areas-served.scss"
 
 const citiesNiagara = [
   {
