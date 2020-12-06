@@ -12,4 +12,22 @@
   p {
     margin-top: 30px;
   }
+  a {
+    color: $white;
+    font-family: "Cardo", serif;
+    font-size: 46px;
+    font-weight: 700;
+    @include bp-tablet-sm {
+      font-size: 22px;
+    }
+  }
+}
+
+.post {
+  .card {
+    padding: 40px;
+    a {
+      line-height: 1;
+    }
+  }
 }

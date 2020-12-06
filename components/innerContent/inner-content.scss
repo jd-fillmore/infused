@@ -7,7 +7,7 @@
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
   }
-  h1,
+  h1, h2, ul, 
   p {
     color: $white;
   }
@@ -16,5 +16,10 @@
     width: 100px;
     margin-top: 0px;
     margin-bottom: 30px;
+  }
+  .single-blog {
+    h2, p {
+      margin-bottom: 30px;
+    }
   }
 }

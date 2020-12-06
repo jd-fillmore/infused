@@ -1,6 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
 import PostLink from "../../components/postLink.js"
+import Nav from "../../components/Nav/nav"
+import InnerHero from "../../components/innerHero/innerHero"
+import { Container, Row, Col } from "reactstrap"
+import { Helmet } from "react-helmet"
 
 const PostsPage = ({
   data: {
@@ -11,7 +15,29 @@ const PostsPage = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
-  return <div>{Posts}</div>
+  return (
+    <>
+      <Helmet>
+        <title>Blog - Infused</title>
+        <meta
+          name="description"
+          content="Check out the latest educational blog posts from Infused."
+        />
+      </Helmet>
+      <Nav/>
+      <InnerHero title="Blog" description="Educating companies on best practices"/>
+      <section className="inner-content">
+      <Container>
+        <Row>
+          <Col lg="12">
+            {Posts}
+          </Col>
+        </Row>
+      </Container>
+      </section>
+      
+    </>
+  ) 
 }
 
 export default PostsPage
