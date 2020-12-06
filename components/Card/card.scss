@@ -12,15 +12,6 @@
   p {
     margin-top: 30px;
   }
-  a {
-    color: $white;
-    font-family: "Cardo", serif;
-    font-size: 46px;
-    font-weight: 700;
-    @include bp-tablet-sm {
-      font-size: 22px;
-    }
-  }
 }
 
 .post {
@@ -28,6 +19,13 @@
     padding: 40px;
     a {
       line-height: 1;
+      color: $white;
+    font-family: "Cardo", serif;
+    font-size: 46px;
+    font-weight: 700;
+    @include bp-tablet-sm {
+      font-size: 22px;
+    }
     }
   }
 }

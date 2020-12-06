@@ -1,18 +1,18 @@
 ---
-title: 10 of the best SEO strategies for 2020
-slug: /posts/10-best-seo-strategies-2020/
-date: 2019-03-26T23:53:24.128Z
+title: 10 of the best SEO strategies for 2021
+slug: /posts/10-best-seo-strategies-2021/
+date: 2021-03-26T23:53:24.128Z
 excerpt: >-
-  In this post, we go over 10 of the best SEO strategies for 2019. If you want
+  In this post, we go over 10 of the best SEO strategies for 2021. If you want
   more business, read more now!
 ---
-Some of the best <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noopener noreferrer">SEO</a> strategies any business can use in 2019 are right under your nose, and relatively easy for a <a href="https://infused.agency/">professional</a> to take care of for you.
+Some of the best <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noopener noreferrer">SEO</a> strategies any business can use in 2021 are right under your nose, and relatively easy for a <a href="https://infused.agency/">professional</a> to take care of for you.
 
 (Well, sort of).
 
 You just have to know what those are!
 
-Lets go through 11<!--more--> of the best <span style="font-size: 1rem;">SEO strategies for 2019.</span>
+Lets go through 11<!--more--> of the best <span style="font-size: 1rem;">SEO strategies for 2021.</span>
 
 <h2>1. Make your site blazing fast</h2>
 
@@ -28,7 +28,7 @@ One of the best tools to run your website through, would be <a href="https://dev
 
 <h2>2. Your website must be mobile-friendly</h2>
 
-The fact of the matter is, it's 2019. Everyone and their <a href="http://www.pewinternet.org/2017/05/17/technology-use-among-seniors/" target="_blank" rel="noopener noreferrer">grandfather now has a smart phone</a>, so that means your website <em>must </em>be <a href="https://en.wikipedia.org/wiki/Mobile_Web" target="_blank" rel="noopener noreferrer">mobile-friendly</a>.
+The fact of the matter is, it's 2021. Everyone and their <a href="http://www.pewinternet.org/2017/05/17/technology-use-among-seniors/" target="_blank" rel="noopener noreferrer">grandfather now has a smart phone</a>, so that means your website <em>must </em>be <a href="https://en.wikipedia.org/wiki/Mobile_Web" target="_blank" rel="noopener noreferrer">mobile-friendly</a>.
 
 Google had come out and announced way back in 2015 that mobile-friendly websites will be <a href="https://searchengineland.com/google-boost-mobile-friendly-algorithm-coming-may-244941" target="_blank" rel="noopener noreferrer">favoured and rank higher</a> compared to those websites that are not mobile-friendly.
 
@@ -75,9 +75,9 @@ Of course, there are a ton of other off page factors that do help in your SEO st
 
 <h2>5. Update old blog posts to include in your SEO strategies</h2>
 
-This one is absolutely huge to include in your <a href="https://infused.agency/best-seo-company/">SEO strategies</a>, especially if you have a fair amount of blog posts that are able to be updated on a year to year basis.
+This one is absolutely huge to include in your <a href="https://infused.agency/seo/">SEO strategies</a>, especially if you have a fair amount of blog posts that are able to be updated on a year to year basis.
 
-This post, is a shining example. I'm posting it in the year 2019, but I will be re-purposing it for the year 2019 when that year comes, and adjust the content accordingly.
+This post, is a shining example. I'm posting it in the year 2021, but I will be re-purposing it for the year 2021 when that year comes, and adjust the content accordingly.
 
 You can still rank <a href="https://www.searchenginejournal.com/increase-seo-traffic-updating-thickening-old-blog-posts/191891/" target="_blank" rel="noopener noreferrer">very well</a>, and you are still updating your site with fresh, relevant and educational content. It's a win-win for your users, and in Google's eyes!
 
@@ -87,7 +87,7 @@ You can still rank <a href="https://www.searchenginejournal.com/increase-seo-tra
 
 What is link-building?
 
-In a very small nutshell, lets say we design and build a website for a client, and we place a link at the bottom of their page that says, "web design by <a href="https://infused.agency/website-design">Infused</a>."
+In a very small nutshell, lets say we design and build a website for a client, and we place a link at the bottom of their page that says, "web design by <a href="https://infused.agency/websites">Infused</a>."
 
 And as you can see, with the word Infused, there's a link back to our website.
 
@@ -119,7 +119,7 @@ There's a few ways on how to get good at getting these links, and I may go in de
 
 <h2>7. Switch your website over to https://</h2>
 
-Google wants all of it's users to feel 100% secure, <a href="https://www.searchenginejournal.com/google-is-requiring-https-for-secure-data-in-chrome/183756/" target="_blank" rel="noopener noreferrer">especially in 2019</a> when browsing any sort of website on the internet.
+Google wants all of it's users to feel 100% secure, <a href="https://www.searchenginejournal.com/google-is-requiring-https-for-secure-data-in-chrome/183756/" target="_blank" rel="noopener noreferrer">especially in 2021</a> when browsing any sort of website on the internet.
 
 In the link in the previous sentence, you'll see that Google pushes hard for this. It's actually one of the top ranking factors when it comes to getting your website to rank high in Google, is switching it over to https:// over http://.
 

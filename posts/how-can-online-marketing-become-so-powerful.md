@@ -8,7 +8,7 @@ excerpt: >-
 ---
 Something that a lot of companies are still utilizing as their sole marketing strategy is offline marketing. Now, the effectiveness here entirely depends on the business. <!--more-->It can work very well as a sort of secondary piece of marketing online the primary online bit, or even tertiary marketing strategy.
 
-However, in order to truly succeed these days, one most goes where your customers are looking for you - which, is on the Internet. There are a plethora of different ways to take your marketing online - through web design, email marketing, social media, content marketing, <a href="https://infused.agency/blog/top-5-reasons-why-seo-is-important-for-business/">search engine optimization</a>, and much.. much more.
+However, in order to truly succeed these days, one most goes where your customers are looking for you - which, is on the Internet. There are a plethora of different ways to take your marketing online - through web design, email marketing, social media, content marketing, <a href="https://infused.agency/seo/">search engine optimization</a>, and much.. much more.
 
 Executing the proper online marketing strategies have taken businesses from zero to hero. Sometimes over night, sometimes longer than others. In the end, it's all about building your brand and doing so online is where that's going to have the biggest effect.
 
@@ -38,4 +38,4 @@ Ever try to track how many people took action and called, let alone read your la
 
 There are so many different ways you can market your business. Social media, content marketing, search engine optimization, Google Pay-Per-Click, Facebook Ads, Instagram Ads, Twitter ads.. the options are absolutely endless! The best and most powerful online marketing campaigns come from when a company engages in them from all sorts of different angles. Typically if you only engage in social media ads, you may see some trickled in results. However if you combine social media with search engine optimization? That's one powerful online marketing campaign! If properly optimized, this combination (or any other sort of marketing combination) will make sure you'll never have to hunt for business again.
 
-In conclusion, online marketing is extremely powerful. <a href="https://infused.agency/">Contact us today</a> to see how we can help in this area!
+In conclusion, online marketing is extremely powerful. <a href="https://infused.agency/get-started">Contact us today</a> to see how we can help in this area!

@@ -62,6 +62,6 @@ SEO is where the bread and butter is. Organically ranking your website highly in
 
 Social media marketing can also be very successful. It takes a lot of research - but when done properly, it has amazing results.
 
-If you are interested in custom website design or search engine optimization for your business, <a href="https://infused.agency/contact/">Contact</a> us today to send you a quote!
+If you are interested in custom website design or search engine optimization for your business, <a href="https://infused.agency/get-started/">Contact</a> us today to send you a quote!
 
 <h3>Like the post? Share it!</h3>

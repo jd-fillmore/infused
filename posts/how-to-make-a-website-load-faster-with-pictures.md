@@ -10,7 +10,7 @@ One of the biggest ranking factors in Google is [page speed](https://cognitivese
 
 ## So... How Do I Make My Website With Pictures Load Faster?
 
-It's pretty easy, at least from a [developer's perspective](https://infused.agency/web-design). But for the non-devs out there, I'll tell you how.
+It's pretty easy, at least from a [developer's perspective](https://infused.agency/websites). But for the non-devs out there, I'll tell you how.
 
 ## Decrease File Size of Pictures To Make Website Load Faster
 

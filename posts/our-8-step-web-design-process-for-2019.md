@@ -120,7 +120,7 @@ We also make sure that are meta descriptions and metal titles on a client's webs
 
 Typically, having a great website is only half the battle. If people aren't aware of it, then what's the point?
 
-This is where <a href="https://infused.agency/best-seo-company/">search engine optimization</a> comes in. We make sure the keywords that a client's audience is searching for are located within certain pages on the site. This means that when people do a Google search for that term, your website will come up.
+This is where <a href="https://infused.agency/seo/">search engine optimization</a> comes in. We make sure the keywords that a client's audience is searching for are located within certain pages on the site. This means that when people do a Google search for that term, your website will come up.
 
 There's a lot more that goes into SEO, and having to rank high in Google for certain keyword terms - however, we do make sure that all of any client's web pages are properly optimized for Google's indexing.
 

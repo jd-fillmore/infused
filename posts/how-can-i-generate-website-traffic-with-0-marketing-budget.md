@@ -21,7 +21,7 @@ Publishing rich, weekly, educational content that relates directly to your niche
 
 It is very similar to what we do here at Infused. We generate weekly content (for example, our last one was answering a <a href="https://infused.agency/">question</a> about the cost of a website) that answers questions for our readers. The idea here is to write in-depth articles, at least once a week, that are a minimum of one thousand words.
 
-These blog articles are aimed at answering questions your customers have. It's a pretty simple process. All oyu have to do is brainstorm ideas, or even do <a href="https://infused.agency/blog/top-5-reasons-why-seo-is-important-for-business/">keyword research</a> to find out certain long-tail keyword questions that your customers are Googling for, and answer those questions in depth.
+These blog articles are aimed at answering questions your customers have. It's a pretty simple process. All oyu have to do is brainstorm ideas, or even do <a href="https://infused.agency/seo/">keyword research</a> to find out certain long-tail keyword questions that your customers are Googling for, and answer those questions in depth.
 
 If your blog articles (your answers) rank highly on Google, then when someone Googles a question related to your business, you'll show up high. Boom. More traffic!
 
@@ -34,7 +34,7 @@ There's a few very important points to add, that will help the SEO-side of your 
  	<li>Make sure to internally link to pages within your site that are relevant, and externally link to websites that are in your niche. This tells Google what your website is about.</li>
 </ul>
 
-There's a plethora of more on-page <a href="https://infused.agency/best-seo-company/">SEO optimization techniques</a> that we can educate you about. Feel free to give us a shout.
+There's a plethora of more on-page <a href="https://infused.agency/seo/">SEO optimization techniques</a> that we can educate you about. Feel free to give us a shout.
 
 Regardless, those points above will alone make sure that your blog post is in tip-top shape.
 
@@ -52,14 +52,14 @@ A good starting strategy is to typically create a educational, valuable blog art
 
 Then, head on over to your social media platforms. Be it Instagram, Facebook, Twitter or Youtube. Best if you utilize all of the social media sites that your company has.
 
-But hold on; before you make a blog post, it's best to hire a professional <a href="https://infused.agency/blog/what-are-best-practices-for-responsive-web-design/">web designer</a> to design a web graphic to go along with your post.
+But hold on; before you make a blog post, it's best to hire a professional <a href="https://infused.agency/posts/what-are-best-practices-for-responsive-web-design/">web designer</a> to design a web graphic to go along with your post.
 
 This web graphic will make the post much more attractive, more engaging, and more tempting for your customers to click on and read the blog article you have wrote - answering their questions.
 
 Here's some ideas:
 
 <ul>
- 	<li>For Youtube, upload a video of a service or product that you over. Make sure you do some <a href="https://infused.agency/blog/10-of-the-best-seo-strategies-for-2019/">SEO work</a> on the video's description, so when people search it, they will find it. Once they find the video, post a link to your website in the description. Voila! Free way to generate website traffic.</li>
+ 	<li>For Youtube, upload a video of a service or product that you over. Make sure you do some <a href="https://infused.agency/blog/10-of-the-best-seo-strategies-for-2021/">SEO work</a> on the video's description, so when people search it, they will find it. Once they find the video, post a link to your website in the description. Voila! Free way to generate website traffic.</li>
  	<li>For Instagram and Facebook, after you have written the blog post, have a web designer create a professional graphic to go along with it (as mentioned above), and post away. Make sure you use relevant hash tags to your business and niche, to garner even more people's attention, in the hopes of generating more website traffic.</li>
 </ul>
 <h2>Start a podcast - it takes a $0 marketing budget</h2>

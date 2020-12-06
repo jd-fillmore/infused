@@ -52,7 +52,7 @@ So that means that if 95% of your customers are looking for the product or servi
 
 In order for you to adapt as a business in today's world, you need to be found in Google. If you don't establish your local, online presence within the keywords that people search for on Google, your business will go under. That's just the way it is.
 
-So what's the solution? In order to help your business, you need to <a href="https://infused.agency/contact/">hire a firm</a> that specializes search engine optimization. That firm (us!) will help you figure out what keywords you need to rank for locally, and help your website rank for those specific terms.
+So what's the solution? In order to help your business, you need to <a href="https://infused.agency/get-started">hire a firm</a> that specializes search engine optimization. That firm (us!) will help you figure out what keywords you need to rank for locally, and help your website rank for those specific terms.
 
 <h3>Search engine optimization will help build trust &amp; credibility</h3>
 

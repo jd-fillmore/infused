@@ -18,4 +18,4 @@ Within two weeks of her new website being launched, she ranks #1 in multiple cit
 
 She doesn't have to worry about advertising, as she ranks super well in Google. Clients now come to her.
 
-Need a [website](https://infused.agency/web-design) or [SEO](https://infused.agency/seo) services? [Contact us today](https://infused.agency/contact)!
+Need a [website](https://infused.agency/websites) or [SEO](https://infused.agency/seo) services? [Contact us today](https://infused.agency/get-started)!

@@ -108,4 +108,4 @@ Some of our favourites are:
 
 One of the best sources on the web for responsive web design examples can be found here. They provide vast amount of different industries that use responsive websites, and it's a great resource to check out.
 
-We hope you've learned a lot about what are the best practices for responsive web design! Feel free to check out <a href="https://infused.agency/">our work</a> of responsive web designs as well.
+We hope you've learned a lot about what are the best practices for responsive web design! Feel free to check out <a href="https://infused.agency/work">our work</a> of responsive web designs as well.

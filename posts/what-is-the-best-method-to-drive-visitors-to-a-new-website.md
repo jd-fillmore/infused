@@ -15,7 +15,7 @@ So, lets get to it. Here’s the checklist below:
 <ul>
  	<li>Google My Business</li>
  	<li><a href="https://infused.agency/search-engine-optimization/">Search Engine Optimization</a></li>
- 	<li>List Your <a href="https://infused.agency/website-design/">Website</a> On Relevant and Local Directories</li>
+ 	<li>List Your <a href="https://infused.agency/websites/">Website</a> On Relevant and Local Directories</li>
  	<li>Post To Social Media (Don't Forget Hashtags!)</li>
  	<li>Email Marketing</li>
  	<li>Engage Your Audience Online</li>
@@ -38,7 +38,7 @@ Once you get a bunch of reviews, you will notice that over time your Google My B
 
 <h3>Search Engine Optimization</h3>
 
-<a href="https://infused.agency/search-engine-optimization/">Search Engine Optimization</a> (the short form being SEO) is the process that affects your online visibility, for when people search for you on Google.
+<a href="https://infused.agency/seo/">Search Engine Optimization</a> (the short form being SEO) is the process that affects your online visibility, for when people search for you on Google.
 
 For example - if you're in Toronto and own a shoe sort, when people search, "Shoe Store Toronto" in Google, ideally you want to show up on the first page of Google. Reason being, that's where people land, and that's where people ultimately click on a business' website and buy product from.
 
