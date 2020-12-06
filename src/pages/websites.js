@@ -45,6 +45,14 @@ const citiesNiagara = [
     name: "Smithville",
     link: "/smithville-web-design",
   },
+  {
+    name: "Pelham",
+    link: "/pelham-web-design",
+  },
+  {
+    name: "Niagara-on-the-Lake",
+    link: "/niagara-on-the-lake-web-design",
+  },
 ]
 
 const citiesHamilton = [
