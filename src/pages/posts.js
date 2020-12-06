@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 import PostLink from "../../components/postLink.js"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
+import CTA from "../../components/CTA/cta"
+import Footer from "../../components/Footer/footer"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 
@@ -35,7 +37,8 @@ const PostsPage = ({
         </Row>
       </Container>
       </section>
-      
+      <CTA/>
+      <Footer/>
     </>
   ) 
 }
