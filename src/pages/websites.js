@@ -55,41 +55,6 @@ const citiesNiagara = [
   },
 ]
 
-const citiesHamilton = [
-  {
-    name: "Hamilton",
-    link: "/hamilton-web-design",
-  },
-  {
-    name: "Waterdown",
-    link: "/waterdown-web-design",
-  },
-  {
-    name: "Dundas",
-    link: "/dundas-web-design",
-  },
-  {
-    name: "Ancaster",
-    link: "/ancaster-web-design",
-  },
-  {
-    name: "Stoney Creek",
-    link: "/stoney-creek-web-design",
-  },
-  {
-    name: "Burlington",
-    link: "/burlington-web-design",
-  },
-  {
-    name: "Caledonia",
-    link: "/caledonia-web-design",
-  },
-  {
-    name: "Binbrook",
-    link: "/binbrook-web-design",
-  },
-]
-
 const Websites = () => {
   return (
     <>
@@ -168,35 +133,25 @@ const Websites = () => {
         btnLink="/work"
       />
       <section className="areas-served">
-      <Container>
-        <Row>
-          <Col lg="12">
-            <h3>Areas Served</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg="3">
-            <h5>Niagara</h5>
-            <ul>
-              {citiesNiagara.map(city => (
-                <li>
-                  <Link to={city.link}>{city.name}</Link>
-                </li>
-              ))}
-            </ul>
-          </Col>
-          <Col lg="3">
-            <h5>Hamilton</h5>
-            <ul>
-              {citiesHamilton.map(city => (
-                <li>
-                  <Link to={city.link}>{city.name}</Link>
-                </li>
-              ))}
-            </ul>
-          </Col>
-        </Row>
-      </Container>
+        <Container>
+          <Row>
+            <Col lg="12">
+              <h3>Areas Served</h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="12">
+              <h5>Niagara</h5>
+              <ul>
+                {citiesNiagara.map(city => (
+                  <li>
+                    <Link to={city.link}>{city.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Col>
+          </Row>
+        </Container>
       </section>
       <CTA />
       <Footer />
