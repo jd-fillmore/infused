@@ -53,6 +53,10 @@ const citiesNiagara = [
     name: "Niagara-on-the-Lake",
     link: "/niagara-on-the-lake-web-design",
   },
+  {
+    name: "Welland",
+    link: "/welland-web-design",
+  },
 ]
 
 const Websites = () => {

@@ -8,7 +8,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import Card from "../../components/Card/card"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import kdImg from "../img/niagara-web-design.png"
+import kdImg from "../img/thorold-web-design-seo.png"
 import cassImg from "../img/featured-seo.png"
 import mcImg from "../img/mc-phone.png"
 
