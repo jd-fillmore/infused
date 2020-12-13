@@ -34,16 +34,16 @@ const Home = () => {
         seoTitle="Niagara Web Design, SEO Provider St. Catharines & Digital
                     Marketing Agency"
         title="Strategic Web Development for Growing Businesses."
-        subTitle="We build modern websites, local SEO and digital strategies to help you grow your business."
+        subTitle="We do modern web design, local Niagara SEO and digital strategies to help you grow your Niagara business."
         btnText="Get Started"
         btnLink="/get-started"
       />
       <Featured
-        title="Featured Client"
+        title="Featured Niagara Client"
         subTitle={[
           "Take a look and see the ",
           <span>huge difference</span>,
-          "we've made to KD Flower's online existence.",
+          "we've made to KD Flower's online existence in Niagara, by utilizing modern web design and SEO practices.",
         ]}
         viewsValue="10,700"
         viewsText="website views per month"
@@ -55,24 +55,25 @@ const Home = () => {
         imgAlt="niagara web design, seo provider st catharines, digital agency"
         testimonial={[
           "Infused created the ",
-          <span>perfect website</span>,
-          "for my floral business. I was very happy with their ",
+          <span>perfect web design</span>,
+          "for my Niagara floral business. I was very happy with their ",
           <span>professional work ethic</span>,
           "and ",
-          <span>great communication!</span>,
+          <span>great communication</span>,
+          "and SEO results!",
         ]}
         btnText="View More Case Studies"
         btnLink="/work"
       />
       <WhatWeDo
         title="What We Can Do For You"
-        subTitle="Whether you need a website to showcase your services or want more local customers from your website - we can build you a digital platform that's tailor-made to your business needs."
+        subTitle="Whether you need an affordable web design or a local SEO provider to showcase your services in Niagara &amp; St. Catharines or want more local Niagara &amp; St. Catharines customers from your website - we can build you a digital platform that's tailor-made to your business needs."
         boxOneTitle={[
           "Bespoke websites built to ",
           <span>convert your visitors</span>,
           ".",
         ]}
-        boxOneDesc="We design and build modern websites that help convert users into paying customers."
+        boxOneDesc="We do modern web design &amp; development for Niagara businesses that help convert users into paying customers."
         boxOneImg={websiteSVG}
         boxOneImgAlt="websites"
         boxOneLink="/websites"
@@ -81,7 +82,7 @@ const Home = () => {
           <span>drive local customers</span>,
           " to your website.",
         ]}
-        boxTwoDesc="Getting local traffic through Google helps bring you more revenue."
+        boxTwoDesc="Getting local Niagara traffic through SEO to your modern web design helps bring you more revenue."
         boxTwoImg={seoSVG}
         boxTwoImgAlt="seo provider st catharines"
         boxTwoLink="/seo"
@@ -90,14 +91,14 @@ const Home = () => {
           <span>more revenue</span>,
           ".",
         ]}
-        boxThreeDesc="Helping you navigate through the digital world to help maximize profits."
+        boxThreeDesc="Helping your Niagara business navigate through the digital world to help maximize profits."
         boxThreeImg={strategySVG}
         boxThreeImgAlt="digital strategy agency niagara, st catharines"
         boxThreeLink="/digital-strategy"
       />
       <Clients
         title="Our happy clients"
-        subtitle="We take pride in knowing that we do a great job for our clients."
+        subtitle="We take pride in knowing that we do a great job for our clients - through modern web design and local SEO practices."
       />
       <CTA />
       <Footer />
