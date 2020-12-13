@@ -8,10 +8,6 @@ excerpt: >-
 
 We have some exciting news! As we're going into 2021, we've decided to completely [re-vamp our website](https://infused.agency/websites) using a modern website framework.
 
-Before we dive in as to the why, here's a quick snapshot:
-
-![new website infused agency](../src/img/new-website-infused-agency.png)
-
 ## Why We Re-Designed Our Website
 
 The reason is simple - to design-wise and technologically-wise, keep up with the times.

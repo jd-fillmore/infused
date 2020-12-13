@@ -21,6 +21,12 @@ ul {
   font-family: $body;
   font-size: 18px;
   line-height: 1.8;
+  color: $white;
+}
+
+ol,
+ul {
+  margin-bottom: 30px;
 }
 
 a {

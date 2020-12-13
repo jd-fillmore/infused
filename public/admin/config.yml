@@ -2,8 +2,8 @@ backend:
   name: github
   repo: jd-fillmore/infused-gridsome
 
-media_folder: "uploads"
-public_folder: "../uploads"
+media_folder: "img"
+public_folder: "../img"
 
 collections:
   - name: "posts"
