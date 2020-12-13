@@ -1,7 +1,7 @@
 ---
 title: New Website Launched - Infused Agency
 slug: /posts/new-website-launched-infused/
-date: 2021-03-26T23:53:24.128Z
+date: 2021-04-26T23:53:24.128Z
 excerpt: >-
   We have some exciting news! As we're going into 2021, we've decided to completely re-vamp our website using a modern website framework.
 ---
