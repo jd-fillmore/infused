@@ -22,20 +22,18 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Niagara Web Design, SEO Provider St. Catharines, Digital Marketing
-          Company - Infused Agency
+          Niagara Web Design, St. Catharines SEO Agency & Digital Marketing
         </title>
         <meta
           name="description"
-          content="Niagara's web design, St. Catharines' SEO provider & digital marketing company. We're a digital marketing agency thats brings more sales to your company."
+          content="Niagara's Web Design, St. Catharines SEO Agency & Digital Marketing Company. We're a digital marketing agency thats brings more sales to your company."
         />
       </Helmet>
       <Nav />
       <Hero
-        seoTitle="Niagara Web Design, SEO Provider St. Catharines & Digital
-                    Marketing Agency"
+        seoTitle="Niagara Web Design, St. Catharines SEO Agency & Digital Marketing Company."
         title="Strategic Web Development for Growing Businesses."
-        subTitle="We do modern web design, local SEO and digital strategies to help you grow your Niagara business."
+        subTitle="We do modern web design, local SEO and digital strategies to help you grow your Niagara or St. Catharines business."
         btnText="Get Started"
         btnLink="/get-started"
       />
