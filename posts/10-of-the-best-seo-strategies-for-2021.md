@@ -1,10 +1,9 @@
 ---
 title: 10 of the best SEO strategies for 2021
+date: 2020-12-12T00:53:24.128Z
 slug: /posts/10-best-seo-strategies-2021/
-date: 2021-03-26T23:53:24.128Z
-excerpt: >-
-  In this post, we go over 10 of the best SEO strategies for 2021. If you want
-  more business, read more now!
+excerpt: In this post, we go over 10 of the best SEO strategies for 2021. If you
+  want more business, read more now!
 ---
 Some of the best <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noopener noreferrer">SEO</a> strategies any business can use in 2021 are right under your nose, and relatively easy for a <a href="https://infused.agency/">professional</a> to take care of for you.
 
