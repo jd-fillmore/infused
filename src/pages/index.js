@@ -17,6 +17,76 @@ import strategySVG from "../img/strategy.svg"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
 
+const schema = {
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Infused Agency",
+  "image" : "https://infused.agency/static/niagara-web-design-2f828e960c0871169524dbd5886ab097.png",
+  "telephone" : "(905) 933-3115",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "73 Alexandra Blvd",
+    "addressLocality" : "St. Catharines",
+    "addressRegion" : "ON",
+    "postalCode" : "L2P 1K2"
+  },
+  "openingHoursSpecification" : [ {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "Monday"
+    },
+    "opens" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30",
+    "closes" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+  }, {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "Tuesday"
+    },
+    "opens" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30",
+    "closes" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+  }, {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "Wednesday"
+    },
+    "opens" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30",
+    "closes" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+  }, {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "Thursday"
+    },
+    "opens" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30",
+    "closes" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+  }, {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "Friday"
+    },
+    "opens" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30",
+    "closes" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+  }, {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "Saturday"
+    },
+    "closes" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+  }, {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "Sunday"
+    },
+    "closes" : "Please insert valid ISO 8601 date/time here. Examples: 2015-07-27 or 2015-07-27T15:30"
+  } ]
+}
+
 const Home = () => {
   return (
     <>
@@ -28,6 +98,9 @@ const Home = () => {
           name="description"
           content="Niagara's Web Design, St. Catharines SEO Agency & Digital Marketing Company. We're a digital marketing agency thats brings more sales to your company."
         />
+        <script type="application/ld+json">
+            {JSON.stringify(schema)}
+          </script>
       </Helmet>
       <Nav />
       <Hero
