@@ -40,15 +40,23 @@ const Footer = () => {
       <section className="footer">
         <Container>
           <Row>
-            <Col lg="3">
+            <Col lg="4">
               <h3>About</h3>
               <p>
                 Infused Agency is a Niagara web design, SEO company and digital
                 marketing agency. We help local and non-local businesses build
                 their credibility online, as well as help bring in more sales.
               </p>
+              <h3>Areas Served</h3>
+              <p>
+                Crystal Beach, Dunnville, Caistorville, Fonthill, Fort Erie,
+                Grimsby, Jordan, Lincoln, Niagara Falls, Niagara-on-the-Lake,
+                Pelham, Port Colborne, Port Dalhousie, Smithville, St.
+                Catharines, Thorold, Vineland, Virgil, Wainfleet, Welland, West
+                Lincoln.
+              </p>
             </Col>
-            <Col lg="3">
+            <Col lg="2">
               <h3>Pages</h3>
               <ul>
                 {pages.map(page => (
@@ -58,7 +66,7 @@ const Footer = () => {
                 ))}
               </ul>
             </Col>
-            <Col lg="3">
+            <Col lg="2">
               <h3>Services</h3>
               <ul>
                 {services.map(service => (
@@ -68,7 +76,7 @@ const Footer = () => {
                 ))}
               </ul>
             </Col>
-            <Col lg="3">
+            <Col lg="2">
               <h3>Contact</h3>
               <ul>
                 <li>
