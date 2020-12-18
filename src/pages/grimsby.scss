@@ -26,3 +26,21 @@
     margin: 0 auto;
   }
 }
+
+.city-benefits {
+  padding-top: 120px;
+  @include bp-tablet-sm {
+    padding-top: 60px;
+  }
+  background: $dark-grey;
+  h2,
+  h3 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  h2,
+  h3,
+  p {
+    color: $white;
+  }
+}

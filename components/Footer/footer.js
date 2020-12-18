@@ -83,11 +83,12 @@ const Footer = () => {
             <Col lg="8">
               <h3>Areas Served</h3>
               <p>
-                Crystal Beach, Dunnville, Caistorville, Fonthill, Fort Erie,
-                Grimsby, Jordan, Lincoln, Niagara Falls, Niagara-on-the-Lake,
-                Pelham, Port Colborne, Port Dalhousie, Smithville, St.
-                Catharines, Thorold, Vineland, Virgil, Wainfleet, Welland, West
-                Lincoln.
+                Beamsville, Crystal Beach, Dunnville, Caistorville, Fonthill,
+                Fort Erie, Grimsby,{" "}
+                <Link to="/hamilton-web-design">Hamilton</Link>, Jordan,
+                Lincoln, Niagara Falls, Niagara-on-the-Lake, Pelham, Port
+                Colborne, Port Dalhousie, Smithville, St. Catharines, Thorold,
+                Vineland, Virgil, Wainfleet, Welland, West Lincoln.
               </p>
             </Col>
             <Col lg="4">
