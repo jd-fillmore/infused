@@ -8,7 +8,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-import img from "../img/seo-keywords-for-carpenters.jpg"
+import img from "../img/seo-keywords-for-custom-home-builders.jpg"
 import Card from "../../components/Card/card"
 import "../pages/about.scss"
 
@@ -16,14 +16,14 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Best SEO Keywords for Carpenters</title>
+        <title>Best SEO Keywords for Custom Home Builders</title>
         <meta
           name="description"
-          content="The best SEO keywords for carpenters and how we can help you integrate them into your marketing strategy."
+          content="The best SEO keywords for Custom Home Builders and how we can help you integrate them into your marketing strategy."
         />
       </Helmet>
       <Nav />
-      <InnerHero title="Best SEO Keywords for Carpenters" />
+      <InnerHero title="Best SEO Keywords for Custom Home Builders" />
       <InnerContent>
         <section className="seo-page">
           <Container>
@@ -32,99 +32,107 @@ const About = () => {
                 <img
                   className="img-fluid"
                   src={img}
-                  alt="best seo keywords for carpenters"
+                  alt="best seo keywords for Custom Home Builders"
                 />
                 <br />
                 <br />
                 <br />
                 <p>
-                  A big part in finding the best SEO keywords for carpenters
-                  comes down to a couple things:
+                  A big part in finding the best SEO keywords for custom home
+                  builders comes down to a couple things:
                 </p>
                 <ul>
                   <li>
                     What are your customers searching for, in terms of your
-                    carpenters?
+                    custom home builders?
                   </li>
                   <li>What city are you located in?</li>
                 </ul>
                 <p>
                   Since local <Link to="/seo">search engine optimization</Link>{" "}
-                  is going to be so huge for you as an carpenter (since you
-                  offer a local service), it's super important to build an SEO
-                  keyword <Link to="/digital-strategy">digital strategy</Link>{" "}
-                  for your business.{" "}
+                  is going to be so huge for you as an custom home builders
+                  (since you offer a local service), it's super important to
+                  build an SEO keyword{" "}
+                  <Link to="/digital-strategy">digital strategy</Link> for your
+                  business.{" "}
                 </p>
                 <p>
                   The entire point of SEO is inbound marketing - that is, to
                   bring clients that are looking for what you offer, directly to
-                  you. SEO for carpenters works so well because even when times
-                  are tough - recessions, slow times - it doesn't matter. You're
-                  tapping into a market that's outside of your network (people
-                  you don't know), who are looking for exactly what you offer.
+                  you. SEO for custom home builders works so well because even
+                  when times are tough - recessions, slow times - it doesn't
+                  matter. You're tapping into a market that's outside of your
+                  network (people you don't know), who are looking for exactly
+                  what you offer.
                 </p>
                 <p>
-                  <strong>Some of the best keywords for carpenters are:</strong>
+                  <strong>
+                    Some of the best keywords for custom home builders are:
+                  </strong>
                   <br />
                   <br />
                   <ul>
-                    <li>"your city + carpenter"</li>
-                    <li>"your city + carpenter company" </li>
-                    <li>"your city + trim carpenters"</li>
-                    <li>"your city + rough carpentry"</li>
-                    <li>"carpenter near me"</li>
+                    <li>"your city + custom home builders"</li>
+                    <li>"your city + custom home builders company" </li>
+                    <li>"your city + trim custom home builders"</li>
+                    <li>"your city + luxury home custom home builders"</li>
+                    <li>"custom home builders near me"</li>
                     <li>
-                      "best carpenter company + your city" or "best carpenter +
-                      your city"
+                      "best custom home builders company + your city" or "best
+                      custom home builders + your city"
                     </li>
                   </ul>
                   <p>
                     Lets go a bit indepth below and understand why those are the
-                    best keywords for your carpenter.
+                    best keywords for your custom home builders.
                   </p>
                 </p>
                 <br />
                 <Card>
                   <h3 className="text-center">
-                    Want your carpenter website to rank on the first page of
-                    Google?
+                    Want your custom home builders website to rank on the first
+                    page of Google?
                   </h3>
                   <p className="text-center">
                     We can help you. Get a{" "}
                     <Link to="/get-started/">free quote</Link> now!
                   </p>
                 </Card>
-                <h2>So.. what are the best SEO keywords for carpenters?</h2>
+                <h2>
+                  So.. what are the best SEO keywords for custom home builders?
+                </h2>
                 <p>
                   In this short post, we'll go through some SEO keyword ideas
-                  that are the best to use for carpenters.
+                  that are the best to use for custom home builders.
                 </p>
-                <h2>"City + carpenter"</h2>
+                <h2>"City + custom home builders"</h2>
                 <p>
                   You'll notice a pattern as we go through these keywords.
                   <br />
                   <br />
-                  Since most Carpenters deal with clients locally, you will want
-                  to target local people that are searching for your services.
+                  Since most custom home builders deal with clients locally, you
+                  will want to target local people that are searching for your
+                  services.
                   <br />
                   <br />
                   If you're in Toronto, you want to show up when someone
-                  searches "Toronto carpenter" or "Toronto carpenter company".
+                  searches "Toronto custom home builders" or "Toronto custom
+                  home builders company".
                   <br />
                   <br />
-                  If you're in Los Angeles, "carpenters LA" or "Los Angeles
-                  carpenters".
+                  If you're in Los Angeles, "custom home builders LA" or "Los
+                  Angeles custom home builders".
                   <br />
                   <br />
                   These are a bit harder to rank for, because they're such
-                  generic terms. Not to mention, since every other carpenter or
-                  carpenters firm is using SEO to try and rank for that keyword,
-                  it's super competitive.
+                  generic terms. Not to mention, since every other custom home
+                  builders or custom home builders firm is using SEO to try and
+                  rank for that keyword, it's super competitive.
                   <br />
                   <br />
                   Which leads us to something called a long-tail keyword.
                 </p>
-                <h2>"City + carpenter company"</h2>
+                <h2>"City + custom home builders company"</h2>
                 <p>
                   Long tail keywords are usually phrases of four or more words.
                   <br />
@@ -136,31 +144,36 @@ const About = () => {
                   Below, we'll dive even deeper or go into what's known as
                   "buyer's intent" when it comes to searching.
                 </p>
-                <h2>"City + trim carpenters"</h2>
+                <h2>"City + luxury home builders"</h2>
                 <p>
-                  Here, people Google not only for a carptener within their
-                  city.. but a specific type of carpenter. A trim carpenter. See
-                  how much more specific, and with that more intention of buying
-                  this phrase entails?
+                  Here, people Google not only for a custom home builder within
+                  their city.. but a specific type of custom home builders.
+                  Luxury custom home builders. See how much more specific, and
+                  with that more intention of buying this phrase entails?
                   <br />
                   <br />
                   It's been proven that the more specific that a search term is,
                   the more intent there is for a person to buy.
                 </p>
-                <h2>"City + rough carpentry company"</h2>
+                <h2>
+                  "City + second floor addition custom home builder company"
+                </h2>
                 <p>
                   You can see the same sort of effect being played out above.
                   <br />
                   <br />
-                  I'm in Toronto (City) looking to get rough carpenters work
-                  done (carpenters) and looking for a company (carpenter firm)
-                  to do it.
+                  I'm in Toronto (City) looking to get second floor addition
+                  custom home builder work done (custom home builders) and
+                  looking for a company (custom home builders company) to do it.
                   <br />
                   <br />
                   The more specific the search, the more ready-to-buy your
                   customers are.
                 </p>
-                <h2>"Carpenter near me" or "carpenter company near me"</h2>
+                <h2>
+                  "Custom home builders near me" or "custom home builders
+                  company near me"
+                </h2>
                 <p>
                   This one is a bit funny.
                   <br />
@@ -170,7 +183,8 @@ const About = () => {
                   what you offer.
                 </p>
                 <h2>
-                  "Best carpenters + city" or "best carpenter company + city"
+                  "Best custom home builders + city" or "best custom home
+                  builders company + city"
                 </h2>
                 <p>
                   Not only is there intent in this search, but you know they're
@@ -180,13 +194,13 @@ const About = () => {
                   When someone uses words like "Best", you know that they know
                   that with that, comes money to spend. Which is great for you.
                   In conclusion, these are some of the best SEO keywords for
-                  Carpenters.
+                  custom home builders.
                 </p>
                 <br />
                 <Card>
                   <h3 className="text-center">
-                    Want your carpenter website to rank on the first page of
-                    Google?
+                    Want your custom home builders website to rank on the first
+                    page of Google?
                   </h3>
                   <p className="text-center">
                     We can help you. Get a{" "}
