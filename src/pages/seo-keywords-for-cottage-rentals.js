@@ -8,7 +8,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-import img from "../img/seo-keywords-for-garage-door-repair.jpg"
+import img from "../img/seo-keywords-for-cottage-rentals.jpg"
 import Card from "../../components/Card/card"
 import "../pages/about.scss"
 
@@ -16,16 +16,14 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Best SEO Keywords for Garage Door Repair &amp; Installation Companies
-        </title>
+        <title>Best SEO Keywords for Cottage Rentals</title>
         <meta
           name="description"
-          content="The best SEO keywords for garage door repair or installaiton companies and how we can help you integrate them into your marketing strategy."
+          content="The best SEO keywords for cottage rentals and how we can help you integrate them into your marketing strategy."
         />
       </Helmet>
       <Nav />
-      <InnerHero title="Best SEO Keywords for Garage Door Repair &amp; Installation Companies" />
+      <InnerHero title="Best SEO Keywords for cottage rentals" />
       <InnerContent>
         <section className="seo-page">
           <Container>
@@ -34,73 +32,65 @@ const About = () => {
                 <img
                   className="img-fluid"
                   src={img}
-                  alt="best seo keywords for garage door repair and installation companies"
+                  alt="best seo keywords for cottage rentals"
                 />
                 <br />
                 <br />
                 <br />
                 <p>
-                  A big part in finding the best SEO keywords for garage door
-                  repair companies comes down to a couple things:
+                  A big part in finding the best SEO keywords for cottage
+                  rentals comes down to a couple things:
                 </p>
                 <ul>
                   <li>
                     What are your customers searching for, in terms of your
-                    garage door repair?
+                    cottage rental?
                   </li>
                   <li>What city are you located in?</li>
                 </ul>
                 <p>
                   Since local <Link to="/seo">search engine optimization</Link>{" "}
-                  is going to be so huge for you as a garage door repair company
-                  (since you offer a local service), it's super important to
-                  build an SEO keyword{" "}
-                  <Link to="/digital-strategy">digital strategy</Link> for your
-                  business.{" "}
+                  is going to be so huge for you as a cottage rental (since you
+                  offer a local service), it's super important to build an SEO
+                  keyword <Link to="/digital-strategy">digital strategy</Link>{" "}
+                  for your business.{" "}
                 </p>
                 <p>
                   The entire point of SEO is inbound marketing - that is, to
                   bring clients that are looking for what you offer, directly to
-                  you. SEO for garage door repair or installation companies
-                  works so well because even when times are tough - recessions,
-                  slow times - it doesn't matter. You're tapping into a market
-                  that's outside of your network (people you don't know), who
-                  are looking for exactly what you offer.
+                  you. SEO for a cottage rental works so well because even when
+                  times are tough - recessions, slow times - it doesn't matter.
+                  You're tapping into a market that's outside of your network
+                  (people you don't know), who are looking for exactly what you
+                  offer.
                 </p>
                 <p>
                   <strong>
-                    Some of the best keywords for garage door repair companies
-                    are:
+                    Some of the best keywords for cottage rentals are:
                   </strong>
                   <br />
                   <br />
                   <ul>
-                    <li>"your city + garage door repair"</li>
-                    <li>"your city + garage door repair company" </li>
-                    <li>"your city + overhead garage door repair company"</li>
+                    <li>"your city + cottage rental"</li>
+                    <li>"your city + mountain cottage rental" </li>
+                    <li>"your city + smoky mountain cottage rental"</li>
+                    <li>"your city + pet friendly cottage rental"</li>
+                    <li>"cottage rentals near me"</li>
                     <li>
-                      "your city + garage door installation" or "your city +
-                      garage door installation company"
-                    </li>
-                    <li>
-                      "garage door repair near me" or "garage door repair
-                      company near me"
-                    </li>
-                    <li>
-                      "best garage door repair company + your city" or "best
-                      garage door repair + your city"
+                      "best cottage rentals + your city" or "best pet friendly
+                      cottage rental + your city"
                     </li>
                   </ul>
                   <p>
                     Lets go a bit indepth below and understand why those are the
-                    best keywords for your garage door repair company.
+                    best keywords for your cottage rental.
                   </p>
                 </p>
                 <br />
                 <Card>
                   <h3 className="text-center">
-                    Want your garage door repair or garage door installation
-                    website to rank on the first page of Google?
+                    Want your cottage rental website to rank on the first page
+                    of Google?
                   </h3>
                   <p className="text-center">
                     Please fill out the form below and we'll get back to your
@@ -168,45 +158,40 @@ const About = () => {
                   </p>
                 </Card>
                 <h2>
-                  So.. what are the best SEO keywords for garage door repair
-                  &amp; installation companies?
+                  So.. what are the best SEO keywords for cottage rentals?
                 </h2>
                 <p>
                   In this short post, we'll go through some SEO keyword ideas
-                  that are the best to use for garage door repair &amp;
-                  installation companies.
+                  that are the best to use for cottage rentals.
                 </p>
-                <h2>
-                  "City + garage door repair" or "city + garage door
-                  installation company"
-                </h2>
+                <h2>"City + cottage rental"</h2>
                 <p>
                   You'll notice a pattern as we go through these keywords.
                   <br />
                   <br />
-                  Since most Garage Door Repair &amp; Installation Companies
-                  deal with clients locally, you will want to target local
-                  people that are searching for your services.
+                  Since most cottage rentals deal with clients locally, you will
+                  want to target local people that are searching for your
+                  services.
                   <br />
                   <br />
                   If you're in Toronto, you want to show up when someone
-                  searches "Toronto garage door repair" or "Toronto garage door
-                  installation".
+                  searches "Toronto cottage rentals" or "cottage rental
+                  Toronto".
                   <br />
                   <br />
-                  If you're in Los Angeles, "garage door repair &amp; LA" or
-                  "Los Angeles garage door installation".
+                  If you're in Los Angeles, "cottage rental LA" or "Los Angeles
+                  cottage rental".
                   <br />
                   <br />
                   These are a bit harder to rank for, because they're such
-                  generic terms. Not to mention, since every other garage door
-                  repair or installation company is using SEO to try and rank
-                  for that keyword, it's super competitive.
+                  generic terms. Not to mention, since every other cottage
+                  rental is using SEO to try and rank for that keyword, it's
+                  super competitive.
                   <br />
                   <br />
                   Which leads us to something called a long-tail keyword.
                 </p>
-                <h2>"City + garage door repair company"</h2>
+                <h2>"City + cottage rental"</h2>
                 <p>
                   Long tail keywords are usually phrases of four or more words.
                   <br />
@@ -218,39 +203,32 @@ const About = () => {
                   Below, we'll dive even deeper or go into what's known as
                   "buyer's intent" when it comes to searching.
                 </p>
-                <h2>
-                  "City + overhead garage door repair company" or "city +
-                  overhead garage door installation company"
-                </h2>
+                <h2>"City + smoky mountain cottage rental"</h2>
                 <p>
-                  Here, people Google not only for a garage door repair or
-                  installation company.. but a specific type. An overhead garage
-                  door repair company. See how much more specific, and with that
-                  more intention of buying this phrase entails?
+                  Here, people Google not only for an cottage rental within
+                  their city.. but a specific type. A smoky mountain cottage
+                  rental. See how much more specific, and with that more
+                  intention of buying this phrase entails?
                   <br />
                   <br />
                   It's been proven that the more specific that a search term is,
                   the more intent there is for a person to buy.
                 </p>
-                <h2>
-                  "City + garage door opener repair" or "city + garage door
-                  opener repair company"
-                </h2>
+                <h2>"City + pet friendly cottage rental"</h2>
                 <p>
                   You can see the same sort of effect being played out above.
                   <br />
                   <br />
-                  I'm in Toronto (City) looking to get a garage door opener
-                  repair work done (garage door repair) and looking for a
-                  company (garage door opener repair company) to do it.
+                  I'm in Toronto (City) looking to for a pet friendly cottage
+                  rental.
                   <br />
                   <br />
                   The more specific the search, the more ready-to-buy your
                   customers are.
                 </p>
                 <h2>
-                  "Garage door repair near me" or "garage door repair company
-                  near me"
+                  "Cottage rentals near me" or "pet friendly cottage rental near
+                  me"
                 </h2>
                 <p>
                   This one is a bit funny.
@@ -261,8 +239,8 @@ const About = () => {
                   what you offer.
                 </p>
                 <h2>
-                  "Best garage door repair company + city" or "best garage door
-                  installation + city"
+                  "Best cottage rentals + city" or "best pet friendly cottage
+                  rentals + city"
                 </h2>
                 <p>
                   Not only is there intent in this search, but you know they're
@@ -272,13 +250,13 @@ const About = () => {
                   When someone uses words like "Best", you know that they know
                   that with that, comes money to spend. Which is great for you.
                   In conclusion, these are some of the best SEO keywords for
-                  Garage Door Repair Companies.
+                  cottage rentals.
                 </p>
                 <br />
                 <Card>
                   <h3 className="text-center">
-                    Want your garage door repair or installation company website
-                    to rank on the first page of Google?
+                    Want your cottage rental website to rank on the first page
+                    of Google?
                   </h3>
                   <p className="text-center">
                     Please fill out the form below and we'll get back to your

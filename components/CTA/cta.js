@@ -1,8 +1,5 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
-import Button from "../Button/button"
-import ctaSVG from "../../src/img/cta.svg"
 
 import "../CTA/cta.scss"
 
@@ -20,18 +17,66 @@ const Hero = () => {
                 Get in touch with us for a free quote regarding your Niagara web
                 design or SEO project today.
               </p>
-              <Link to="/get-started">
-                <Button>Get Started</Button>
-              </Link>
             </Col>
             <Col lg="7">
-              <img
-                width="635"
-                height="335"
-                className="img-fluid"
-                src={ctaSVG}
-                alt="book a project"
-              />
+              <form
+                name="contact"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
+                <div class="form-group">
+                  <input
+                    name="name"
+                    type="name"
+                    class="form-control"
+                    id="Name"
+                    aria-describedby="namehelp"
+                    placeholder="Full Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    id="Email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    name="phone"
+                    type="phone"
+                    class="form-control"
+                    id="Phone"
+                    aria-describedby="urlhelp"
+                    placeholder="Cell Phone Number"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    name="url"
+                    type="name"
+                    class="form-control"
+                    id="URL"
+                    aria-describedby="urlhelp"
+                    placeholder="Website URL"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="Message"
+                    rows="3"
+                    placeholder="How can we help you?"
+                  ></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
+              </form>
             </Col>
           </Row>
         </Container>

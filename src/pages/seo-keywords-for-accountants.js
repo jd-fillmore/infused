@@ -103,8 +103,68 @@ const About = () => {
                     the first page of Google?
                   </h3>
                   <p className="text-center">
-                    We can help you. Get a{" "}
-                    <Link to="/get-started/">free quote</Link> now!
+                    Please fill out the form below and we'll get back to your
+                    with a quote!
+                    <br />
+                    <br />
+                    <form
+                      name="contact"
+                      method="post"
+                      data-netlify="true"
+                      data-netlify-honeypot="bot-field"
+                    >
+                      <div class="form-group">
+                        <input
+                          name="name"
+                          type="name"
+                          class="form-control"
+                          id="Name"
+                          aria-describedby="namehelp"
+                          placeholder="Full Name"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          name="email"
+                          type="email"
+                          class="form-control"
+                          id="Email"
+                          placeholder="Email"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          name="phone"
+                          type="phone"
+                          class="form-control"
+                          id="Phone"
+                          aria-describedby="urlhelp"
+                          placeholder="Cell Phone Number"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          name="url"
+                          type="name"
+                          class="form-control"
+                          id="URL"
+                          aria-describedby="urlhelp"
+                          placeholder="Website URL"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <textarea
+                          name="message"
+                          class="form-control"
+                          id="Message"
+                          rows="3"
+                          placeholder="How can we help you?"
+                        ></textarea>
+                      </div>
+                      <button type="submit">Submit</button>
+                      <input type="hidden" name="bot-field" />
+                      <input type="hidden" name="form-name" value="contact" />
+                    </form>
                   </p>
                 </Card>
                 <h2>
@@ -211,8 +271,68 @@ const About = () => {
                     the first page of Google?
                   </h3>
                   <p className="text-center">
-                    We can help you. Get a{" "}
-                    <Link to="/get-started/">free quote</Link> now!
+                    Please fill out the form below and we'll get back to your
+                    with a quote!
+                    <br />
+                    <br />
+                    <form
+                      name="contact"
+                      method="post"
+                      data-netlify="true"
+                      data-netlify-honeypot="bot-field"
+                    >
+                      <div class="form-group">
+                        <input
+                          name="name"
+                          type="name"
+                          class="form-control"
+                          id="Name"
+                          aria-describedby="namehelp"
+                          placeholder="Full Name"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          name="email"
+                          type="email"
+                          class="form-control"
+                          id="Email"
+                          placeholder="Email"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          name="phone"
+                          type="phone"
+                          class="form-control"
+                          id="Phone"
+                          aria-describedby="urlhelp"
+                          placeholder="Cell Phone Number"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          name="url"
+                          type="name"
+                          class="form-control"
+                          id="URL"
+                          aria-describedby="urlhelp"
+                          placeholder="Website URL"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <textarea
+                          name="message"
+                          class="form-control"
+                          id="Message"
+                          rows="3"
+                          placeholder="How can we help you?"
+                        ></textarea>
+                      </div>
+                      <button type="submit">Submit</button>
+                      <input type="hidden" name="bot-field" />
+                      <input type="hidden" name="form-name" value="contact" />
+                    </form>
                   </p>
                 </Card>
               </Col>
