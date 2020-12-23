@@ -81,14 +81,56 @@ const Footer = () => {
           </Row>
           <Row>
             <Col lg="8">
-              <h3>Areas Served</h3>
+              <h3>Local Areas Served</h3>
               <p>
-                Beamsville, Crystal Beach, Dunnville, Caistorville, Fonthill,
-                Fort Erie, Grimsby,{" "}
-                <Link to="/hamilton-web-design">Hamilton</Link>, Jordan,
-                Lincoln, Niagara Falls, Niagara-on-the-Lake, Pelham, Port
-                Colborne, Port Dalhousie, Smithville, St. Catharines, Thorold,
-                Vineland, Virgil, Wainfleet, Welland, West Lincoln.
+                <Link to="/beamsville-web-design">Beamsville</Link>,{" "}
+                <Link to="/fonthill-web-design">Fonthill</Link>,{" "}
+                <Link to="/fort-erie-web-design">Fort Erie</Link>,{" "}
+                <Link to="/grimsby-web-design">Grimsby</Link>,{" "}
+                <Link to="/jordan-web-design">Jordan</Link>, Niagara Falls,
+                Niagara-on-the-Lake, <Link to="/pelham-web-design">Pelham</Link>
+                , <Link to="/port-colborne-web-design">Port Colborne</Link>,
+                Port Dalhousie,{" "}
+                <Link to="/smithville-web-design">Smithville</Link>, St.
+                Catharines, <Link to="/thorold-web-design">Thorold</Link>,
+                <Link to="/vineland-web-design">Vineland</Link>,{" "}
+                <Link to="/virgil-web-design">Virgil</Link>,{" "}
+                <Link to="/wainfleet-web-design">Wainfleet</Link>,{" "}
+                <Link to="/welland-web-design">Welland</Link>.
+              </p>
+              <h3>Other Areas Served</h3>
+              <p>
+                <Link to="/ajax-web-design">Ajax</Link>,{" "}
+                <Link to="/aurora-web-design">Aurora</Link>,{" "}
+                <Link to="/barrie-web-design">Barrie</Link>,{" "}
+                <Link to="/beamsville-web-design">Beamsville</Link>,{" "}
+                <Link to="/bowmanville-web-design">Bowmanville</Link>,{" "}
+                <Link to="/brampton-web-design">Brampton</Link>,{" "}
+                <Link to="/brantford-web-design">Brantford</Link>,{" "}
+                <Link to="/buffalo-web-design">Buffalo</Link>,{" "}
+                <Link to="/cambridge-web-design">Cambridge</Link>,{" "}
+                <Link to="/chatam-web-design">Chatam-Kent</Link>,{" "}
+                <Link to="/etobicoke-web-design">Etobicoke</Link>,{" "}
+                <Link to="/georgetown-web-design">Georgetown</Link>,{" "}
+                <Link to="/guelph-web-design">Guelph</Link>,{" "}
+                <Link to="/hamilton-web-design">Hamilton</Link>,{" "}
+                <Link to="/kitchener-web-design">Kitchener</Link>,{" "}
+                <Link to="/leamington-web-design">Leamington</Link>,{" "}
+                <Link to="/london-on-web-design">London</Link>,{" "}
+                <Link to="/markham-web-design">Markham</Link>,{" "}
+                <Link to="/mississauga-web-design">Mississauga</Link>,{" "}
+                <Link to="/oakville-web-design">Oakville</Link>,{" "}
+                <Link to="/orangeville-web-design">Orangeville</Link>,{" "}
+                <Link to="/orillia-web-design">Orillia</Link>,{" "}
+                <Link to="/oshawa-web-design">Oshawa</Link>,{" "}
+                <Link to="/pelham-web-design">Pelham</Link>,{" "}
+                <Link to="/peterborough-web-design">Peterborough</Link>,{" "}
+                <Link to="/sarnia-web-design">Sarnia</Link>,{" "}
+                <Link to="/toronto-web-design">Toronto</Link>,{" "}
+                <Link to="/vaughan-web-design">Vaughan</Link>,{" "}
+                <Link to="/waterloo-web-design">Waterloo</Link>,{" "}
+                <Link to="/whitby-web-design">Whitby</Link>,{" "}
+                <Link to="/windsor-web-design">Windsor</Link>.{" "}
               </p>
             </Col>
             <Col lg="4">

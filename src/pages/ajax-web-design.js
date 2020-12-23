@@ -11,7 +11,7 @@ import TestimonialCard from "../../components/testimonialCard/testimonialCard"
 import ctaSVG from "../../src/img/cta.svg"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/hamilton-web-design.png"
+import featuredImg from "../img/ajax-web-design.png"
 import websiteSVG from "../img/websites.svg"
 import seoSVG from "../img/seo.svg"
 import strategySVG from "../img/strategy.svg"
@@ -49,21 +49,23 @@ const services = [
   },
 ]
 
-const Home = () => {
+const City = () => {
   return (
     <>
       <Helmet>
-        <title>Hamilton Website Design Company | Best Web Designers</title>
+        <title>
+          Ajax Web Design Company | Best Website Designers - Infused Agency
+        </title>
         <meta
           name="description"
-          content="Hamilton's leading web design company. We're a website design agency thats brings more sales to your Hamilton company."
+          content="Ajax's best web design company. We're a website design agency thats brings more sales to your Ajax company."
         />
       </Helmet>
       <Nav />
       <Hero
-        seoTitle="A Hamilton Website Design &amp; Web Development Company"
-        title="Effective Web Design For Your Hamilton Company."
-        subTitle="We do modern web design &amp; build modern websites to help you grow your Hamilton company."
+        seoTitle="A Ajax Website Design &amp; Web Development Company"
+        title="Effective Web Design For Your Ajax Company."
+        subTitle="We do modern web design &amp; build modern websites to help you grow your Ajax company."
         btnText="Get Started"
         btnLink="/get-started"
       />
@@ -72,7 +74,7 @@ const Home = () => {
         subTitle={[
           "Take a look and see the ",
           <span>huge difference</span>,
-          "we've made to KD Flower's online existence by bringing them leads from the Hamilton area, by utilizing modern web design and SEO practices.",
+          "we've made to Cass-A-Bella Construction's online existence by bringing them leads from the Ajax area, by utilizing modern web design and SEO practices.",
         ]}
         viewsValue="10,700"
         viewsText="website views per month"
@@ -81,11 +83,11 @@ const Home = () => {
         peopleValue="5,800"
         peopleText="people discovering website per month"
         img={featuredImg}
-        imgAlt="Hamilton web design"
+        imgAlt="Ajax web design company"
         testimonial={[
           "Infused created the ",
           <span>perfect web design</span>,
-          "for my  floral business. Many of my clients come from Hamilton and I was very happy with their ",
+          "for my  floral business. Many of my clients come from Ajax and I was very happy with their ",
           <span>professional work ethic</span>,
           "and ",
           <span>great communication!</span>,
@@ -94,34 +96,34 @@ const Home = () => {
         btnLink="/work"
       />
       <WhatWeDo
-        title="What Our Hamilton Web Designers Can Do For You"
-        subTitle="Whether you need an professional Hamilton web design to showcase your services in Hamilton or want more local Hamilton customers from your website design - we can build you a web design that's tailor-made to your business needs."
+        title="What Our Ajax Web Designers Can Do For You"
+        subTitle="Whether you need an professional Ajax web design to showcase your services in Ajax or want more local Ajax customers from your website design - we can build you a web design that's tailor-made to your business needs."
         boxOneTitle={[
           "Bespoke web design built to ",
-          <span>convert your Hamilton visitors</span>,
+          <span>convert your Ajax visitors</span>,
           ".",
         ]}
-        boxOneDesc="We do modern web design &amp; website development for Hamilton companies that help convert Hamilton users into paying customers."
+        boxOneDesc="We do modern web design &amp; website development for Ajax companies that help convert Ajax users into paying customers."
         boxOneImg={websiteSVG}
         boxOneImgAlt="websites"
         boxOneLink="/websites"
         boxTwoTitle={[
           "SEO to ",
           <span>drive local customers</span>,
-          " to your Hamilton website.",
+          " to your Ajax website.",
         ]}
-        boxTwoDesc="Getting local Hamilton traffic through SEO to your modern web design helps bring you more revenue."
+        boxTwoDesc="Getting local Ajax traffic through SEO to your modern web design helps bring you more revenue."
         boxTwoImg={seoSVG}
         boxTwoImgAlt="seo provider st catharines"
         boxTwoLink="/seo"
         boxThreeTitle={[
           "Digital strategy to help bring you ",
-          <span>more revenue in Hamilton</span>,
+          <span>more revenue in Ajax</span>,
           ".",
         ]}
-        boxThreeDesc="Helping your Hamilton business navigate through the digital world to help maximize profits."
+        boxThreeDesc="Helping your Ajax business navigate through the digital world to help maximize profits."
         boxThreeImg={strategySVG}
-        boxThreeImgAlt="digital strategy agency Hamilton, st catharines"
+        boxThreeImgAlt="digital strategy agency Ajax, st catharines"
         boxThreeLink="/digital-strategy"
       />
       <Process
@@ -129,14 +131,14 @@ const Home = () => {
         subTitle="If we didn't have a thought-out web design process, then we'd be all over the place."
         titleOne="1. Discuss"
         subTitleOne="We get to know you and your project needs."
-        descOne="On a quick 15-20 minute call, we discuss and extract everything you're interested in for your Hamilton business. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO or digital strategy, we gather all of the necessary information for your project."
+        descOne="On a quick 15-20 minute call, we discuss and extract everything you're interested in for your Ajax business. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO or digital strategy, we gather all of the necessary information for your project."
         titleTwo="2. Project Evaluation"
         subTitleTwo="Deep-dive project evaluation with bespoke recommendations."
         descTwo={[
-          "Virtually all digital and web design agencies offer a project proposal - not us. Enter the Project Evaluation. We want to thoroughly get to know your company, your business goals in the Hamilton area and what you'd like to accomplish with your project.",
+          "Virtually all digital and web design agencies offer a project proposal - not us. Enter the Project Evaluation. We want to thoroughly get to know your company, your business goals in the Ajax area and what you'd like to accomplish with your project.",
           <br />,
           <br />,
-          "Based on our in-depth research and findings, we will offer you extremely detailed recommendations on how to move forward. If you agree to move forward with us, we get the important stuff signed, requirements delivered and the project is underway for your new Hamilton web design or SEO project.",
+          "Based on our in-depth research and findings, we will offer you extremely detailed recommendations on how to move forward. If you agree to move forward with us, we get the important stuff signed, requirements delivered and the project is underway for your new Ajax web design or SEO project.",
         ]}
         titleThree="3. Get To Work"
         subTitleThree="Time to get our hands dirty."
@@ -151,7 +153,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <h2>Benefits of having a modern Hamilton website design</h2>
+              <h2>Benefits of having a modern Ajax website design</h2>
               <p>
                 Having just any website online doesn't cut it anymore. You need
                 to impress your customers, and having a modern website design
@@ -186,7 +188,7 @@ const Home = () => {
                 company
               </h3>
               <p>
-                With so many Hamilton businesses competing for eachother's
+                With so many Ajax businesses competing for eachother's
                 customer-base, it's extremely important your company stands out.
                 <br />
                 <br />
@@ -258,13 +260,13 @@ const Home = () => {
                 again ranking higher.
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d371912.74333578243!2d-80.21333211413214!3d43.26046849791838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c986c27de778f%3A0x2b6aee56d8df0e21!2sHamilton%2C%20ON!5e0!3m2!1sen!2sca!4v1608272550453!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46021.90406903498!2d-79.0638743790441!3d43.868905655243765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4e7b441ad15d1%3A0xfb77e101d380bece!2sAjax%2C%20ON!5e0!3m2!1sen!2sca!4v1608679378860!5m2!1sen!2sca"
                 width="100%"
+                title="Ajax map"
                 height="450"
                 frameborder="0"
                 allowfullscreen=""
                 aria-hidden="false"
-                title="Hamilton web design"
               ></iframe>
             </Col>
           </Row>
@@ -274,16 +276,16 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <h2>Our Happy Web Design Clients In Or Near Hamilton</h2>
+              <h2>Our Happy Web Design Clients In Or Near Ajax</h2>
               <hr />
               <div>
                 <TestimonialCard>
                   <p>
                     "Great Job, WELL DONE. I'm very pleased with the SEO service
                     and the web design of my new web site. If you ever need a
-                    new web design for your Hamilton business I do recommend
-                    Infused Agency for their services. JD keep up the great
-                    work. Thank you."
+                    new web design for your Ajax business I do recommend Infused
+                    Agency for their services. JD keep up the great work. Thank
+                    you."
                   </p>
                   <em>Mr. Duarte, Cass-A-Bella Construction</em>
                 </TestimonialCard>
@@ -293,7 +295,7 @@ const Home = () => {
                   <p>
                     "Amazing experience, really helped to elevate my business
                     and I would highly recommend working with them for all of
-                    your Hamilton web design and SEO needs!!"
+                    your Ajax web design and SEO needs!!"
                   </p>
                   <em>Lauren Emberson, Lauren Emberson Photography</em>
                 </TestimonialCard>
@@ -335,8 +337,8 @@ const Home = () => {
                 Ready to <span>start</span> your project?
               </h2>
               <p>
-                Get in touch with us for a free quote regarding your Hamilton
-                web design or SEO project today.
+                Get in touch with us for a free quote regarding your Ajax web
+                design or SEO project today.
               </p>
               <Link to="/get-started">
                 <Button>Get Started</Button>
@@ -360,9 +362,10 @@ const Home = () => {
             <Col lg="4">
               <h3>About</h3>
               <p>
-                Infused Agency is a Hamilton web design, SEO company and digital
-                marketing agency. We help local and non-local businesses build
-                their credibility online, as well as help bring in more sales.
+                Infused Agency is an SEO, digital marketing and web design
+                agency serving the Ajax area. We help local and non-local
+                businesses build their credibility online, as well as help bring
+                in more sales.
               </p>
             </Col>
             <Col lg="2">
@@ -414,4 +417,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default City

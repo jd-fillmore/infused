@@ -45,7 +45,9 @@ const MCAesthetics = () => {
   return (
     <>
       <Helmet>
-        <title>Grimsby Web Design & SEO Company - Infused</title>
+        <title>
+          Grimsby Web Design & SEO Marketing Company - Infused Agency
+        </title>
         <meta
           name="description"
           content="Grimsby's best web design and SEO company around. 10+ years in business helping hundreds of clients. Click here to view portfolio."
