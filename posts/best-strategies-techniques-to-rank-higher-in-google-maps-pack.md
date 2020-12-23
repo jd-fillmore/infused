@@ -2,11 +2,10 @@
 title: Best Strategies & Techniques To Rank Higher in Google Maps Pack
 date: 2020-12-23T15:57:12.414Z
 slug: /best-strategies-rank-higher-google-maps-pack/
-excerpt: As a [Niagara web design](https://infused.agency/) company, we've had
-  many [local companies](https://infused.agency/kd-flowers) come to us that have
-  already a bit of search engine optimization general knowledge and ask, "what
-  are some of the best strategies or best techniques we can use to help us rank
-  higher in Google Maps Pack?"
+excerpt: We've had many local companiescome to us that have already a bit of
+  search engine optimization general knowledge and ask, "what are some of the
+  best strategies or best techniques we can use to help us rank higher in Google
+  Maps Pack?"
 ---
 As a [Niagara web design](https://infused.agency/) company, we've had many [local companies](https://infused.agency/kd-flowers) come to us that have already a bit of search engine optimization general knowledge and ask, "what are some of the best strategies or best techniques we can use to help us rank higher in Google Maps Pack?"
 
