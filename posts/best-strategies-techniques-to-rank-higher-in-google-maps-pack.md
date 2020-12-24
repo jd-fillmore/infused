@@ -11,7 +11,7 @@ As a [Niagara web design](https://infused.agency/) company, we've had many [loc
 
 We've had other local companies with less [local SEO](https://infused.agency/seo) knowledge instead ask us, "how can ranking higher in Google Maps Pack help my local business?"
 
-**TL;DR - 5 strategies to rank your local business higher in Google Maps Pack:**
+**TL;DR - best strategies & techniques to rank your local business higher in Google Maps Pack:**
 
 * **Construct a great Google My Business listing**
 * **Generate 5 star reviews and respond to reviews from customers**
