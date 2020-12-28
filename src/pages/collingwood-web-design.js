@@ -11,7 +11,7 @@ import TestimonialCard from "../../components/testimonialCard/testimonialCard"
 import ctaSVG from "../../src/img/cta.svg"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/Collingwood-web-design.png"
+import featuredImg from "../img/collingwood-web-design.png"
 import websiteSVG from "../img/websites.svg"
 import seoSVG from "../img/seo.svg"
 import strategySVG from "../img/strategy.svg"
