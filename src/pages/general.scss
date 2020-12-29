@@ -75,3 +75,17 @@ form {
     margin-bottom: 30px;
   }
 }
+
+.modal-body {
+  h5 {
+    color: $white;
+  }
+  ul {
+    margin-left: -20px;
+  }
+}
+
+.modal-body,
+.modal-footer {
+  background: $dark-blue;
+}

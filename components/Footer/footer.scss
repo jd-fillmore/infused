@@ -20,4 +20,13 @@
     list-style: none;
     margin-left: -40px;
   }
+  .industries {
+    margin-top: -15px;
+  }
+  @media (min-width: 1000px) {
+    .modal-dialog {
+      max-width: 1000px;
+      margin: 1.75rem auto;
+    }
+  }
 }
