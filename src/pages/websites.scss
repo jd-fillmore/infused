@@ -2,6 +2,10 @@
 @import "../pages/variables.scss";
 
 .websites {
+  margin-bottom: -140px;
+  @include bp-tablet-sm {
+    margin-bottom: -80px !important;
+  }
   .intro {
     p {
       font-size: 22px;

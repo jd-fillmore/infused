@@ -68,9 +68,10 @@
 }
 
 .dropdown-menu {
-  background: $dark-grey !important;
+  background: $dark-blue !important;
   transition: 0.2s;
-  box-shadow: 0px 8px 15px rgba($dark-grey, 0.5);
+  box-shadow: 0px 8px 15px rgba($white, 0.1);
+  border: none !important;
   .dropdown-item {
     color: $white !important;
     padding: 10px 15px 10px 15px;

@@ -33,6 +33,7 @@ const Hero = () => {
                     id="Name"
                     aria-describedby="namehelp"
                     placeholder="Full Name"
+                    aria-label="name"
                   />
                 </div>
                 <div class="form-group">
@@ -42,6 +43,7 @@ const Hero = () => {
                     class="form-control"
                     id="Email"
                     placeholder="Email"
+                    aria-label="email"
                   />
                 </div>
                 <div class="form-group">
@@ -52,6 +54,7 @@ const Hero = () => {
                     id="Phone"
                     aria-describedby="urlhelp"
                     placeholder="Cell Phone Number"
+                    aria-label="phone"
                   />
                 </div>
                 <div class="form-group">
@@ -62,6 +65,7 @@ const Hero = () => {
                     id="URL"
                     aria-describedby="urlhelp"
                     placeholder="Website URL"
+                    aria-label="url"
                   />
                 </div>
                 <div class="form-group">
@@ -71,6 +75,7 @@ const Hero = () => {
                     id="Message"
                     rows="3"
                     placeholder="How can we help you?"
+                    aria-label="how can we help"
                   ></textarea>
                 </div>
                 <button type="submit">Submit</button>

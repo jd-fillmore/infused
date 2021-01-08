@@ -2,7 +2,7 @@
 @import "../../src/pages/variables.scss";
 
 .inner-content {
-  background: $glow-blue;
+  background: $dark-grey;
   padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;

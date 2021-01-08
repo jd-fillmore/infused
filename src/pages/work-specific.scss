@@ -2,6 +2,11 @@
 @import "../pages/variables.scss";
 
 .work-specific {
+  margin-bottom: -140px;
+  @include bp-tablet-sm {
+    margin-bottom: -100px !important;
+  }
+
   h2 {
     color: $white;
   }

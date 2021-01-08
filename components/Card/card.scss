@@ -2,7 +2,7 @@
 @import "../../src/pages/breakpoints.scss";
 
 .card {
-  background: $dark-grey !important;
+  background: $dark-blue !important;
   border-radius: 0;
   padding: 100px;
   margin-bottom: 40px;
@@ -20,12 +20,12 @@
     a {
       line-height: 1;
       color: $white;
-    font-family: "Cardo", serif;
-    font-size: 46px;
-    font-weight: 700;
-    @include bp-tablet-sm {
-      font-size: 22px;
-    }
+      font-family: "Cardo", serif;
+      font-size: 46px;
+      font-weight: 700;
+      @include bp-tablet-sm {
+        font-size: 22px;
+      }
     }
   }
 }

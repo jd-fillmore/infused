@@ -15,7 +15,11 @@
     font-size: 60px;
   }
   span {
-    background: linear-gradient(to top, $dark-purple 40%, transparent 40%);
+    background: linear-gradient(
+      to top,
+      rgba($light-blue, 0.4) 40%,
+      transparent 40%
+    );
     padding: 0px 5px 0px 5px;
   }
   hr {
