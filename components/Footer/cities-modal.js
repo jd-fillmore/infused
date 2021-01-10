@@ -24,11 +24,7 @@ const CitiesModal = () => {
             <Link to="/fort-erie-web-design">Fort Erie</Link>,{" "}
             <Link to="/grimsby-web-design">Grimsby</Link>,{" "}
             <Link to="/jordan-web-design">Jordan</Link>,{" "}
-            <Link to="/niagara-falls-web-design">Niagara Falls</Link>,{" "}
-            <Link to="/niagara-on-the-lake-web-design">
-              Niagara-on-the-Lake
-            </Link>{" "}
-            , <Link to="/pelham-web-design">Pelham</Link>,{" "}
+            <Link to="/pelham-web-design">Pelham</Link>,{" "}
             <Link to="/port-colborne-web-design">Port Colborne</Link>,{" "}
             <Link to="/port-dalhousie-web-design">Port Dalhousie</Link>,{" "}
             <Link to="/stoney-creek-web-design">Smithville</Link>,{" "}
