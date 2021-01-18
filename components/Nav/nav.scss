@@ -5,6 +5,13 @@
   background: rgba(0, 0, 0, 0) !important;
 }
 
+.navbar-nav {
+  align-items: center;
+  @include bp-tablet-sm {
+    align-items: initial;
+  }
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61,151,205, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   &:focus,
@@ -89,6 +96,22 @@
 }
 
 .nav-item {
+  .btn {
+    padding: 15px 25px 15px 25px !important;
+    border: none;
+    background: #0f74b1;
+    color: #fff !important;
+    border-radius: 50px !important;
+    border: 2px solid #0f74b1;
+    font-family: "Poppins", sans-serif !important;
+    transition: 0.2s;
+    &:focus,
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      background: $purple;
+    }
+  }
   @media (min-width: 992px) {
     padding-right: 0.5rem;
     padding-left: 0.5rem;

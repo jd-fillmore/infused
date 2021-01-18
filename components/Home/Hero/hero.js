@@ -18,8 +18,8 @@ const Hero = ({ seoTitle, title, subTitle, btnText, btnLink }) => {
             </Col>
             <Col lg="5" className="card">
               <p>
-                Get in touch with us for a free quote regarding your web design,
-                SEO or digital marketing project.
+                Get in touch with us for a <strong>free quote</strong> regarding
+                your web design, SEO or digital marketing project.
               </p>
               <form
                 name="contact"

@@ -11,7 +11,7 @@ const GetEvaluation = () => {
   return (
     <>
       <Helmet>
-        <title>Get Started - Infused</title>
+        <title>Get A Free Quote - Infused</title>
         <meta
           name="description"
           content="Ready to start your project? Click here to fill out the form and we'll be in contact as soon as possible."
@@ -19,8 +19,8 @@ const GetEvaluation = () => {
       </Helmet>
       <Nav />
       <InnerHero
-        title="Get Started"
-        description="Ready to start your project? Fill out the form below and we'll be in contact as soon as possible."
+        title="Get A Free Quote"
+        description="Ready to start your project? Fill out the form below to get your free quote."
       />
       <InnerContent>
         <Container>

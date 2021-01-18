@@ -10,9 +10,7 @@ const Hero = () => {
         <Container>
           <Row>
             <Col lg="5">
-              <h2>
-                Ready to <span>start</span> your project?
-              </h2>
+              <h2>Request Your Free Quote</h2>
               <p>
                 Get in touch with us for a free quote regarding your Niagara web
                 design or SEO project today.
