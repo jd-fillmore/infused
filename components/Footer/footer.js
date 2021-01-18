@@ -74,10 +74,14 @@ const Footer = () => {
               <h3>Contact</h3>
               <ul>
                 <li>
-                  <Link to="/get-started">Get Started</Link>
+                  <Link to="/get-started">Get A Free Quote</Link>
                 </li>
               </ul>
               <a href="tel:9059333115">(905) 933-3115</a>
+              <br />
+              <a href="mailto:hello@infused.agency">hello@infused.agency</a>
+              <br />
+              <br />
               <p>73 Alexandra Blvd, St. Catharines, ON L2P 1K2</p>
             </Col>
           </Row>

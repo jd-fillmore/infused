@@ -14,6 +14,13 @@ const Hero = () => {
               <p>
                 Get in touch with us for a free quote regarding your Niagara web
                 design or SEO project today.
+                <br />
+                <br />
+                You can also email us at{" "}
+                <a href="mailto:hello@infused.agency">
+                  hello@infused.agency
+                </a>{" "}
+                to inquire about our services.
               </p>
             </Col>
             <Col lg="7" className="card">

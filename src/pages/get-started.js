@@ -26,6 +26,11 @@ const GetEvaluation = () => {
         <Container>
           <Row>
             <Col lg="12">
+              <p>
+                You can also email us at{" "}
+                <a href="mailto:hello@infused.agency">hello@infused.agency</a>{" "}
+                to inquire about our services.
+              </p>
               <form
                 name="contact"
                 method="post"
