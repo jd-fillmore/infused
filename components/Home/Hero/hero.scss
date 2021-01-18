@@ -2,18 +2,28 @@
 @import "../../../src/pages/breakpoints.scss";
 
 .hero {
-  // background: url("../../../src/img/niagara-web-design.jpg") center center
-  //   no-repeat;
-  background-size: cover;
-  min-height: 100vh; // height of the browser viewport
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -100px;
+  padding: 100px 0px 100px 0px;
   @include bp-tablet-sm {
-    margin-top: 0px;
+    margin-top: -60px;
     min-height: auto;
-    padding: 140px 0px 60px 0px;
+    padding: 140px 0px 0px 0px;
+  }
+  .card {
+    padding: 30px;
+    background: $light-blue !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: $dark-blue;
+    }
+    button {
+      background: $purple;
+      border: 1px solid $purple;
+    }
   }
   h1 {
     font-family: $body;
@@ -36,7 +46,7 @@
   }
 
   h2 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     padding: 30px 0px 20px 0px;
     @include bp-tablet-sm {

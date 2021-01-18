@@ -18,7 +18,7 @@ const Hero = () => {
                 design or SEO project today.
               </p>
             </Col>
-            <Col lg="7">
+            <Col lg="7" className="card">
               <form
                 name="contact"
                 method="post"
@@ -78,7 +78,7 @@ const Hero = () => {
                     aria-label="how can we help"
                   ></textarea>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Get My Quote</button>
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
               </form>

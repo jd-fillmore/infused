@@ -124,8 +124,8 @@ const Home = () => {
       <Nav />
       <Hero
         seoTitle="Niagara Web Design, St. Catharines SEO Agency & Digital Marketing Company."
-        title={[<span>Strategic</span>, "Web Design for Growing Businesses."]}
-        subTitle="We do modern web design, local SEO and digital strategies to help you grow your Niagara or St. Catharines business."
+        title={[<span>Digital Strategies</span>, " for Growing Businesses."]}
+        subTitle="We do modern web design, local SEO and digital marketing to help you grow your Niagara or St. Catharines business."
         btnText="Get Free Quote"
         btnLink="/get-started"
       />
