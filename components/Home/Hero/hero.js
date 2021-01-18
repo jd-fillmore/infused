@@ -32,8 +32,9 @@ const Hero = ({ seoTitle, title, subTitle, btnText, btnLink }) => {
                     name="name"
                     type="name"
                     class="form-control"
-                    id="Name"
+                    id="Name-field"
                     aria-describedby="namehelp"
+                    aria-label="name field"
                     placeholder="Full Name"
                   />
                 </div>
@@ -42,7 +43,8 @@ const Hero = ({ seoTitle, title, subTitle, btnText, btnLink }) => {
                     name="email"
                     type="email"
                     class="form-control"
-                    id="Email"
+                    id="Email-field"
+                    aria-label="email field"
                     placeholder="Email"
                   />
                 </div>
@@ -51,8 +53,9 @@ const Hero = ({ seoTitle, title, subTitle, btnText, btnLink }) => {
                     name="phone"
                     type="phone"
                     class="form-control"
-                    id="Phone"
+                    id="Phone-field"
                     aria-describedby="urlhelp"
+                    aria-label="phone field"
                     placeholder="Cell Phone Number"
                   />
                 </div>
@@ -61,8 +64,9 @@ const Hero = ({ seoTitle, title, subTitle, btnText, btnLink }) => {
                     name="url"
                     type="name"
                     class="form-control"
-                    id="URL"
+                    id="URL-field"
                     aria-describedby="urlhelp"
+                    aria-label="url field"
                     placeholder="Website URL"
                   />
                 </div>
@@ -70,7 +74,8 @@ const Hero = ({ seoTitle, title, subTitle, btnText, btnLink }) => {
                   <textarea
                     name="message"
                     class="form-control"
-                    id="Message"
+                    id="Message-field"
+                    aria-label="message field"
                     rows="3"
                     placeholder="How can we help you?"
                   ></textarea>

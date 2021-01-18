@@ -99,10 +99,10 @@
   .btn {
     padding: 15px 25px 15px 25px !important;
     border: none;
-    background: #0f74b1;
+    background: $dark-purple;
     color: #fff !important;
     border-radius: 50px !important;
-    border: 2px solid #0f74b1;
+    border: 2px solid $dark-purple;
     font-family: "Poppins", sans-serif !important;
     transition: 0.2s;
     &:focus,
