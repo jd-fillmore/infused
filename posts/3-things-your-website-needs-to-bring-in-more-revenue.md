@@ -1,7 +1,7 @@
 ---
 title: 3 Things Your Website Needs To Bring In More Revenue
 date: 2021-02-04T03:56:00.189Z
-slug: 3-things-website-needs-to-bring-in-revenue
+slug: /3-things-website-needs-to-bring-in-revenue/
 excerpt: As a web design company, we often get asked what makes a website
   'successful'.  The answer is of course mostly subjective. It all depends on
   what your website does - moreover, what you want your website to achieve.
