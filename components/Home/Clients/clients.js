@@ -17,6 +17,14 @@ const Clients = ({ title, subTitle }) => {
               <div>
                 <TestimonialCard>
                   <p>
+                    "Fantastic experience from start to end. JD is organized,
+                    thorough and professional. I highly recommend his company
+                    and services if you are thinking of building a website."
+                  </p>
+                  <em>Harry Althorpe, TreeReports</em>
+                </TestimonialCard>
+                <TestimonialCard>
+                  <p>
                     "Great Job, WELL DONE. I'm very pleased with the SEO service
                     and the web design of my new web site. If you ever need a
                     new web design for your Niagara business I do recommend
