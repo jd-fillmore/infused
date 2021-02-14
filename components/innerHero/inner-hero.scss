@@ -3,11 +3,29 @@
 
 .inner-hero {
   background: $dark-blue;
-  padding: 160px 0px 120px 0px;
+  padding: 160px 0px 80px 0px;
   margin-top: -100px;
-  text-align: center;
   @include bp-tablet-sm {
     padding: 220px 0px 60px 0px;
+  }
+  .row {
+    align-items: center;
+  }
+  .card {
+    padding: 30px;
+    background: $light-blue !important;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    p {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      color: $dark-blue;
+      font-family: $body;
+      font-size: 18px;
+    }
+    button {
+      background: $dark-purple;
+      border: 1px solid $dark-purple;
+    }
   }
   h1,
   p {
@@ -19,17 +37,19 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 20px;
   }
   p {
     font-family: $heading;
     font-size: 24px;
     margin-bottom: 0px;
+    margin-top: 20px;
+    line-height: 1.6;
   }
   hr {
     border-bottom: 1px solid $purple;
     width: 100px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin: 0;
   }
   span {
     background: linear-gradient(
