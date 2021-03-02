@@ -63,6 +63,13 @@ h3 {
 }
 
 form {
+  label {
+    color: $dark-grey;
+    @include bp-tablet-sm {
+      text-align: left;
+      display: block;
+    }
+  }
   button {
     font-family: $body;
   }
