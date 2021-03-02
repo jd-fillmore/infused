@@ -21,7 +21,7 @@ const Example = props => {
 
   return (
     <div>
-      <Navbar id="nav" expand="lg">
+      <Navbar id="nav" expand="lg" className="fixed-top">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
             infused
