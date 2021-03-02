@@ -43,10 +43,10 @@ const Form = () => {
       <div class="form-group">
         <label htmlFor="Budget Range">Budget Range</label>
         <select class="form-control" id="sel1">
-          <option>$4k +</option>
-          <option>$8k +</option>
-          <option>$16k +</option>
-          <option>$30k +</option>
+          <option>$3k +</option>
+          <option>$6k +</option>
+          <option>$12k +</option>
+          <option>$20k +</option>
         </select>
       </div>
       <div class="form-group">
