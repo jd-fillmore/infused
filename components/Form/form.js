@@ -41,12 +41,13 @@ const Form = () => {
         />
       </div>
       <div class="form-group">
-        <label htmlFor="Budget Range">Budget Range</label>
+        <label htmlFor="Budget Range">What services are you looking for?</label>
         <select class="form-control" id="sel1">
-          <option>$3k +</option>
-          <option>$6k +</option>
-          <option>$12k +</option>
-          <option>$20k +</option>
+          <option>Website Design</option>
+          <option>E-Commerce</option>
+          <option>SEO</option>
+          <option>Website Design + SEO</option>
+          <option>E-Commerce + SEO</option>
         </select>
       </div>
       <div class="form-group">
@@ -55,17 +56,9 @@ const Form = () => {
           class="form-control"
           id="Message"
           rows="3"
-          placeholder="How can we help you?"
+          placeholder="Project Details"
           aria-label="how can we help"
         ></textarea>
-      </div>
-      <div class="form-group">
-        <label htmlFor="How">How did you hear about us?</label>
-        <select class="form-control" id="sel1">
-          <option>Google</option>
-          <option>Referral</option>
-          <option>Other</option>
-        </select>
       </div>
       <button type="submit">Get My Quote</button>
       <input type="hidden" name="bot-field" />

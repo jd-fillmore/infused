@@ -26,7 +26,7 @@ const LocalSEO = () => {
       </Helmet>
       <Nav />
       <InnerHero
-        title="Local SEO"
+        title="SEO (Search Engine Optimization)"
         description="We help local businesses rank in the place where their customers are looking - on the first page of Google."
       />
       <InnerContent>

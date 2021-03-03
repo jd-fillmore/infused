@@ -48,11 +48,11 @@ const Example = props => {
                 What We Do
               </DropdownToggle>
               <DropdownMenu right className="animate slideIn">
-                <Link to="/websites">
-                  <DropdownItem>Modern Websites</DropdownItem>
-                </Link>
                 <Link to="/seo">
-                  <DropdownItem>Local SEO</DropdownItem>
+                  <DropdownItem>SEO</DropdownItem>
+                </Link>
+                <Link to="/websites">
+                  <DropdownItem>Website Design</DropdownItem>
                 </Link>
                 <Link to="/digital-strategy">
                   <DropdownItem>Digital Marketing Consulting</DropdownItem>

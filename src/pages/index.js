@@ -112,20 +112,18 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Niagara Web Design, St. Catharines SEO Agency & Digital Marketing
-        </title>
+        <title>Niagara Web Design, St. Catharines SEO Agency</title>
         <meta
           name="description"
-          content="Niagara's Web Design, St. Catharines SEO Agency & Digital Marketing Company. We're a digital marketing agency thats brings more sales to your company."
+          content="Niagara's Web Design &amp; St. Catharines SEO Agency. Our agency dooes modern website design and SEO thats brings more sales to your company."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <Nav />
       <Hero
         seoTitle="Niagara Web Design, St. Catharines SEO Agency & Digital Marketing Company."
-        title={[<span>Digital Strategies</span>, " for Growing Businesses."]}
-        subTitle="We do modern web design, local SEO and digital marketing to help you grow your Niagara or St. Catharines business."
+        title={["Web Design & SEO that helps grow your business."]}
+        subTitle="We do modern web design, SEO &amp; digital marketing that has helped business in Niagara and St. Catharines for over 10 years."
         btnText="Get Free Quote"
         btnLink="/get-started"
       />
