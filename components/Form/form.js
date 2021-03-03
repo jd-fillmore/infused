@@ -41,22 +41,12 @@ const Form = () => {
         />
       </div>
       <div class="form-group">
-        <label for="services">What services are you looking for?</label>
-        <select name="services[]" class="form-control" multiple>
-          <option value="Website Design">Website Design</option>
-          <option value="E-Commerce">E-Commerce</option>
-          <option value="SEO">SEO</option>
-          <option value="Website Design + SEO">Website Design + SEO</option>
-          <option value="E-Commerce + SEO">E-Commerce + SEO</option>
-        </select>
-      </div>
-      <div class="form-group">
         <textarea
           name="message"
           class="form-control"
           id="Message"
           rows="3"
-          placeholder="Project Details"
+          placeholder="How can we help you?"
           aria-label="how can we help"
         ></textarea>
       </div>
