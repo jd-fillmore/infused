@@ -123,7 +123,7 @@ const Home = () => {
       <Hero
         seoTitle="Niagara Web Design, St. Catharines SEO Agency & Digital Marketing Company."
         title={["Web Design & SEO that helps grow your business."]}
-        subTitle="We do modern web design, SEO &amp; digital marketing that has helped business in Niagara and St. Catharines for over 10 years."
+        subTitle="We do modern web design, SEO &amp; digital marketing that has helped businesses in Niagara and St. Catharines for over 10 years."
         btnText="Get Free Quote"
         btnLink="/get-started"
       />
