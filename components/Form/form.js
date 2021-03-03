@@ -44,7 +44,7 @@ const Form = () => {
         <label htmlFor="What Services">
           What services are you looking for?
         </label>
-        <select name="services[]" class="form-control" id="Services Needed">
+        <select name="services[]" class="form-control" multiple>
           <option value="Website Design">Website Design</option>
           <option value="E-Commerce">E-Commerce</option>
           <option value="SEO">SEO</option>
