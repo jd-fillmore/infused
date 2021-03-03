@@ -41,13 +41,15 @@ const Form = () => {
         />
       </div>
       <div class="form-group">
-        <label htmlFor="Budget Range">What services are you looking for?</label>
-        <select class="form-control" id="sel1">
-          <option>Website Design</option>
-          <option>E-Commerce</option>
-          <option>SEO</option>
-          <option>Website Design + SEO</option>
-          <option>E-Commerce + SEO</option>
+        <label htmlFor="What Services">
+          What services are you looking for?
+        </label>
+        <select name="services[]" class="form-control" id="Services Needed">
+          <option value="Website Design">Website Design</option>
+          <option value="E-Commerce">E-Commerce</option>
+          <option value="SEO">SEO</option>
+          <option value="Website Design + SEO">Website Design + SEO</option>
+          <option value="E-Commerce + SEO">E-Commerce + SEO</option>
         </select>
       </div>
       <div class="form-group">
