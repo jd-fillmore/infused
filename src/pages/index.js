@@ -166,6 +166,8 @@ const Home = () => {
         boxOneImg={websiteSVG}
         boxOneImgAlt="websites"
         boxOneLink="/websites"
+        boxOnePriceLink="/websites#pricing"
+        boxOneFAQLink="/websites#faq"
         boxTwoTitle={[
           "SEO to ",
           <span>drive local customers</span>,
@@ -175,6 +177,8 @@ const Home = () => {
         boxTwoImg={seoSVG}
         boxTwoImgAlt="seo provider st catharines"
         boxTwoLink="/seo"
+        boxTwoPriceLink="/seo#pricing"
+        boxTwoFAQLink="/seo#faq"
         boxThreeTitle={[
           "Digital strategy to help bring you ",
           <span>more revenue</span>,
@@ -190,14 +194,11 @@ const Home = () => {
         subTitle="If we didn't have a thought-out, structured process then we'd be all over the place."
         titleOne="1. Discuss"
         subTitleOne="We get to know you and your project needs."
-        descOne="On a quick 15-20 minute call, we discuss and extract everything you're interested in for your Niagara business. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO or digital strategy, we gather all of the necessary information for your project."
-        titleTwo="2. Project Evaluation"
-        subTitleTwo="Deep-dive project evaluation with bespoke recommendations."
+        descOne="After you connect with us through our contact form, we will discuss the details of your new project. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO, we gather all of the necessary information for your project."
+        titleTwo="2. Project Estimate"
+        subTitleTwo="Pricing packages based on your business goals."
         descTwo={[
-          "Virtually all digital and web design agencies offer a project proposal - not us. Enter the Project Evaluation. We want to thoroughly get to know your company, your business goals in the Niagara area and what you'd like to accomplish with your project.",
-          <br />,
-          <br />,
-          "Based on our in-depth research and findings, we will offer you extremely detailed recommendations on how to move forward. If you agree to move forward with us, we get the important stuff signed, requirements delivered and the project is underway for your new Niagara web design or SEO project.",
+          "Based on our conversation you will receive our package option recommendations. If you agree to move forward with us, we get the important stuff signed and the project is underway for your new Niagara web design or SEO project.",
         ]}
         titleThree="3. Get To Work"
         subTitleThree="Time to get our hands dirty."

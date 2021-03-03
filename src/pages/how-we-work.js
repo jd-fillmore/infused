@@ -36,10 +36,10 @@ const HowWeWork = () => {
               </Col>
               <Col lg="5">
                 <p>
-                  On a quick 15-20 minute call, we discuss and extract
-                  everything you're looking for. Whether it's a new website, or
-                  you'd like to bring more customers / clients to your business
-                  through local SEO or digital strategy, we gather all of the
+                  After you connect with us through our contact form, we will
+                  discuss the details of your new project. Whether it's a new
+                  web design, or you'd like to bring more customers / clients to
+                  your business through local SEO, we gather all of the
                   necessary information for your project.
                 </p>
               </Col>
@@ -48,21 +48,15 @@ const HowWeWork = () => {
               <Col lg="7">
                 <h1>2. Project Evaluation</h1>
                 <p className="subtitle">
-                  Deep-dive project evaluation with bespoke recommendations.
+                  Pricing packages based on your business goals.
                 </p>
               </Col>
               <Col lg="5">
                 <p>
-                  Virtually all digital and web development agencies offer a
-                  project proposal - not us. Enter the Project Evaluation. We
-                  want to thoroughly get to know your company, your business
-                  goals and what you'd like to accomplish with your project.
-                  <br />
-                  <br />
-                  Based on our in-depth research and findings, we will offer you
-                  extremely detailed recommendations on how to move forward. If
-                  you agree to move forward with us, we get the important stuff
-                  signed, requirements delivered and the project is underway.
+                  Based on our conversation you will receive our package option
+                  recommendations. If you agree to move forward with us, we get
+                  the important stuff signed and the project is underway for
+                  your new Niagara web design or SEO project.
                 </p>
               </Col>
             </Row>

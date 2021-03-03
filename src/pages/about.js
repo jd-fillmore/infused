@@ -26,7 +26,7 @@ const About = () => {
       <Nav />
       <InnerHero
         title="About Us"
-        description="We build modern websites, local SEO and digital strategies to help you grow your business."
+        description="We build websites and execute SEO efforts to help you grow your business."
       />
       <InnerContent>
         <section className="about">

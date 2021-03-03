@@ -73,6 +73,16 @@
         font-size: 12px;
         margin-top: -20px;
       }
+      &.p-month {
+        font-size: 12px;
+        margin-top: -10px;
+      }
+    }
+  }
+  .jump {
+    margin-bottom: 20px;
+    @include bp-tablet-sm {
+      margin-bottom: 0px;
     }
   }
 }

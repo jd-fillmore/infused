@@ -23,16 +23,12 @@ const pages = [
 
 const services = [
   {
-    name: "Modern Websites",
+    name: "Website Design",
     link: "/websites",
   },
   {
-    name: "Local SEO",
+    name: "SEO",
     link: "/seo",
-  },
-  {
-    name: "Digital Marketing Consulting",
-    link: "/digital-strategy",
   },
 ]
 

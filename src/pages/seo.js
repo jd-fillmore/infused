@@ -11,6 +11,7 @@ import searchImg from "../img/google.png"
 import mapImg from "../img/map.png"
 import featuredImg from "../img/featured-seo.png"
 import Featured from "../../components/Home/Featured/featured"
+import SEOFAQ from "../../components/seoFAQ/seoFAQ"
 
 import "../pages/seo.scss"
 
@@ -27,11 +28,19 @@ const LocalSEO = () => {
       <Nav />
       <InnerHero
         title="SEO (Search Engine Optimization)"
-        description="We help local businesses rank in the place where their customers are looking - on the first page of Google."
+        description="We help businesses rank in the place where their customers are looking - on the first page of Google."
       />
       <InnerContent>
         <section className="websites">
           <Container className="intro">
+            <Row>
+              <Col lg="12" className="d-flex justify-content-center">
+                <p id="view">
+                  <a href="#pricing">View Pricing</a> |{" "}
+                  <a href="#faq">View FAQ</a>
+                </p>
+              </Col>
+            </Row>
             <Row className="text-center">
               <Col lg="4">
                 <img
@@ -79,6 +88,225 @@ const LocalSEO = () => {
         btnText="View More Case Studies"
         btnLink="/work"
       />
+      <a name="pricing"></a>
+      {/* Pricing */}
+      <section className="pricing">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+              <h3>Our SEO Pricing</h3>
+            </Col>
+          </Row>
+          {/* Jumpstart */}
+          <div className="price-card jump">
+            <Row>
+              <Col lg="12">
+                <h3>SEO Jump-Start</h3>
+                <p>
+                  Perfect for companies with an existing website that have had
+                  zero SEO optimization done to it. This Jump-Start package will
+                  lay the foundation in the pursuit of gathering new leads and
+                  generating revenue.
+                </p>
+                <p>
+                  <strong>Campaign Setup &amp; Optimization</strong>
+                </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg="4">
+                <ul>
+                  <li>Create Meta Titles and Descriptions</li>
+                  <li>Keyword Research</li>
+                  <li>Install Google Analytics</li>
+                  <li>Setup Google Search Console</li>
+                </ul>
+              </Col>
+              <Col lg="4">
+                <ul>
+                  <li>Add Alt Tags</li>
+                  <li>Add / Optimize Google My Business Listing</li>
+                  <li>Add Business to 3 Local Directories</li>
+                </ul>
+              </Col>
+              <Col lg="4">
+                <p className="price">
+                  <strong>$1,000</strong>
+                </p>
+                <p className="extra">
+                  One-time fee. Prices based on a 5 page website. Additional
+                  pages are $200 each.
+                </p>
+              </Col>
+            </Row>
+          </div>
+          <Row>
+            {/* Silver */}
+            <Col lg="4">
+              <div className="price-card">
+                <h3>Silver</h3>
+                <p>
+                  We will create and execute a monthly SEO strategy for you.
+                </p>
+                <p>
+                  <strong>Campaign Setup &amp; Optimization</strong>
+                </p>
+                <ul>
+                  <li>Keyword Research, Assess, Strategize</li>
+                  <li>Initial Website Audit</li>
+                  <li>Ongoing Technical Audit</li>
+                  <li>Enhance Meta Titles</li>
+                  <li>Enhance Meta Descriptions</li>
+                  <li>Create XML Sitemap</li>
+                  <li>Link Building</li>
+                  <li>Monthly Reporting</li>
+                </ul>
+                <Row className="align-items-center">
+                  <Col lg="4">
+                    <p className="price">
+                      <strong>$1,000</strong>
+                    </p>
+                    <p className="p-month">(per month)</p>
+                  </Col>
+                  <Col lg="8">
+                    <p className="extra">Monthly Discounts</p>
+                    <p>
+                      <strong>6 months $5,400</strong>
+                    </p>
+                    <p className="small">(10% discount saves you $600)</p>
+                    <p>
+                      <strong>9 months $7,650</strong>
+                    </p>
+                    <p className="small">(15% discount saves you $1,350)</p>
+                    <p>
+                      <strong>12 months $9,600</strong>
+                    </p>
+                    <p className="small">(20% discount saves you $2,400)</p>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+            {/* Gold */}
+            <Col lg="4">
+              <div className="price-card">
+                <h3>Gold</h3>
+                <p>
+                  Everything from Silver + Citation Building, Blog Posts &amp;
+                  More.
+                </p>
+                <p>
+                  <strong>Campaign Setup &amp; Optimization</strong>
+                </p>
+                <ul>
+                  <li>Keyword Research, Assess, Strategize</li>
+                  <li>Initial Website Audit</li>
+                  <li>Ongoing Technical Audit</li>
+                  <li>Enhance Meta Titles</li>
+                  <li>Enhance Meta Descriptions</li>
+                  <li>Create XML Sitemap</li>
+                  <li>Link Building</li>
+                  <li>Citation Building</li>
+                  <li>Add Schema</li>
+                  <li>Optimize Current Content</li>
+                  <li>1 SEO Blog Post / Month</li>
+                  <li>3 SEO Geo Pages (one time)</li>
+                  <li>Monthly Reporting</li>
+                </ul>
+                <Row className="align-items-center">
+                  <Col lg="4">
+                    <p className="price">
+                      <strong>$2,500</strong>
+                    </p>
+                    <p className="p-month">(per month)</p>
+                  </Col>
+                  <Col lg="8">
+                    <p className="extra">Monthly Discounts</p>
+                    <p>
+                      <strong>6 months $13,500</strong>
+                    </p>
+                    <p className="small">(10% discount saves you $1,500)</p>
+                    <p>
+                      <strong>9 months $19,125</strong>
+                    </p>
+                    <p className="small">(15% discount saves you $3,375)</p>
+                    <p>
+                      <strong>12 months $24,000</strong>
+                    </p>
+                    <p className="small">(20% discount saves you $6,000)</p>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+            {/* Platinum */}
+            <Col lg="4">
+              <div className="price-card">
+                <h3>Platinum</h3>
+                <p>
+                  Everything from Gold + Further Citation Building, Blog Posts
+                  &amp; More.
+                </p>
+                <p>
+                  <strong>Campaign Setup &amp; Optimization</strong>
+                </p>
+                <ul>
+                  <li>Keyword Research, Assess, Strategize</li>
+                  <li>Initial Website Audit</li>
+                  <li>Ongoing Technical Audit</li>
+                  <li>Enhance Meta Titles</li>
+                  <li>Enhance Meta Descriptions</li>
+                  <li>Create XML Sitemap</li>
+                  <li>Link Building</li>
+                  <li>Citation Building</li>
+                  <li>Add Schema</li>
+                  <li>Optimize Current Content</li>
+                  <li>2 SEO Blog Posts / Month</li>
+                  <li>6 SEO Geo Pages (one time)</li>
+                  <li>Monthly Reporting</li>
+                </ul>
+                <Row className="align-items-center">
+                  <Col lg="4">
+                    <p className="price">
+                      <strong>$5,000</strong>
+                    </p>
+                    <p className="p-month">(per month)</p>
+                  </Col>
+                  <Col lg="8">
+                    <p className="extra">Monthly Discounts</p>
+                    <p>
+                      <strong>6 months $27,000</strong>
+                    </p>
+                    <p className="small">(10% discount saves you $3,000)</p>
+                    <p>
+                      <strong>9 months $38,250</strong>
+                    </p>
+                    <p className="small">(15% discount saves you $6,750)</p>
+                    <p>
+                      <strong>12 months $48,000</strong>
+                    </p>
+                    <p className="small">(20% discount saves you $12,000)</p>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* FAQ */}
+      <a name="faq"></a>
+      <section className="seo-faq">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+              <h3>Frequently Asked Questions</h3>
+              <p>
+                Some of our more frequently asked questions with answers to
+                supplement.
+              </p>
+            </Col>
+          </Row>
+          <SEOFAQ />
+        </Container>
+      </section>
       <CTA />
       <Footer />
     </>
