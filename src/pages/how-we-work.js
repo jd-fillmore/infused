@@ -29,7 +29,7 @@ const HowWeWork = () => {
           <Container>
             <Row>
               <Col lg="7">
-                <h1>1. Discuss</h1>
+                <h2>1. Discuss</h2>
                 <p className="subtitle">
                   We get to know you and your project needs.
                 </p>
@@ -46,7 +46,7 @@ const HowWeWork = () => {
             </Row>
             <Row>
               <Col lg="7">
-                <h1>2. Project Evaluation</h1>
+                <h2>2. Project Estimate</h2>
                 <p className="subtitle">
                   Pricing packages based on your business goals.
                 </p>
@@ -62,7 +62,7 @@ const HowWeWork = () => {
             </Row>
             <Row>
               <Col lg="7">
-                <h1>3. Get To Work</h1>
+                <h2>3. Get To Work</h2>
                 <p className="subtitle">Time to get our hands dirty.</p>
               </Col>
               <Col lg="5">
@@ -82,7 +82,7 @@ const HowWeWork = () => {
             </Row>
             <Row>
               <Col lg="7">
-                <h1>4. Deliver</h1>
+                <h2>4. Deliver</h2>
                 <p className="subtitle">The fruits of our labour.</p>
               </Col>
               <Col lg="5">
