@@ -41,9 +41,7 @@ const Form = () => {
         />
       </div>
       <div class="form-group">
-        <label htmlFor="What Services">
-          What services are you looking for?
-        </label>
+        <label for="services">What services are you looking for?</label>
         <select name="services[]" class="form-control" multiple>
           <option value="Website Design">Website Design</option>
           <option value="E-Commerce">E-Commerce</option>
