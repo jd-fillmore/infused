@@ -16,7 +16,6 @@ const Form = () => {
           id="Name"
           aria-describedby="namehelp"
           placeholder="Full Name"
-          aria-label="name"
         />
       </div>
       <div class="form-group">
@@ -26,7 +25,6 @@ const Form = () => {
           class="form-control"
           id="Email"
           placeholder="Email"
-          aria-label="email"
         />
       </div>
       <div class="form-group">
@@ -37,7 +35,16 @@ const Form = () => {
           id="Phone"
           aria-describedby="urlhelp"
           placeholder="Cell Phone Number"
-          aria-label="phone"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          name="url"
+          type="name"
+          class="form-control"
+          id="URL"
+          aria-describedby="urlhelp"
+          placeholder="Website URL"
         />
       </div>
       <div class="form-group">
@@ -47,7 +54,6 @@ const Form = () => {
           id="Message"
           rows="3"
           placeholder="How can we help you?"
-          aria-label="how can we help"
         ></textarea>
       </div>
       <button type="submit">Get My Quote</button>
