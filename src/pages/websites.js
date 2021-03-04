@@ -107,6 +107,10 @@ const Websites = () => {
           <Row>
             <Col lg="12" className="text-center">
               <h3>Our Website Design Pricing</h3>
+              <p>
+                We're flexible. If your budget is restrictive, smaller monthly
+                payments can be arranged versus flat fee.
+              </p>
             </Col>
           </Row>
           <Row>
