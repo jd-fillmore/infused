@@ -1,0 +1,14 @@
+@import "../../src/pages/breakpoints.scss";
+@import "../../src/pages/variables.scss";
+
+.seo-faq {
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 40px 0px 40px 0px;
+  }
+  background: $dark-grey;
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

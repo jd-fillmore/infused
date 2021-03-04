@@ -54,6 +54,9 @@ const Example = props => {
                 <Link to="/websites">
                   <DropdownItem>Website Design</DropdownItem>
                 </Link>
+                <Link to="/e-commerce">
+                  <DropdownItem>E-Commerce</DropdownItem>
+                </Link>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>

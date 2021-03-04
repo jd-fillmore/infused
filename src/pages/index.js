@@ -180,14 +180,16 @@ const Home = () => {
         boxTwoPriceLink="/seo#pricing"
         boxTwoFAQLink="/seo#faq"
         boxThreeTitle={[
-          "Digital strategy to help bring you ",
+          "E-Commerce to help you bring in ",
           <span>more revenue</span>,
           ".",
         ]}
-        boxThreeDesc="Helping your Niagara business navigate through the digital world to help maximize profits."
+        boxThreeDesc="Helping your Niagara business sell more online through E-Commerce."
         boxThreeImg={strategySVG}
-        boxThreeImgAlt="digital strategy agency niagara, st catharines"
-        boxThreeLink="/digital-strategy"
+        boxThreeImgAlt="e-commerce websites niagara, st catharines"
+        boxThreeLink="/e-commerce"
+        boxThreePriceLink="/e-commerce#pricing"
+        boxThreeFAQLink="/e-commerce#faq"
       />
       <Process
         title="How We Work"
