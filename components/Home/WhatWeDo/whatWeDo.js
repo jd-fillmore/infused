@@ -45,7 +45,7 @@ const WhatWeDo = ({
                 <h3>{boxOneTitle}</h3>
                 <p>{boxOneDesc}</p>
                 <Link to={boxOneLink}>
-                  Info, Pricing &amp; FAQ
+                  Discover
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -88,7 +88,7 @@ const WhatWeDo = ({
                   <h3>{boxTwoTitle}</h3>
                   <p>{boxTwoDesc}</p>
                   <Link to={boxTwoLink}>
-                    Info, Pricing &amp; FAQ
+                    Discover
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -115,7 +115,7 @@ const WhatWeDo = ({
                   <h3>{boxTwoTitle}</h3>
                   <p>{boxTwoDesc}</p>
                   <Link to={boxTwoLink}>
-                    Info, Pricing &amp; FAQ
+                    Discover
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -150,7 +150,7 @@ const WhatWeDo = ({
                 <h3>{boxThreeTitle}</h3>
                 <p>{boxThreeDesc}</p>
                 <Link to={boxThreeLink}>
-                  Info, Pricing &amp; FAQ
+                  Discover
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
