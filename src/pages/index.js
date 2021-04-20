@@ -121,6 +121,19 @@ const Home = () => {
           content="Niagara's Web Design &amp; St. Catharines SEO Agency & Digital Marketing Company. Our agency dooes modern website design and SEO thats brings more sales to your company."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
+        {/* <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cardo&display=swap"
+          rel="stylesheet"
+          media="print"
+          onload="this.media='all'"
+        ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+          rel="stylesheet"
+          media="print"
+          onload="this.media='all'"
+        ></link> */}
       </Helmet>
       <Nav />
       <Hero

@@ -9,11 +9,24 @@ module.exports = {
     siteUrl: `https://infused.agency`,
   },
   plugins: [
+    // {
+    //   resolve: `gatsby-plugin-google-fonts`,
+    //   options: {
+    //     fonts: [`cardo\:400,700`, `poppins\:400,700`],
+    //     display: "swap",
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
-        fonts: [`cardo\:400,700`, `poppins\:400,700`],
+        fonts: [
+          `cardo\:400,700`, // you can also specify font weights and styles
+          `poppins\:400,700`, // you can also specify font weights and styles
+        ],
         display: "swap",
+        attributes: {
+          rel: "stylesheet preload prefetch",
+        },
       },
     },
     {
