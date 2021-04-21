@@ -113,12 +113,11 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Niagara Web Design, St. Catharines SEO Agency, Digital Marketing
-          Company
+          Niagara Web Design, St. Catharines Digital Marketing Agency & SEO
         </title>
         <meta
           name="description"
-          content="Niagara's Web Design &amp; St. Catharines SEO Agency & Digital Marketing Company. Our agency dooes modern website design and SEO thats brings more sales to your company."
+          content="Niagara's Web Design &amp; St. Catharines SEO Agency & Digital Marketing Company. Our agency does modern website design and SEO thats brings more sales to your company."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
         {/* <link rel="preconnect" href="https://fonts.gstatic.com" />
