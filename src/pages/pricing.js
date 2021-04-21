@@ -1,91 +1,48 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
+import { Link } from "gatsby"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
+import Card from "../../components/Card/card"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import checkImg from "../img/check.png"
-import searchImg from "../img/google.png"
-import userImg from "../img/user.png"
-import digImg from "../img/digital-strategy.svg"
 
-import "../pages/digital-strategy.scss"
+import "../pages/work.scss"
 
-const DigitalStrategy = () => {
+const Pricings = () => {
   return (
     <>
       <Helmet>
         <title>Pricing - Infused</title>
         <meta
           name="description"
-          content="Check out the pricing that we offer for website design and SEO services."
+          content="We offer affordable, transparent pricing on our website where most other agencies do not. Please check our prices today."
         />
       </Helmet>
       <Nav />
       <InnerHero
         title="Pricing"
-        description="Pricing packages that make sense for your business."
+        description="Check out links to our pricing packages below."
       />
       <InnerContent>
-        <section className="strategy">
-          <Container className="intro">
-            <Row className="text-center">
-              <Col lg="4">
-                <img
-                  className="img-width"
-                  src={searchImg}
-                  alt="Identify your digital business goals"
-                />
-                <p>Identify your business goals</p>
-              </Col>
-              <Col lg="4">
-                <img
-                  className="img-width"
-                  src={userImg}
-                  alt="Identify your target audience"
-                />
-                <p>Identify your target audience</p>
-              </Col>
-              <Col lg="4">
-                <img
-                  className="img-width"
-                  src={checkImg}
-                  alt="more traffic and sales"
-                />
-                <p>Position for success</p>
-              </Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row className="pad align-items-center">
-              <Col lg="5">
-                <img
-                  className="img-fluid"
-                  src={digImg}
-                  alt="digital strategy"
-                />
-              </Col>
-              <Col lg="7">
-                <p>
-                  Having a digital marketing strategy is crucial if you're a new
-                  or existing business. It separates the businesses that will
-                  fail, from the ones that will succeed online.
-                </p>
-                <p>
-                  Our experts will help you navigate the world of online, to
-                  help create a modern and bespoke digital marketing strategy
-                  for your company to move forward with.
-                </p>
-                <p>
-                  Identifying your business goals, your target audience and much
-                  more - we will help you by providing a custom roadmap to
-                  follow that will help aide in your success online.
-                </p>
-              </Col>
-            </Row>
-          </Container>
+        <section className="work">
+          <div className="container">
+            <div className="row">
+              <ul>
+                <li>
+                  <Link to="/seo#pricing">SEO Pricing</Link>
+                </li>
+                <li>
+                  <Link to="/websites#pricing">Website Pricing</Link>
+                </li>
+                <li>
+                  <Link to="/e-commerce#pricing">E-Commerce Pricing</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
       </InnerContent>
       <CTA />
@@ -94,4 +51,4 @@ const DigitalStrategy = () => {
   )
 }
 
-export default DigitalStrategy
+export default Pricings

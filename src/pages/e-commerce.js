@@ -66,6 +66,7 @@ const Websites = () => {
         </section>
       </InnerContent>
       {/* Pricing */}
+      <a id="pricing"></a>
       <section className="pricing">
         <Container>
           <Row>

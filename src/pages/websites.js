@@ -92,6 +92,7 @@ const Websites = () => {
         btnText="View More Case Studies"
         btnLink="/work"
       />
+      <a id="pricing"></a>
       {/* Pricing */}
       <section className="pricing">
         <Container>
