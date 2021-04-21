@@ -8,13 +8,21 @@ import InnerContent from "../../components/innerContent/innerContent"
 import Card from "../../components/Card/card"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
+import treeImg from "../img/tree-reports.png"
 import kdImg from "../img/niagara-web-design.png"
 import cassImg from "../img/featured-seo.png"
-import mcImg from "../img/mc-phone.png"
 
 import "../pages/work.scss"
 
 const projects = [
+  {
+    title: "TreeReports",
+    desc:
+      "A local certified consultinng arborist specializing in reports, planning and consulting.",
+    thingsDone: "UI design, website development & local SEO",
+    link: "/tree-reports",
+    pic: treeImg,
+  },
   {
     title: "KD Flowers",
     desc:
@@ -30,14 +38,6 @@ const projects = [
     thingsDone: "UI design, website development & local SEO",
     link: "/cass-a-bella-construction",
     pic: cassImg,
-  },
-  {
-    title: "MC Aesthetics",
-    desc:
-      "An Ottawa-based business specializing in wrinkle relaxers and other beauty services.",
-    thingsDone: "UI design, website development & local SEO",
-    link: "/mc-aesthetics",
-    pic: mcImg,
   },
 ]
 
