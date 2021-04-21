@@ -115,6 +115,7 @@ const Websites = () => {
                 </p>
                 <ul>
                   <li>Custom Design</li>
+                  <li>Up to 10 pages</li>
                   <li>Free Hosting</li>
                   <li>Discovery Call</li>
                   <li>Mobile Responsive</li>
@@ -144,7 +145,7 @@ const Websites = () => {
                 </p>
                 <ul>
                   <li>Custom Design</li>
-                  <li>Free Hosting</li>
+                  <li>Up to 10 pages</li>
                   <li>Discovery Call</li>
                   <li>Mobile Responsive</li>
                   <li>Social Media Integration</li>
