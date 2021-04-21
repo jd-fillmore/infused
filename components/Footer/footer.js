@@ -77,7 +77,6 @@ const Footer = () => {
                   <Link to="/get-started">Get A Free Quote</Link>
                 </li>
               </ul>
-              <a href="tel:9059333115">(905) 933-3115</a>
               <br />
               <a href="mailto:hello@infused.agency">hello@infused.agency</a>
               <br />
