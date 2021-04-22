@@ -88,7 +88,7 @@ const Websites = () => {
                 </p>
                 <ul>
                   <li>WordPress Template</li>
-                  <li>10 Products Added</li>
+                  <li>Up to 10 Products Added</li>
                   <li>WooCommerce</li>
                   <li>Discovery Call</li>
                   <li>Mobile Responsive</li>
@@ -119,7 +119,7 @@ const Websites = () => {
                 </p>
                 <ul>
                   <li>WordPress Template</li>
-                  <li>15 Products Added</li>
+                  <li>Up to 15 Products Added</li>
                   <li>WooCommerce</li>
                   <li>Discovery Call</li>
                   <li>Mobile Responsive</li>
@@ -150,7 +150,7 @@ const Websites = () => {
                 </p>
                 <ul>
                   <li>WordPress Template</li>
-                  <li>25 Products Added</li>
+                  <li>Up to 25 Products Added</li>
                   <li>WooCommerce</li>
                   <li>Discovery Call</li>
                   <li>Mobile Responsive</li>
