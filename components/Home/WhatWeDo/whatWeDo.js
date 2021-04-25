@@ -117,9 +117,9 @@ const WhatWeDo = ({
             <Card>
               <Row className="item">
                 <Col lg="6" className="text-left">
-                  <h3>{boxTwoTitle}</h3>
-                  <p>{boxTwoDesc}</p>
-                  <Link to={boxTwoLink}>
+                  <h3>{boxFourTitle}</h3>
+                  <p>{boxFourDesc}</p>
+                  <Link to={boxFourLink}>
                     Discover
                     <svg
                       stroke="currentColor"
