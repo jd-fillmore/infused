@@ -1,0 +1,16 @@
+@import "../../../src/pages/variables.scss";
+@import "../../../src/pages/breakpoints.scss";
+
+.intro-home {
+  padding: 120px 0px 0px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 0px 0px;
+  }
+  h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  a {
+    border-bottom: none;
+  }
+}

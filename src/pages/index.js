@@ -1,6 +1,7 @@
 import React from "react"
 import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Home/Hero/hero"
+import Intro from "../../components/Home/Intro/intro"
 import Featured from "../../components/Home/Featured/featured"
 import WhatWeDo from "../../components/Home/WhatWeDo/whatWeDo"
 import Process from "../../components/Home/Process/process"
@@ -9,6 +10,8 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
+import reviewImg from "../img/google-reviews.png"
+import introImg from "../img/tree-reports.png"
 import featuredImg from "../img/niagara-web-design.png"
 import websiteSVG from "../img/websites.svg"
 import seoSVG from "../img/seo.svg"
@@ -113,34 +116,68 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Niagara Web Design, St. Catharines Digital Marketing Agency & SEO
+          Niagara Web Design, Digital Marketing Agency | St. Catharines SEO
         </title>
         <meta
           name="description"
-          content="Niagara's Web Design &amp; St. Catharines SEO Agency & Digital Marketing Company. Our agency does modern website design and SEO thats brings more sales to your company."
+          content="Niagara's Web Design, St. Catharines SEO Agency &amp; Digital Marketing Company. Our agency does modern website design and SEO thats brings more sales to your company."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
-        {/* <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cardo&display=swap"
-          rel="stylesheet"
-          media="print"
-          onload="this.media='all'"
-        ></link>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-          rel="stylesheet"
-          media="print"
-          onload="this.media='all'"
-        ></link> */}
       </Helmet>
       <Nav />
       <Hero
-        seoTitle="Niagara Web Design, St. Catharines SEO Agency & Digital Marketing Company."
-        title={["Web Design & SEO that helps grow your business."]}
-        subTitle="We do modern web design, SEO &amp; digital marketing that has helped businesses in Niagara and St. Catharines for over 10 years."
-        btnText="Get Free Quote"
-        btnLink="/get-started"
+        title="Niagara Web Design Done Right."
+        subTitle="We're experts in creating cutting-edge websites that
+        engage your users and convert them into customers."
+        img={reviewImg}
+        imgAlt="Google Reviews"
+        btnText="View Our Work"
+        btnLink="/work"
+      />
+      <Intro img={introImg} />
+      <WhatWeDo
+        title="What We Can Do For You"
+        subTitle="Whether you need an affordable web design or a local SEO provider to showcase your services in Niagara &amp; St. Catharines or want more local Niagara &amp; St. Catharines customers from your website - we can build you a digital platform that's tailor-made to your business needs."
+        boxOneTitle={[
+          "Bespoke websites built to ",
+          <span>convert your visitors</span>,
+          ".",
+        ]}
+        boxOneDesc="We do modern web design &amp; development for Niagara businesses that help convert users into paying customers."
+        boxOneImg={websiteSVG}
+        boxOneImgAlt="websites"
+        boxOneLink="/websites"
+        boxOnePriceLink="/websites#pricing"
+        boxOneFAQLink="/websites#faq"
+        boxTwoTitle={[
+          "SEO to ",
+          <span>drive local customers</span>,
+          " to your website.",
+        ]}
+        boxTwoDesc="Getting local Niagara traffic through SEO to your modern web design helps bring you more revenue."
+        boxTwoImg={seoSVG}
+        boxTwoImgAlt="seo provider st catharines"
+        boxTwoLink="/seo"
+        boxTwoPriceLink="/seo#pricing"
+        boxTwoFAQLink="/seo#faq"
+        boxThreeTitle={[
+          "E-Commerce to help you ",
+          <span>sell online</span>,
+          ".",
+        ]}
+        boxThreeDesc="Helping your Niagara business sell more online through E-Commerce."
+        boxThreeImg={strategySVG}
+        boxThreeImgAlt="e-commerce websites niagara, st catharines"
+        boxThreeLink="/e-commerce"
+        boxFourTitle={[
+          "Digital marketing to help you bring in ",
+          <span>more revenue</span>,
+          ".",
+        ]}
+        boxFourDesc="Helping drive Niagara customers to your website."
+        boxFourImg={strategySVG}
+        boxFourImgAlt="digital marketing agency niagara, st catharines"
+        boxFourLink="/digital-marketing"
       />
       <Featured
         title="Featured Niagara Client"
@@ -168,43 +205,6 @@ const Home = () => {
         ]}
         btnText="View More Case Studies"
         btnLink="/work"
-      />
-      <WhatWeDo
-        title="What We Can Do For You"
-        subTitle="Whether you need an affordable web design or a local SEO provider to showcase your services in Niagara &amp; St. Catharines or want more local Niagara &amp; St. Catharines customers from your website - we can build you a digital platform that's tailor-made to your business needs."
-        boxOneTitle={[
-          "Bespoke websites built to ",
-          <span>convert your visitors</span>,
-          ".",
-        ]}
-        boxOneDesc="We do modern web design &amp; development for Niagara businesses that help convert users into paying customers."
-        boxOneImg={websiteSVG}
-        boxOneImgAlt="websites"
-        boxOneLink="/websites"
-        boxOnePriceLink="/websites#pricing"
-        boxOneFAQLink="/websites#faq"
-        boxTwoTitle={[
-          "SEO to ",
-          <span>drive local customers</span>,
-          " to your website.",
-        ]}
-        boxTwoDesc="Getting local Niagara traffic through SEO to your modern web design helps bring you more revenue."
-        boxTwoImg={seoSVG}
-        boxTwoImgAlt="seo provider st catharines"
-        boxTwoLink="/seo"
-        boxTwoPriceLink="/seo#pricing"
-        boxTwoFAQLink="/seo#faq"
-        boxThreeTitle={[
-          "E-Commerce to help you bring in ",
-          <span>more revenue</span>,
-          ".",
-        ]}
-        boxThreeDesc="Helping your Niagara business sell more online through E-Commerce."
-        boxThreeImg={strategySVG}
-        boxThreeImgAlt="e-commerce websites niagara, st catharines"
-        boxThreeLink="/e-commerce"
-        boxThreePriceLink="/e-commerce#pricing"
-        boxThreeFAQLink="/e-commerce#faq"
       />
       <Process
         title="How We Work"

@@ -2,38 +2,43 @@
 @import "../../../src/pages/breakpoints.scss";
 
 .hero {
+  background: url("../../../src/img/hero.jpg") center center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 220px 0px 100px 0px;
+  padding: 240px 0px 160px 0px;
   @include bp-tablet-sm {
     margin-top: -60px;
     min-height: auto;
     padding: 140px 0px 0px 0px;
   }
+  .bg {
+    @include bp-tablet-sm {
+      background: rgba($dark-grey, 0.7);
+      padding: 20px;
+      margin-top: 10px;
+    }
+  }
   .card {
+    text-align: center;
     padding: 30px;
-    background: $light-blue !important;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid $light-blue;
+    @include bp-tablet-sm {
+      margin-top: 20px;
+    }
     p {
-      margin-top: 0px;
+      margin-top: -10px;
       margin-bottom: 0px;
-      color: $dark-blue;
     }
     button {
       background: $dark-purple;
       border: 1px solid $dark-purple;
     }
   }
-  h1 {
-    font-family: $body;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    color: rgba($white, 0.8);
-  }
 
-  h2,
+  h1,
   p {
     color: $white;
   }
@@ -45,26 +50,31 @@
     }
   }
 
-  h2 {
+  h1 {
     font-size: 60px;
     font-weight: 700;
-    padding: 30px 0px 20px 0px;
+    padding: 30px 0px s0px 0px;
     @include bp-tablet-sm {
       padding: 10px 0px 0px 0px;
       font-size: 34px !important;
       line-height: 1.2;
       margin-bottom: 20px;
     }
-    span {
-      background: linear-gradient(
-        to top,
-        rgba($light-blue, 0.4) 40%,
-        transparent 40%
-      );
-      padding: 0px 5px 0px 5px;
-    }
   }
-  a {
+  img {
+    margin-left: 20px;
+  }
+  ul {
+    margin-bottom: 0px;
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  span {
+    font-weight: bold;
+  }
+  a,
+  button {
+    border-bottom: none;
     &:hover,
     &:focus {
       border-bottom: none;

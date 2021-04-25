@@ -48,6 +48,9 @@ const Example = props => {
                 What We Do
               </DropdownToggle>
               <DropdownMenu right className="animate slideIn">
+                <Link to="/digital-marketing">
+                  <DropdownItem>Digital Marketing</DropdownItem>
+                </Link>
                 <Link to="/seo">
                   <DropdownItem>SEO</DropdownItem>
                 </Link>

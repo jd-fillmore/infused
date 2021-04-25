@@ -1,11 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { Container, Row, Col } from "reactstrap"
 import { Link } from "gatsby"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
-import Card from "../../components/Card/card"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
