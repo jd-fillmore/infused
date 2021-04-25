@@ -19,7 +19,7 @@ const Hero = ({ title, subTitle, btnText, btnLink, img, imgAlt }) => {
               </Link>
               <a
                 target="_blank"
-                href="https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&q=niagara+digital+marketing&rflfq=1&num=10&sa=X&ved=2ahUKEwi-meq8j5fwAhVSMVkFHUFeCt4QjGp6BAgMEFM&biw=1682&bih=1323#lrd=0x89d3507111975161:0x18a1198be6280a70,1,,,&rlfi=hd:;si:1774727816813218416,l,ChluaWFnYXJhIGRpZ2l0YWwgbWFya2V0aW5nSNLuusa2roCACFo4ChFkaWdpdGFsIG1hcmtldGluZxABEAIYABgBGAIiGW5pYWdhcmEgZGlnaXRhbCBtYXJrZXRpbmeSARBtYXJrZXRpbmdfYWdlbmN5qgEZEAEqFSIRZGlnaXRhbCBtYXJrZXRpbmcoAA;mv:[[43.1680565,-79.043701],[43.0070768,-79.25861900000001]]"
+                href="https://www.google.com/search?q=infused+agency&oq=infused+agency&aqs=chrome.0.69i59j0l2j69i61j69i60l4.1980j1j7&sourceid=chrome&ie=UTF-8#lrd=0x89d3507111975161:0x18a1198be6280a70,1,,,s"
               >
                 <img className="google" src={img} alt={imgAlt} />
               </a>
