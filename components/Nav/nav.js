@@ -67,11 +67,7 @@ const Example = props => {
                 Our Work
               </Link>
             </NavItem>
-            <NavItem>
-              <Link to="/pricing" className="nav-link">
-                Pricing
-              </Link>
-            </NavItem>
+
             <NavItem>
               <Link to="/posts" className="nav-link">
                 Blog
