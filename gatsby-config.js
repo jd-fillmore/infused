@@ -20,7 +20,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
         fonts: [
-          `cardo\:400,700`, // you can also specify font weights and styles
           `poppins\:400,700`, // you can also specify font weights and styles
         ],
         display: "swap",
@@ -31,6 +30,12 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sass`,
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "867948120450778",
+      },
     },
     {
       resolve: `gatsby-plugin-react-helmet`,
