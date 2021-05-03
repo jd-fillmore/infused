@@ -121,6 +121,10 @@ const Home = () => {
           content="Leap ahead your competitors with Niagara web design and marketing agency services from Infused. Elevate your marketing with Infused, today!"
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
+        <meta
+          name="facebook-domain-verification"
+          content="jl782aoue5dqdjpmbo20fluq6wcd3s"
+        />
       </Helmet>
       <Nav />
       <Hero
