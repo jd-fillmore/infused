@@ -56,7 +56,7 @@ const Form = () => {
           placeholder="How can we help you?"
         ></textarea>
       </div>
-      <button type="submit">Get My Quote</button>
+      <button type="submit">Get My Free Consultation</button>
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact" />
     </form>
