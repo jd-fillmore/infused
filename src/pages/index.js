@@ -115,24 +115,17 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Niagara Web Design, Digital Marketing Agency | St. Catharines SEO
-        </title>
+        <title>Niagara Web Design and Marketing Agency | Infused</title>
         <meta
           name="description"
-          content="Niagara's Web Design, St. Catharines SEO Agency &amp; Digital Marketing Company. Our agency does modern website design and SEO thats brings more sales to your company."
+          content="Leap ahead your competitors with Niagara web design and marketing agency services from Infused. Elevate your marketing with Infused, today!"
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <Nav />
       <Hero
-        title="Niagara Web Design Done Right."
-        subTitle="We're experts in creating cutting-edge websites that
-        engage your users and convert them into customers."
-        img={reviewImg}
-        imgAlt="Google Reviews"
-        btnText="View Our Work"
-        btnLink="/work"
+        title="Niagara Web Design &amp; Marketing Agency."
+        subTitle="Our Niagara web design &amp; marketing agency experts specialize in creating cutting-edge websites that engage your users and convert them into customers."
       />
       <Intro img={introImg} />
       <WhatWeDo

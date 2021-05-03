@@ -21,10 +21,11 @@
     }
   }
   .card {
+    background: $light-blue !important;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    border-bottom: 5px solid $light-blue;
+    margin-bottom: 0px;
     @include bp-tablet-sm {
       margin-top: 20px;
     }
@@ -35,6 +36,7 @@
     button {
       background: $dark-purple;
       border: 1px solid $dark-purple;
+      border-bottom: 0;
     }
   }
 
@@ -46,13 +48,13 @@
   p {
     padding: 10px 0px 20px 0px;
     @include bp-tablet-sm {
-      padding: 0px 0px 10px 0px;
+      padding: 0px 0px 0px 0px;
+      margin-bottom: 0px;
     }
   }
 
   h1 {
     font-size: 60px;
-    font-weight: 700;
     padding: 30px 0px s0px 0px;
     @include bp-tablet-sm {
       padding: 10px 0px 0px 0px;

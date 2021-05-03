@@ -11,10 +11,10 @@ const CTA = () => {
         <Container>
           <Row>
             <Col lg="5">
-              <h2>Request Your Free Quote</h2>
+              <h2>Start Your Project</h2>
               <p>
-                Get in touch with us for a free quote regarding your Niagara web
-                design or SEO project today.
+                Get in touch with us for a free consultation regarding your
+                Niagara web design, marketing or SEO project today.
                 <br />
                 <br />
                 You can also email us at{" "}

@@ -75,7 +75,7 @@ const Example = props => {
             </NavItem>
             <NavItem>
               <Link to="/get-started" className="nav-link btn">
-                Get A Free Quote
+                Start Project
               </Link>
             </NavItem>
           </Nav>

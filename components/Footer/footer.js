@@ -19,9 +19,17 @@ const pages = [
     name: "Our Work",
     link: "/work",
   },
+  {
+    name: "Blog",
+    link: "/posts",
+  },
 ]
 
 const services = [
+  {
+    name: "Digital Marketing",
+    link: "/digital-marketing",
+  },
   {
     name: "SEO",
     link: "/seo",
@@ -80,10 +88,9 @@ const Footer = () => {
               <h3>Contact</h3>
               <ul>
                 <li>
-                  <Link to="/get-started">Get A Free Quote</Link>
+                  <Link to="/get-started">Start your Project</Link>
                 </li>
               </ul>
-              <br />
               <a href="mailto:hello@infused.agency">hello@infused.agency</a>
               <br />
               <br />
