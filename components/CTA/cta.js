@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import Form from "../Form/form"
+import Card from "../Card/card"
 
 import "../CTA/cta.scss"
 
@@ -10,22 +10,53 @@ const CTA = () => {
       <section className="cta">
         <Container>
           <Row>
-            <Col lg="5">
-              <h2>Start Your Project</h2>
-              <p>
-                Get in touch with us for a free consultation regarding your
-                Niagara web design, marketing or SEO project today.
-                <br />
-                <br />
-                You can also email us at{" "}
-                <a href="mailto:hello@infused.agency">
-                  hello@infused.agency
-                </a>{" "}
-                to inquire about our services.
-              </p>
+            <Col lg="4">
+              <div className="heading">
+                <p>Standard</p>
+              </div>
+              <Card>
+                <p>5 Pages</p>
+                <h2 className="price">$170/mo</h2>
+                <p className="small">For 1 year</p>
+                <ul>
+                  <li>Hosting included</li>
+                  <li>Optimized for Google</li>
+                  <li>Secure</li>
+                  <li>Fast, Performant</li>
+                </ul>
+              </Card>
             </Col>
-            <Col lg="7" className="card">
-              <Form />
+            <Col lg="4">
+              <div className="heading">
+                <p>Standard</p>
+              </div>
+              <Card>
+                <p>5 Pages</p>
+                <h2 className="price">$170/mo</h2>
+                <p className="small">For 1 year</p>
+                <ul>
+                  <li>Hosting included</li>
+                  <li>Optimized for Google</li>
+                  <li>Secure</li>
+                  <li>Fast, Performant</li>
+                </ul>
+              </Card>
+            </Col>
+            <Col lg="4">
+              <div className="heading">
+                <p>Standard</p>
+              </div>
+              <Card>
+                <p>5 Pages</p>
+                <h2 className="price">$170/mo</h2>
+                <p className="small">For 1 year</p>
+                <ul>
+                  <li>Hosting included</li>
+                  <li>Optimized for Google</li>
+                  <li>Secure</li>
+                  <li>Fast, Performant</li>
+                </ul>
+              </Card>
             </Col>
           </Row>
         </Container>

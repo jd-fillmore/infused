@@ -3,20 +3,29 @@
 
 .what-we-do {
   background: $dark-blue;
-  padding: 120px 0px 120px 0px;
+  padding: 60px 0px 120px 0px;
   @include bp-tablet-sm {
-    padding: 60px 0px 1px 0px;
+    padding: 60px 0px 0px 0px;
   }
   h2,
   h3,
   p {
-    color: $white;
+    color: $grey;
+  }
+  p {
+    &#sub {
+      width: 75%;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
   }
   h2 {
     font-size: 60px;
   }
   h3 {
-    font-size: 40px;
+    font-size: 30px;
+    margin-top: 10px;
   }
   hr {
     border: 1px solid $purple;

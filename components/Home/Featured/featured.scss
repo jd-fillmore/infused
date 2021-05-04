@@ -3,61 +3,15 @@
 
 .featured {
   background: $dark-grey;
-  padding: 120px 0px 120px 0px;
+  padding: 120px 0px 40px 0px;
   @include bp-tablet-sm {
     padding: 60px 0px 0px 0px;
   }
-  a {
-    &:hover,
-    &:focus {
-      border-bottom: none;
-    }
-  }
-  h2 {
-    font-size: 60px;
-  }
-  h3 {
-    font-size: 50px;
-    font-family: $body;
-    font-weight: 400;
-    color: $light-blue !important;
-  }
-  h2,
-  h3,
   p {
-    color: $white;
-  }
-  hr {
-    border: 1px solid $purple;
-    width: 75px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    @include bp-tablet-sm {
-      margin-top: 30px;
-      margin-bottom: 30px;
+    &#sub {
+      width: 75%;
+      margin: 0 auto;
+      margin-bottom: 40px;
     }
-  }
-  img {
-    padding: 20px 0px 20px 0px;
-  }
-  #testimonial {
-    font-size: 22px;
-    font-style: italic;
-    width: 70%;
-    margin: 0 auto;
-    @include bp-tablet-sm {
-      font-size: 18px;
-    }
-  }
-  button {
-    margin-top: 40px;
-  }
-  span {
-    background: linear-gradient(
-      to top,
-      rgba($light-blue, 0.4) 40%,
-      transparent 40%
-    );
-    padding: 0px 5px 0px 5px;
   }
 }

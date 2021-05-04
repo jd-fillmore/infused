@@ -2,7 +2,7 @@
 @import "../../src/pages/breakpoints.scss";
 
 .cta {
-  background: $dark-blue;
+  background-image: linear-gradient(to right, #0f74b1, #6d75e3);
   padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
@@ -10,12 +10,10 @@
   }
   .card {
     padding: 30px;
-    background: $light-blue !important;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     p {
       margin-top: 0px;
       margin-bottom: 0px;
-      color: $dark-blue;
     }
     button {
       background: $dark-purple;

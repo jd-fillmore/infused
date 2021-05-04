@@ -21,7 +21,7 @@ const Example = props => {
 
   return (
     <div>
-      <Navbar id="nav" expand="lg" className="fixed-top">
+      <Navbar id="nav" expand="lg">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
             infused
@@ -30,44 +30,26 @@ const Example = props => {
         <NavbarToggler className="custom-toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Why Us?
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="/about">
-                  <DropdownItem>About Us</DropdownItem>
-                </Link>
-                <Link to="/how-we-work">
-                  <DropdownItem>How We Work</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                What We Do
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="/digital-marketing">
-                  <DropdownItem>Digital Marketing</DropdownItem>
-                </Link>
-                <Link to="/seo">
-                  <DropdownItem>SEO</DropdownItem>
-                </Link>
-                <Link to="/websites">
-                  <DropdownItem>Website Design</DropdownItem>
-                </Link>
-                <Link to="/e-commerce">
-                  <DropdownItem>E-Commerce</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
             <NavItem>
-              <Link to="/work" className="nav-link">
-                Our Work
+              <Link to="/" className="nav-link">
+                Home
               </Link>
             </NavItem>
-
+            <NavItem>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/services" className="nav-link">
+                Services
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/work" className="nav-link">
+                Portfolio
+              </Link>
+            </NavItem>
             <NavItem>
               <Link to="/posts" className="nav-link">
                 Blog
@@ -75,7 +57,7 @@ const Example = props => {
             </NavItem>
             <NavItem>
               <Link to="/get-started" className="nav-link btn">
-                Start Project
+                Get Started
               </Link>
             </NavItem>
           </Nav>
