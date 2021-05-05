@@ -66,33 +66,18 @@ const CassABella = () => {
                   for keywords in their area, that people Google for. The
                   numbers speak for themselves.
                 </p>
+                <div className="card">
+                  <ul>
+                    <li>12,000 photo views per month</li>
+                    <li>13,000% increase in new leads in first 6 months</li>
+                    <li>2,500 new people discovering website per month</li>
+                  </ul>
+                </div>
               </Col>
             </Row>
           </Container>
         </section>
       </InnerContent>
-      <Featured
-        title="New &amp; Improved"
-        subTitle={[
-          "Take a look and see the ",
-          <span>huge difference</span>,
-          "we've made to Cass-A-Bella's online existence.",
-        ]}
-        viewsValue="12,000"
-        viewsText="photo views per month"
-        leadsValue="13,000%"
-        leadsText="increase in new leads in first 6 months"
-        peopleValue="2,500"
-        peopleText="people discovering website per month"
-        img={featuredImg}
-        imgAlt="local seo featured client"
-        testimonial="Great Job, WELL DONE. I'm very pleased with the service and
-        the design of my new web site. If you ever need a new web site or SEO
-        I do recommend Infused Agency for their services. Keep up
-        the great work. Thank you."
-        btnText="View More Case Studies"
-        btnLink="/work"
-      />
       <CTA />
       <Footer />
     </>

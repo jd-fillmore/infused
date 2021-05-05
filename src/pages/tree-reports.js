@@ -61,30 +61,20 @@ const KDFlowers = () => {
                   in their area, that people Google for. The numbers speak for
                   themselves.
                 </p>
+                <div className="card">
+                  <ul>
+                    <li>385% increase in being found online</li>
+                    <li>4,000% increase in new website visits</li>
+                    <li>
+                      1,500% increase in Google rankings for multiple keywords
+                    </li>
+                  </ul>
+                </div>
               </Col>
             </Row>
           </Container>
         </section>
       </InnerContent>
-      <Featured
-        title="New &amp; Improved"
-        subTitle={[
-          "Take a look and see the ",
-          <span>huge difference</span>,
-          "we've made to TreeReports' online existence.",
-        ]}
-        viewsValue="385%"
-        viewsText="increase in being found online"
-        leadsValue="4,000%"
-        leadsText="increase in new website visits"
-        peopleValue="1,500%"
-        peopleText="increase in Google rankings for keywords"
-        img={featuredImg}
-        imgAlt="tree reports"
-        testimonial="Fantastic experience from start to end. JD is organized, thorough and professional. I highly recommend his company and services if you are thinking of building a website."
-        btnText="View More Case Studies"
-        btnLink="/work"
-      />
       <CTA />
       <Footer />
     </>

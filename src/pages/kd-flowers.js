@@ -58,40 +58,20 @@ const KDFlowers = () => {
                 <p>
                   We designed, built and launched KD Flowers' new modern
                   website. We also helped them with ranking locally for keywords
-                  in their area, that people Google for. The numbers speak for
-                  themselves.
+                  in their area, that people Google for.
                 </p>
+                <div className="card">
+                  <ul>
+                    <li>10,700 website views per month</li>
+                    <li>20,000% increase in new leads in the first 6 months</li>
+                    <li>5,800 new people discovering website per month</li>
+                  </ul>
+                </div>
               </Col>
             </Row>
           </Container>
         </section>
       </InnerContent>
-      <Featured
-        title="New &amp; Improved"
-        subTitle={[
-          "Take a look and see the ",
-          <span>huge difference</span>,
-          "we've made to KD Flower's online existence.",
-        ]}
-        viewsValue="10,700"
-        viewsText="website views per month"
-        leadsValue="20,000%"
-        leadsText="increase in new leads in first 6 months"
-        peopleValue="5,800"
-        peopleText="people discovering website per month"
-        img={featuredImg}
-        imgAlt="niagara web design, seo provider st catharines, digital agency"
-        testimonial={[
-          "Infused created the ",
-          <span>perfect website</span>,
-          "for my floral business. I was very happy with their ",
-          <span>professional work ethic</span>,
-          "and ",
-          <span>great communication!</span>,
-        ]}
-        btnText="View More Case Studies"
-        btnLink="/work"
-      />
       <CTA />
       <Footer />
     </>

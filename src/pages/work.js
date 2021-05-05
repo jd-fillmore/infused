@@ -65,7 +65,6 @@ const OurWork = () => {
                   <Col lg="6" className="text-left">
                     <h3>{project.title}</h3>
                     <p>{project.desc}</p>
-                    <p className="things-done">{project.thingsDone}</p>
                     <Link to={project.link}>
                       Discover
                       <svg
