@@ -6,7 +6,7 @@
   padding: 180px 0px 80px 0px;
   margin-top: -105px;
   @include bp-tablet-sm {
-    padding: 130px 0px 60px 0px;
+    padding: 220px 0px 60px 0px;
   }
   .row {
     align-items: center;
@@ -27,27 +27,26 @@
       border: 1px solid $dark-purple;
     }
   }
-  h1,
   p {
-    color: $white;
+    color: rgba($dark-grey, 0.7);
   }
   h1 {
     font-family: $body;
-    font-size: 18px;
-    font-weight: 400;
+    color: $dark-grey !important;
+    font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
   p {
     font-family: $heading;
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 0px;
     margin-top: 20px;
     line-height: 1.6;
   }
   hr {
-    border-bottom: 1px solid $purple;
+    border-bottom: 1px solid $dark-grey;
     width: 50px;
     margin: 0 auto;
   }

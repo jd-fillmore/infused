@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
+import { Link } from "gatsby"
 import Card from "../Card/card"
 
 import "../CTA/cta.scss"
@@ -9,53 +10,114 @@ const CTA = () => {
     <>
       <section className="cta">
         <Container>
+          <Row className="text-center">
+            <Col lg="12">
+              <h2>Affordable Website Packages</h2>
+              <p id="sub">
+                Giving small businesses the big business treatment, for a
+                fraction of the price.
+              </p>
+            </Col>
+          </Row>
           <Row>
             <Col lg="4">
               <div className="heading">
                 <p>Standard</p>
               </div>
               <Card>
-                <p>5 Pages</p>
-                <h2 className="price">$170/mo</h2>
+                <p className="pages">5 Pages</p>
+                <h3 className="price">
+                  $170<span>/mo</span>
+                </h3>
                 <p className="small">For 1 year</p>
                 <ul>
-                  <li>Hosting included</li>
+                  <li>Responsive</li>
+                  <li>User-Friendly Design</li>
+                  <li>Hosting / SSL Included</li>
                   <li>Optimized for Google</li>
-                  <li>Secure</li>
-                  <li>Fast, Performant</li>
                 </ul>
+                <p class="benefits">
+                  <strong>Benefits:</strong>
+                </p>
+                <ul>
+                  <li>Works on all devices</li>
+                  <li>Improve your brand's look</li>
+                  <li>Secure, Fast, Performant</li>
+                  <li>Leads to more revenue</li>
+                </ul>
+                <Link to="/get-started/">
+                  <button>Contact Us</button>
+                </Link>
               </Card>
             </Col>
             <Col lg="4">
               <div className="heading">
-                <p>Standard</p>
+                <p>Standard + Analytics</p>
+                <div className="popular">
+                  <p>(Most Popular)</p>
+                </div>
               </div>
               <Card>
-                <p>5 Pages</p>
-                <h2 className="price">$170/mo</h2>
+                <p className="pages">10 Pages</p>
+                <h3 className="price">
+                  $250<span>/mo</span>
+                </h3>
                 <p className="small">For 1 year</p>
                 <ul>
-                  <li>Hosting included</li>
-                  <li>Optimized for Google</li>
-                  <li>Secure</li>
-                  <li>Fast, Performant</li>
+                  <li>Everything from Standard</li>
+                  <li>Additional 5 pages</li>
+                  <li>Google Analytics</li>
+                  <li>Google Search Console</li>
+                  <li>Submit to Google</li>
                 </ul>
+                <p class="benefits">
+                  <strong>Benefits:</strong>
+                </p>
+                <ul>
+                  <li>Everything from Standard</li>
+                  <li>More pages</li>
+                  <li>Shows up in Google</li>
+                  <li>Track website analytics</li>
+                </ul>
+                <Link to="/get-started">
+                  <button>Contact Us</button>
+                </Link>
               </Card>
             </Col>
             <Col lg="4">
               <div className="heading">
-                <p>Standard</p>
+                <p>Standard + Analytics + Local SEO</p>
               </div>
               <Card>
-                <p>5 Pages</p>
-                <h2 className="price">$170/mo</h2>
+                <p className="pages">15 Pages</p>
+                <h3 className="price">
+                  $500<span>/mo</span>
+                </h3>
                 <p className="small">For 1 year</p>
                 <ul>
-                  <li>Hosting included</li>
-                  <li>Optimized for Google</li>
-                  <li>Secure</li>
-                  <li>Fast, Performant</li>
+                  <li>Everything from Standard + Analytics</li>
+                  <li>Keyword Research</li>
+                  <li>Create / Optimize Google My Business</li>
+                  <li>Local Backlinks</li>
+                  <li>2 Local SEO City Pages</li>
                 </ul>
+                <p class="benefits">
+                  <strong>Benefits:</strong>
+                </p>
+                <ul>
+                  <li>Everything from Standard + Analytics</li>
+                  <li>More pages</li>
+                  <li>
+                    Monthly SEO efforts to help boost website in Google and beat
+                    competitors
+                  </li>
+                  <li>
+                    Leading to even more revenue and local authority online
+                  </li>
+                </ul>
+                <Link to="/get-started">
+                  <button>Contact Us</button>
+                </Link>
               </Card>
             </Col>
           </Row>

@@ -24,10 +24,7 @@ const About = () => {
         />
       </Helmet>
       <Nav />
-      <InnerHero
-        title="About Us"
-        description="We build websites and execute SEO efforts to help you grow your business."
-      />
+      <InnerHero title="About Us" description="A bit about the company" />
       <InnerContent>
         <section className="about">
           <Container>

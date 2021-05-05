@@ -1,6 +1,15 @@
 @import "../../src/pages/variables.scss";
 @import "../../src/pages/breakpoints.scss";
 
+.nav-link {
+  &:focus,
+  &:hover {
+    color: $purple;
+    border-bottom: 2px solid $dark-grey;
+    text-decoration: none;
+  }
+}
+
 .navbar-nav {
   align-items: center;
   @include bp-tablet-sm {
@@ -46,7 +55,7 @@
   @include bp-tablet-sm {
     margin-top: 0px !important;
     padding: 0.5rem 1rem !important;
-    background: $dark-blue !important;
+    background: $glow-blue !important;
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -86,7 +95,7 @@
       border: none;
       transform: translateY(0px);
       box-shadow: none;
-      color: $light-blue !important;
+      color: $dark-grey !important;
     }
   }
 }
@@ -98,15 +107,19 @@
     background: $dark-purple;
     color: #fff !important;
     border-radius: 50px !important;
-    border: 2px solid $dark-purple;
     font-family: "Poppins", sans-serif !important;
     transition: 0.2s;
     &:focus,
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-      border: 2px solid $light-blue;
       background: $light-blue;
+    }
+    @include bp-tablet-sm {
+      background: $purple;
+      margin-bottom: 10px;
+      text-align: left;
+      width: 177px;
     }
   }
   @media (min-width: 992px) {

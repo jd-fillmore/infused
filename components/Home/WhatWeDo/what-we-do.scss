@@ -5,7 +5,7 @@
   background: $dark-blue;
   padding: 60px 0px 120px 0px;
   @include bp-tablet-sm {
-    padding: 60px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
   }
   h2,
   h3,
@@ -18,10 +18,17 @@
       text-align: center;
       margin: 0 auto;
       padding-top: 20px;
+      @include bp-tablet-sm {
+        text-align: left;
+        width: 100%;
+      }
     }
   }
   h2 {
     font-size: 60px;
+    @include bp-tablet-sm {
+      text-align: left;
+    }
   }
   h3 {
     font-size: 30px;

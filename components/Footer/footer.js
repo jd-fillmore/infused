@@ -25,25 +25,6 @@ const pages = [
   },
 ]
 
-const services = [
-  {
-    name: "Digital Marketing",
-    link: "/digital-marketing",
-  },
-  {
-    name: "SEO",
-    link: "/seo",
-  },
-  {
-    name: "Website Design",
-    link: "/websites",
-  },
-  {
-    name: "E-Commerce",
-    link: "/e-commerce",
-  },
-]
-
 const Footer = () => {
   return (
     <>
@@ -53,7 +34,7 @@ const Footer = () => {
             <Col lg="4">
               <h3>About</h3>
               <p>
-                Infused Agency is a Niagara web design, SEO company and digital
+                Infused is a Niagara web design, SEO company and digital
                 marketing agency. We help local and non-local businesses build
                 their credibility online, as well as help bring in more sales.
               </p>
@@ -77,11 +58,9 @@ const Footer = () => {
             <Col lg="2">
               <h3>Services</h3>
               <ul>
-                {services.map(service => (
-                  <li>
-                    <Link to={service.link}>{service.name}</Link>
-                  </li>
-                ))}
+                <li>Websites</li>
+                <li>SEO</li>
+                <li>Digital Marketing</li>
               </ul>
             </Col>
             <Col lg="2">

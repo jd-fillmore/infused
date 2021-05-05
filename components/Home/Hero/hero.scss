@@ -6,9 +6,8 @@
   padding: 160px 0px 160px 0px;
   margin-top: -105px;
   @include bp-tablet-sm {
-    margin-top: -60px;
-    min-height: auto;
-    padding: 140px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
+    margin-top: 0px;
   }
   h1,
   h2,
@@ -29,14 +28,19 @@
     color: rgba($dark-grey, 0.5) !important;
     @include bp-tablet-sm {
       padding: 10px 0px 0px 0px;
-      font-size: 34px !important;
-      line-height: 1.2;
+      font-size: 14px !important;
+      line-height: 1.3;
       margin-bottom: 20px;
     }
   }
   h2 {
     font-size: 50px;
     padding-top: 10px;
+    @include bp-tablet-sm {
+      padding-top: 0px;
+      line-height: 1.3;
+      margin-bottom: 20px;
+    }
   }
   img {
     margin-left: 20px;
@@ -61,12 +65,18 @@
     }
   }
   button {
-    background: $purple;
     z-index: 9999;
     position: relative;
+    @include bp-tablet-sm {
+      z-index: 1;
+      margin-top: 20px;
+    }
   }
 }
 
 .intro-pic {
   margin-top: -540px;
+  @include bp-tablet-sm {
+    margin-top: 0px;
+  }
 }

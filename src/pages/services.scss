@@ -1,0 +1,39 @@
+@import "../pages/variables.scss";
+@import "../pages/breakpoints.scss";
+
+.services {
+  .seo,
+  .dm {
+    margin-top: 60px;
+    @include bp-tablet-sm {
+      margin-top: 20px;
+    }
+  }
+  h3 {
+    margin-bottom: 20px;
+  }
+  img {
+    &.seo {
+      @media (min-width: 992px) {
+        display: none;
+      }
+    }
+    &.seo-two {
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+  ul {
+    list-style: none; /* Remove default bullets */
+  }
+
+  ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: $light-blue; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+}
