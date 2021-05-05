@@ -8,20 +8,28 @@ import "../Footer/footer.scss"
 
 const pages = [
   {
-    name: "About Us",
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "About",
     link: "/about",
   },
   {
-    name: "How We Work",
-    link: "/how-we-work",
+    name: "Services",
+    link: "/services",
   },
   {
-    name: "Our Work",
+    name: "Portfolio",
     link: "/work",
   },
   {
     name: "Blog",
     link: "/posts",
+  },
+  {
+    name: "Free Consultation",
+    link: "/get-started",
   },
 ]
 

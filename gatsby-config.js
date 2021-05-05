@@ -43,6 +43,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-sitemap",
     },
+    // {
+    //   resolve: `gatsby-plugin-tawk.to`,
+    //   options: {
+    //     tawkId: "6091f715b1d5182476b5a922",
+    //     // get this from the tawk script widget
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-preact",
     },
