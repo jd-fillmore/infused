@@ -79,6 +79,7 @@ const Footer = () => {
                 </li>
               </ul>
               <a href="mailto:hello@infused.agency">hello@infused.agency</a>
+              <a href="(905) 933-3115">(905) 933-3115</a>
               <br />
               <br />
               <p>73 Alexandra Blvd, St. Catharines, ON L2P 1K2</p>
