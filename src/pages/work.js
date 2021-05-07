@@ -18,7 +18,7 @@ const projects = [
   {
     title: "TreeReports",
     desc:
-      "A local certified consultinng arborist specializing in reports, planning and consulting.",
+      "A local certified consulting arborist specializing in reports, planning and consulting.",
     thingsDone: "UI design, website development & local SEO",
     link: "/tree-reports",
     pic: treeImg,
