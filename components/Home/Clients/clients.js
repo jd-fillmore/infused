@@ -11,7 +11,12 @@ const Clients = ({ title, subTitle }) => {
         <Container>
           <Row>
             <Col lg="12">
-              <h2>{title} &#9994;</h2>
+              <h2>
+                {title}{" "}
+                <span role="img" aria-label="wave">
+                  &#9994;
+                </span>
+              </h2>
               <p>{subTitle}</p>
               <hr />
               <div>

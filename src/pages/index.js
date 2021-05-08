@@ -111,22 +111,18 @@ const Home = () => {
         <title>Niagara Web Design and Marketing Agency | Infused</title>
         <meta
           name="description"
-          content="Affordable Niagara web design and marketing agency services from Infused. Elevate your marketing with Infused, today!"
+          content="Affordable Niagara web design and marketing agency services from Infused based in St. Catharines. Elevate your marketing with Infused, today!"
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
-        <meta
-          name="facebook-domain-verification"
-          content="jl782aoue5dqdjpmbo20fluq6wcd3s"
-        />
       </Helmet>
       <Nav />
       <Hero
-        title="Niagara Web Design, SEO Company &amp; Digital Marketing Agency"
+        title="Niagara Web Design, St. Catharines SEO Company &amp; Digital Marketing Agency"
         titleTwo="Small Business Web Design &amp; Development"
         subTitle="100% hand-coded websites with far superior performance and security over a WordPress or page builder website starting at $170/mo for 1 year."
       />
       {/* Intro Image */}
-      <div className="container intro-pic">
+      {/* <div className="container intro-pic">
         <div className="row">
           <div className="col-lg-5">&nbsp;</div>
           <div className="col-lg-7">
@@ -137,7 +133,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <WhatWeDo
         title="Giving Small Businesses A Big Business Treatment"
         subTitle="As a small business, we understand that your small business cannot fork out upfront thousands of dollars for a website. That's why we offer affordable web design solutions to fit your small business budget. Our websites are secure and are hand-coded for best performance, which helps bring in more leads and revenue through your website."

@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import Card from "../../Card/card"
-import featuredImg from "../../../src/img/niagara-web-design.png"
-import treeImg from "../../../src/img/tree-reports.png"
-import cassImg from "../../../src/img/featured-seo.png"
+import featuredImg from "../../../src/img/niagara-web-design-1.jpg"
+import treeImg from "../../../src/img/web-design-st-catharines.jpg"
+import cassImg from "../../../src/img/niagara-digital-marketing.jpg"
 
 import "../Featured/featured.scss"
 
@@ -13,14 +13,14 @@ const projects = [
     desc:
       "A local certified consulting arborist specializing in reports, planning and consulting.",
     link: "/tree-reports",
-    pic: treeImg,
+    pic: featuredImg,
   },
   {
     title: "KD Flowers",
     desc:
       "A boutique affordable wedding flower business in the heart of St. Catharines.",
     link: "/kd-flowers",
-    pic: featuredImg,
+    pic: treeImg,
   },
   {
     title: "Cass-A-Bella Construction",

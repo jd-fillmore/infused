@@ -9,17 +9,18 @@ const Hero = ({ title, titleTwo, subTitle }) => {
     <>
       <section className="hero">
         <Container>
-          <Row className="align-items-center">
-            <Col lg="7">
-              <h1>{title}</h1>
-              <h2>{titleTwo}</h2>
-              <p>{subTitle}</p>
-              <Link to="/get-started/">
-                <button>Get Started</button>
-              </Link>
-            </Col>
-            <Col lg="5">&nbsp;</Col>
-          </Row>
+          <div className="bg">
+            <Row>
+              <Col lg="12">
+                <h1>{title}</h1>
+                <h2>{titleTwo}</h2>
+                <p>{subTitle}</p>
+                <Link to="/get-started/">
+                  <button>Get Started</button>
+                </Link>
+              </Col>
+            </Row>
+          </div>
         </Container>
       </section>
     </>

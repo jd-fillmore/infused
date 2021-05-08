@@ -1,7 +1,6 @@
 import React from "react"
-import { Container, Row, Col } from "reactstrap"
+import { Container, Row } from "reactstrap"
 import { Link } from "gatsby"
-import Button from "../../Button/button"
 
 import "../Intro/intro.scss"
 

@@ -4,10 +4,8 @@ import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
-import Featured from "../../components/Home/Featured/featured"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import featuredImg from "../img/featured-seo.png"
 
 import "../pages/work-specific.scss"
 

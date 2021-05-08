@@ -13,9 +13,16 @@
     margin-bottom: 20px;
   }
   img {
+    @include bp-tablet-sm {
+      width: 200px;
+      margin-bottom: 10px;
+    }
     &.seo {
       @media (min-width: 992px) {
         display: none;
+      }
+      @include bp-tablet-sm {
+        margin-left: 15px;
       }
     }
     &.seo-two {

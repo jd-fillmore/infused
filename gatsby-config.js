@@ -32,24 +32,11 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
     },
     {
-      resolve: `gatsby-plugin-facebook-pixel`,
-      options: {
-        pixelId: "152655503468234",
-      },
-    },
-    {
       resolve: `gatsby-plugin-react-helmet`,
     },
     {
       resolve: "gatsby-plugin-sitemap",
     },
-    // {
-    //   resolve: `gatsby-plugin-tawk.to`,
-    //   options: {
-    //     tawkId: "6091f715b1d5182476b5a922",
-    //     // get this from the tawk script widget
-    //   },
-    // },
     {
       resolve: "gatsby-plugin-preact",
     },

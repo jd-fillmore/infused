@@ -7,10 +7,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap"
 import "../Nav/nav.scss"
 

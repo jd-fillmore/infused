@@ -48,7 +48,11 @@ const Footer = () => {
               </p>
               <p>
                 Follow us on{" "}
-                <a href="https://www.instagram.com/infusedweb/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://www.instagram.com/infusedweb/"
+                  target="_blank"
+                >
                   Instagram
                 </a>
               </p>
