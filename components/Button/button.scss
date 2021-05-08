@@ -7,8 +7,9 @@ button {
   color: $dark-blue;
   border-radius: 50px !important;
   border: 2px solid $dark-purple;
-  font-size: 12px;
+  font-size: 20px !important;
   font-family: $body !important;
+  font-weight: bold;
   transition: 0.2s;
   &:focus,
   &:hover {

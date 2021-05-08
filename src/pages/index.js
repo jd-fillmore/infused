@@ -8,7 +8,6 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/niagara-web-design.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
@@ -108,10 +107,12 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Niagara Web Design and Marketing Agency | Infused</title>
+        <title>
+          Infused | Niagara Web Design, St. Catharines SEO Marketing Agency
+        </title>
         <meta
           name="description"
-          content="Affordable Niagara web design and marketing agency services from Infused based in St. Catharines. Elevate your marketing with Infused, today!"
+          content="Affordable Niagara web design and St. Catharines digital marketing agency services from Infused. Elevate your marketing with Infused, today!"
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
@@ -121,22 +122,9 @@ const Home = () => {
         titleTwo="Small Business Web Design &amp; Development"
         subTitle="100% hand-coded websites with far superior performance and security over a WordPress or page builder website starting at $170/mo for 1 year."
       />
-      {/* Intro Image */}
-      {/* <div className="container intro-pic">
-        <div className="row">
-          <div className="col-lg-5">&nbsp;</div>
-          <div className="col-lg-7">
-            <img
-              className="img-fluid"
-              src={featuredImg}
-              alt="niagara web design, small business digital marketing"
-            />
-          </div>
-        </div>
-      </div> */}
       <WhatWeDo
         title="Giving Small Businesses A Big Business Treatment"
-        subTitle="As a small business, we understand that your small business cannot fork out upfront thousands of dollars for a website. That's why we offer affordable web design solutions to fit your small business budget. Our websites are secure and are hand-coded for best performance, which helps bring in more leads and revenue through your website."
+        subTitle="As a small business, we understand that your small business in Niagara or St. Catharines cannot fork out upfront thousands of dollars for a website. That's why we offer affordable web design, SEO &amp; digital marketing solutions to fit your small business budget. Our websites are secure and are hand-coded for best performance, which helps bring in more leads and revenue through your website."
         boxOneTitle="Responsive"
         boxOneDesc="Your website will respond and adapt to any device - phone, tablet, desktop computer, you name it."
         boxOneImgAlt="websites"

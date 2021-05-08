@@ -2,6 +2,7 @@
 @import "../../src/pages/breakpoints.scss";
 
 .nav-link {
+  font-weight: bold;
   &:focus,
   &:hover {
     color: $purple;
@@ -64,7 +65,8 @@
   }
   a {
     color: $dark-grey !important;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     @include bp-tablet-sm {
       border-bottom: none !important;
     }
@@ -108,18 +110,19 @@
     color: #fff !important;
     border-radius: 50px !important;
     font-family: "Poppins", sans-serif !important;
+    font-weight: bold;
     transition: 0.2s;
     &:focus,
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-      background: $light-blue;
+      background: $purple;
     }
     @include bp-tablet-sm {
       background: $purple;
       margin-bottom: 10px;
       text-align: left;
-      width: 177px;
+      width: 215px;
     }
   }
   @media (min-width: 992px) {
