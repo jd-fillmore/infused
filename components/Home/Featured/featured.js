@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import Card from "../../Card/card"
-import featuredImg from "../../../src/img/niagara-web-design-1.jpg"
-import treeImg from "../../../src/img/web-design-st-catharines.jpg"
-import cassImg from "../../../src/img/niagara-digital-marketing.jpg"
+import featuredImg from "../../../src/img/niagara-web-design-1.webp"
+import treeImg from "../../../src/img/web-design-st-catharines.webp"
+import cassImg from "../../../src/img/niagara-digital-marketing.webp"
 
 import "../Featured/featured.scss"
 
@@ -72,6 +72,8 @@ const Featured = ({ title, subTitle }) => {
                       className="img-fluid"
                       src={project.pic}
                       alt={project.title}
+                      width="415"
+                      height="465"
                     />
                   </div>
                 </div>
