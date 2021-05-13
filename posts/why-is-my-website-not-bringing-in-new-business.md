@@ -1,7 +1,7 @@
 ---
 title: Why Is My Website Not Bringing In New Business?
 date: 2021-05-13T16:14:42.785Z
-slug: /why-website-isnt-converting-leads-into-customers/
+slug: /why-is-my-website-not-bringing-in-new-business/
 excerpt: We answer the question, "why is my website not bringing in new
   business?" in today's blog post. Click here to learn more
 ---
