@@ -23,9 +23,9 @@ const Clients = ({ title, subTitle }) => {
                 <TestimonialCard>
                   <p>
                     "Fantastic experience from start to end. JD is organized,
-                    thorough and professional. I highly recommend his company
-                    and services if you are thinking of building a website in
-                    the Niagara or St. Catharines area."
+                    thorough and professional. I highly recommend his company if
+                    you are thinking of needing his Niagara or St. Catharines
+                    web design &amp; SEO services."
                   </p>
                   <em>Harry Althorpe, TreeReports</em>
                 </TestimonialCard>
@@ -33,9 +33,9 @@ const Clients = ({ title, subTitle }) => {
                   <p>
                     "Great Job, WELL DONE. I'm very pleased with the SEO service
                     and the web design of my new web site. If you ever need a
-                    new web design for your St. Catharines business I do
-                    recommend Infused Agency for their services. JD keep up the
-                    great work. Thank you."
+                    new web design for your Niagara or St. Catharines business I
+                    do recommend Infused Agency for their services. JD keep up
+                    the great work. Thank you."
                   </p>
                   <em>Mr. Duarte, Cass-A-Bella Construction</em>
                 </TestimonialCard>

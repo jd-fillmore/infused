@@ -11,21 +11,21 @@ const projects = [
   {
     title: "TreeReports",
     desc:
-      "A local certified consulting arborist specializing in reports, planning and consulting.",
+      "A local certified Niagara consulting arborist specializing in reports, planning and consulting. Web design & SEO services rendered.",
     link: "/tree-reports",
     pic: featuredImg,
   },
   {
     title: "KD Flowers",
     desc:
-      "A boutique affordable wedding flower business in the heart of St. Catharines.",
+      "A boutique affordable wedding flower business in the heart of St. Catharines, Niagara. Web design & SEO services rendered.",
     link: "/kd-flowers",
     pic: treeImg,
   },
   {
     title: "Cass-A-Bella Construction",
     desc:
-      "A contracting company focused on custom home building and renovation in Toronto.",
+      "A contracting company focused on custom home building and renovation in Toronto. Web design, SEO & digital marketing services rendered.",
     link: "/cass-a-bella-construction",
     pic: cassImg,
   },

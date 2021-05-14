@@ -27,7 +27,7 @@ const Example = props => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="/" className="nav-link">
+              <Link to="/" title="Niagara Web Design" className="nav-link">
                 Home
               </Link>
             </NavItem>

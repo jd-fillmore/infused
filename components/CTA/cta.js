@@ -12,10 +12,10 @@ const CTA = () => {
         <Container>
           <Row className="text-center">
             <Col lg="12">
-              <h2>Affordable Website Packages</h2>
+              <h2>Affordable Niagara Web Design Packages</h2>
               <p id="sub">
-                Giving small businesses the big business treatment, for a
-                fraction of the price.
+                Giving Niagara small businesses the big business web design
+                treatment, for a fraction of the price.
               </p>
             </Col>
           </Row>
