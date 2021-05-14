@@ -110,7 +110,7 @@ const Home = () => {
         <title>Niagara Web Design, St. Catharines SEO Agency</title>
         <meta
           name="description"
-          content="Niagara web design, SEO &amp; digital marketing agency near you. We elevate your website and digital marketing at affordable prices."
+          content="Niagara web design, St. Catharines SEO &amp; digital marketing agency near you. We elevate your website and digital marketing at affordable prices."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>

@@ -85,7 +85,7 @@ const Footer = () => {
               </ul>
               <a href="mailto:hello@infused.agency">hello@infused.agency</a>
               <br />
-              <a class="phone" href="(905) 933-3115">
+              <a class="phone" href="tel:(905) 933-3115">
                 (905) 933-3115
               </a>
               <br />
