@@ -100,7 +100,7 @@ These links are extremely important when it comes to ranking in Google.
 
 You need <strong>relevant </strong>links from <b>highly authoritative </b>websites point back to your site, to see any sort of actual leverage and ultimately bump your website up in Google.
 
-Example - lets say you own a bakery and want to get some relevant, high quality back-links as part of your SEO strategies in order to beat out your local (or even non-local) competitors.
+Example - lets say you own a bakery and want to get some relevant, high quality back-links as part of your SEO strategies in order to beat out your <a href="/posts/how-can-i-improve-my-local-seo-results/">local</a> (or even non-local) competitors.
 
 What would be the better back-link to get:
 
