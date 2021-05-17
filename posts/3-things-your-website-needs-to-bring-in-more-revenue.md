@@ -30,7 +30,7 @@ Let me ask you - ever been to a website that looked sketchy? Or ever been to a s
 
 Yeah - that's a bad user experience. And that drives people away.
 
-Making sure that you have a website that not only looks modern and professional, but one that provides a crystal clear navigation through the website - is sure to win over customers.
+Making sure that you have a website that not only [looks modern and professional](/posts/how-do-we-boost-our-business-sales-with-web-design/), but one that provides a crystal clear [responsive (mobile-friendly)](/posts/what-are-best-practices-for-responsive-web-design/) navigation through the website - is sure to win over customers.
 
 ## Fast page load times
 
@@ -42,7 +42,7 @@ What do you and most other people do?
 
 Leave.
 
-You have to make sure your website's page loading times are up to snuff. Because if they're not, it just creates another roadblock for your potential customers. The more roadblocks you have on your website's overall experience, the higher chance they'll go somewhere else.
+You have to make sure your [website's page loading times](/posts/how-to-make-a-website-load-faster-with-pictures/) are up to snuff. Because if they're not, it just creates another roadblock for your potential customers. The more roadblocks you have on your website's overall experience, the higher chance they'll go somewhere else.
 
 ## Thoughtfully catered to your audience
 
@@ -50,7 +50,7 @@ So you have a website that has a modern design and is blazingly fast. What's the
 
 Content.
 
-Content is king. It's in the way that you express your business and speak to your audience. If your messaging and content is completely out of touch, you're going to lose people.;
+[Content is king](/posts/how-to-build-a-website-with-good-seo-in-mind/). It's in the way that you express your business and speak to your audience. If your messaging and content is completely out of touch, you're going to lose people.;
 
 However - if you have content that really does speak to your target audience, they're going to feel that.
 
