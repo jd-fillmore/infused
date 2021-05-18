@@ -1,10 +1,9 @@
 ---
 title: How do I make my website more user friendly?
-slug: /posts/how-do-i-make-my-website-more-user-friendly/
 date: 2019-04-08T14:01:54.132Z
-excerpt: >-
-  We answer the question, "how do I make my website more user friendly?" in
-  today's post. It is imperative as this directly correlates with business
+slug: /posts/how-do-i-make-my-website-more-user-friendly/
+excerpt: We answer the question, "how do I make my website more user friendly?"
+  in today's post. It is imperative as this directly correlates with business
   sales. Click here..
 ---
 One of the most important characteristics of a [good website](https://infused.agency) is making sure you improve [user experience](https://en.wikipedia.org/wiki/User_experience) for your customers. This is directly tied to trust, credibility and most importantly, [boosting sales](/seo). 
@@ -90,3 +89,6 @@ A design that is modern, clean with clear-cut call to actions will improve user 
 There you have it. Some of the best ways to improve user experience for customers is to ask what the customers want to see, increasing the speed of your website, improve your website accessibility, pack your website with educational content, create an easy-to-use navigation and provide a modern, clean web design.
 
 These are the fundamentals on how to improve the user experience on your website.
+
+
+(Shoutout - Our website is listed in webdesignlistings.org - <a href="https://www.webdesignlistings.org/Website-Design/C2-1-0.htm">Website Design Directory</a>)

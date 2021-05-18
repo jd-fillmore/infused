@@ -26,6 +26,8 @@ For example - if you're a plumber, the main point of having a high-converting bu
 
 On the other hand if you have an e-commerce website, a high-converting 'buy now' button is important to increase sales.
 
+If you're a local company and plan on engaging in [local SEO](/best-strategies-rank-higher-google-maps-pack/), this is even more important as you want local customers.
+
 ## What makes a call-to-action button high-converting?
 
 Any old button doesn't mean that it suddenly makes people click on it.
@@ -62,7 +64,7 @@ One of the best practices for high-converting call-to-action buttons are placing
 
 For example - right when a user hits your website, you would have a compelling title quickly explaining what your company does and how it can benefit your customer.
 
-And right under that, put a nice call to button with a strong adjective that compels the user to click.
+And right under that, put a nice call to button with a strong adjective that compels the user to click. Having a button directly beside a picture even helps, as pictures draw people in. If your [website's pictures load fast](/posts/how-to-make-a-website-load-faster-with-pictures/) and it's right beside a button, chances are it'll get clicked.
 
 Another example is if you're offering an incentive - a free quote, a discount, anything.
 
@@ -70,11 +72,11 @@ Directly under it, place the call-to-action.
 
 It makes sense to place call-to-action buttons in these areas, as people have short attention spans. Right when you offer an incentive, place the high-converting CTA button right underneath.
 
-You'll be guarenteed to get some clicks.
+You'll be guaranteed to get some clicks.
 
 ## 3. Stand out colour-wise
 
-Having a dull button doesn't work.
+Having a dull button doesn't work. Not to mention it may go against the [web's accessibility rules](/how-to-make-website-AODA-WCAG-accessible-compliant/).
 
 A dull button meaning lacking in colour. If your button reflects the same sort of dominant colour that's on the right of your website, it's not going to stand out.
 

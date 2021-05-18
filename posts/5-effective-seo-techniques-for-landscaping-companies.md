@@ -37,9 +37,9 @@ What landscaping company doesn't want that - right?
 
 ## Why is SEO so important for landscaping companies & landscapers?
 
-SEO - not only for for landscapers or landscaping companies, but just in general is so important in this day and age for a couple of reasons.
+SEO - not only for for landscapers or landscaping companies, but just in general is [so important](/posts/how-can-search-engine-optimization-help-my-business/) in this day and age for a couple of reasons.
 
-Two main reasons why SEO is important, especially local SEO
+Two main reasons why SEO is important, especially [local SEO](/posts/how-can-i-improve-my-local-seo-results/)
 
 * Having good search engine optimization for your landscaping company builds trust, credibility and authority in your local area
 * Good SEO means you attract local customers, consistently
@@ -62,7 +62,7 @@ They knew how valuable ranking on the first page of Google was, because they kne
 
 We obtained from [pretty good search engine optimization results](https://infused.agency/cass-a-bella-construction) for them, and at this point in time they rank not only in the Google Map pack, but also rank on the first page of Google for a number of different local keywords.
 
-SEO is so important for landscaping companies and landscapers because it positions their business where people are searching.
+[SEO is so important](/posts/what-is-the-best-method-to-drive-visitors-to-a-new-website/) for landscaping companies and landscapers because it positions their business where people are searching.
 
 And once you're there, you'll never have to worry about ebbs & flows in jobs again. Because you'll always be where people are looking.
 
