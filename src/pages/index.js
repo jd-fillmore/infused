@@ -107,22 +107,22 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Niagara Web Design, St. Catharines SEO Agency</title>
+        <title>Niagara Web Design, Affordable Websites St. Catharines</title>
         <meta
           name="description"
-          content="Niagara web design, St. Catharines SEO &amp; digital marketing agency near you. We elevate your website and digital marketing at affordable prices."
+          content="Best Niagara web design &amp; local St. Catharines website design company near you. We build local small business websites that actually make a difference."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <Nav />
       <Hero
-        title="Niagara Web Design, St. Catharines SEO Company &amp; Digital Marketing Agency"
-        titleTwo="Niagara Small Business Web Design &amp; SEO"
+        title="Niagara Web Design, Affordable Website Design St. Catharines"
+        titleTwo="Niagara Small Business Web Design"
         subTitle="100% hand-coded web designs with superior performance and security over a WordPress or page builder web design starting at $170/mo for your Niagara or St. Catharines business."
       />
       <WhatWeDo
         title="Giving Niagara Businesses A Big Business Treatment"
-        subTitle="As a small business in Niagara ourselves, we understand that your small business in Niagara or St. Catharines cannot fork out upfront thousands of dollars for a website. That's why we offer affordable Niagara web design, SEO &amp; digital marketing solutions to fit your small business budget. Our web designs are secure and are hand-coded for best performance, which helps bring in more local Niagara or St. Catharines leads near you and revenue through your website."
+        subTitle="As a small business in Niagara ourselves, we understand that your small business in Niagara or St. Catharines cannot fork out upfront thousands of dollars for a website. That's why we offer affordable Niagara web design solutions to fit your small business budget. Our web designs are secure and are hand-coded for best performance, which helps bring in more local Niagara or St. Catharines leads near you and revenue through your website."
         boxOneTitle="Responsive"
         boxOneDesc="Your website will respond and adapt to any device - phone, tablet, desktop computer, you name it."
         boxOneImgAlt="websites"
@@ -134,9 +134,9 @@ const Home = () => {
         boxThreeImgAlt="Optimized"
       />
       <Featured
-        title="Niagara Web Design &amp; SEO Projects"
+        title="Niagara Web Design Projects"
         subTitle={[
-          "Take a look and see the huge difference we've made to our Niagara & St. Catharines client's online existences, using a hand-coded modern web design and SEO practices.",
+          "Take a look and see the huge difference we've made to our Niagara & St. Catharines client's online existences, using a hand-coded modern web design practices.",
         ]}
       />
       <Clients title="Our happy Niagara &amp; St. Catharines clients" />
