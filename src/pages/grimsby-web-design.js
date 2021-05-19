@@ -45,17 +45,15 @@ const MCAesthetics = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Grimsby Web Design & SEO Marketing Company - Infused Agency
-        </title>
+        <title>Grimsby Web Design | Affordable Websites</title>
         <meta
           name="description"
-          content="Grimsby's best web design and SEO company around. 10+ years in business helping hundreds of clients. Click here to view portfolio."
+          content="Grimsby web design, affordable small business websites for your business. 10+ years in business helping hundreds of clients. Click here to get your free consultation!"
         />
       </Helmet>
       <Nav />
       <InnerHero
-        title="Grimsby Web Design & SEO Company"
+        title="Grimsby Web Design, Small Business Website Design"
         description="We help local Grimsby businesses drive traffic & increase revenue online."
       />
       <InnerContent>
@@ -267,7 +265,10 @@ const MCAesthetics = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  <h2>Our Websites Help Boost Your Credibility &amp; Sales</h2>
+                  <h2>
+                    Our Grimsby Web Designs Help Boost Your Credibility &amp;
+                    Sales
+                  </h2>
                   <p>
                     There are countless benefits as to how site can help not
                     only your business, but really any business. But, lets keep
@@ -379,7 +380,7 @@ const MCAesthetics = () => {
               <div className="container">
                 <div className="row text-center">
                   <div className="col-md-12">
-                    <h2>Need a website for your business?</h2>
+                    <h2>Need a website for your Grimsby business?</h2>
                     <p>
                       Fill out the form below and we'll get back to you as soon
                       as possible.

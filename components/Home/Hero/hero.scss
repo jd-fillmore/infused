@@ -13,12 +13,25 @@
   background-size: cover;
   padding: 200px 0px 120px 0px;
   margin-top: -105px;
-  text-align: center;
   @include bp-tablet-sm {
     background-position: unset;
     text-align: left;
-    padding: 90px 0px 40px 0px;
+    padding: 90px 0px 0px 0px;
     margin-top: 0px;
+  }
+  .card {
+    padding: 30px;
+    background: rgba($glow-blue, 0.7) !important;
+    button {
+      margin-top: 20px;
+      @include bp-tablet-sm {
+        margin-top: 10px;
+      }
+    }
+    @include bp-tablet-sm {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
   }
   h1,
   h2,
@@ -29,7 +42,6 @@
   p {
     padding: 10px 0px 20px 0px;
     font-size: 16px;
-    width: 70%;
     @include bp-tablet-sm {
       padding: 0px 0px 0px 0px;
       margin-bottom: 0px;
@@ -48,9 +60,8 @@
     }
   }
   h2 {
-    font-size: 60px;
+    font-size: 54px;
     padding: 20px 0px 10px 0px;
-    width: 70%;
     @include bp-tablet-sm {
       line-height: 1.3;
       margin-bottom: 0px;

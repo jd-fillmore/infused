@@ -116,7 +116,7 @@ const Home = () => {
       </Helmet>
       <Nav />
       <Hero
-        title="Niagara Web Design, Affordable Website Design St. Catharines"
+        title="Niagara Web Design, Local Affordable Website Design St. Catharines"
         titleTwo="Niagara Small Business Web Design"
         subTitle="100% hand-coded web designs with superior performance and security over a WordPress or page builder web design starting at $170/mo for your Niagara or St. Catharines business."
       />
