@@ -68,6 +68,13 @@ const KDFlowers = () => {
                     </li>
                   </ul>
                 </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://treereports.ca"
+                >
+                  Click here to view website
+                </a>
               </Col>
             </Row>
           </Container>

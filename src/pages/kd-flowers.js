@@ -65,6 +65,13 @@ const KDFlowers = () => {
                     <li>5,800 new people discovering website per month</li>
                   </ul>
                 </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://kdflowers.ca"
+                >
+                  Click here to view website
+                </a>
               </Col>
             </Row>
           </Container>

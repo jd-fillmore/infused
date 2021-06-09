@@ -71,6 +71,13 @@ const CassABella = () => {
                     <li>2,500 new people discovering website per month</li>
                   </ul>
                 </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://cass-a-bellaconstruction.com"
+                >
+                  Click here to view website
+                </a>
               </Col>
             </Row>
           </Container>
