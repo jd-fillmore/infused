@@ -1,4 +1,5 @@
 import React from "react"
+import Fade from "react-reveal/Fade"
 import { Container, Row, Col } from "reactstrap"
 
 import responsive from "../../../src/img/responsive.svg"
@@ -37,44 +38,52 @@ const WhatWeDo = ({
         <Container>
           <Row>
             <Col lg="12">
-              <h2>{title}</h2>
-              <p id="sub">{subTitle}</p>
-              <hr />
+              <Fade>
+                <h2>{title}</h2>
+                <p id="sub">{subTitle}</p>
+                <hr />
+              </Fade>
             </Col>
           </Row>
           <Row>
             <Col lg="4">
-              <img
-                src={responsive}
-                width="100"
-                height="100"
-                className="img-fluid"
-                alt={boxOneImgAlt}
-              />
-              <h3>{boxOneTitle}</h3>
-              <p>{boxOneDesc}</p>
+              <Fade>
+                <img
+                  src={responsive}
+                  width="100"
+                  height="100"
+                  className="img-fluid"
+                  alt={boxOneImgAlt}
+                />
+                <h3>{boxOneTitle}</h3>
+                <p>{boxOneDesc}</p>
+              </Fade>
             </Col>
             <Col lg="4">
-              <img
-                src={optimize}
-                width="100"
-                height="100"
-                className="img-fluid"
-                alt={boxTwoImgAlt}
-              />
-              <h3>{boxTwoTitle}</h3>
-              <p>{boxTwoDesc}</p>
+              <Fade delay={300}>
+                <img
+                  src={optimize}
+                  width="100"
+                  height="100"
+                  className="img-fluid"
+                  alt={boxTwoImgAlt}
+                />
+                <h3>{boxTwoTitle}</h3>
+                <p>{boxTwoDesc}</p>
+              </Fade>
             </Col>
             <Col lg="4">
-              <img
-                src={secure}
-                width="100"
-                height="100"
-                className="img-fluid"
-                alt={boxThreeImgAlt}
-              />
-              <h3>{boxThreeTitle}</h3>
-              <p>{boxThreeDesc}</p>
+              <Fade delay={600}>
+                <img
+                  src={secure}
+                  width="100"
+                  height="100"
+                  className="img-fluid"
+                  alt={boxThreeImgAlt}
+                />
+                <h3>{boxThreeTitle}</h3>
+                <p>{boxThreeDesc}</p>
+              </Fade>
             </Col>
           </Row>
         </Container>

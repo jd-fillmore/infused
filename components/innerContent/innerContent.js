@@ -1,11 +1,14 @@
 import React from "react"
+import Fade from "react-reveal/Fade"
 
 import "../innerContent/inner-content.scss"
 
 const InnerContent = props => {
   return (
     <>
-      <section className="inner-content">{props.children}</section>
+      <Fade>
+        <section className="inner-content">{props.children}</section>
+      </Fade>
     </>
   )
 }
