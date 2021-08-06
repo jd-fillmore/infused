@@ -107,10 +107,10 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Niagara Web Design Agency, St. Catharines SEO Company</title>
+        <title>Niagara Web Design &amp; SEO Agency, St. Catharines</title>
         <meta
           name="description"
-          content="Best Niagara web design agency &amp; local St. Catharines SEO company near you. We build local small business websites that actually make a difference."
+          content="Best Niagara web design &amp; SEO agency near you, local to St. Catharines. We build local small company websites that actually make a difference."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
