@@ -1,0 +1,9 @@
+@import "../../../src/pages/variables.scss";
+@import "../../../src/pages/breakpoints.scss";
+
+.faq {
+  padding: 120px 0px 60px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 0px 0px;
+  }
+}

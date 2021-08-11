@@ -13,21 +13,16 @@
     color: $grey;
   }
   p {
-    &#sub {
-      width: 75%;
-      text-align: center;
+    &.sub {
       margin: 0 auto;
-      padding-top: 20px;
-      @include bp-tablet-sm {
-        text-align: left;
-        width: 100%;
-      }
+      padding-bottom: 60px;
     }
   }
   h2 {
-    font-size: 60px;
+    font-size: 40px;
     @include bp-tablet-sm {
       text-align: left;
+      line-height: 1.4;
     }
   }
   h3 {
@@ -66,6 +61,21 @@
   .hide-desktop {
     @media (min-width: 992px) {
       display: none;
+    }
+  }
+  .what-makes {
+    padding: 60px 0px 60px 0px;
+    @include bp-tablet-sm {
+      padding: 20px 0px 20px 0px;
+    }
+    ul {
+      margin-bottom: 10px;
+    }
+  }
+  .what-kind {
+    padding: 60px 0px 0px 0px;
+    @include bp-tablet-sm {
+      padding: 20px 0px 20px 0px;
     }
   }
 }

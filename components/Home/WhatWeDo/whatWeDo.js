@@ -31,17 +31,27 @@ const WhatWeDo = ({
   boxFourImg,
   boxFourImgAlt,
   boxFourLink,
+  whatTitle,
+  whatText,
+  servicesTitle,
+  servicesText,
+  whatKindTitle,
+  whatKindText,
 }) => {
+  const reasons = [
+    "A web design that ranks on the first page of Google",
+    "A web design's message sthat aligns with your customers",
+    "A web design that converts users into paying customers",
+  ]
   return (
     <>
-      <section className="what-we-do text-center">
+      <section className="what-we-do">
         <Container>
           <Row>
             <Col lg="12">
               <Fade>
                 <h2>{title}</h2>
-                <p id="sub">{subTitle}</p>
-                <hr />
+                <p className="sub">{subTitle}</p>
               </Fade>
             </Col>
           </Row>
@@ -83,6 +93,36 @@ const WhatWeDo = ({
                 />
                 <h3>{boxThreeTitle}</h3>
                 <p>{boxThreeDesc}</p>
+              </Fade>
+            </Col>
+          </Row>
+          <Row className="what-makes">
+            <Col lg="12">
+              <Fade>
+                <h2>{whatTitle}</h2>
+                <p id="sub">{whatText}</p>
+
+                <ul>
+                  {reasons.map(reason => (
+                    <li>{reason}</li>
+                  ))}
+                </ul>
+              </Fade>
+            </Col>
+          </Row>
+          <Row className="services">
+            <Col lg="12">
+              <Fade>
+                <h2>{servicesTitle}</h2>
+                <p id="sub">{servicesText}</p>
+              </Fade>
+            </Col>
+          </Row>
+          <Row className="what-kind">
+            <Col lg="12">
+              <Fade>
+                <h2>{whatKindTitle}</h2>
+                <p id="sub">{whatKindText}</p>
               </Fade>
             </Col>
           </Row>
