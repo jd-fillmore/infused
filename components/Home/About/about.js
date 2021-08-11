@@ -50,7 +50,14 @@ const About = ({
                   <p>{qThreeAns}</p>
                   <h4>{qFour}</h4>
                   <p>{qFourAns}</p>
-                  {mapURL}
+                  <iframe
+                    src={mapURL}
+                    title={city}
+                    width="100%"
+                    height="450"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></iframe>
                 </Col>
               </Row>
             </Fade>
