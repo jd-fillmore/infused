@@ -17,7 +17,7 @@ const Hero = ({ titleTwo, subTitle }) => {
                   <h1>{titleTwo}</h1>
                   <p>{subTitle}</p>
                   <Link to="/get-started/">
-                    <button>Free Consultation</button>
+                    <button>Get A Quote</button>
                   </Link>
                 </Col>
               </Row>

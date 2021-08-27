@@ -21,7 +21,7 @@ const GetEvaluation = () => {
       <Nav />
       <InnerHero
         title="Get Started"
-        description="Ready to start your project? Fill out the form below to get your free consultation."
+        description="Ready to start your project? Fill out the form below to get started."
       />
       <InnerContent>
         <Container>
