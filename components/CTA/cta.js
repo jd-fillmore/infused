@@ -9,7 +9,7 @@ import "../CTA/cta.scss"
 const CTA = () => {
   return (
     <>
-      <section className="cta">
+      {/* <section className="cta">
         <Container>
           <Row className="text-center">
             <Col lg="12">
@@ -131,7 +131,7 @@ const CTA = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </>
   )
 }

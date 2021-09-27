@@ -111,8 +111,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Niagara Web Design | St. Catharines Website Designer | Local Web
-          Designers Near Me Niagara, ON
+          Niagara Web Design | #1 Website Design St. Catharines | Infused
         </title>
         <meta
           name="description"
@@ -122,8 +121,8 @@ const Home = () => {
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="Niagara Web Design | St. Catharines Website Designer"
-        subTitle="Looking for a local, affordable web design company located in the St. Catharines, Niagara Region? We offer 100% hand-coded web designs with superior performance and security over a WordPress web design or page builder web design starting at $170/mo for your Niagara or St. Catharines business."
+        titleTwo="We're Infused. A Niagara Web Design Company."
+        subTitle="We're a top web design agency based in St. Catharines, Niagara. We create websites that work."
       />
       <WhatWeDo
         title="Web Design Services in Niagara, St. Catharines"
