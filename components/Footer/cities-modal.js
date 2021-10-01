@@ -16,10 +16,7 @@ const CitiesModal = () => {
         <ModalBody>
           <h5>Local Areas Served</h5>
           <p>
-            <Link to="/binbrook-web-design">Binbrook</Link>,{" "}
-            <Link to="/crystal-beach-web-design">Crystal Beach</Link>,{" "}
-            <Link to="/elora-web-design">Elora</Link>,{" "}
-            <Link to="/fergus-web-design">Fergus</Link>,{" "}
+            <Link to="/crystal-beach-web-design">Crystal Beach</Link>, s
             <Link to="/fonthill-web-design">Fonthill</Link>,{" "}
             <Link to="/fort-erie-web-design">Fort Erie</Link>,{" "}
             <Link to="/grimsby-web-design">Grimsby</Link>,{" "}
