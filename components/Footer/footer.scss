@@ -29,4 +29,11 @@
       margin: 1.75rem auto;
     }
   }
+  .phone {
+    color: $dark-blue;
+    &:hover {
+      border-bottom: none !important;
+      cursor: none;
+    }
+  }
 }
