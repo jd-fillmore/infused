@@ -40,7 +40,7 @@ const WhatWeDo = ({
 }) => {
   const reasons = [
     "A web design that ranks on the first page of Google",
-    "A web design's message sthat aligns with your customers",
+    "A web design's message that aligns with your customers",
     "A web design that converts users into paying customers",
   ]
   return (
@@ -101,12 +101,6 @@ const WhatWeDo = ({
               <Fade>
                 <h2>{whatTitle}</h2>
                 <p id="sub">{whatText}</p>
-
-                <ul>
-                  {reasons.map(reason => (
-                    <li>{reason}</li>
-                  ))}
-                </ul>
               </Fade>
             </Col>
           </Row>
