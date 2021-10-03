@@ -1,0 +1,92 @@
+@import "../../../src/pages/variables.scss";
+@import "../../../src/pages/breakpoints.scss";
+
+.home-results {
+  background: $dark-blue;
+  padding: 120px 0px 0px 0px;
+  @include bp-tablet-sm {
+    padding: 20px 0px 20px 0px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    &.top {
+      @include bp-tablet-sm {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  h2,
+  h3,
+  p {
+    color: $grey;
+  }
+  p {
+    text-align: center;
+    &.sub {
+      margin: 0 auto;
+      padding-bottom: 60px;
+    }
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    @include bp-tablet-sm {
+      text-align: left;
+      line-height: 1.4;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  hr {
+    border: 1px solid $purple;
+    width: 75px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @include bp-tablet-sm {
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  }
+  span {
+    background: linear-gradient(
+      to top,
+      rgba($light-blue, 0.4) 40%,
+      transparent 40%
+    );
+    padding: 0px 5px 0px 5px;
+  }
+  .item {
+    align-items: center;
+    p {
+      color: rgba($white, 0.8);
+    }
+  }
+  .hide-mobile {
+    @include bp-tablet-sm {
+      display: none;
+    }
+  }
+  .hide-desktop {
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+  .what-makes {
+    padding: 60px 0px 60px 0px;
+    @include bp-tablet-sm {
+      padding: 20px 0px 20px 0px;
+    }
+    ul {
+      margin-bottom: 10px;
+    }
+  }
+  .what-kind {
+    padding: 60px 0px 0px 0px;
+    @include bp-tablet-sm {
+      padding: 20px 0px 20px 0px;
+    }
+  }
+}

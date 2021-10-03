@@ -2,6 +2,7 @@ import React from "react"
 import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Home/Hero/hero"
 import Featured from "../../components/Home/Featured/featured"
+import Results from "../../components/Home/Results/results"
 import WhatWeDo from "../../components/Home/WhatWeDo/whatWeDo"
 import Clients from "../../components/Home/Clients/clients"
 import FAQ from "../../components/Home/FAQ/faq"
@@ -123,6 +124,10 @@ const Home = () => {
       <Hero
         titleTwo="Niagara Web Design."
         subTitle="We're a top web design &amp; development agency based in St. Catharines, Niagara. We create websites that work."
+      />
+      <Results
+        title="Featured Niagara Web Design Results"
+        subTitle="We create websites that rank well in Google and bring our clients more revenue."
       />
       <WhatWeDo
         title="Web Design Services in Niagara, St. Catharines"
