@@ -121,7 +121,7 @@ const Home = () => {
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="We're Infused. A Niagara Web Design Agency."
+        titleTwo="Niagara Web Design."
         subTitle="We're a top web design &amp; development agency based in St. Catharines, Niagara. We create websites that work."
       />
       <WhatWeDo
