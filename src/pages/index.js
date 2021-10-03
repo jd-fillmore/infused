@@ -111,18 +111,18 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Niagara Web Design | #1 Website Design St. Catharines | Infused
+          Niagara Web Design Agency | Web Development Company St. Catharines
         </title>
         <meta
           name="description"
-          content="Niagara web design &amp; local St. Catharines website design company near you. We build local small business websites that actually make a difference."
+          content="Niagara web design agency that drives results! A St. Catharines website development company near you that creates websites that actually make a difference."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="We're Infused. A Niagara Web Design Company."
-        subTitle="We're a top web design agency based in St. Catharines, Niagara. We create websites that work."
+        titleTwo="We're Infused. A Niagara Web Design Agency."
+        subTitle="We're a top web design &amp; development agency based in St. Catharines, Niagara. We create websites that work."
       />
       <WhatWeDo
         title="Web Design Services in Niagara, St. Catharines"
