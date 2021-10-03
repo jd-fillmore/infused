@@ -58,4 +58,20 @@
     );
     padding: 0px 5px 0px 5px;
   }
+  form {
+    background: rgba($glow-blue, 0.8);
+    padding: 20px;
+  }
+  h4 {
+    &.consult {
+      text-align: center;
+      color: $dark-blue !important;
+      margin-bottom: 0px;
+      background: $dark-purple;
+      padding: 20px;
+      @include bp-tablet-sm {
+        margin-top: 20px;
+      }
+    }
+  }
 }
