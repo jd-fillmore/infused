@@ -150,7 +150,7 @@ const Home = () => {
           <Link to="/why-is-my-website-not-bringing-in-new-business/">
             web design
           </Link>,
-          " can be:",
+          " can be a web design that doesn't rank on the first page of Google. A web design message that doesn't align with your customers, or a web design that doesn't convert users into paying customers.",
         ]}
         servicesTitle="Web Design & Development Company in St. Catharines, Niagara"
         servicesText={[
