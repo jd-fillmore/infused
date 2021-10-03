@@ -28,7 +28,7 @@ const pages = [
     link: "/posts",
   },
   {
-    name: "Get A Quote",
+    name: "Free Consultation",
     link: "/get-started",
   },
 ]

@@ -19,34 +19,41 @@
     padding: 120px 0px 80px 0px;
     margin-top: 0px;
   }
+  p {
+    &.results {
+      font-weight: 800;
+      font-size: 24px;
+    }
+  }
+  h4 {
+    &.consult {
+      text-align: center;
+      color: $dark-blue !important;
+      margin-bottom: 0px;
+      background: $dark-purple;
+      padding: 20px;
+    }
+  }
   .card {
     padding: 30px;
-    background: rgba($glow-blue, 0.7) !important;
-    button {
-      margin-top: 20px;
-      @include bp-tablet-sm {
-        margin-top: 10px;
-      }
-    }
+    background: $glow-blue !important;
+    text-align: left;
     @include bp-tablet-sm {
       margin-top: 20px;
       margin-bottom: 0;
     }
+    p {
+      margin-top: 0px;
+    }
+  }
+  #card-result {
+    margin-bottom: 0px;
+    background: rgba($glow-blue, 0.4) !important;
   }
   h1,
   h2,
   p {
     color: $dark-grey !important;
-    margin: 0 auto;
-  }
-  p {
-    padding: 10px 0px 20px 0px;
-    font-size: 16px;
-    @include bp-tablet-sm {
-      padding: 0px 0px 0px 0px;
-      margin-bottom: 0px;
-      width: 100%;
-    }
   }
   h1 {
     padding: 30px 0px s0px 0px;
@@ -76,8 +83,10 @@
   }
   ul {
     margin-bottom: 0px;
-    list-style: none;
-    padding-inline-start: 0px;
+    padding-inline-start: 20px;
+    li {
+      color: $dark-blue;
+    }
   }
   span {
     font-weight: bold;
@@ -97,6 +106,10 @@
       z-index: 1;
       margin-top: 20px;
     }
+  }
+  form {
+    background: rgba($glow-blue, 0.8);
+    padding: 20px;
   }
 }
 
