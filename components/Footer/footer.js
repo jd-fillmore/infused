@@ -72,7 +72,9 @@ const Footer = () => {
               <h3>Services</h3>
               <ul>
                 <li>Websites</li>
-                <li>SEO</li>
+                <li>
+                  <a href="seo-niagara">SEO</a>
+                </li>
                 <li>Digital Marketing</li>
               </ul>
             </Col>
