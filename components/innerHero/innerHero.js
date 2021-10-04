@@ -8,7 +8,7 @@ import "../innerHero/inner-hero.scss"
 const InnerHero = ({ title, description }) => {
   return (
     <>
-      <section className="inner-hero text-center">
+      <section className="inner-hero">
         <Container>
           <Row>
             <Col lg="6">
