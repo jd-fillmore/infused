@@ -111,7 +111,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Niagara Web Design | Web Design St. Catharines</title>
+        <title>Niagara Web Design | Web Designer St. Catharines</title>
         <meta
           name="description"
           content="Niagara web design agency that drives results! A web design St. Catharines company near you that creates websites that actually make a difference."
