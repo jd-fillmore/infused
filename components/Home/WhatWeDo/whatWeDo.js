@@ -38,11 +38,6 @@ const WhatWeDo = ({
   whatKindTitle,
   whatKindText,
 }) => {
-  const reasons = [
-    "A web design that ranks on the first page of Google",
-    "A web design's message that aligns with your customers",
-    "A web design that converts users into paying customers",
-  ]
   return (
     <>
       <section className="what-we-do">

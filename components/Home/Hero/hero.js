@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
 import Form from "../../Form/form"
 import Fade from "react-reveal/Fade"
 
