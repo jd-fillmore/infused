@@ -3,9 +3,9 @@
 
 .clients {
   background: $dark-grey;
-  padding: 0px 0px 120px 0px;
+  padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {
-    padding: 0px 0px 30px 0px;
+    padding: 70px 0px 30px 0px;
   }
   h2,
   p {

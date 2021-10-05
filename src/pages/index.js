@@ -123,6 +123,12 @@ const Home = () => {
         titleTwo="Niagara Web Design."
         subTitle="We're a top web design &amp; development agency based in St. Catharines, Niagara. We create websites that work."
       />
+      <Featured
+        title="Niagara Web Design Projects"
+        subTitle={[
+          "Take a look and see the huge difference we've made to our Niagara & St. Catharines client's online existences, using a hand-coded modern web design practices.",
+        ]}
+      />
       <Results
         title="Featured Niagara Web Design Results"
         subTitle="We create websites that rank well in Google and bring our clients more revenue."
@@ -166,12 +172,7 @@ const Home = () => {
           "Whether you want to update the look of your website with a custom web design or need to manage your current website, we can do it all. We strive to create a quality web design that helps bring in new Niagara or St. Catharines clients to your business. You will have a highly professional and skilled web designer, web developer and SEO who can answer any web design questions you may have when it comes to your new Niagara or St. Catharines web design.For web design and web development, call on our trusted professionals. We're here to assess your current web design and provide our own web design solutions to help your Niagara or St. Catharines business.",
         ]}
       />
-      <Featured
-        title="Niagara Web Design Projects"
-        subTitle={[
-          "Take a look and see the huge difference we've made to our Niagara & St. Catharines client's online existences, using a hand-coded modern web design practices.",
-        ]}
-      />
+
       <Clients title="Our happy Niagara &amp; St. Catharines clients" />
       <FAQ />
       <About
