@@ -1,38 +1,79 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
+import { Link } from "gatsby"
+import Button from "../../components/Button/button"
 import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Home/Hero/hero"
 import Featured from "../../components/Home/Featured/featured"
+import WhatWeDo from "../../components/Home/WhatWeDo/whatWeDo"
 import Process from "../../components/Home/Process/process"
 import TestimonialCard from "../../components/testimonialCard/testimonialCard"
-import CTA from "../../components/CTA/cta"
+import ctaSVG from "../../src/img/cta.svg"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/niagara-web-design.png"
+import featuredImg from "../img/elora-web-design.png"
+import websiteSVG from "../img/websites.svg"
+import seoSVG from "../img/seo.svg"
+import strategySVG from "../img/strategy.svg"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
-import Footer from "../../components/Footer/footer"
+
+const pages = [
+  {
+    name: "About Us",
+    link: "/about",
+  },
+  {
+    name: "How We Work",
+    link: "/how-we-work",
+  },
+  {
+    name: "Our Work",
+    link: "/work",
+  },
+]
+
+const services = [
+  {
+    name: "Modern Websites",
+    link: "/websites",
+  },
+  {
+    name: "Local SEO",
+    link: "/seo",
+  },
+  {
+    name: "Digital Marketing Consulting",
+    link: "/digital-strategy",
+  },
+]
 
 const City = () => {
   return (
     <>
       <Helmet>
-        <title>Beamsville Web Design &amp; SEO | Infused</title>
+        <title>Elora Web Design & SEO Marketing Company - Infused Agency</title>
         <meta
           name="description"
-          content="Beamsville's leading web design &amp; SEO marketing agency. We're a website design agency thats brings more sales to your Beamsville company."
+          content="Elora's leading web design &amp; SEO marketing agency. We're a website design agency thats brings more sales to your Elora company."
         />
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="Web Design Beamsville, SEO"
-        subTitle="We do modern web design &amp; build modern websites to help you grow your Beamsville company."
+        seoTitle="A Elora Website Design &amp; Web Development Company"
+        title="Effective Web Design For Your Elora Company."
+        subTitle="We do modern web design &amp; build modern websites to help you grow your Elora company."
         btnText="Get Started"
         btnLink="/get-started"
       />
       <Featured
-        title="Featured Web Design & SEO Clients"
+        title="Featured Web Design Client"
+        subTitle={[
+          "Take a look and see the ",
+          <span>huge difference</span>,
+          "we've made to KD Flower's online existence by bringing them leads from the Elora area, by utilizing modern web design and SEO practices.",
+        ]}
         viewsValue="10,700"
         viewsText="website views per month"
         leadsValue="20,000%"
@@ -40,11 +81,11 @@ const City = () => {
         peopleValue="5,800"
         peopleText="people discovering website per month"
         img={featuredImg}
-        imgAlt="Beamsville web design"
+        imgAlt="Elora web design"
         testimonial={[
           "Infused created the ",
           <span>perfect web design</span>,
-          "for my  floral business. Many of my clients come from Beamsville and I was very happy with their ",
+          "for my  floral business. Many of my clients come from Elora and I was very happy with their ",
           <span>professional work ethic</span>,
           "and ",
           <span>great communication!</span>,
@@ -52,19 +93,50 @@ const City = () => {
         btnText="View More Case Studies"
         btnLink="/work"
       />
+      <WhatWeDo
+        title="What Our Elora Web Designers Can Do For You"
+        subTitle="Whether you need an professional Elora web design to showcase your services in Elora or want more local Elora customers from your website design - we can build you a web design that's tailor-made to your business needs."
+        boxOneTitle={[
+          "Bespoke web design built to ",
+          <span>convert your Elora visitors</span>,
+          ".",
+        ]}
+        boxOneDesc="We do modern web design &amp; website development for Elora companies that help convert Elora users into paying customers."
+        boxOneImg={websiteSVG}
+        boxOneImgAlt="websites"
+        boxOneLink="/websites"
+        boxTwoTitle={[
+          "SEO to ",
+          <span>drive local customers</span>,
+          " to your Elora website.",
+        ]}
+        boxTwoDesc="Getting local Elora traffic through SEO to your modern web design helps bring you more revenue."
+        boxTwoImg={seoSVG}
+        boxTwoImgAlt="seo provider st catharines"
+        boxTwoLink="/seo"
+        boxThreeTitle={[
+          "Digital strategy to help bring you ",
+          <span>more revenue in Elora</span>,
+          ".",
+        ]}
+        boxThreeDesc="Helping your Elora business navigate through the digital world to help maximize profits."
+        boxThreeImg={strategySVG}
+        boxThreeImgAlt="digital strategy agency Elora, st catharines"
+        boxThreeLink="/digital-strategy"
+      />
       <Process
-        title="How Our Beamsville Web Design Process Works"
+        title="How Our Web Design Process Works"
         subTitle="If we didn't have a thought-out web design process, then we'd be all over the place."
         titleOne="1. Discuss"
         subTitleOne="We get to know you and your project needs."
-        descOne="On a quick 15-20 minute call, we discuss and extract everything you're interested in for your Beamsville business. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO or digital strategy, we gather all of the necessary information for your project."
+        descOne="On a quick 15-20 minute call, we discuss and extract everything you're interested in for your Elora business. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO or digital strategy, we gather all of the necessary information for your project."
         titleTwo="2. Project Evaluation"
         subTitleTwo="Deep-dive project evaluation with bespoke recommendations."
         descTwo={[
-          "Virtually all digital and web design agencies offer a project proposal - not us. Enter the Project Evaluation. We want to thoroughly get to know your company, your business goals in the Beamsville area and what you'd like to accomplish with your project.",
+          "Virtually all digital and web design agencies offer a project proposal - not us. Enter the Project Evaluation. We want to thoroughly get to know your company, your business goals in the Elora area and what you'd like to accomplish with your project.",
           <br />,
           <br />,
-          "Based on our in-depth research and findings, we will offer you extremely detailed recommendations on how to move forward. If you agree to move forward with us, we get the important stuff signed, requirements delivered and the project is underway for your new Beamsville web design or SEO project.",
+          "Based on our in-depth research and findings, we will offer you extremely detailed recommendations on how to move forward. If you agree to move forward with us, we get the important stuff signed, requirements delivered and the project is underway for your new Elora web design or SEO project.",
         ]}
         titleThree="3. Get To Work"
         subTitleThree="Time to get our hands dirty."
@@ -79,7 +151,7 @@ const City = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <h2>Benefits of having a modern Beamsville website design</h2>
+              <h2>Benefits of having a modern Elora website design</h2>
               <p>
                 Having just any website online doesn't cut it anymore. You need
                 to impress your customers, and having a modern website design
@@ -110,15 +182,15 @@ const City = () => {
                 likely they'll contact your company to do business with you.
               </p>
               <h3>
-                Your Beamsville web design will build trust and credibility for
-                your company
+                Your modern web design will build trust and credibility for your
+                company
               </h3>
               <p>
-                With so many Beamsville businesses competing for eachother's
+                With so many Elora businesses competing for eachother's
                 customer-base, it's extremely important your company stands out.
                 <br />
                 <br />
-                Imagine two different scenarios.
+                Image two different scenarios.
                 <br />
                 <br />
                 The first scenario being that a customer goes to one website,
@@ -186,32 +258,30 @@ const City = () => {
                 again ranking higher.
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23282.93610835877!2d-79.49632748592452!3d43.15981971502678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ca6a63bd9bd41%3A0x22e434fb6db3b5f!2sBeamsville%2C%20Lincoln%2C%20ON!5e0!3m2!1sen!2sca!4v1633405138176!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11541.018955237982!2d-80.4295471070635!3d43.68446721428322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b95680b5de4e3%3A0xca7090c4f856ac1a!2sElora%2C%20ON!5e0!3m2!1sen!2sca!4v1609179730257!5m2!1sen!2sca"
                 width="100%"
-                title="Beamsville web design"
+                title="Elora map"
                 height="450"
-                style="border:0;"
+                frameborder="0"
                 allowfullscreen=""
-                loading="lazy"
+                aria-hidden="false"
               ></iframe>
             </Col>
           </Row>
         </Container>
       </section>
       <section className="clients text-center">
-        <br />
-        <br />
         <Container>
           <Row>
             <Col lg="12">
-              <h2>Our Happy Web Design Clients In Or Near Beamsville</h2>
+              <h2>Our Happy Web Design Clients In Or Near Elora</h2>
               <hr />
               <div>
                 <TestimonialCard>
                   <p>
                     "Great Job, WELL DONE. I'm very pleased with the SEO service
                     and the web design of my new web site. If you ever need a
-                    new web design for your Beamsville business I do recommend
+                    new web design for your Elora business I do recommend
                     Infused Agency for their services. JD keep up the great
                     work. Thank you."
                   </p>
@@ -223,7 +293,7 @@ const City = () => {
                   <p>
                     "Amazing experience, really helped to elevate my business
                     and I would highly recommend working with them for all of
-                    your Beamsville web design and SEO needs!!"
+                    your Elora web design and SEO needs!!"
                   </p>
                   <em>Lauren Emberson, Lauren Emberson Photography</em>
                 </TestimonialCard>
@@ -257,8 +327,90 @@ const City = () => {
           </Row>
         </Container>
       </section>
-      <CTA />
-      <Footer />
+      <section className="cta">
+        <Container>
+          <Row>
+            <Col lg="5">
+              <h2>
+                Ready to <span>start</span> your project?
+              </h2>
+              <p>
+                Get in touch with us for a free quote regarding your Elora web
+                design or SEO project today.
+              </p>
+              <Link to="/get-started">
+                <Button>Get Started</Button>
+              </Link>
+            </Col>
+            <Col lg="7">
+              <img
+                width="635"
+                height="335"
+                className="img-fluid"
+                src={ctaSVG}
+                alt="book a project"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="footer">
+        <Container>
+          <Row>
+            <Col lg="4">
+              <h3>About</h3>
+              <p>
+                Infused Agency is an SEO, digital marketing and web design
+                agency serving the Elora area. We help local and non-local
+                businesses build their credibility online, as well as help bring
+                in more sales.
+              </p>
+            </Col>
+            <Col lg="2">
+              <h3>Pages</h3>
+              <ul>
+                {pages.map(page => (
+                  <li>
+                    <Link to={page.link}>{page.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Col>
+            <Col lg="2">
+              <h3>Services</h3>
+              <ul>
+                {services.map(service => (
+                  <li>
+                    <Link to={service.link}>{service.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Col>
+            <Col lg="2">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  <Link to="/get-started">Get Started</Link>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="12">
+              <h3>Hours</h3>
+              <ul>
+                <li>Monday - 9a.m.-6p.m.</li>
+                <li>Tuesday - 9a.m.-6p.m.</li>
+                <li>Wednesday - 9a.m.-6p.m.</li>
+                <li>Thursday - 9a.m.-6p.m.</li>
+                <li>Friday - 9a.m.-6p.m.</li>
+                <li>Saturday - Closed</li>
+                <li>Sunday - Closed</li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   )
 }

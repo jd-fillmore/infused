@@ -1,24 +1,61 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
+import { Link } from "gatsby"
+import Button from "../../components/Button/button"
 import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Home/Hero/hero"
 import Featured from "../../components/Home/Featured/featured"
+import WhatWeDo from "../../components/Home/WhatWeDo/whatWeDo"
 import Process from "../../components/Home/Process/process"
 import TestimonialCard from "../../components/testimonialCard/testimonialCard"
-import CTA from "../../components/CTA/cta"
+import ctaSVG from "../../src/img/cta.svg"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/niagara-web-design.png"
+import featuredImg from "../img/crystal-beach-web-design.png"
+import websiteSVG from "../img/websites.svg"
+import seoSVG from "../img/seo.svg"
+import strategySVG from "../img/strategy.svg"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
-import Footer from "../../components/Footer/footer"
+
+const pages = [
+  {
+    name: "About Us",
+    link: "/about",
+  },
+  {
+    name: "How We Work",
+    link: "/how-we-work",
+  },
+  {
+    name: "Our Work",
+    link: "/work",
+  },
+]
+
+const services = [
+  {
+    name: "Modern Websites",
+    link: "/websites",
+  },
+  {
+    name: "Local SEO",
+    link: "/seo",
+  },
+  {
+    name: "Digital Marketing Consulting",
+    link: "/digital-strategy",
+  },
+]
 
 const City = () => {
   return (
     <>
       <Helmet>
-        <title>Crystal Beach Web Design &amp; SEO | Infused</title>
+        <title>
+          Crystal Beach Web Design & SEO Marketing Company - Infused Agency
+        </title>
         <meta
           name="description"
           content="Crystal Beach's leading web design &amp; SEO marketing agency. We're a website design agency thats brings more sales to your Crystal Beach company."
@@ -26,13 +63,19 @@ const City = () => {
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="Web Design Crystal Beach, SEO"
+        seoTitle="A Crystal Beach Website Design &amp; Web Development Company"
+        title="Effective Web Design For Your Crystal Beach Company."
         subTitle="We do modern web design &amp; build modern websites to help you grow your Crystal Beach company."
         btnText="Get Started"
         btnLink="/get-started"
       />
       <Featured
-        title="Featured Web Design & SEO Clients"
+        title="Featured Web Design Client"
+        subTitle={[
+          "Take a look and see the ",
+          <span>huge difference</span>,
+          "we've made to KD Flower's online existence by bringing them leads from the Crystal Beach area, by utilizing modern web design and SEO practices.",
+        ]}
         viewsValue="10,700"
         viewsText="website views per month"
         leadsValue="20,000%"
@@ -52,8 +95,39 @@ const City = () => {
         btnText="View More Case Studies"
         btnLink="/work"
       />
+      <WhatWeDo
+        title="What Our Crystal Beach Web Designers Can Do For You"
+        subTitle="Whether you need an professional Crystal Beach web design to showcase your services in Crystal Beach or want more local Crystal Beach customers from your website design - we can build you a web design that's tailor-made to your business needs."
+        boxOneTitle={[
+          "Bespoke web design built to ",
+          <span>convert your Crystal Beach visitors</span>,
+          ".",
+        ]}
+        boxOneDesc="We do modern web design &amp; website development for Crystal Beach companies that help convert Crystal Beach users into paying customers."
+        boxOneImg={websiteSVG}
+        boxOneImgAlt="websites"
+        boxOneLink="/websites"
+        boxTwoTitle={[
+          "SEO to ",
+          <span>drive local customers</span>,
+          " to your Crystal Beach website.",
+        ]}
+        boxTwoDesc="Getting local Crystal Beach traffic through SEO to your modern web design helps bring you more revenue."
+        boxTwoImg={seoSVG}
+        boxTwoImgAlt="seo provider st catharines"
+        boxTwoLink="/seo"
+        boxThreeTitle={[
+          "Digital strategy to help bring you ",
+          <span>more revenue in Crystal Beach</span>,
+          ".",
+        ]}
+        boxThreeDesc="Helping your Crystal Beach business navigate through the digital world to help maximize profits."
+        boxThreeImg={strategySVG}
+        boxThreeImgAlt="digital strategy agency Crystal Beach, st catharines"
+        boxThreeLink="/digital-strategy"
+      />
       <Process
-        title="How Our Crystal Beach Web Design Process Works"
+        title="How Our Web Design Process Works"
         subTitle="If we didn't have a thought-out web design process, then we'd be all over the place."
         titleOne="1. Discuss"
         subTitleOne="We get to know you and your project needs."
@@ -110,15 +184,15 @@ const City = () => {
                 likely they'll contact your company to do business with you.
               </p>
               <h3>
-                Your Crystal Beach web design will build trust and credibility
-                for your company
+                Your modern web design will build trust and credibility for your
+                company
               </h3>
               <p>
                 With so many Crystal Beach businesses competing for eachother's
                 customer-base, it's extremely important your company stands out.
                 <br />
                 <br />
-                Imagine two different scenarios.
+                Image two different scenarios.
                 <br />
                 <br />
                 The first scenario being that a customer goes to one website,
@@ -186,21 +260,19 @@ const City = () => {
                 again ranking higher.
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5848.464953921462!2d-79.05875759899962!3d42.86793707964242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d33dc989b4ccc5%3A0xb57a249d19dfde0b!2sCrystal%20Beach%2C%20Fort%20Erie%2C%20ON!5e0!3m2!1sen!2sca!4v1633405198754!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11696.931445554033!2d-79.06314570732414!3d42.86792896485922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d33dc989b4ccc5%3A0xb57a249d19dfde0b!2sCrystal%20Beach%2C%20Fort%20Erie%2C%20ON!5e0!3m2!1sen!2sca!4v1609181132922!5m2!1sen!2sca"
                 width="100%"
+                title="Crystal Beach map"
                 height="450"
-                title="crystal beach web design"
-                style="border:0;"
+                frameborder="0"
                 allowfullscreen=""
-                loading="lazy"
+                aria-hidden="false"
               ></iframe>
             </Col>
           </Row>
         </Container>
       </section>
       <section className="clients text-center">
-        <br />
-        <br />
         <Container>
           <Row>
             <Col lg="12">
@@ -257,8 +329,90 @@ const City = () => {
           </Row>
         </Container>
       </section>
-      <CTA />
-      <Footer />
+      <section className="cta">
+        <Container>
+          <Row>
+            <Col lg="5">
+              <h2>
+                Ready to <span>start</span> your project?
+              </h2>
+              <p>
+                Get in touch with us for a free quote regarding your Crystal
+                Beach web design or SEO project today.
+              </p>
+              <Link to="/get-started">
+                <Button>Get Started</Button>
+              </Link>
+            </Col>
+            <Col lg="7">
+              <img
+                width="635"
+                height="335"
+                className="img-fluid"
+                src={ctaSVG}
+                alt="book a project"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="footer">
+        <Container>
+          <Row>
+            <Col lg="4">
+              <h3>About</h3>
+              <p>
+                Infused Agency is an SEO, digital marketing and web design
+                agency serving the Crystal Beach area. We help local and
+                non-local businesses build their credibility online, as well as
+                help bring in more sales.
+              </p>
+            </Col>
+            <Col lg="2">
+              <h3>Pages</h3>
+              <ul>
+                {pages.map(page => (
+                  <li>
+                    <Link to={page.link}>{page.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Col>
+            <Col lg="2">
+              <h3>Services</h3>
+              <ul>
+                {services.map(service => (
+                  <li>
+                    <Link to={service.link}>{service.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Col>
+            <Col lg="2">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  <Link to="/get-started">Get Started</Link>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="12">
+              <h3>Hours</h3>
+              <ul>
+                <li>Monday - 9a.m.-6p.m.</li>
+                <li>Tuesday - 9a.m.-6p.m.</li>
+                <li>Wednesday - 9a.m.-6p.m.</li>
+                <li>Thursday - 9a.m.-6p.m.</li>
+                <li>Friday - 9a.m.-6p.m.</li>
+                <li>Saturday - Closed</li>
+                <li>Sunday - Closed</li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   )
 }

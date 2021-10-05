@@ -1,24 +1,61 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
+import { Link } from "gatsby"
+import Button from "../../components/Button/button"
 import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Home/Hero/hero"
 import Featured from "../../components/Home/Featured/featured"
+import WhatWeDo from "../../components/Home/WhatWeDo/whatWeDo"
 import Process from "../../components/Home/Process/process"
 import TestimonialCard from "../../components/testimonialCard/testimonialCard"
-import CTA from "../../components/CTA/cta"
+import ctaSVG from "../../src/img/cta.svg"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/niagara-web-design.png"
+import featuredImg from "../img/port-colborne-web-design.png"
+import websiteSVG from "../img/websites.svg"
+import seoSVG from "../img/seo.svg"
+import strategySVG from "../img/strategy.svg"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
-import Footer from "../../components/Footer/footer"
+
+const pages = [
+  {
+    name: "About Us",
+    link: "/about",
+  },
+  {
+    name: "How We Work",
+    link: "/how-we-work",
+  },
+  {
+    name: "Our Work",
+    link: "/work",
+  },
+]
+
+const services = [
+  {
+    name: "Modern Websites",
+    link: "/websites",
+  },
+  {
+    name: "Local SEO",
+    link: "/seo",
+  },
+  {
+    name: "Digital Marketing Consulting",
+    link: "/digital-strategy",
+  },
+]
 
 const City = () => {
   return (
     <>
       <Helmet>
-        <title>Port Colborne Web Design &amp; SEO | Infused</title>
+        <title>
+          Port Colborne Web Design & SEO Marketing Company - Infused Agency
+        </title>
         <meta
           name="description"
           content="Port Colborne's leading web design &amp; SEO marketing agency. We're a website design agency thats brings more sales to your Port Colborne company."
@@ -26,13 +63,19 @@ const City = () => {
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="Web Design Port Colborne, SEO"
+        seoTitle="A Port Colborne Website Design &amp; Web Development Company"
+        title="Effective Web Design For Your Port Colborne Company."
         subTitle="We do modern web design &amp; build modern websites to help you grow your Port Colborne company."
         btnText="Get Started"
         btnLink="/get-started"
       />
       <Featured
-        title="Featured Web Design & SEO Clients"
+        title="Featured Web Design Client"
+        subTitle={[
+          "Take a look and see the ",
+          <span>huge difference</span>,
+          "we've made to KD Flower's online existence by bringing them leads from the Port Colborne area, by utilizing modern web design and SEO practices.",
+        ]}
         viewsValue="10,700"
         viewsText="website views per month"
         leadsValue="20,000%"
@@ -52,8 +95,39 @@ const City = () => {
         btnText="View More Case Studies"
         btnLink="/work"
       />
+      <WhatWeDo
+        title="What Our Port Colborne Web Designers Can Do For You"
+        subTitle="Whether you need an professional Port Colborne web design to showcase your services in Port Colborne or want more local Port Colborne customers from your website design - we can build you a web design that's tailor-made to your business needs."
+        boxOneTitle={[
+          "Bespoke web design built to ",
+          <span>convert your Port Colborne visitors</span>,
+          ".",
+        ]}
+        boxOneDesc="We do modern web design &amp; website development for Port Colborne companies that help convert Port Colborne users into paying customers."
+        boxOneImg={websiteSVG}
+        boxOneImgAlt="websites"
+        boxOneLink="/websites"
+        boxTwoTitle={[
+          "SEO to ",
+          <span>drive local customers</span>,
+          " to your Port Colborne website.",
+        ]}
+        boxTwoDesc="Getting local Port Colborne traffic through SEO to your modern web design helps bring you more revenue."
+        boxTwoImg={seoSVG}
+        boxTwoImgAlt="seo provider st catharines"
+        boxTwoLink="/seo"
+        boxThreeTitle={[
+          "Digital strategy to help bring you ",
+          <span>more revenue in Port Colborne</span>,
+          ".",
+        ]}
+        boxThreeDesc="Helping your Port Colborne business navigate through the digital world to help maximize profits."
+        boxThreeImg={strategySVG}
+        boxThreeImgAlt="digital strategy agency Port Colborne, st catharines"
+        boxThreeLink="/digital-strategy"
+      />
       <Process
-        title="How Our Port Colborne Web Design Process Works"
+        title="How Our Web Design Process Works"
         subTitle="If we didn't have a thought-out web design process, then we'd be all over the place."
         titleOne="1. Discuss"
         subTitleOne="We get to know you and your project needs."
@@ -110,15 +184,15 @@ const City = () => {
                 likely they'll contact your company to do business with you.
               </p>
               <h3>
-                Your Port Colborne web design will build trust and credibility
-                for your company
+                Your modern web design will build trust and credibility for your
+                company
               </h3>
               <p>
                 With so many Port Colborne businesses competing for eachother's
                 customer-base, it's extremely important your company stands out.
                 <br />
                 <br />
-                Imagine two different scenarios.
+                Image two different scenarios.
                 <br />
                 <br />
                 The first scenario being that a customer goes to one website,
@@ -186,21 +260,19 @@ const City = () => {
                 again ranking higher.
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93634.84850336205!2d-79.26847679059188!3d42.82873344940068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d33125c46ca209%3A0x8222e76e59ecba10!2sPort%20Colborne%2C%20ON!5e0!3m2!1sen!2sca!4v1633405347223!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187270.2721219696!2d-79.33834971138214!3d42.82854362231943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d33125c46ca209%3A0x8222e76e59ecba10!2sPort%20Colborne%2C%20ON!5e0!3m2!1sen!2sca!4v1608668158913!5m2!1sen!2sca"
                 width="100%"
+                title="Port Colborne map"
                 height="450"
-                title="port colborne web design"
-                style="border:0;"
+                frameborder="0"
                 allowfullscreen=""
-                loading="lazy"
+                aria-hidden="false"
               ></iframe>
             </Col>
           </Row>
         </Container>
       </section>
       <section className="clients text-center">
-        <br />
-        <br />
         <Container>
           <Row>
             <Col lg="12">
@@ -257,8 +329,90 @@ const City = () => {
           </Row>
         </Container>
       </section>
-      <CTA />
-      <Footer />
+      <section className="cta">
+        <Container>
+          <Row>
+            <Col lg="5">
+              <h2>
+                Ready to <span>start</span> your project?
+              </h2>
+              <p>
+                Get in touch with us for a free quote regarding your Port
+                Colborne web design or SEO project today.
+              </p>
+              <Link to="/get-started">
+                <Button>Get Started</Button>
+              </Link>
+            </Col>
+            <Col lg="7">
+              <img
+                width="635"
+                height="335"
+                className="img-fluid"
+                src={ctaSVG}
+                alt="book a project"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="footer">
+        <Container>
+          <Row>
+            <Col lg="4">
+              <h3>About</h3>
+              <p>
+                Infused Agency is an SEO, digital marketing and web design
+                agency serving the Port Colborne area. We help local and
+                non-local businesses build their credibility online, as well as
+                help bring in more sales.
+              </p>
+            </Col>
+            <Col lg="2">
+              <h3>Pages</h3>
+              <ul>
+                {pages.map(page => (
+                  <li>
+                    <Link to={page.link}>{page.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Col>
+            <Col lg="2">
+              <h3>Services</h3>
+              <ul>
+                {services.map(service => (
+                  <li>
+                    <Link to={service.link}>{service.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Col>
+            <Col lg="2">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  <Link to="/get-started">Get Started</Link>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="12">
+              <h3>Hours</h3>
+              <ul>
+                <li>Monday - 9a.m.-6p.m.</li>
+                <li>Tuesday - 9a.m.-6p.m.</li>
+                <li>Wednesday - 9a.m.-6p.m.</li>
+                <li>Thursday - 9a.m.-6p.m.</li>
+                <li>Friday - 9a.m.-6p.m.</li>
+                <li>Saturday - Closed</li>
+                <li>Sunday - Closed</li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   )
 }

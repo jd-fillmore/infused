@@ -11,7 +11,7 @@ import TestimonialCard from "../../components/testimonialCard/testimonialCard"
 import ctaSVG from "../../src/img/cta.svg"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/pelham-web-design.png"
+import featuredImg from "../img/jordan-ontario-web-design.png"
 import websiteSVG from "../img/websites.svg"
 import seoSVG from "../img/seo.svg"
 import strategySVG from "../img/strategy.svg"
@@ -54,18 +54,18 @@ const City = () => {
     <>
       <Helmet>
         <title>
-          Pelham Web Design & SEO Marketing Company - Infused Agency
+          Jordan, Ontario Web Design & SEO Marketing Company - Infused Agency
         </title>
         <meta
           name="description"
-          content="Pelham's leading web design &amp; SEO marketing agency. We're a website design agency thats brings more sales to your Pelham company."
+          content="Jordan, Ontario's leading web design &amp; SEO agency. We're a website design agency thats brings more sales to your Jordan company."
         />
       </Helmet>
       <Nav />
       <Hero
-        seoTitle="A Pelham Website Design &amp; Web Development Company"
-        title="Effective Web Design For Your Pelham Company."
-        subTitle="We do modern web design &amp; build modern websites to help you grow your Pelham company."
+        seoTitle="A Jordan, Ontario Website Design &amp; Web Development Company"
+        title="Effective Web Design For Your Jordan Company."
+        subTitle="We do modern web design &amp; build modern websites to help you grow your Jordan company."
         btnText="Get Started"
         btnLink="/get-started"
       />
@@ -74,7 +74,7 @@ const City = () => {
         subTitle={[
           "Take a look and see the ",
           <span>huge difference</span>,
-          "we've made to KD Flower's online existence by bringing them leads from the Pelham area, by utilizing modern web design and SEO practices.",
+          "we've made to KD Flower's online existence by bringing them leads from the Jordan area, by utilizing modern web design and SEO practices.",
         ]}
         viewsValue="10,700"
         viewsText="website views per month"
@@ -83,11 +83,11 @@ const City = () => {
         peopleValue="5,800"
         peopleText="people discovering website per month"
         img={featuredImg}
-        imgAlt="Pelham web design"
+        imgAlt="Jordan web design Ontario"
         testimonial={[
           "Infused created the ",
           <span>perfect web design</span>,
-          "for my  floral business. Many of my clients come from Pelham and I was very happy with their ",
+          "for my  floral business. Many of my clients come from Jordan and I was very happy with their ",
           <span>professional work ethic</span>,
           "and ",
           <span>great communication!</span>,
@@ -96,34 +96,34 @@ const City = () => {
         btnLink="/work"
       />
       <WhatWeDo
-        title="What Our Pelham Web Designers Can Do For You"
-        subTitle="Whether you need an professional Pelham web design to showcase your services in Pelham or want more local Pelham customers from your website design - we can build you a web design that's tailor-made to your business needs."
+        title="What Our Jordan Web Designers Can Do For You"
+        subTitle="Whether you need an professional Jordan web design to showcase your services in Jordan or want more local Jordan customers from your website design - we can build you a web design that's tailor-made to your business needs."
         boxOneTitle={[
           "Bespoke web design built to ",
-          <span>convert your Pelham visitors</span>,
+          <span>convert your Jordan visitors</span>,
           ".",
         ]}
-        boxOneDesc="We do modern web design &amp; website development for Pelham companies that help convert Pelham users into paying customers."
+        boxOneDesc="We do modern web design &amp; website development for Jordan companies that help convert Jordan users into paying customers."
         boxOneImg={websiteSVG}
         boxOneImgAlt="websites"
         boxOneLink="/websites"
         boxTwoTitle={[
           "SEO to ",
           <span>drive local customers</span>,
-          " to your Pelham website.",
+          " to your Jordan website.",
         ]}
-        boxTwoDesc="Getting local Pelham traffic through SEO to your modern web design helps bring you more revenue."
+        boxTwoDesc="Getting local Jordan traffic through SEO to your modern web design helps bring you more revenue."
         boxTwoImg={seoSVG}
         boxTwoImgAlt="seo provider st catharines"
         boxTwoLink="/seo"
         boxThreeTitle={[
           "Digital strategy to help bring you ",
-          <span>more revenue in Pelham</span>,
+          <span>more revenue in Jordan</span>,
           ".",
         ]}
-        boxThreeDesc="Helping your Pelham business navigate through the digital world to help maximize profits."
+        boxThreeDesc="Helping your Jordan business navigate through the digital world to help maximize profits."
         boxThreeImg={strategySVG}
-        boxThreeImgAlt="digital strategy agency Pelham, st catharines"
+        boxThreeImgAlt="digital strategy agency Jordan, st catharines"
         boxThreeLink="/digital-strategy"
       />
       <Process
@@ -131,14 +131,14 @@ const City = () => {
         subTitle="If we didn't have a thought-out web design process, then we'd be all over the place."
         titleOne="1. Discuss"
         subTitleOne="We get to know you and your project needs."
-        descOne="On a quick 15-20 minute call, we discuss and extract everything you're interested in for your Pelham business. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO or digital strategy, we gather all of the necessary information for your project."
+        descOne="On a quick 15-20 minute call, we discuss and extract everything you're interested in for your Jordan business. Whether it's a new web design, or you'd like to bring more customers / clients to your business through local SEO or digital strategy, we gather all of the necessary information for your project."
         titleTwo="2. Project Evaluation"
         subTitleTwo="Deep-dive project evaluation with bespoke recommendations."
         descTwo={[
-          "Virtually all digital and web design agencies offer a project proposal - not us. Enter the Project Evaluation. We want to thoroughly get to know your company, your business goals in the Pelham area and what you'd like to accomplish with your project.",
+          "Virtually all digital and web design agencies offer a project proposal - not us. Enter the Project Evaluation. We want to thoroughly get to know your company, your business goals in the Jordan area and what you'd like to accomplish with your project.",
           <br />,
           <br />,
-          "Based on our in-depth research and findings, we will offer you extremely detailed recommendations on how to move forward. If you agree to move forward with us, we get the important stuff signed, requirements delivered and the project is underway for your new Pelham web design or SEO project.",
+          "Based on our in-depth research and findings, we will offer you extremely detailed recommendations on how to move forward. If you agree to move forward with us, we get the important stuff signed, requirements delivered and the project is underway for your new Jordan web design or SEO project.",
         ]}
         titleThree="3. Get To Work"
         subTitleThree="Time to get our hands dirty."
@@ -153,7 +153,7 @@ const City = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <h2>Benefits of having a modern Pelham website design</h2>
+              <h2>Benefits of having a modern Jordan website design</h2>
               <p>
                 Having just any website online doesn't cut it anymore. You need
                 to impress your customers, and having a modern website design
@@ -188,7 +188,7 @@ const City = () => {
                 company
               </h3>
               <p>
-                With so many Pelham businesses competing for eachother's
+                With so many Jordan businesses competing for eachother's
                 customer-base, it's extremely important your company stands out.
                 <br />
                 <br />
@@ -260,9 +260,9 @@ const City = () => {
                 again ranking higher.
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93318.38342288253!2d-79.39883789834509!3d43.03723419557991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d34b0bd454317b%3A0x7daf72def40e059d!2sPelham%2C%20ON!5e0!3m2!1sen!2sca!4v1608667829962!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23291.24779534919!2d-79.38652053719525!3d43.13800356509999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d352a8b1e2d509%3A0xec3ec99a8689c392!2sJordan%2C%20Lincoln%2C%20ON!5e0!3m2!1sen!2sca!4v1608667219518!5m2!1sen!2sca"
                 width="100%"
-                title="Pelham map"
+                title="Jordan map"
                 height="450"
                 frameborder="0"
                 allowfullscreen=""
@@ -276,14 +276,14 @@ const City = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <h2>Our Happy Web Design Clients In Or Near Pelham</h2>
+              <h2>Our Happy Web Design Clients In Or Near Jordan</h2>
               <hr />
               <div>
                 <TestimonialCard>
                   <p>
                     "Great Job, WELL DONE. I'm very pleased with the SEO service
                     and the web design of my new web site. If you ever need a
-                    new web design for your Pelham business I do recommend
+                    new web design for your Jordan business I do recommend
                     Infused Agency for their services. JD keep up the great
                     work. Thank you."
                   </p>
@@ -295,7 +295,7 @@ const City = () => {
                   <p>
                     "Amazing experience, really helped to elevate my business
                     and I would highly recommend working with them for all of
-                    your Pelham web design and SEO needs!!"
+                    your Jordan web design and SEO needs!!"
                   </p>
                   <em>Lauren Emberson, Lauren Emberson Photography</em>
                 </TestimonialCard>
@@ -337,7 +337,7 @@ const City = () => {
                 Ready to <span>start</span> your project?
               </h2>
               <p>
-                Get in touch with us for a free quote regarding your Pelham web
+                Get in touch with us for a free quote regarding your Jordan web
                 design or SEO project today.
               </p>
               <Link to="/get-started">
@@ -363,7 +363,7 @@ const City = () => {
               <h3>About</h3>
               <p>
                 Infused Agency is an SEO, digital marketing and web design
-                agency serving the Pelham area. We help local and non-local
+                agency serving the Jordan area. We help local and non-local
                 businesses build their credibility online, as well as help bring
                 in more sales.
               </p>
