@@ -8,7 +8,7 @@ import TestimonialCard from "../../components/testimonialCard/testimonialCard"
 import CTA from "../../components/CTA/cta"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/welland-web-design.png"
+import featuredImg from "../img/Welland-web-design.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
