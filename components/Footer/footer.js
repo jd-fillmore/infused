@@ -99,6 +99,7 @@ const Footer = () => {
             <Col lg="8">
               <h3>Areas &amp; Industries Served</h3>
               <WebDesignCities />
+              <br />
               <Industries />
             </Col>
             <Col lg="4">

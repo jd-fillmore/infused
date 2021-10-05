@@ -1,81 +1,38 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
-import Button from "../../components/Button/button"
 import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Home/Hero/hero"
 import Featured from "../../components/Home/Featured/featured"
-import WhatWeDo from "../../components/Home/WhatWeDo/whatWeDo"
 import Process from "../../components/Home/Process/process"
 import TestimonialCard from "../../components/testimonialCard/testimonialCard"
-import ctaSVG from "../../src/img/cta.svg"
+import CTA from "../../components/CTA/cta"
 
 import { Helmet } from "react-helmet"
-import featuredImg from "../img/fort-erie-web-design.png"
-import websiteSVG from "../img/websites.svg"
-import seoSVG from "../img/seo.svg"
-import strategySVG from "../img/strategy.svg"
+import featuredImg from "../img/niagara-web-design.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
-
-const pages = [
-  {
-    name: "About Us",
-    link: "/about",
-  },
-  {
-    name: "How We Work",
-    link: "/how-we-work",
-  },
-  {
-    name: "Our Work",
-    link: "/work",
-  },
-]
-
-const services = [
-  {
-    name: "Modern Websites",
-    link: "/websites",
-  },
-  {
-    name: "Local SEO",
-    link: "/seo",
-  },
-  {
-    name: "Digital Marketing Consulting",
-    link: "/digital-strategy",
-  },
-]
+import Footer from "../../components/Footer/footer"
 
 const City = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Fort Erie Web Design & SEO Marketing Company - Infused Agency
-        </title>
+        <title>Fort Erie Web Design &amp; SEO | Infused</title>
         <meta
           name="description"
-          content="Fort Erie's leading web design &amp; SEO company. We're a website design agency thats brings more sales to your Fort Erie company."
+          content="Fort Erie's leading web design &amp; SEO marketing agency. We're a website design agency thats brings more sales to your Fort Erie company."
         />
       </Helmet>
       <Nav />
       <Hero
-        seoTitle="A Fort Erie Website Design &amp; Web Development Company"
-        title="Effective Web Design For Your Fort Erie Company."
+        titleTwo="Web Design Fort Erie, SEO"
         subTitle="We do modern web design &amp; build modern websites to help you grow your Fort Erie company."
         btnText="Get Started"
         btnLink="/get-started"
       />
       <Featured
-        title="Featured Web Design Client"
-        subTitle={[
-          "Take a look and see the ",
-          <span>huge difference</span>,
-          "we've made to KD Flower's online existence by bringing them leads from the Fort Erie area, by utilizing modern web design and SEO practices.",
-        ]}
+        title="Featured Web Design & SEO Clients"
         viewsValue="10,700"
         viewsText="website views per month"
         leadsValue="20,000%"
@@ -95,39 +52,8 @@ const City = () => {
         btnText="View More Case Studies"
         btnLink="/work"
       />
-      <WhatWeDo
-        title="What Our Fort Erie Web Designers Can Do For You"
-        subTitle="Whether you need an professional Fort Erie web design to showcase your services in Fort Erie or want more local Fort Erie customers from your website design - we can build you a web design that's tailor-made to your business needs."
-        boxOneTitle={[
-          "Bespoke web design built to ",
-          <span>convert your Fort Erie visitors</span>,
-          ".",
-        ]}
-        boxOneDesc="We do modern web design &amp; website development for Fort Erie companies that help convert Fort Erie users into paying customers."
-        boxOneImg={websiteSVG}
-        boxOneImgAlt="websites"
-        boxOneLink="/websites"
-        boxTwoTitle={[
-          "SEO to ",
-          <span>drive local customers</span>,
-          " to your Fort Erie website.",
-        ]}
-        boxTwoDesc="Getting local Fort Erie traffic through SEO to your modern web design helps bring you more revenue."
-        boxTwoImg={seoSVG}
-        boxTwoImgAlt="seo provider st catharines"
-        boxTwoLink="/seo"
-        boxThreeTitle={[
-          "Digital strategy to help bring you ",
-          <span>more revenue in Fort Erie</span>,
-          ".",
-        ]}
-        boxThreeDesc="Helping your Fort Erie business navigate through the digital world to help maximize profits."
-        boxThreeImg={strategySVG}
-        boxThreeImgAlt="digital strategy agency Fort Erie, st catharines"
-        boxThreeLink="/digital-strategy"
-      />
       <Process
-        title="How Our Web Design Process Works"
+        title="How Our Fort Erie Web Design Process Works"
         subTitle="If we didn't have a thought-out web design process, then we'd be all over the place."
         titleOne="1. Discuss"
         subTitleOne="We get to know you and your project needs."
@@ -184,15 +110,15 @@ const City = () => {
                 likely they'll contact your company to do business with you.
               </p>
               <h3>
-                Your modern web design will build trust and credibility for your
-                company
+                Your Fort Erie web design will build trust and credibility for
+                your company
               </h3>
               <p>
                 With so many Fort Erie businesses competing for eachother's
                 customer-base, it's extremely important your company stands out.
                 <br />
                 <br />
-                Image two different scenarios.
+                Imagine two different scenarios.
                 <br />
                 <br />
                 The first scenario being that a customer goes to one website,
@@ -260,19 +186,21 @@ const City = () => {
                 again ranking higher.
               </p>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93570.4524545317!2d-79.08428615641392!3d42.871226515221835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d33e24e7337d03%3A0x885d5008ef9ad9d1!2sFort%20Erie%2C%20ON!5e0!3m2!1sen!2sca!4v1608666153219!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93570.45261341089!2d-79.08445778987551!3d42.87122641042401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d33e24e7337d03%3A0x885d5008ef9ad9d1!2sFort%20Erie%2C%20ON!5e0!3m2!1sen!2sca!4v1633405254060!5m2!1sen!2sca"
                 width="100%"
-                title="Fort Erie map"
                 height="450"
-                frameborder="0"
+                title="fort erie web design"
+                style="border:0;"
                 allowfullscreen=""
-                aria-hidden="false"
+                loading="lazy"
               ></iframe>
             </Col>
           </Row>
         </Container>
       </section>
       <section className="clients text-center">
+        <br />
+        <br />
         <Container>
           <Row>
             <Col lg="12">
@@ -329,90 +257,8 @@ const City = () => {
           </Row>
         </Container>
       </section>
-      <section className="cta">
-        <Container>
-          <Row>
-            <Col lg="5">
-              <h2>
-                Ready to <span>start</span> your project?
-              </h2>
-              <p>
-                Get in touch with us for a free quote regarding your Fort Erie
-                web design or SEO project today.
-              </p>
-              <Link to="/get-started">
-                <Button>Get Started</Button>
-              </Link>
-            </Col>
-            <Col lg="7">
-              <img
-                width="635"
-                height="335"
-                className="img-fluid"
-                src={ctaSVG}
-                alt="book a project"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className="footer">
-        <Container>
-          <Row>
-            <Col lg="4">
-              <h3>About</h3>
-              <p>
-                Infused Agency is an SEO, digital marketing and web design
-                agency serving the Fort Erie area. We help local and non-local
-                businesses build their credibility online, as well as help bring
-                in more sales.
-              </p>
-            </Col>
-            <Col lg="2">
-              <h3>Pages</h3>
-              <ul>
-                {pages.map(page => (
-                  <li>
-                    <Link to={page.link}>{page.name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </Col>
-            <Col lg="2">
-              <h3>Services</h3>
-              <ul>
-                {services.map(service => (
-                  <li>
-                    <Link to={service.link}>{service.name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </Col>
-            <Col lg="2">
-              <h3>Contact</h3>
-              <ul>
-                <li>
-                  <Link to="/get-started">Get Started</Link>
-                </li>
-              </ul>
-            </Col>
-          </Row>
-          <Row>
-            <Col lg="12">
-              <h3>Hours</h3>
-              <ul>
-                <li>Monday - 9a.m.-6p.m.</li>
-                <li>Tuesday - 9a.m.-6p.m.</li>
-                <li>Wednesday - 9a.m.-6p.m.</li>
-                <li>Thursday - 9a.m.-6p.m.</li>
-                <li>Friday - 9a.m.-6p.m.</li>
-                <li>Saturday - Closed</li>
-                <li>Sunday - Closed</li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <CTA />
+      <Footer />
     </>
   )
 }
