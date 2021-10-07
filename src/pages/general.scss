@@ -1,6 +1,10 @@
 @import "../pages/variables.scss";
 @import "../pages/breakpoints.scss";
 
+body {
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +43,12 @@ a {
     color: $purple;
     border-bottom: 2px solid $light-blue;
     text-decoration: none;
+  }
+  &.d-block {
+    border-bottom: none;
+    &:hover {
+      border-bottom: none;
+    }
   }
 }
 
@@ -81,6 +91,34 @@ form {
   }
 }
 
+.pd-top-120 {
+  padding-top: 120px;
+  @include bp-tablet-sm {
+    padding-top: 20px;
+  }
+}
+
+.pd-btm-120 {
+  padding-bottom: 120px;
+  @include bp-tablet-sm {
+    padding-bottom: 20px;
+  }
+}
+
+.pd-top-80 {
+  padding-top: 80px;
+  @include bp-tablet-sm {
+    padding-top: 20px;
+  }
+}
+
+.pd-btm-80 {
+  padding-bottom: 80px;
+  @include bp-tablet-sm {
+    padding-bottom: 20px;
+  }
+}
+
 .seo-page {
   h2,
   h3 {
@@ -118,5 +156,47 @@ form {
   h3,
   p {
     color: $white;
+  }
+}
+
+.slick-dots {
+  bottom: -50px !important;
+  @include bp-tablet-sm {
+    bottom: -25px !important;
+  }
+}
+
+.slick-prev {
+  left: 2% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.slick-prev,
+.slick-next {
+  transform: translate(0) !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: $dark-purple !important;
+  font-size: 40px !important;
+  @include bp-tablet-sm {
+    display: none;
+  }
+}
+
+.slick-slider {
+  button {
+    &:hover {
+      transform: none !important;
+      border: none !important;
+    }
+    &:focus {
+      border: none !important;
+    }
   }
 }

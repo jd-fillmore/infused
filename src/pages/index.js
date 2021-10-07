@@ -1,7 +1,8 @@
 import React from "react"
 import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Home/Hero/hero"
-import Featured from "../../components/Home/Featured/featured"
+import Fade from "react-reveal/Fade"
+import PortfolioSlider from "../../components/PortfolioSlider/portfolioSlider"
 import Results from "../../components/Home/Results/results"
 import WhatWeDo from "../../components/Home/WhatWeDo/whatWeDo"
 import Clients from "../../components/Home/Clients/clients"
@@ -123,12 +124,26 @@ const Home = () => {
         titleTwo="Niagara Web Design."
         subTitle="We're a top web design &amp; development agency based in St. Catharines, Niagara. We create websites that work."
       />
-      <Featured
-        title="Niagara Web Design Projects"
-        subTitle={[
-          "Take a look and see the huge difference we've made to our Niagara & St. Catharines client's online existences, using a hand-coded modern web design practices.",
-        ]}
-      />
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="text-center pd-top-120 pd-btm-80">
+              <Fade>
+                <h2>Niagara Web Design Projects</h2>
+                <p id="sub">
+                  Take a look and see the huge difference we've made to our
+                  Niagara & St. Catharines client's online existences, using a
+                  hand-coded modern web design practices.
+                </p>
+              </Fade>
+            </div>
+          </div>
+        </div>
+      </div>
+      <PortfolioSlider />
+      <Link className="d-block text-center pd-top-80" to="/work">
+        <button>View More Work</button>
+      </Link>
       <Results
         title="Featured Niagara Web Design Results"
         subTitle="We create websites that rank well in Google and bring our clients more revenue."

@@ -32,6 +32,11 @@ const Example = props => {
               </Link>
             </NavItem>
             <NavItem>
+              <Link to="/work" className="nav-link">
+                Work
+              </Link>
+            </NavItem>
+            <NavItem>
               <Link to="/about" className="nav-link">
                 About
               </Link>
@@ -39,11 +44,6 @@ const Example = props => {
             <NavItem>
               <Link to="/services" className="nav-link">
                 Services
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/work" className="nav-link">
-                Portfolio
               </Link>
             </NavItem>
             <NavItem>
