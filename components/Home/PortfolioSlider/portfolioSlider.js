@@ -51,6 +51,8 @@ const PortfolioSlider = () => {
       <Slider {...settings}>
         <div>
           <img
+            width="800"
+            height="799"
             className="img-fluid"
             src={ggs}
             alt="ggs niagara landscaping web design"
