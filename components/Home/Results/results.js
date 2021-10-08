@@ -3,8 +3,8 @@ import Fade from "react-reveal/Fade"
 import { Container, Row, Col } from "reactstrap"
 
 import "../Results/results.scss"
-import featuredImg from "../../../src/img/kd-home.jpg"
-import resultsImg from "../../../src/img/kd-results.jpg"
+import featuredImg from "../../../src/img/kd-home.webp"
+import resultsImg from "../../../src/img/kd-results.webp"
 
 const Results = ({ title, subTitle }) => {
   return (
@@ -23,6 +23,8 @@ const Results = ({ title, subTitle }) => {
             <Col lg="6">
               <Fade>
                 <img
+                  width="383"
+                  height="636"
                   className="img-fluid top"
                   src={featuredImg}
                   alt="Niagara Web Design Agency"
@@ -32,6 +34,8 @@ const Results = ({ title, subTitle }) => {
             <Col lg="6">
               <Fade>
                 <img
+                  width="383"
+                  height="636"
                   className="img-fluid"
                   src={resultsImg}
                   alt="Niagara Web Design Company"

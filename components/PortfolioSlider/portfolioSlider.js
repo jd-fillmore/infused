@@ -65,40 +65,112 @@ const PortfolioSlider = () => {
           />
         </div>
         <div>
-          <img className="img-fluid" src={uc} alt="uc web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={uc}
+            alt="uc web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={plant} alt="plant no. 1 web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={plant}
+            alt="plant no. 1 web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={kd} alt="kd flowers web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={kd}
+            alt="kd flowers web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={df} alt="df web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={df}
+            alt="df web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={nj} alt="nj web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={nj}
+            alt="nj web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={cass} alt="cass web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={cass}
+            alt="cass web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={cma} alt="cma web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={cma}
+            alt="cma web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={cc} alt="cc web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={cc}
+            alt="cc web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={rb} alt="rb web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={rb}
+            alt="rb web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={krista} alt="krysta web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={krista}
+            alt="krysta web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={ce} alt="ce web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={ce}
+            alt="ce web design"
+          />
         </div>
         <div>
-          <img className="img-fluid" src={mc} alt="mc web design" />
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={mc}
+            alt="mc web design"
+          />
         </div>
       </Slider>
     </>
