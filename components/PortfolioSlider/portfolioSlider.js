@@ -17,6 +17,7 @@ import krista from "../../src/img/home-feat-krista.webp"
 import ce from "../../src/img/home-feat-ce.webp"
 import mc from "../../src/img/home-feat-mc.webp"
 import df from "../../src/img/home-feat-df.webp"
+import tr from "../../src/img/home-feat-tr.webp"
 
 const PortfolioSlider = () => {
   const settings = {
@@ -89,6 +90,15 @@ const PortfolioSlider = () => {
             className="img-fluid"
             src={kd}
             alt="kd flowers web design"
+          />
+        </div>
+        <div>
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={tr}
+            alt="tr web design"
           />
         </div>
         <div>
