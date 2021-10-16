@@ -3,10 +3,11 @@
 button {
   padding: 15px 50px 15px 50px;
   border: none;
-  background: $dark-purple;
-  color: $dark-blue;
-  border-radius: 50px !important;
-  border: 2px solid $dark-purple;
+  background: rgba(0, 0, 0, 0);
+  color: $white;
+  border-radius: 0px !important;
+  border: 2px solid $purple;
+  border-bottom: 2px solid $purple;
   font-size: 20px !important;
   font-family: $body !important;
   font-weight: bold;
@@ -17,6 +18,7 @@ button {
     background: $purple;
     transform: translateY(-3px);
     box-shadow: 0px 8px 15px rgba($white, 0.1);
+    color: $dark-blue;
   }
   &.link {
     background: rgba(0, 0, 0, 0);

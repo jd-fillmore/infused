@@ -14,7 +14,7 @@ const CTA = () => {
               <h2>Connect with us today.</h2>
             </Col>
             <Col lg="6">
-              <h4 className="consult">Free Consultation</h4>
+              <h4 className="consult">Free Quote</h4>
               <Form />
             </Col>
           </Row>

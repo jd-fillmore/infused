@@ -14,6 +14,7 @@ const Hero = ({ titleTwo, subTitle }) => {
             <Fade>
               <Row className="d-flex align-items-center">
                 <Col lg="6">
+                  <p className="intro">We're Infused Agency</p>
                   <h1>{titleTwo}</h1>
                   <p>{subTitle}</p>
                   <p className="results">Latest Client Results:</p>
@@ -28,7 +29,7 @@ const Hero = ({ titleTwo, subTitle }) => {
                   </div>
                 </Col>
                 <Col lg="6">
-                  <h4 className="consult">Free Consultation</h4>
+                  <h4 className="consult">Free Quote</h4>
                   <Form />
                 </Col>
               </Row>

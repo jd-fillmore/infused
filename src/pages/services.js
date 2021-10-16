@@ -9,6 +9,9 @@ import Footer from "../../components/Footer/footer"
 import website from "../img/responsive.svg"
 import seo from "../img/seoo.svg"
 import dm from "../img/dm.svg"
+import wp from "../img/wordpress.png"
+import ecomm from "../img/add-to-cart.png"
+import wm from "../img/maintenance.png"
 
 import "../pages/services.scss"
 
@@ -38,8 +41,8 @@ const About = () => {
               <Col lg={{ size: 7, offset: 1 }}>
                 <h3>Web Design &amp; Development</h3>
                 <p>
-                  We don't build WordPress or page builder websites, because we
-                  believe your website should be:
+                  We make websites that will beat out your competition in the
+                  following areas:
                 </p>
                 <ul>
                   <li>Secure</li>
@@ -48,16 +51,65 @@ const About = () => {
                   <li>Bring you more revenue</li>
                 </ul>
                 <p>
-                  Using WordPress or any other page builder is the opposite of
-                  all of those. And that's bad for your business.
-                </p>
-                <p>
                   We hand-code websites as it allows for precision in design,
                   development, and rids of the bloated mess of code page
-                  builders and WordPress generate. A secure, optimized,
-                  lightning fast website leads to a better experience for your
-                  users. The better the experience, the more revenue for you.
+                  builders generate. A secure, optimized, lightning fast website
+                  leads to a better experience for your users. The better the
+                  experience, the more revenue for you.
                 </p>
+              </Col>
+            </Row>
+            {/* WordPress Development */}
+            <Row className="seo align-items-center">
+              <img className="seo" src={wp} alt="WordPress Development" />
+              <Col lg={{ size: 5, offset: 1 }}>
+                <h3>WordPress Development</h3>
+                <p>
+                  WordPress powers over 40% of all websites online. There's a
+                  good reason for that. The rich ecosystem that WordPress
+                  provides, coupled by it's content management system is a match
+                  for none.
+                </p>
+                <p>
+                  Our WordPress developers will help you build a website for you
+                  that not only looks amazing and functions great, but one that
+                  you can update on your end without knowledge of code. No need
+                  to call us!
+                </p>
+              </Col>
+              <Col md="5">
+                <img
+                  className="img-fluid seo-two"
+                  src={wp}
+                  alt="wordpress development"
+                />
+              </Col>
+            </Row>
+            {/* DM */}
+            <Row className="dm align-items-center">
+              <Col md="4">
+                <img className="img-fluid" src={dm} alt="digital marketing" />
+              </Col>
+              <Col lg={{ size: 7, offset: 1 }}>
+                <h3>Digital Marketing</h3>
+                <p>
+                  Advertising on social media is paramount for small businesses.
+                  Growing your brand through where your customers spend a lot of
+                  their time is absolutely key to success in this day and age.
+                </p>
+                <p>
+                  We focus on creating digital marketing campaigns around the
+                  following:
+                </p>
+                <ul>
+                  <li>Laser-targeted to gender, age, locality and more</li>
+                  <li>Modern, attractive ads with offers users can't refuse</li>
+                  <li>Monthly reporting</li>
+                  <li>Ongoing A/B testing to maximize revenue</li>
+                  <li>
+                    Sales funnel landing page magnets to attract local audiences
+                  </li>
+                </ul>
               </Col>
             </Row>
             {/* Local SEO */}
@@ -86,31 +138,51 @@ const About = () => {
                 <img className="img-fluid seo-two" src={seo} alt="local seo" />
               </Col>
             </Row>
-            {/* DM */}
+            {/* E-Comm */}
             <Row className="dm align-items-center">
               <Col md="4">
-                <img className="img-fluid" src={dm} alt="digital marketing" />
+                <img
+                  className="img-fluid"
+                  src={ecomm}
+                  alt="E-Commerce Development"
+                />
               </Col>
               <Col lg={{ size: 7, offset: 1 }}>
-                <h3>Digital Marketing</h3>
+                <h3>E-Commerce Development</h3>
+                <p>Want to sell your physical or digital products online?</p>
                 <p>
-                  Advertising on social media is paramount for small businesses.
-                  Growing your brand through where your customers spend a lot of
-                  their time is absolutely key to success in this day and age.
+                  We help companies do exactly that. We build powerful
+                  e-commerce websites that help local companies sell their
+                  products and digital services either locally or globally.
                 </p>
                 <p>
-                  We focus on creating digital marketing campaigns around the
-                  following:
+                  The best part of it? You can manage your products and website
+                  yourself without knowing how to code.
                 </p>
-                <ul>
-                  <li>Laser-targeted to gender, age, locality and more</li>
-                  <li>Modern, attractive ads with offers users can't refuse</li>
-                  <li>Monthly reporting</li>
-                  <li>Ongoing A/B testing to maximize revenue</li>
-                  <li>
-                    Sales funnel landing page magnets to attract local audiences
-                  </li>
-                </ul>
+              </Col>
+            </Row>
+            {/* Website Maintenance */}
+            <Row className="seo align-items-center">
+              <img className="seo" src={wm} alt="Website Maintenance" />
+              <Col lg={{ size: 5, offset: 1 }}>
+                <h3>Website Maintenance</h3>
+                <p>
+                  Already have a website but don't have the time to maintain it?
+                </p>
+                <p>No problem, we can help.</p>
+                <p>
+                  Even if you do have a website that you can update yourself but
+                  simply don't have the time, that's completely understand. Many
+                  of our clients are like that. We help with website maintenance
+                  of any kind.
+                </p>
+              </Col>
+              <Col md="5">
+                <img
+                  className="img-fluid seo-two"
+                  src={wm}
+                  alt="Website Maintenance"
+                />
               </Col>
             </Row>
           </Container>

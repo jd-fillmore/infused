@@ -14,8 +14,16 @@ import Footer from "../../components/Footer/footer"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
+import webImg from "../../src/img/responsive.svg"
+import seoImg from "../../src/img/seoo.svg"
+import dmImg from "../../src/img/dm.svg"
+import ecommImg from "../../src/img/add-to-cart.png"
+import wpImg from "../../src/img/wordpress.png"
+import mtImg from "../../src/img/maintenance.png"
+
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
+import "../pages/home-services.scss"
 
 const schema = {
   "@context": "http://schema.org",
@@ -112,28 +120,190 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Niagara Web Design | Web Designer St. Catharines</title>
+        <title>Niagara Web Design | SEO Services St. Catharines</title>
         <meta
           name="description"
-          content="Niagara web design agency that drives results! A web design St. Catharines company near you that creates websites that actually make a difference."
+          content="Need a Niagara web design and SEO company? Infused Agency are St. Catharines and Niagara's experts in custom website design and SEO services since 2013."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="Niagara Web Design."
-        subTitle="We're a top web design &amp; development agency based in St. Catharines, Niagara. We create websites that work."
+        titleTwo="A Niagara Web Design &amp; SEO Company."
+        subTitle="Infused Agency is a top web design &amp; SEO agency hand-crafting beautiful website design since 2013."
       />
+      <section className="home-services">
+        <div className="container">
+          {/* Row One */}
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  className="img-fluid"
+                  src={webImg}
+                  alt="Niagara web design company"
+                />
+                <h2>Web Design &amp; Development</h2>
+                <p>We create websites to help attract more customers.</p>
+                <Link to="/get-started">
+                  Free Quote
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
+                    height="20px"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path>
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  className="img-fluid"
+                  src={wpImg}
+                  alt="Niagara WordPress website development"
+                />
+                <h2>WordPress Development</h2>
+                <p>Update your website without the need of a developer.</p>
+                <Link to="/get-started">
+                  Free Quote
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
+                    height="20px"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path>
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  className="img-fluid"
+                  src={dmImg}
+                  alt="digital marketing Niagara"
+                />
+                <h2>Digital Marketing</h2>
+                <p>Social media ads to drive traffic and increase revenue.</p>
+                <Link to="/get-started">
+                  Free Quote
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
+                    height="20px"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path>
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* Row Two */}
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="card">
+                <img className="img-fluid" src={seoImg} alt="seo Niagara" />
+                <h2>SEO</h2>
+                <p>We help rank your website on the first page of Google.</p>
+                <Link to="/get-started">
+                  Free Quote
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
+                    height="20px"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path>
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  className="img-fluid"
+                  src={ecommImg}
+                  alt="e-commerce website development niagara"
+                />
+                <h2>E-Commerce Development</h2>
+                <p>Robust e-commerce systems to help your sell online.</p>
+                <Link to="/get-started">
+                  Free Quote
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
+                    height="20px"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path>
+                  </svg>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  className="img-fluid"
+                  src={mtImg}
+                  alt="website maintenance niagara"
+                />
+                <h2>Website Maintenance</h2>
+                <p>Too busy? Let us manage your website for you.</p>
+                <Link to="/get-started">
+                  Free Quote
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
+                    height="20px"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path>
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="text-center pd-top-120 pd-btm-80">
               <Fade>
-                <h2>Niagara Web Design Projects</h2>
+                <h2>Niagara Web Design &amp; SEO Services</h2>
                 <p id="sub">
                   Take a look and see the huge difference we've made to our
-                  Niagara & St. Catharines client's online existences, using a
-                  hand-coded modern web design practices.
+                  Niagara & St. Catharines client's online existences, using
+                  modern SEO and web design practices.
                 </p>
               </Fade>
             </div>
@@ -145,46 +315,46 @@ const Home = () => {
         <button>View More Work</button>
       </Link>
       <Results
-        title="Featured Niagara Web Design Results"
-        subTitle="We create websites that rank well in Google and bring our clients more revenue."
+        title="Featured Niagara Web Design &amp; SEO Results"
+        subTitle="We create web designs and SEO campaigns that rank well in Google and bring our clients more revenue."
       />
       <WhatWeDo
-        title="Web Design Services in Niagara, St. Catharines"
+        title="Web Design &amp; SEO Services in Niagara, St. Catharines"
         subTitle={[
           "As a small business in St. Catharines, Niagara ourselves, we understand that your small business in Niagara or St. Catharines cannot fork out upfront thousands of dollars for a ",
-          <Link to="/services">web design.</Link>,
-          " That's why we offer local and affordable Niagara web design & St. Catharines ",
+          <Link to="/services">web design</Link>,
+          " or SEO services. That's why we offer local and affordable Niagara web design & St. Catharines ",
           <Link to="/work">website design</Link>,
-          " solutions to fit your small business budget. Our web designs are secure and are hand-coded for best performance, which helps bring in more local Niagara or St. Catharines leads near you and revenue through your new web design.",
+          " / SEO solutions to fit your small business budget. Our web designs are secure and our SEO practices are modern, which helps bring in more local Niagara or St. Catharines leads near you and revenue through your new web design and SEO campaigns.",
         ]}
         boxOneTitle="Responsive"
         boxOneDesc="Your web design will respond and adapt to any device - phone, tablet, desktop computer, you name it."
         boxOneImgAlt="web design"
         boxTwoTitle="Optimized"
-        boxTwoDesc="Every web design is hand-coded and optimized, which leads to much better security and website performance."
+        boxTwoDesc="Every web design is hand-coded and SEO is optimized, which leads to much better security and website performance."
         boxTwoImgAlt="Optimized"
         boxThreeTitle="Secure"
         boxThreeDesc="Our web designs are secure. You can sleep well at night knowing it won't be compromised."
         boxThreeImgAlt="Optimized"
-        whatTitle="What Makes A Good Web Design?"
+        whatTitle="What Makes A Good Web Design &amp; SEO Service?"
         whatText={[
           "Does your current ",
           <Link to="/services">web design</Link>,
-          " not bring in new Niagara or St. Catharines leads? Sometimes web design problems are obvious like when a web design is not mobile-friendly or if a web design doesn't have a modern design. Other times, a closer inspection into your web design is required in order to identify issues. Most issues relating to any Niagara or St. Catharines ",
+          " or SEO not bring in new Niagara or St. Catharines leads? Sometimes web design and SEO problems are obvious like when a website is not mobile-friendly or if a web design doesn't have a modern design. Other times, a closer inspection into your web design and SEO practices are required in order to identify issues. Most issues relating to any Niagara or St. Catharines ",
           <Link to="/why-is-my-website-not-bringing-in-new-business/">
             web design
           </Link>,
-          " can be a web design that doesn't rank on the first page of Google. A web design message that doesn't align with your customers, or a web design that doesn't convert users into paying customers.",
+          " can be a web design that doesn't rank on the first page of Google, which means it's SEO isn't up to par. A web design message that doesn't align with your customers, or a web design that doesn't convert users into paying customers.",
         ]}
-        servicesTitle="Web Design & Development Company in St. Catharines, Niagara"
+        servicesTitle="Why Is a Good Web Design &amp; SEO Services Company Important?"
         servicesText={[
           "Your Niagara or St. Catharines ",
           <Link to="/tree-reports">web design</Link>,
-          " acts as the main hub on the internet. The fact that your web design is the first stop to any new customers is absolutely vital to your business, in terms of gaining new revenue from your web design. This means that you need the best web design company in Niagara & St. Catharines to deliver great web design results to your business. Infused makes sure that we do a custom-tailored web design job right from the start, to ensure your web design is a success. Not only do we create a modern web design for your business, we're the only web design business in St. Catharines and Niagara that offers monthly web design packages to help alleviate any financial strain.",
+          " acts as the main hub on the internet. The fact that your web design is the first stop to any new customers is absolutely vital to your business, in terms of gaining new revenue from your web design. This means that you need the best web design & SEO company in Niagara & St. Catharines to deliver great web design & SEO results to your business. Infused Agency makes sure that we do a custom-tailored web design job right from the start, to ensure your web design is a success and your SEO is optimized. Not only do we create a modern web design and SEO the website for your business, we're the only web design & SEO business in St. Catharines and Niagara that offers monthly web design packages to help alleviate any financial strain.",
         ]}
-        whatKindTitle="What Type of Web Design Do You Need?"
+        whatKindTitle="What Type of Web Design & SEO Services Do You Need?"
         whatKindText={[
-          "Whether you want to update the look of your website with a custom web design or need to manage your current website, we can do it all. We strive to create a quality web design that helps bring in new Niagara or St. Catharines clients to your business. You will have a highly professional and skilled web designer, web developer and SEO who can answer any web design questions you may have when it comes to your new Niagara or St. Catharines web design.For web design and web development, call on our trusted professionals. We're here to assess your current web design and provide our own web design solutions to help your Niagara or St. Catharines business.",
+          "Whether you want to update the look of your website with a custom web design or need to manage your current website with sEO, we can do it all. We strive to create a quality web design that helps bring in new Niagara or St. Catharines clients to your business. You will have a highly professional and skilled web designer, web developer and SEO who can answer any web design questions you may have when it comes to your new Niagara or St. Catharines web design. For web design and web development as well as SEO, call on our trusted professionals. We're here to assess your current web design and provide our own web design & SEO solutions to help your Niagara or St. Catharines business.",
         ]}
       />
 

@@ -110,6 +110,8 @@
     }
   }
   button {
+    color: $dark-blue;
+    border-bottom: 2px solid $purple;
     @include bp-tablet-sm {
       margin-top: 10px;
     }

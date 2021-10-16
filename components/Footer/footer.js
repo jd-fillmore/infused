@@ -28,7 +28,7 @@ const pages = [
     link: "/posts",
   },
   {
-    name: "Free Consultation",
+    name: "Free Quote",
     link: "/get-started",
   },
 ]
@@ -68,17 +68,18 @@ const Footer = () => {
                 ))}
               </ul>
             </Col>
-            <Col lg="2">
+            <Col lg="3">
               <h3>Services</h3>
               <ul>
-                <li>Websites</li>
-                <li>
-                  <a href="seo-niagara">SEO</a>
-                </li>
+                <li>Web Design & Development</li>
+                <li>WordPress Development</li>
+                <li>SEO</li>
                 <li>Digital Marketing</li>
+                <li>E-Commerce Development</li>
+                <li>Website Maintenance</li>
               </ul>
             </Col>
-            <Col lg="2">
+            <Col lg="3">
               <h3>Contact</h3>
               <ul>
                 <li>
@@ -97,8 +98,22 @@ const Footer = () => {
           </Row>
           <Row>
             <Col lg="8">
-              <h3>Areas &amp; Industries Served</h3>
-              <WebDesignCities />
+              <h3>Areas Served</h3>
+              <p>
+                <Link to="/beamsville-web-design">Beamsville</Link>,{" "}
+                <Link to="/crystal-beach-web-design">Crystal Beach</Link>,{" "}
+                <Link to="/fonthill-web-design">Fonthill</Link>,{" "}
+                <Link to="/fort-erie-web-design">Fort Erie</Link>,{" "}
+                <Link to="/grimsby-web-design">Grimsby</Link>,{" "}
+                <Link to="/pelham-web-design">Pelham</Link>,{" "}
+                <Link to="/port-colborne-web-design">Port Colborne</Link>,{" "}
+                <Link to="/port-dalhousie-web-design">Port Dalhousie</Link>,{" "}
+                <Link to="/smithville-web-design">Smithville</Link>,{" "}
+                <Link to="/thorold-web-design">Thorold</Link>,{" "}
+                <Link to="/wainfleet-web-design">Wainfleet</Link>,{" "}
+                <Link to="/welland-web-design">Welland</Link>.{" "}
+              </p>
+              <h3>Industries Served</h3>
               <Industries />
             </Col>
             <Col lg="4">

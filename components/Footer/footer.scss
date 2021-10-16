@@ -22,6 +22,10 @@
   }
   .industries {
     margin-top: -15px;
+    .link {
+      margin-top: 10px;
+      font-size: 18px !important;
+    }
   }
   @media (min-width: 1000px) {
     .modal-dialog {

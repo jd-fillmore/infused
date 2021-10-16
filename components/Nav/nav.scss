@@ -106,9 +106,10 @@
   .btn {
     padding: 15px 25px 15px 25px !important;
     border: none;
-    background: $dark-purple;
-    color: #fff !important;
-    border-radius: 50px !important;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 0px !important;
+    color: $dark-blue;
+    border: 2px solid $dark-purple;
     font-family: "Poppins", sans-serif !important;
     font-weight: bold;
     transition: 0.2s;
@@ -116,7 +117,7 @@
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-      background: $purple;
+      background: $dark-purple;
     }
     @include bp-tablet-sm {
       background: $purple;

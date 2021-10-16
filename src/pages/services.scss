@@ -13,9 +13,14 @@
     margin-bottom: 20px;
   }
   img {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
     @include bp-tablet-sm {
       width: 200px;
-      margin-bottom: 10px;
+      display: inherit;
+      padding-bottom: 20px;
+      margin: initial;
     }
     &.seo {
       @media (min-width: 992px) {

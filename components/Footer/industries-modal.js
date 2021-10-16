@@ -10,7 +10,7 @@ const IndustriesModal = () => {
   return (
     <div className="industries">
       <Button className="link" onClick={toggle}>
-        Industries
+        View Industries
       </Button>
       <Modal isOpen={modal} toggle={toggle}>
         <ModalBody>
