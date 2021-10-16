@@ -120,17 +120,17 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Niagara Web Design | SEO Services St. Catharines</title>
+        <title>Niagara Web Design | Top Web Designers St. Catharines</title>
         <meta
           name="description"
-          content="Need a Niagara web design and SEO company? Infused Agency are St. Catharines and Niagara's experts in custom website design and SEO services since 2013."
+          content="Best Niagara web design company since 2013. Infused Agency are St. Catharines and Niagara's experts in custom website design, WordPress development and more."
         />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="A Niagara Web Design &amp; SEO Company."
-        subTitle="Infused Agency is a top web design &amp; SEO agency hand-crafting beautiful website design since 2013."
+        titleTwo="A Niagara Web Design Company."
+        subTitle="Infused Agency is a top web design agency hand-crafting beautiful website design since 2013."
       />
       <section className="home-services">
         <div className="container">
@@ -244,7 +244,7 @@ const Home = () => {
                 <img
                   className="img-fluid"
                   src={ecommImg}
-                  alt="e-commerce website development niagara"
+                  alt="e-commerce website wordpress development niagara"
                 />
                 <h2>E-Commerce Development</h2>
                 <p>Robust e-commerce systems to help your sell online.</p>
@@ -299,11 +299,11 @@ const Home = () => {
           <div className="col-lg-12">
             <div className="text-center pd-top-120 pd-btm-80">
               <Fade>
-                <h2>Niagara Web Design &amp; SEO Services</h2>
+                <h2>Niagara Web Design Projects</h2>
                 <p id="sub">
                   Take a look and see the huge difference we've made to our
                   Niagara & St. Catharines client's online existences, using
-                  modern SEO and web design practices.
+                  modern web design practices.
                 </p>
               </Fade>
             </div>
@@ -315,46 +315,46 @@ const Home = () => {
         <button>View More Work</button>
       </Link>
       <Results
-        title="Featured Niagara Web Design &amp; SEO Results"
-        subTitle="We create web designs and SEO campaigns that rank well in Google and bring our clients more revenue."
+        title="Featured Niagara Web Design Results"
+        subTitle="We create web designs that rank our clients well in Google and help them beat out their competition."
       />
       <WhatWeDo
-        title="Web Design &amp; SEO Services in Niagara, St. Catharines"
+        title="Web Design Services in Niagara, St. Catharines"
         subTitle={[
           "As a small business in St. Catharines, Niagara ourselves, we understand that your small business in Niagara or St. Catharines cannot fork out upfront thousands of dollars for a ",
           <Link to="/services">web design</Link>,
-          " or SEO services. That's why we offer local and affordable Niagara web design & St. Catharines ",
+          ". That's why we offer local and affordable Niagara web design & St. Catharines ",
           <Link to="/work">website design</Link>,
-          " / SEO solutions to fit your small business budget. Our web designs are secure and our SEO practices are modern, which helps bring in more local Niagara or St. Catharines leads near you and revenue through your new web design and SEO campaigns.",
+          " solutions to fit your small business budget. Our web designs are secure and modern, which helps bring in more local Niagara or St. Catharines leads near you and revenue through your new web design.",
         ]}
         boxOneTitle="Responsive"
         boxOneDesc="Your web design will respond and adapt to any device - phone, tablet, desktop computer, you name it."
         boxOneImgAlt="web design"
         boxTwoTitle="Optimized"
-        boxTwoDesc="Every web design is hand-coded and SEO is optimized, which leads to much better security and website performance."
+        boxTwoDesc="Every web design is hand-coded and optimized, which leads to much better security and website performance."
         boxTwoImgAlt="Optimized"
         boxThreeTitle="Secure"
         boxThreeDesc="Our web designs are secure. You can sleep well at night knowing it won't be compromised."
         boxThreeImgAlt="Optimized"
-        whatTitle="What Makes A Good Web Design &amp; SEO Service?"
+        whatTitle="What Makes A Good Web Design?"
         whatText={[
           "Does your current ",
           <Link to="/services">web design</Link>,
-          " or SEO not bring in new Niagara or St. Catharines leads? Sometimes web design and SEO problems are obvious like when a website is not mobile-friendly or if a web design doesn't have a modern design. Other times, a closer inspection into your web design and SEO practices are required in order to identify issues. Most issues relating to any Niagara or St. Catharines ",
+          " not bring in new Niagara or St. Catharines leads? Sometimes web design problems are obvious like when a website is not mobile-friendly or if a web design doesn't have a modern design. Other times, a closer inspection into your web design practices are required in order to identify issues. Most issues relating to any Niagara or St. Catharines ",
           <Link to="/why-is-my-website-not-bringing-in-new-business/">
             web design
           </Link>,
           " can be a web design that doesn't rank on the first page of Google, which means it's SEO isn't up to par. A web design message that doesn't align with your customers, or a web design that doesn't convert users into paying customers.",
         ]}
-        servicesTitle="Why Is a Good Web Design &amp; SEO Services Company Important?"
+        servicesTitle="Why Is Hiring a Good Web Design Company Important?"
         servicesText={[
           "Your Niagara or St. Catharines ",
           <Link to="/tree-reports">web design</Link>,
-          " acts as the main hub on the internet. The fact that your web design is the first stop to any new customers is absolutely vital to your business, in terms of gaining new revenue from your web design. This means that you need the best web design & SEO company in Niagara & St. Catharines to deliver great web design & SEO results to your business. Infused Agency makes sure that we do a custom-tailored web design job right from the start, to ensure your web design is a success and your SEO is optimized. Not only do we create a modern web design and SEO the website for your business, we're the only web design & SEO business in St. Catharines and Niagara that offers monthly web design packages to help alleviate any financial strain.",
+          " acts as the main hub on the internet. The fact that your web design is the first stop to any new customers is absolutely vital to your business, in terms of gaining new revenue from your web design. This means that you need the best web design company in Niagara & St. Catharines to deliver great web design results to your business. Infused Agency makes sure that we do a custom-tailored web design job right from the start, to ensure your web design is a success and is optimized. Not only do we create a modern web design for your business, we're the only web design business in St. Catharines and Niagara that offers monthly web design packages to help alleviate any financial strain.",
         ]}
-        whatKindTitle="What Type of Web Design & SEO Services Do You Need?"
+        whatKindTitle="What Type of Web Design Services Do You Need?"
         whatKindText={[
-          "Whether you want to update the look of your website with a custom web design or need to manage your current website with sEO, we can do it all. We strive to create a quality web design that helps bring in new Niagara or St. Catharines clients to your business. You will have a highly professional and skilled web designer, web developer and SEO who can answer any web design questions you may have when it comes to your new Niagara or St. Catharines web design. For web design and web development as well as SEO, call on our trusted professionals. We're here to assess your current web design and provide our own web design & SEO solutions to help your Niagara or St. Catharines business.",
+          "Whether you want to update the look of your website with a custom web design or need to manage your current website, we can do it all. We strive to create a quality web design that helps bring in new Niagara or St. Catharines clients to your business. You will have a highly professional and skilled web designer and WordPress web developer who can answer any web design questions you may have when it comes to your new Niagara or St. Catharines web design. For web design and WordPress web development, call on our trusted professionals. We're here to assess your current web design and provide our own web design & WordPress solutions to help your Niagara or St. Catharines business.",
         ]}
       />
 
