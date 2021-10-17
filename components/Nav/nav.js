@@ -7,6 +7,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
 } from "reactstrap"
 import "../Nav/nav.scss"
 
@@ -41,11 +45,28 @@ const Example = props => {
                 About
               </Link>
             </NavItem>
-            <NavItem>
-              <Link to="/services" className="nav-link">
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
                 Services
-              </Link>
-            </NavItem>
+              </DropdownToggle>
+              <DropdownMenu right>
+                <Link to="/seo-niagara/">
+                  <DropdownItem>SEO</DropdownItem>
+                </Link>
+                <Link to="/web-design/">
+                  <DropdownItem>Web Design &amp; Development</DropdownItem>
+                </Link>
+                <Link to="/wordpress-developer-niagara/">
+                  <DropdownItem>WordPress Development</DropdownItem>
+                </Link>
+                <Link to="/ecommerce-web-design-niagara/">
+                  <DropdownItem>E-Commerce Development</DropdownItem>
+                </Link>
+                <Link to="/digital-marketing-niagara/">
+                  <DropdownItem>Digital Marketing</DropdownItem>
+                </Link>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
               <Link to="/posts" className="nav-link">
                 Blog

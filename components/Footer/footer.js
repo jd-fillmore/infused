@@ -71,12 +71,25 @@ const Footer = () => {
             <Col lg="3">
               <h3>Services</h3>
               <ul>
-                <li>Web Design & Development</li>
-                <li>WordPress Development</li>
-                <li>SEO</li>
-                <li>Digital Marketing</li>
-                <li>E-Commerce Development</li>
-                <li>Website Maintenance</li>
+                <li>
+                  <Link to="/web-design">Web Design & Development</Link>
+                </li>
+                <li>
+                  <Link to="/wordpress-developer-niagara">
+                    WordPress Development
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/ecommerce-web-design-niagara">
+                    E-Commerce Development
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/seo-niagara">SEO</Link>
+                </li>
+                <li>
+                  <Link to="/digital-marketing-niagara">Digital Marketing</Link>
+                </li>
               </ul>
             </Col>
             <Col lg="3">

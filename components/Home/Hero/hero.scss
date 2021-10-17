@@ -2,12 +2,7 @@
 @import "../../../src/pages/breakpoints.scss";
 
 .hero {
-  background-image: linear-gradient(
-      to bottom,
-      rgba($light-blue, 0.85),
-      rgba($purple, 0.85)
-    ),
-    url("../../../src/img/hero.webp");
+  background-image: linear-gradient(to right, #005c97, #363795);
   background-repeat: none;
   background-position: center center;
   background-size: cover;

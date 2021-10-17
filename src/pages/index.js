@@ -134,6 +134,11 @@ const Home = () => {
       />
       <section className="home-services">
         <div className="container">
+          <div className="row pd-btm-80">
+            <div className="col-lg-12 text-center">
+              <h2>Web Design Niagara</h2>
+            </div>
+          </div>
           {/* Row One */}
           <div className="row">
             <div className="col-lg-4">

@@ -39,6 +39,7 @@ const About = () => {
                 <img src={website} alt="web design and development" />
               </Col>
               <Col lg={{ size: 7, offset: 1 }}>
+                <a id="web-design"></a>
                 <h3>Web Design &amp; Development</h3>
                 <p>
                   We make websites that will beat out your competition in the

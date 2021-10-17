@@ -48,4 +48,10 @@
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
+  a {
+    border-bottom: none;
+    &:hover {
+      border-bottom: none;
+    }
+  }
 }

@@ -37,7 +37,7 @@ ul {
 a {
   color: $light-blue;
   transition: 0.2s;
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid $dark-blue;
   &:focus,
   &:hover {
     color: $purple;
