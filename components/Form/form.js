@@ -82,9 +82,9 @@ const Form = () => {
             How can we help you?<sup>*</sup>
           </label>
           <textarea
-            name="message"
+            name="How Can We Help"
             class="form-control"
-            id="Message"
+            id="How Can We Help"
             rows="3"
             placeholder="Business website, e-commerce website, search engine optimization (SEO), digital marketing, etc.."
             required
@@ -95,9 +95,9 @@ const Form = () => {
             What's your project goal?<sup>*</sup>
           </label>
           <textarea
-            name="message"
+            name="Project Goal"
             class="form-control"
-            id="Message"
+            id="Project Goal"
             rows="3"
             placeholder="Updated website design, increased website traffic, better functioning website, generate more online sales, etc.."
             required
