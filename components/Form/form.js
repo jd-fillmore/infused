@@ -81,106 +81,27 @@ const Form = () => {
           <label>
             How can we help you?<sup>*</sup>
           </label>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="business-website"
-              />
-            </label>
-            <label class="custom-control-label" for="business-website">
-              Business Website
-            </label>
-          </div>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="ecomm-website"
-              />
-            </label>
-            <label class="custom-control-label" for="ecomm-website">
-              E-Commerce Website
-            </label>
-          </div>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input type="checkbox" class="custom-control-input" id="seo" />
-            </label>
-            <label class="custom-control-label" for="seo">
-              Search Engine Optimization (SEO)
-            </label>
-          </div>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="digital-marketing"
-              />
-            </label>
-            <label class="custom-control-label" for="digital-marketing">
-              Digital Marketing (Instagram Ads, Facebook Ads)
-            </label>
-          </div>
+          <textarea
+            name="message"
+            class="form-control"
+            id="Message"
+            rows="3"
+            placeholder="Business website, e-commerce website, search engine optimization (SEO), digital marketing, etc.."
+            required
+          ></textarea>
         </div>
         <div className="col-lg-6">
           <label className="project">
             What's your project goal?<sup>*</sup>
           </label>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="updated-website-design"
-              />
-            </label>
-            <label class="custom-control-label" for="updated-website-design">
-              Updated website design
-            </label>
-          </div>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="increase-traffic"
-              />
-            </label>
-            <label class="custom-control-label" for="increase-traffic">
-              Increase website traffic
-            </label>
-          </div>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="better-functioning-website"
-              />
-            </label>
-            <label
-              class="custom-control-label"
-              for="better-functioning-website"
-            >
-              Better functioning website
-            </label>
-          </div>
-          <div class="custom-control custom-checkbox">
-            <label>
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="generate-sales"
-              />
-            </label>
-            <label class="custom-control-label" for="generate-sales">
-              Generate more online sales
-            </label>
-          </div>
+          <textarea
+            name="message"
+            class="form-control"
+            id="Message"
+            rows="3"
+            placeholder="Updated website design, increased website traffic, better functioning website, generate more online sales, etc.."
+            required
+          ></textarea>
         </div>
       </div>
       <div class="form-group">
@@ -192,18 +113,6 @@ const Form = () => {
           id="URL"
           aria-describedby="urlhelp"
         />
-      </div>
-      <div class="form-group">
-        <label>
-          Tell us more about your project<sup>*</sup>
-        </label>
-        <textarea
-          name="message"
-          class="form-control"
-          id="Message"
-          rows="3"
-          required
-        ></textarea>
       </div>
       <button type="submit">Submit</button>
       <input type="hidden" name="bot-field" />

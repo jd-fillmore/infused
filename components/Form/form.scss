@@ -2,6 +2,12 @@
 @import "../../src/pages/breakpoints.scss";
 
 form {
+  ::placeholder {
+    font-family: $body !important;
+  }
+  input {
+    font-family: $body;
+  }
   label {
     margin-top: 10px;
     font-weight: bold;
