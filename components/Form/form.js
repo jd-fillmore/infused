@@ -82,37 +82,45 @@ const Form = () => {
             How can we help you?<sup>*</sup>
           </label>
           <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="business-website"
-            />
+            <label>
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="business-website"
+              />
+            </label>
             <label class="custom-control-label" for="business-website">
               Business Website
             </label>
           </div>
           <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="ecomm-website"
-            />
+            <label>
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="ecomm-website"
+              />
+            </label>
             <label class="custom-control-label" for="ecomm-website">
               E-Commerce Website
             </label>
           </div>
           <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="seo" />
+            <label>
+              <input type="checkbox" class="custom-control-input" id="seo" />
+            </label>
             <label class="custom-control-label" for="seo">
               Search Engine Optimization (SEO)
             </label>
           </div>
           <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="digital-marketing"
-            />
+            <label>
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="digital-marketing"
+              />
+            </label>
             <label class="custom-control-label" for="digital-marketing">
               Digital Marketing (Instagram Ads, Facebook Ads)
             </label>
@@ -123,31 +131,37 @@ const Form = () => {
             What's your project goal?<sup>*</sup>
           </label>
           <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="updated-website-design"
-            />
+            <label>
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="updated-website-design"
+              />
+            </label>
             <label class="custom-control-label" for="updated-website-design">
               Updated website design
             </label>
           </div>
           <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="increase-traffic"
-            />
+            <label>
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="increase-traffic"
+              />
+            </label>
             <label class="custom-control-label" for="increase-traffic">
               Increase website traffic
             </label>
           </div>
           <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="better-functioning-website"
-            />
+            <label>
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="better-functioning-website"
+              />
+            </label>
             <label
               class="custom-control-label"
               for="better-functioning-website"
@@ -156,11 +170,13 @@ const Form = () => {
             </label>
           </div>
           <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="generate-sales"
-            />
+            <label>
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="generate-sales"
+              />
+            </label>
             <label class="custom-control-label" for="generate-sales">
               Generate more online sales
             </label>
