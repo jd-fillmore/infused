@@ -129,14 +129,19 @@ const Home = () => {
       </Helmet>
       <Nav />
       <Hero
-        titleTwo="A Niagara Web Design Company."
+        titleTwo="Web Design Services That Grow Your Business"
         subTitle="Infused Agency is a top web design agency hand-crafting beautiful website design since 2013."
       />
       <section className="home-services">
         <div className="container">
           <div className="row pd-btm-80">
             <div className="col-lg-12 text-center">
-              <h2>Web Design Niagara</h2>
+              <h2>Niagara Web Design Company</h2>
+              <p className="serv-intro">
+                We design <Link to="/web-design">mobile-friendly websites</Link>{" "}
+                that help grow your business. From our initial discovery meeting
+                to post-launch support, we're always here to help.
+              </p>
             </div>
           </div>
           {/* Row One */}
@@ -299,28 +304,30 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="text-center pd-top-120 pd-btm-80">
-              <Fade>
-                <h2>Niagara Web Design Projects</h2>
-                <p id="sub">
-                  Take a look and see the huge difference we've made to our
-                  Niagara & St. Catharines client's online existences, using
-                  modern web design practices.
-                </p>
-              </Fade>
+      <section className="home-feat">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="text-center pd-top-120 pd-btm-80">
+                <Fade>
+                  <h2>Featured Web Design Projects</h2>
+                  <p id="sub">
+                    Take a look and see the huge difference we've made to our
+                    Niagara & St. Catharines client's online existences, using
+                    modern web design practices.
+                  </p>
+                </Fade>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <PortfolioSlider />
       <Link className="d-block text-center pd-top-80" to="/work">
         <button>View More Work</button>
       </Link>
       <Results
-        title="Featured Niagara Web Design Results"
+        title="Featured Web Design Results"
         subTitle="We create web designs that rank our clients well in Google and help them beat out their competition."
       />
       <WhatWeDo

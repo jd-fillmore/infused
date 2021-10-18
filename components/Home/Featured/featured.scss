@@ -24,3 +24,15 @@
     }
   }
 }
+
+.home-feat {
+  h2,
+  p {
+    @include bp-tablet-sm {
+      text-align: left;
+    }
+  }
+  h2 {
+    margin-top: -20px;
+  }
+}

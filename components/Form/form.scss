@@ -1,0 +1,21 @@
+@import "../../src/pages/variables.scss";
+@import "../../src/pages/breakpoints.scss";
+
+form {
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    &.custom-control-label {
+      font-weight: normal;
+    }
+    &.url {
+      margin-top: 30px;
+    }
+    &.project {
+      @include bp-tablet-sm {
+        margin-top: 20px;
+      }
+    }
+  }
+}

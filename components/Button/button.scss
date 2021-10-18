@@ -16,7 +16,6 @@ button {
   &:hover {
     border: 2px solid $purple;
     background: $purple;
-    transform: translateY(-3px);
     box-shadow: 0px 8px 15px rgba($white, 0.1);
     color: $dark-blue;
   }

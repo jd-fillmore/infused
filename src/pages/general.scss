@@ -119,6 +119,15 @@ form {
   }
 }
 
+.w-75 {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  @include bp-tablet-sm {
+    width: 100%;
+  }
+}
+
 .seo-page {
   h2,
   h3 {

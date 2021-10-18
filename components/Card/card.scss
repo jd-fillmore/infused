@@ -21,6 +21,7 @@
       line-height: 1;
       color: $white;
       font-size: 46px;
+      font-family: $heading;
       @include bp-tablet-sm {
         font-size: 22px;
       }

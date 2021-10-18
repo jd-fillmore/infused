@@ -8,6 +8,9 @@
     padding: 60px 0px 60px 0px;
     text-align: center;
   }
+  button {
+    margin-top: 20px;
+  }
   .heading {
     background: $light-blue;
     @include bp-tablet-sm {

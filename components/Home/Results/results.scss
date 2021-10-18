@@ -28,11 +28,16 @@
       padding-bottom: 60px;
     }
   }
+  h2,
+  p {
+    @include bp-tablet-sm {
+      text-align: left !important;
+    }
+  }
   h2 {
     font-size: 40px;
     text-align: center;
     @include bp-tablet-sm {
-      text-align: left;
       line-height: 1.4;
     }
   }
