@@ -2,12 +2,11 @@
 @import "../../../src/pages/breakpoints.scss";
 
 .hero {
-  background-image: linear-gradient(to right, #005c97, #363795);
+  background-image: url("../../../src/img/niagara-web-design.jpg");
   background-repeat: none;
   background-position: center center;
   background-size: cover;
   padding: 250px 0px 170px 0px;
-  margin-top: -105px;
   @include bp-tablet-sm {
     background-position: unset;
     text-align: left;
@@ -53,7 +52,7 @@
   h1 {
     padding: 30px 0px s0px 0px;
     color: $white;
-    font-size: 38px;
+    font-size: 58px;
     margin-bottom: 20px;
     @include bp-tablet-sm {
       padding: 10px 0px 0px 0px;

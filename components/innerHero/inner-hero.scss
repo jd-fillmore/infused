@@ -4,9 +4,8 @@
 .inner-hero {
   background-image: linear-gradient(to right, $light-blue, $purple);
   padding: 180px 0px 80px 0px;
-  margin-top: -105px;
   @include bp-tablet-sm {
-    padding: 220px 0px 60px 0px;
+    padding: 120px 0px 60px 0px;
   }
   .row {
     align-items: center;
@@ -34,8 +33,8 @@
     font-family: $body;
     color: $dark-grey !important;
     font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    line-height: 1.6;
+    letter-spacing: 1px;
     margin-bottom: 20px;
   }
   p {
@@ -48,7 +47,6 @@
   hr {
     border-bottom: 1px solid $dark-grey;
     width: 50px;
-    margin-left: 0px;
   }
   span {
     background: linear-gradient(

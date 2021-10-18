@@ -20,7 +20,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts-with-attributes`,
       options: {
         fonts: [
-          `poppins\:400,700`, // you can also specify font weights and styles
+          `poppins\:400,700`,
+          `roboto\:400,700`, // you can also specify font weights and styles
         ],
         display: "swap",
         attributes: {

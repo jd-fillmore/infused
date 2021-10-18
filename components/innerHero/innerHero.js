@@ -10,17 +10,13 @@ const InnerHero = ({ title, description }) => {
     <>
       <section className="inner-hero">
         <Container>
-          <Row>
-            <Col lg="6">
+          <Row className="text-center">
+            <Col lg="12">
               <Fade>
                 <h1>{title}</h1>
                 <hr />
                 <p>{description}</p>
               </Fade>
-            </Col>
-            <Col lg="6">
-              <h4 className="consult">Free Quote</h4>
-              <Form />
             </Col>
           </Row>
         </Container>
