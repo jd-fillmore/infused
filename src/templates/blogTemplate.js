@@ -6,6 +6,8 @@ import InnerHero from "../../components/innerHero/innerHero"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import { graphql } from "gatsby"
+import bgImage from "../img/inner-work.jpg"
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -15,29 +17,26 @@ export default function Template({
     <>
       <Helmet>
         <title>{frontmatter.title} - Infused</title>
-        <meta
-          name="description"
-          content={frontmatter.excerpt}
-        />
+        <meta name="description" content={frontmatter.excerpt} />
       </Helmet>
-      <Nav/>
-      <InnerHero title={frontmatter.title}/>
+      <Nav />
+      <InnerHero title={frontmatter.title} bgImage={bgImage} />
       <section className="inner-content">
         <Container className="single-blog">
-        <Row>
-          <Col lg="12">
+          <Row>
+            <Col lg="12">
               <div className="blog-post">
                 <div
                   className="blog-post-content"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
-                </div>
+              </div>
             </Col>
           </Row>
         </Container>
       </section>
-      <CTA/>
-      <Footer/>
+      <CTA />
+      <Footer />
     </>
   )
 }

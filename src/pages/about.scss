@@ -2,20 +2,6 @@
 @import "../pages/breakpoints.scss";
 
 .about {
-  .row {
-    display: flex;
-    align-items: center;
-    margin-top: 60px;
-    &:first-child {
-      margin-top: 0px;
-    }
-  }
-  p {
-    font-size: 22px;
-    @include bp-tablet-sm {
-      font-size: 16px;
-    }
-  }
   .hide-mobile {
     @include bp-tablet-sm {
       display: none;

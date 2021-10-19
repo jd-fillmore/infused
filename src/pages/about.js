@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -10,6 +11,8 @@ import about1 from "../img/about-1.svg"
 import about2 from "../img/about-2.svg"
 import about3 from "../img/about-3.svg"
 import about4 from "../img/about-4.svg"
+import bgImage from "../img/inner-about.jpg"
+import about from "../img/about.jpg"
 
 import "../pages/about.scss"
 
@@ -24,91 +27,73 @@ const About = () => {
         />
       </Helmet>
       <Nav />
-      <InnerHero title="About Us" description="A bit about the company" />
+      <InnerHero
+        title="About Us"
+        description="A bit about the company"
+        bgImage={bgImage}
+      />
       <InnerContent>
         <section className="about">
           <Container>
-            {/* One */}
             <Row>
-              <Col lg="7">
+              <Col lg="6">
                 <p>
-                  We care about our client's business needs. That's why we do
-                  our absolute best to meet them.
+                  Since 2013 we've been able to help countless local St.
+                  Catharines, Niagara businesses (and beyond!) with their{" "}
+                  <Link to="/web-design">website design</Link>,{" "}
+                  <Link to="/digital-marketing-niagara">digital marketing</Link>
+                  ,{" "}
+                  <Link to="/seo-niagara">
+                    search engine optimization (SEO)
+                  </Link>
+                  ,{" "}
+                  <Link to="/wordpress-developer-niagara">
+                    WordPress development
+                  </Link>{" "}
+                  and{" "}
+                  <Link to="/ecommerce-web-design-niagara">
+                    e-commerce website development
+                  </Link>
+                  .
+                </p>
+                <p>
+                  We've been able to help small, local businesses all the way to
+                  large enterprise companies with increasing traffic to their
+                  websites, build modern websites for them and ultimately
+                  bringing them more revenue through digital channels.
                 </p>
               </Col>
-              <Col lg="5">
-                <img className="img-fluid" src={about1} alt="business needs" />
+              <Col lg="6">
+                <img className="img-fluid" src={about} alt="business needs" />
               </Col>
             </Row>
-            {/* Two */}
-            {/* Desktop */}
-            <Row className="hide-mobile">
-              <Col lg="5">
-                <img className="img-fluid" src={about2} alt="business goals" />
-              </Col>
-              <Col lg="7">
+            <Row className="pd-top-120">
+              <Col lg="12">
+                <h2>How we can help you</h2>
                 <p>
-                  We work with businesses to identify their digital business
-                  goals, and build around those to meet them.
+                  If you're looking for help in any of the areas below, please
+                  head over to our <Link to="/get-started">Get Started</Link>{" "}
+                  page and a member from our team will respond to you promptly.
                 </p>
               </Col>
             </Row>
-            {/* Mobile */}
-            <Row className="hide-desktop">
-              <Col lg="7">
-                <p>
-                  We work with businesses to identify their digital business
-                  goals, and build around those to meet them.
-                </p>
-              </Col>
-              <Col lg="5">
-                <img
-                  className="img-fluid"
-                  src={about2}
-                  alt="business goals mobile"
-                />
-              </Col>
-            </Row>
-            {/* Three */}
             <Row>
-              <Col lg="7">
-                <p>
-                  We design and develop modern websites, local SEO and digital
-                  strategies to help bring you more revenue.
-                </p>
+              <Col lg="6">
+                <ul>
+                  <li>Re-design my website</li>
+                  <li>Increase my website traffic</li>
+                  <li>Grow my online sales</li>
+                  <li>Get more people calling my business</li>
+                  <li>Get found on Google</li>
+                </ul>
               </Col>
-              <Col lg="5">
-                <img className="img-fluid" src={about3} alt="revenue" />
-              </Col>
-            </Row>
-            {/* Four */}
-            {/* Desktop */}
-            <Row className="hide-mobile">
-              <Col lg="5">
-                <img className="img-fluid" src={about4} alt="succeed online" />
-              </Col>
-              <Col lg="7">
-                <p>
-                  It's our mission to help our clients succeed online. We help
-                  them to make a lasting impact in their market place.
-                </p>
-              </Col>
-            </Row>
-            {/* Mobile */}
-            <Row className="hide-desktop">
-              <Col lg="7">
-                <p>
-                  We make it our mission to empower our clients digital success.
-                  We do more than just build our client's website. We help them
-                  to make a lasting impact in their market place.
-                </p>
-              </Col>
-              <Col lg="5">
-                <img
-                  className="img-fluid"
-                  src={about4}
-                  alt="succeed online mobile"
-                />
+              <Col lg="6">
+                <ul>
+                  <li>Outrank my competitors in Google Search</li>
+                  <li>Make my website mobile-frienly</li>
+                  <li>Increase my online presence</li>
+                  <li>Create and run Facebook &amp; Instagram ads for me</li>
+                </ul>
               </Col>
             </Row>
           </Container>

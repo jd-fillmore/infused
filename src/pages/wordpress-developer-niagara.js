@@ -8,6 +8,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import website from "../img/wordpress.png"
+import bgImage from "../img/inner-wordpress.jpg"
 
 import "../pages/services.scss"
 
@@ -27,6 +28,7 @@ const WordPress = () => {
       <InnerHero
         title="Niagara WordPress Developer, St. Catharines"
         description="Our WordPress development agency builds modern WordPress websites for your Niagara or St. Catharines company."
+        bgImage={bgImage}
       />
       <InnerContent>
         <section className="services">

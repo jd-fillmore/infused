@@ -7,6 +7,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import Form from "../../components/Form/form"
+import bgImage from "../img/inner-work.jpg"
 
 const GetEvaluation = () => {
   return (
@@ -22,6 +23,7 @@ const GetEvaluation = () => {
       <InnerHero
         title="Get Started"
         description="Ready to start your project? Fill out the form below to get started."
+        bgImage={bgImage}
       />
       <InnerContent>
         <Container>

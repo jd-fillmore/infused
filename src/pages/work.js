@@ -11,6 +11,7 @@ import Footer from "../../components/Footer/footer"
 import treeImg from "../img/tree-reports.png"
 import kdImg from "../img/niagara-web-design.png"
 import cassImg from "../img/featured-seo.png"
+import bgImage from "../img/inner-work.jpg"
 
 import "../pages/work.scss"
 import PortfolioSlider from "../../components/PortfolioSlider/portfolioSlider"
@@ -29,6 +30,7 @@ const OurWork = () => {
       <InnerHero
         title="Our Work"
         description="Our work is our passion. See what we've created for our clients."
+        bgImage={bgImage}
       />
       <InnerContent>
         <section className="work">

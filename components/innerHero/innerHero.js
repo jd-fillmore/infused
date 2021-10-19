@@ -5,10 +5,15 @@ import Form from "../Form/form"
 
 import "../innerHero/inner-hero.scss"
 
-const InnerHero = ({ title, description }) => {
+const InnerHero = ({ title, description, bgImage }) => {
   return (
     <>
-      <section className="inner-hero">
+      <section
+        className="inner-hero"
+        style={{
+          backgroundImage: `url(${bgImage})`,
+        }}
+      >
         <Container>
           <Row className="text-center">
             <Col lg="12">

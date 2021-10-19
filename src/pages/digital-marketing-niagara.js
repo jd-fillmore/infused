@@ -8,6 +8,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import website from "../img/dm.svg"
+import bgImage from "../img/inner-dm.jpg"
 
 import "../pages/services.scss"
 
@@ -25,6 +26,7 @@ const SEO = () => {
       <InnerHero
         title="Digital Marketing Agency in Niagara, St. Catharines"
         description="Our digital marketing agency will help your Niagara or St. Catharines company driving traffic and convert leads through your website."
+        bgImage={bgImage}
       />
       <InnerContent>
         <section className="services">

@@ -8,6 +8,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import website from "../img/responsive.svg"
+import bgImage from "../img/inner-web-design.jpg"
 
 import "../pages/services.scss"
 
@@ -25,6 +26,7 @@ const WebDesign = () => {
       <InnerHero
         title="Web Design &amp; Development"
         description="We design and build websites that blow away your competition visually and SEO-wise."
+        bgImage={bgImage}
       />
       <InnerContent>
         <section className="services">

@@ -7,6 +7,7 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
+import bgImage from "../img/inner-work.jpg"
 
 const PostsPage = ({
   data: {
@@ -26,21 +27,23 @@ const PostsPage = ({
           content="Check out the latest educational blog posts from Infused."
         />
       </Helmet>
-      <Nav/>
-      <InnerHero title="Blog" description="Educating companies on best practices"/>
+      <Nav />
+      <InnerHero
+        title="Blog"
+        description="Educating companies on best practices"
+        bgImage={bgImage}
+      />
       <section className="inner-content">
-      <Container>
-        <Row>
-          <Col lg="12">
-            {Posts}
-          </Col>
-        </Row>
-      </Container>
+        <Container>
+          <Row>
+            <Col lg="12">{Posts}</Col>
+          </Row>
+        </Container>
       </section>
-      <CTA/>
-      <Footer/>
+      <CTA />
+      <Footer />
     </>
-  ) 
+  )
 }
 
 export default PostsPage

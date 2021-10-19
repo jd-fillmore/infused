@@ -8,6 +8,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import website from "../img/add-to-cart.png"
+import bgImage from "../img/inner-ecomm.jpg"
 
 import "../pages/services.scss"
 
@@ -25,6 +26,7 @@ const ECommerce = () => {
       <InnerHero
         title="E-Commerce Website Development Niagara, St. Catharines"
         description="Our E-Commerce website development agency will help your Niagara or St. Catharines company sell online."
+        bgImage={bgImage}
       />
       <InnerContent>
         <section className="services">
