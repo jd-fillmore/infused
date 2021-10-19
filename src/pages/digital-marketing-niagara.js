@@ -25,7 +25,7 @@ const SEO = () => {
       <Nav />
       <InnerHero
         title="Digital Marketing Agency in Niagara, St. Catharines"
-        description="Our digital marketing agency will help your Niagara or St. Catharines company driving traffic and convert leads through your website."
+        description="Our digital marketing agency will help your Niagara or St. Catharines company driving traffic and convert leads through your website"
         bgImage={bgImage}
       />
       <InnerContent>

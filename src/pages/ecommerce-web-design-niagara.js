@@ -25,7 +25,7 @@ const ECommerce = () => {
       <Nav />
       <InnerHero
         title="E-Commerce Website Development Niagara, St. Catharines"
-        description="Our E-Commerce website development agency will help your Niagara or St. Catharines company sell online."
+        description="Our E-Commerce website development agency will help your Niagara or St. Catharines company sell online"
         bgImage={bgImage}
       />
       <InnerContent>

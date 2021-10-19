@@ -25,7 +25,7 @@ const SEO = () => {
       <Nav />
       <InnerHero
         title="SEO Company in Niagara, St. Catharines"
-        description="Our SEO agency will help your Niagara or St. Catharines company rank on the first page of Google where your customers are."
+        description="Our SEO agency will help your Niagara or St. Catharines company rank on the first page of Google where your customers are"
         bgImage={bgImage}
       />
       <InnerContent>

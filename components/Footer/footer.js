@@ -12,23 +12,23 @@ const pages = [
     link: "/",
   },
   {
+    name: "Work",
+    link: "/work",
+  },
+  {
+    name: "Pricing",
+    link: "/pricing",
+  },
+  {
     name: "About",
     link: "/about",
-  },
-  {
-    name: "Services",
-    link: "/services",
-  },
-  {
-    name: "Portfolio",
-    link: "/work",
   },
   {
     name: "Blog",
     link: "/posts",
   },
   {
-    name: "Free Quote",
+    name: "Get Started",
     link: "/get-started",
   },
 ]

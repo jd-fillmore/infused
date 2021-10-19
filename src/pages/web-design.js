@@ -25,7 +25,7 @@ const WebDesign = () => {
       <Nav />
       <InnerHero
         title="Web Design &amp; Development"
-        description="We design and build websites that blow away your competition visually and SEO-wise."
+        description="We design and build websites that blow away your competition visually and SEO-wise"
         bgImage={bgImage}
       />
       <InnerContent>

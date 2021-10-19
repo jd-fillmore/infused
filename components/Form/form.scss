@@ -12,8 +12,13 @@ form {
     margin-top: 10px;
     font-weight: bold;
     font-size: 18px;
-    &.custom-control-label {
+    &.check {
       font-weight: normal;
+    }
+    &.how {
+      @include bp-tablet-sm {
+        margin-bottom: -20px;
+      }
     }
     &.url {
       margin-top: 30px;
@@ -22,6 +27,14 @@ form {
       @include bp-tablet-sm {
         margin-top: 20px;
       }
+    }
+  }
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  button {
+    @include bp-tablet-sm {
+      margin-top: 20px;
     }
   }
 }

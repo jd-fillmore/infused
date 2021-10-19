@@ -27,7 +27,7 @@ const WordPress = () => {
       <Nav />
       <InnerHero
         title="Niagara WordPress Developer, St. Catharines"
-        description="Our WordPress development agency builds modern WordPress websites for your Niagara or St. Catharines company."
+        description="Our WordPress development agency builds modern WordPress websites for your Niagara or St. Catharines company"
         bgImage={bgImage}
       />
       <InnerContent>

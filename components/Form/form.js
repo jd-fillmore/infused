@@ -78,42 +78,106 @@ const Form = () => {
       </div>
       <div className="row">
         <div className="col-lg-6">
-          <label>
+          <label className="how">
             How can we help you?<sup>*</sup>
           </label>
-          <textarea
+          <br />
+          <label className="check">
+            <input
+              type="checkbox"
+              name="custom-website"
+              id="Custom Website"
+              value="Custom Website"
+            />{" "}
+            Custom website <em>(Starting at $2,500)</em>
+          </label>
+          <label className="check">
+            <input
+              type="checkbox"
+              name="wordpress-website"
+              id="Wordpress Website"
+              value="Wordpress Website"
+            />{" "}
+            WordPress website <em>(Starting at $3,500)</em>
+          </label>
+          <label className="check">
+            <input
+              type="checkbox"
+              name="ecommerce-website"
+              id="ecommerce Website"
+              value="ecommerce Website"
+            />{" "}
+            E-Commerce website <em>(Starting at $5,000)</em>
+          </label>
+          <label className="check">
+            <input
+              type="checkbox"
+              name="digital-marketing"
+              id="digital marketing"
+              value="digital marketing"
+            />{" "}
+            Digital marketing <em>(Starting at $1,000/mo)</em>
+          </label>
+          <label className="check">
+            <input type="checkbox" name="seo" id="seo" value="seo" /> SEO{" "}
+            <em>(Starting at $1,000/mo)</em>
+          </label>
+          <label className="check">
+            <input
+              type="checkbox"
+              name="website-seo-audit"
+              id="website seo audit"
+              value="website seo audit"
+            />{" "}
+            Website/SEO Audit <em>(Starting at $1,000)</em>
+          </label>
+          {/* <textarea
             name="How Can We Help"
             class="form-control"
             id="How Can We Help"
             rows="3"
             placeholder="Business website, e-commerce website, search engine optimization (SEO), digital marketing, etc.."
             required
-          ></textarea>
+          ></textarea> */}
         </div>
         <div className="col-lg-6">
-          <label className="project">
+          <label>
             What's your project goal?<sup>*</sup>
           </label>
           <textarea
             name="Project Goal"
             class="form-control"
             id="Project Goal"
-            rows="3"
-            placeholder="Updated website design, increased website traffic, better functioning website, generate more online sales, etc.."
+            rows="10"
             required
           ></textarea>
         </div>
       </div>
-      <div class="form-group">
-        <label className="url">Current Website URL</label>
-        <input
-          name="url"
-          type="name"
-          class="form-control"
-          id="URL"
-          aria-describedby="urlhelp"
-        />
+      <div className="row">
+        <div className="col-lg-6">
+          <div class="form-group">
+            <label>Current Website URL</label>
+            <input
+              name="url"
+              type="name"
+              class="form-control"
+              id="URL"
+              aria-describedby="urlhelp"
+            />
+          </div>
+        </div>
+        <div className="col-lg-6">
+          <label>Tell us more about your project:*</label>
+          <textarea
+            name="Tell Us More"
+            class="form-control"
+            id="Tell Us More"
+            rows="10"
+            required
+          ></textarea>
+        </div>
       </div>
+
       <button type="submit">Submit</button>
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact" />
