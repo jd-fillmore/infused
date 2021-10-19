@@ -87,7 +87,7 @@ const Form = () => {
               type="checkbox"
               name="custom-website"
               id="Custom Website"
-              value="Custom Website"
+              value="Chose Custom Website"
             />{" "}
             Custom website <em>(Starting at $2,500)</em>
           </label>
@@ -96,7 +96,7 @@ const Form = () => {
               type="checkbox"
               name="wordpress-website"
               id="Wordpress Website"
-              value="Wordpress Website"
+              value="Chose Wordpress Website"
             />{" "}
             WordPress website <em>(Starting at $3,500)</em>
           </label>
@@ -105,7 +105,7 @@ const Form = () => {
               type="checkbox"
               name="ecommerce-website"
               id="ecommerce Website"
-              value="ecommerce Website"
+              value="Chose E-commerce Website"
             />{" "}
             E-Commerce website <em>(Starting at $5,000)</em>
           </label>
@@ -114,7 +114,7 @@ const Form = () => {
               type="checkbox"
               name="digital-marketing"
               id="digital marketing"
-              value="digital marketing"
+              value="Chose digital marketing"
             />{" "}
             Digital marketing <em>(Starting at $1,000/mo)</em>
           </label>
@@ -127,7 +127,7 @@ const Form = () => {
               type="checkbox"
               name="website-seo-audit"
               id="website seo audit"
-              value="website seo audit"
+              value="Chose website seo audit"
             />{" "}
             Website/SEO Audit <em>(Starting at $1,000)</em>
           </label>
