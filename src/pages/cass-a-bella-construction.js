@@ -6,6 +6,7 @@ import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
+import bgImage from "../img/inner-about.jpg"
 
 import "../pages/work-specific.scss"
 
@@ -23,6 +24,7 @@ const CassABella = () => {
       <InnerHero
         title="Cass-A-Bella Construction"
         description="How we helped a local custom home builder increase their leads."
+        bgImage={bgImage}
       />
       <InnerContent>
         <section className="work-specific">
