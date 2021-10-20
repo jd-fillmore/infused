@@ -14,6 +14,7 @@ form {
     font-size: 18px;
     &.check {
       font-weight: normal;
+      display: block;
     }
     &.how {
       @include bp-tablet-sm {
@@ -33,8 +34,18 @@ form {
     margin-right: 10px;
   }
   button {
+    margin-top: 20px;
+  }
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ced4da;
     @include bp-tablet-sm {
-      margin-top: 20px;
+      margin-top: -20px !important;
+      margin-bottom: 20px;
     }
+  }
+  sup {
+    color: red;
   }
 }
