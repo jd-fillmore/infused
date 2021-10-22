@@ -69,9 +69,12 @@ const SEO = () => {
                   services, you'll notice a spike in traffic and customers. It's
                   a fantastic way to increase your company's revenue.
                 </p>
-                <Link to="/get-started">
-                  <button>Free Quote</button>
-                </Link>
+                <a
+                  target="_blank"
+                  href="https://calendly.com/infused-agency/project-discovery/"
+                >
+                  <button>Get Free Quote</button>
+                </a>
               </Col>
             </Row>
             <Row className="pd-top-80">

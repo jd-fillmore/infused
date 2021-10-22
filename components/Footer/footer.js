@@ -27,10 +27,6 @@ const pages = [
     name: "Blog",
     link: "/posts",
   },
-  {
-    name: "Get Started",
-    link: "/get-started",
-  },
 ]
 
 const Footer = () => {
@@ -94,11 +90,13 @@ const Footer = () => {
             </Col>
             <Col lg="3">
               <h3>Contact</h3>
-              <ul>
-                <li>
-                  <Link to="/get-started">Start your Project</Link>
-                </li>
-              </ul>
+              <a
+                href="https://calendly.com/infused-agency/project-discovery/"
+                target="_blank"
+              >
+                <strong>Get Free Quote</strong>
+              </a>
+              <br />
               <a href="mailto:hello@infused.agency">hello@infused.agency</a>
               <br />
               <a class="phone" href="tel:(905) 933-3115">

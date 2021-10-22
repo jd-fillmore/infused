@@ -68,9 +68,12 @@ const SEO = () => {
                   ranking on the first of Google, it's a great way to increase
                   your company's revenue.
                 </p>
-                <Link to="/get-started">
-                  <button>Free Quote</button>
-                </Link>
+                <a
+                  target="_blank"
+                  href="https://calendly.com/infused-agency/project-discovery/"
+                >
+                  <button>Get Free Quote</button>
+                </a>
               </Col>
             </Row>
             <Row className="pd-top-80">

@@ -74,9 +74,12 @@ const WordPress = () => {
                   allows you to add rich functionality like e-commerce shops, a
                   blog, membership areas and more.
                 </p>
-                <Link to="/get-started">
-                  <button>Free Quote</button>
-                </Link>
+                <a
+                  target="_blank"
+                  href="https://calendly.com/infused-agency/project-discovery/"
+                >
+                  <button>Get Free Quote</button>
+                </a>
               </Col>
             </Row>
             <Row className="pd-top-80">
