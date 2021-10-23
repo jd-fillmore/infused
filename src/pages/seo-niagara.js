@@ -49,7 +49,7 @@ const SEO = () => {
                   The <strong>Niagara SEO</strong> and{" "}
                   <strong>St Catharines SEO services</strong> that our Niagara
                   SEO company provides are pretty impeccable. We consistently
-                  provide great SEO services to our clients ith pretty awesome
+                  provide great SEO services to our clients with pretty awesome
                   results. There are a lot of benefits as to why SEO services
                   are so important for any local company:
                 </p>
