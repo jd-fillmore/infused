@@ -23,11 +23,7 @@ const About = () => {
         />
       </Helmet>
       <Nav />
-      <InnerHero
-        title="About Us"
-        description="A bit about the company"
-        bgImage={bgImage}
-      />
+      <InnerHero title="About Us" description="A bit about the company" />
       <InnerContent>
         <section className="about">
           <Container>
