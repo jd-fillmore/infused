@@ -126,9 +126,12 @@ const SEO = () => {
                   business? Click below to get your free digital marketing
                   quote.
                 </p>
-                <Link to="/get-started">
-                  <button>Free Quote</button>
-                </Link>
+                <a
+                  target="_blank"
+                  href="https://calendly.com/infused-agency/project-discovery/"
+                >
+                  <button>Get Free Quote</button>
+                </a>
               </Col>
             </Row>
           </Container>
