@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 
 import "../Hero/hero.scss"
 
-const Hero = ({ titleTwo, subTitle }) => {
+const Hero = ({ title, titleTwo, subTitle }) => {
   return (
     <>
       <section className="hero">
@@ -14,9 +14,7 @@ const Hero = ({ titleTwo, subTitle }) => {
             <Fade>
               <Row className="text-center">
                 <Col lg="12">
-                  <h1 className="intro">
-                    Niagara Web Design Company, Web Design St. Catharines
-                  </h1>
+                  <h1 className="intro">{title}</h1>
                   <h2>{titleTwo}</h2>
                   <a
                     href="https://calendly.com/infused-agency/project-discovery/"

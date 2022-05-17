@@ -112,8 +112,8 @@ const Footer = () => {
               <h3>Areas Served</h3>
               <p>
                 Beamsville, Crystal Beach, Fonthill, Fort Erie, Grimsby, Pelham,
-                Port Colborne, Port Dalhousie, Smithville, Thorold, Wainfleet,
-                Welland.
+                Port Colborne, Port Dalhousie, Smithville, Thorold, Wainfleet,{" "}
+                <Link to="/seo-welland">Welland</Link>.
               </p>
               <h3>Industries Served</h3>
               <Industries />
