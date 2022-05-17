@@ -111,9 +111,11 @@ const Footer = () => {
             <Col lg="8">
               <h3>Areas Served</h3>
               <p>
-                <Link to="/seo-beamsville">Beamsville</Link>, Crystal Beach,
-                Fonthill, Fort Erie, Grimsby, Pelham, Port Colborne, Port
-                Dalhousie, Smithville, Thorold, Wainfleet,{" "}
+                <Link to="/seo-beamsville">Beamsville, ON</Link>,{" "}
+                <Link to="/seo-crystal-beach">Crystal Beach, ON</Link>,{" "}
+                <Link to="/seo-fonthill">Fonthill, ON</Link>, Fort Erie, ON,
+                Grimsby, ON, Pelham, ON, Port Colborne, ON, Smithville, ON,
+                Thorold,
                 <Link to="/seo-welland">Welland</Link>.
               </p>
               <h3>Industries Served</h3>
