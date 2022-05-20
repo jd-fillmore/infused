@@ -31,8 +31,9 @@ const Locations = () => {
                   <Link to="/seo-beamsville">Beamsville, ON</Link>,{" "}
                   <Link to="/seo-crystal-beach">Crystal Beach, ON</Link>,{" "}
                   <Link to="/seo-fonthill">Fonthill, ON</Link>,{" "}
-                  <Link to="/seo-fort-erie">Fort Erie, ON</Link>, Grimsby, ON,
-                  Pelham, ON, Port Colborne, ON, Smithville, ON, Thorold ON,{" "}
+                  <Link to="/seo-fort-erie">Fort Erie, ON</Link>,{" "}
+                  <Link to="/seo-grimsby">Grimsby, ON</Link>, Pelham, ON, Port
+                  Colborne, ON, Smithville, ON, Thorold ON,{" "}
                   <Link to="/seo-welland">Welland, ON</Link>.
                 </p>
               </Col>
