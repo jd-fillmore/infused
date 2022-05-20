@@ -27,15 +27,32 @@ const Locations = () => {
           <Container>
             <Row>
               <Col lg="12">
-                <p>
-                  <Link to="/seo-beamsville">Beamsville, ON</Link>,{" "}
-                  <Link to="/seo-crystal-beach">Crystal Beach, ON</Link>,{" "}
-                  <Link to="/seo-fonthill">Fonthill, ON</Link>,{" "}
-                  <Link to="/seo-fort-erie">Fort Erie, ON</Link>,{" "}
-                  <Link to="/seo-grimsby">Grimsby, ON</Link>,{" "}
-                  <Link to="/seo-port-colborne">Port Colborne, ON</Link>,
-                  Thorold ON, <Link to="/seo-welland">Welland, ON</Link>.
-                </p>
+                <ul>
+                  <li>
+                    <Link to="/seo-beamsville">Beamsville, ON</Link>,{" "}
+                  </li>
+                  <li>
+                    <Link to="/seo-crystal-beach">Crystal Beach, ON</Link>,{" "}
+                  </li>
+                  <li>
+                    <Link to="/seo-fonthill">Fonthill, ON</Link>,{" "}
+                  </li>
+                  <li>
+                    <Link to="/seo-fort-erie">Fort Erie, ON</Link>,{" "}
+                  </li>
+                  <li>
+                    <Link to="/seo-grimsby">Grimsby, ON</Link>,{" "}
+                  </li>
+                  <li>
+                    <Link to="/seo-port-colborne">Port Colborne, ON</Link>,{" "}
+                  </li>
+                  <li>
+                    <Link to="/seo-thorold">Thorold, ON</Link>,{" "}
+                  </li>
+                  <li>
+                    <Link to="/seo-welland">Welland, ON</Link>.
+                  </li>
+                </ul>
               </Col>
             </Row>
           </Container>
