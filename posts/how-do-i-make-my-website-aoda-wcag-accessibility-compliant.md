@@ -1,7 +1,7 @@
 ---
 title: How do I make my website AODA & WCAG accessibility compliant?
 date: 2020-12-14T16:33:57.207Z
-slug: /how-to-make-website-AODA-WCAG-accessible-compliant/
+slug: /how-to-make-website-AODA-compliant/
 excerpt: A lot our Niagara-based web design clients and prospective clients from
   other areas tend to ask us, "how do I make my website AODA & WCAG
   accessible?". They also pose the same sort of question like, "how do I make my
