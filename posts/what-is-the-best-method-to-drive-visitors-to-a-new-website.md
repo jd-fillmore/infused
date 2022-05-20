@@ -1,10 +1,9 @@
 ---
-title: ' What is the best method to drive visitors to a new website?'
-slug: /posts/what-is-the-best-method-to-drive-visitors-to-a-new-website/
+title: " What is the best method to drive visitors to a new website?"
 date: 2019-03-26T23:58:31.129Z
-excerpt: >-
-  Do you wonder what is the best method to drive visitors to a new website? Fear
-  not! Click here for answers.
+slug: /posts/drive-visitors-to-new-website/
+excerpt: Do you wonder what is the best method to drive visitors to a new
+  website? Fear not! Click here for answers.
 ---
 As a company, you need to figure out how to get traffic to your website fast. We get this question asked almost weekly - “What is the best method to drive visitors to a <a href="https://infused.agency/">new website</a>?”.
 

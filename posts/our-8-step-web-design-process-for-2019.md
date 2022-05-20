@@ -1,17 +1,16 @@
 ---
-title: Our 8 Step Web Design Process For 2021
-slug: /posts/our-8-step-web-design-process-for-2021/
+title: Our 8 Step Web Design Process For 2022
 date: 2019-03-26T23:14:58.047Z
-excerpt: >-
-  In this post, we go over our 8 step web design process for 2019. Lots of value
-  here! Don't miss it.
+slug: /posts/web-design-process/
+excerpt: In this post, we go over our 8 step web design process for 2022. Lots
+  of value here! Don't miss it.
 ---
 There are so many different tools on the market today for agencies and freelancers alike to utilize for their web step by step web design processes. On one hand, a lot of agencies tend to just focus on how "pretty" a design is. <!--more-->Which, in our opinion, is sort of the opposite of what they should actually be doing.
 
-Yes - part of your web design process for 2019 should help revamp your client's current site, but more importantly, it should be able to solve their business goals as well. Your client's target audience should be able to easily absorb the content on your client's website, and the aesthetics and content should also be able to pull their audience in.
+Yes - part of your web design process for 2022 should help revamp your client's current site, but more importantly, it should be able to solve their business goals as well. Your client's target audience should be able to easily absorb the content on your client's website, and the aesthetics and content should also be able to pull their audience in.
 
-<h2>Our 8 Step Web Design Process For 2020</h2>
-Without further ado, lets go over our 8 step web design process for 2019.
+<h2>Our 8 Step Web Design Process For 2022</h2>
+Without further ado, lets go over our 8 step web design process for 2022.
 
 <h2>1. Identifying Design Goals</h2>
 
