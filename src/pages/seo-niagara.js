@@ -16,10 +16,10 @@ const SEO = () => {
   return (
     <>
       <Helmet>
-        <title>SEO Niagara | St. Catharines SEO Company</title>
+        <title>SEO Niagara | Best St. Catharines SEO Company</title>
         <meta
           name="description"
-          content="Infused Agency specializes in local SEO for Niagara &amp; St. Catharines companies. Click here to get your free quote."
+          content="Best SEO Niagara & St Catharines SEO Company. Infused Agency specializes in local SEO to help your business gain more revenue."
         />
       </Helmet>
       <Nav />
