@@ -1,10 +1,9 @@
 ---
 title: How To Make A Website Load Faster With Pictures
-slug: /posts/how-to-make-a-website-load-faster-with-pictures/
 date: 2020-03-14T13:14:38.629Z
-excerpt: >-
-  In this post, we'll cover how to make a website load faster with pictures.
-  Click here to learn more.
+slug: /posts/make-website-load-faster-pictures/
+excerpt: In this post, we'll cover how to make a website load faster with
+  pictures. Click here to learn more.
 ---
 One of the biggest ranking factors in Google is [page speed](https://cognitiveseo.com/blog/22865/page-speed-seo/). The slower your [website](https://infused.agency), the quicker people leave. The faster your website loads, the happier your users are. So if you have a website that has a little or a lot of pictures, I'll tell you in this post how to make a website load faster with pictures.
 
