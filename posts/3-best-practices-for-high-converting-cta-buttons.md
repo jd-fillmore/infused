@@ -4,15 +4,16 @@ date: 2021-01-06T21:56:59.159Z
 slug: /best-practices-cta-buttons
 excerpt: Click here to find out the 3 best practices for high-converting CTA buttons.
 ---
-As a [Niagara web design](https://infused.agency/) company, we've had a few [local companies](https://infused.agency/kd-flowers) come to us that have already a bit of call-to-action button knowledge and ask, "what are some of the best practices for high-converting CTA buttons?"
+
+As a [Niagara web design](https://infused.agency/) company, we've had a few [local companies](https://infused.agency/kd-florist) come to us that have already a bit of call-to-action button knowledge and ask, "what are some of the best practices for high-converting CTA buttons?"
 
 We've had other local companies with less [web design](/websites) knowledge instead ask us, "how can high-converting call-to-action buttons bring us more revenue?"
 
 **TL;DR - 3 best practices for high-converting CTA (call-to-action) buttons:**
 
-* **Compelling copy**
-* **Logical placement**
-* **Stand out colour-wise**
+- **Compelling copy**
+- **Logical placement**
+- **Stand out colour-wise**
 
 ## 3 best practices for high-converting CTA buttons
 
@@ -22,7 +23,7 @@ Before we dive into 3 of the best practices for high-converting CTA buttons, let
 
 A call-to-action button is button that prompts the user to do something.
 
-For example - if you're a plumber, the main point of having a high-converting button is for people to click on it for a free quote. 
+For example - if you're a plumber, the main point of having a high-converting button is for people to click on it for a free quote.
 
 On the other hand if you have an e-commerce website, a high-converting 'buy now' button is important to increase sales.
 
@@ -44,11 +45,11 @@ CTA buttons don't convert well when they have a lot of copy. Ones that work well
 
 Examples of high-converting copy:
 
-* Learn
-* Start
-* Build
-* Join
-* Discover
+- Learn
+- Start
+- Build
+- Join
+- Discover
 
 These words imply action, therefore are effective.
 
@@ -90,6 +91,6 @@ Make sure to choose a colour of button that makes sense according to the colour 
 
 The main point of a website is to convert users into paying customers.
 
-A big part of that is making sure to follow the best practices for a high-converting call-to-action button. 
+A big part of that is making sure to follow the best practices for a high-converting call-to-action button.
 
 If you have CTA buttons on your site that have compelling copy, are placed logically on your pages and stand out colour-wise, the chances of them converting are high.

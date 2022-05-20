@@ -7,16 +7,17 @@ excerpt: We've had many local companiescome to us that have already a bit of
   best strategies or best techniques we can use to help us rank higher in Google
   Maps Pack?"
 ---
-As a [Niagara web design](https://infused.agency/) company, we've had many [local companies](https://infused.agency/kd-flowers) come to us that have already a bit of search engine optimization general knowledge and ask, "what are some of the best strategies or best techniques we can use to help us rank higher in Google Maps Pack?"
+
+As a [Niagara web design](https://infused.agency/) company, we've had many [local companies](https://infused.agency/kd-florist) come to us that have already a bit of search engine optimization general knowledge and ask, "what are some of the best strategies or best techniques we can use to help us rank higher in Google Maps Pack?"
 
 We've had other local companies with less [local SEO](https://infused.agency/seo) knowledge instead ask us, "how can ranking higher in Google Maps Pack help my local business?"
 
 **TL;DR - best strategies & techniques to rank your local business higher in Google Maps Pack:**
 
-* **Construct a great Google My Business listing**
-* **Generate 5 star reviews and respond to reviews from customers**
-* **Build local citations**
-* **Engage with your Google My Business listing**
+- **Construct a great Google My Business listing**
+- **Generate 5 star reviews and respond to reviews from customers**
+- **Build local citations**
+- **Engage with your Google My Business listing**
 
 ## Best Strategies & Techniques To Rank Higher in Google Maps Pack
 
@@ -58,12 +59,12 @@ A big part of ranking in the Google Maps Pack is having a great Google My Busine
 
 What are the quality of a great Google My Business listing?
 
-* Use your real business name
-* Be as accurate as possible and fill out all vital pieces of information. This includes your business name, business categories, map location, phone number, website URL, hours of operation, etc.
-* Write original and compelling content to fill in with the description area
-* Upload high quality photos of your interior / exterior of your business, as well as your logo
-* At all times make sure that your Google My Business information is up-to-date and correct
-* Regularly update your Google My Business listing. This can be quick posts, offers, things that are new, etc.
+- Use your real business name
+- Be as accurate as possible and fill out all vital pieces of information. This includes your business name, business categories, map location, phone number, website URL, hours of operation, etc.
+- Write original and compelling content to fill in with the description area
+- Upload high quality photos of your interior / exterior of your business, as well as your logo
+- At all times make sure that your Google My Business information is up-to-date and correct
+- Regularly update your Google My Business listing. This can be quick posts, offers, things that are new, etc.
 
 It's very important that you make a Google My Business listing that's compelling, accurate, filled out with content and updated regularly. This tells Google that you're using their platform regularly, and they'll reward you for it.
 
@@ -83,7 +84,7 @@ Make sure there's also text in the review though, not just a 5 star review with 
 
 Also, you need to respond to negative reviews as well. When potential customers see a negative review, they almost immediately go down to what the 'owner' responded with.
 
-Make sure to keep it positive and professional. You want people to see that you will correct your mistakes if ones are made. 
+Make sure to keep it positive and professional. You want people to see that you will correct your mistakes if ones are made.
 
 If you respond harshly, that's a great way to lose potential customers. Keep it positive.
 
@@ -101,7 +102,7 @@ You just built a local citation.
 
 **Note -** It's extremely important to make sure that when building citations, that the information you put on those local websites matches exactly with the information that's on your Google My Business listing.
 
-If they aren't, there's a big chance you won't end up ranking in the top 3 of the Google Maps Pack. 
+If they aren't, there's a big chance you won't end up ranking in the top 3 of the Google Maps Pack.
 
 ## 4. Engage with your Google My Business listing
 
@@ -111,10 +112,10 @@ Local businesses that end up engaging on the platform rather than those that lea
 
 What do I mean by engaging?
 
-* Post regular updates. New offers, simple announcements, deals, etc.
-* Keep up-to-date with store hours
-* Respond to all customer reviews
-* Upload new photos now and then
+- Post regular updates. New offers, simple announcements, deals, etc.
+- Keep up-to-date with store hours
+- Respond to all customer reviews
+- Upload new photos now and then
 
 One of the best strategies / techniques here is that you engage. The more you engage, the more Google likes it.
 

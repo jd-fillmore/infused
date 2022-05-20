@@ -76,7 +76,7 @@ const OurWork = () => {
                     A boutique affordable wedding flower business in the heart
                     of St. Catharines.
                   </p>
-                  <Link to="/kd-flowers">
+                  <Link to="/kd-florist">
                     Discover
                     <svg
                       stroke="currentColor"

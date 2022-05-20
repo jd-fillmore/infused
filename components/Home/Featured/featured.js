@@ -20,7 +20,7 @@ const projects = [
     title: "KD Flowers",
     desc:
       "A boutique affordable wedding flower business in the heart of St. Catharines, Niagara. Web design & SEO services rendered.",
-    link: "/kd-flowers",
+    link: "/kd-florist",
     pic: treeImg,
   },
   {
