@@ -38,8 +38,9 @@ const About = () => {
                 <br />
                 <br />
                 <p>
-                  A big part in finding the best SEO keywords for bakeries comes
-                  down to a couple things:
+                  A big part in finding the best{" "}
+                  <Link to="/seo-beamsville">SEO</Link> keywords for bakeries
+                  comes down to a couple things:
                 </p>
                 <ul>
                   <li>
@@ -49,19 +50,25 @@ const About = () => {
                   <li>What city are you located in?</li>
                 </ul>
                 <p>
-                  Since local <Link to="/seo">search engine optimization</Link>{" "}
+                  Since local{" "}
+                  <Link to="/seo-crystal-beach">
+                    search engine optimization
+                  </Link>{" "}
                   is going to be so huge for you as a bakery (since you offer a
-                  local service), it's super important to build an SEO keyword{" "}
+                  local service), it's super important to build an{" "}
+                  <Link to="/seo-fonthill">SEO</Link> keyword{" "}
                   <Link to="/digital-strategy">digital strategy</Link> for your
                   business.{" "}
                 </p>
                 <p>
-                  The entire point of SEO is inbound marketing - that is, to
-                  bring clients that are looking for what you offer, directly to
-                  you. SEO for a bakery works so well because even when times
-                  are tough - recessions, slow times - it doesn't matter. You're
-                  tapping into a market that's outside of your network (people
-                  you don't know), who are looking for exactly what you offer.
+                  The entire point of <Link to="/seo-fort-erie">SEO</Link> is
+                  inbound marketing - that is, to bring clients that are looking
+                  for what you offer, directly to you.{" "}
+                  <Link to="/seo-grimsby">SEO</Link> for a bakery works so well
+                  because even when times are tough - recessions, slow times -
+                  it doesn't matter. You're tapping into a market that's outside
+                  of your network (people you don't know), who are looking for
+                  exactly what you offer.
                 </p>
                 <p>
                   <strong>Some of the best keywords for bakeries are:</strong>
@@ -99,8 +106,9 @@ const About = () => {
                 </Card>
                 <h2>So.. what are the best SEO keywords for bakeries?</h2>
                 <p>
-                  In this short post, we'll go through some SEO keyword ideas
-                  that are the best to use for bakeries.
+                  In this short post, we'll go through some{" "}
+                  <Link to="/seo-port-colborne">SEO</Link> keyword ideas that
+                  are the best to use for bakeries.
                 </p>
                 <h2>"City + bakeries"</h2>
                 <p>
@@ -120,8 +128,8 @@ const About = () => {
                   <br />
                   These are a bit harder to rank for, because they're such
                   generic terms. Not to mention, since every other bakery is
-                  using SEO to try and rank for that keyword, it's super
-                  competitive.
+                  using <Link to="/seo-thorold">SEO</Link> to try and rank for
+                  that keyword, it's super competitive.
                   <br />
                   <br />
                   Which leads us to something called a long-tail keyword.
@@ -166,8 +174,9 @@ const About = () => {
                   <br />
                   <br />A lot of people surprisingly use this search term. It's
                   pretty difficult to rank for - but if you can, you're tapping
-                  into a fairly large market of people using SEO to search for
-                  what you offer.
+                  into a fairly large market of people using{" "}
+                  <Link to="/seo-welland">SEO</Link> to search for what you
+                  offer.
                 </p>
                 <h2>"Best bakeries + city" or "best vegan bakeries + city"</h2>
                 <p>
