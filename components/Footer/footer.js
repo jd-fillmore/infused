@@ -110,9 +110,16 @@ const Footer = () => {
           <Row>
             <Col lg="8">
               <h3>Areas Served</h3>
-              <p>
-                Click <Link to="/locations">here</Link> for locations.
-              </p>
+              <Link to="/seo-beamsville">Beamsville, ON</Link>,{" "}
+              <Link to="/seo-crystal-beach">Crystal Beach, ON</Link>,{" "}
+              <Link to="/seo-fonthill">Fonthill, ON</Link>,{" "}
+              <Link to="/seo-fort-erie">Fort Erie, ON</Link>,{" "}
+              <Link to="/seo-grimsby">Grimsby, ON</Link>,{" "}
+              <Link to="/seo-port-colborne">Port Colborne, ON</Link>,{" "}
+              <Link to="/seo-thorold">Thorold, ON</Link>,{" "}
+              <Link to="/seo-welland">Welland, ON</Link>.
+              <br />
+              <br />
               <h3>Industries Served</h3>
               <Industries />
             </Col>
