@@ -40,7 +40,7 @@ const Example = props => {
                 Services
               </DropdownToggle>
               <DropdownMenu right>
-                <Link to="/seo-niagara/">
+                <Link to="/niagara-seo-company/">
                   <DropdownItem>SEO</DropdownItem>
                 </Link>
                 <Link to="/web-design/">

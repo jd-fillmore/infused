@@ -110,14 +110,16 @@ const Footer = () => {
           <Row>
             <Col lg="8">
               <h3>Areas Served</h3>
-              <Link to="/seo-beamsville">Beamsville, ON</Link>,{" "}
-              <Link to="/seo-crystal-beach">Crystal Beach, ON</Link>,{" "}
-              <Link to="/seo-fonthill">Fonthill, ON</Link>,{" "}
-              <Link to="/seo-fort-erie">Fort Erie, ON</Link>,{" "}
-              <Link to="/seo-grimsby">Grimsby, ON</Link>,{" "}
-              <Link to="/seo-port-colborne">Port Colborne, ON</Link>,{" "}
-              <Link to="/seo-thorold">Thorold, ON</Link>,{" "}
-              <Link to="/seo-welland">Welland, ON</Link>.
+              <Link to="/beamsville-seo-company">Beamsville, ON</Link>,{" "}
+              <Link to="/crystal-beach-seo-company">Crystal Beach, ON</Link>,{" "}
+              <Link to="/fonthill-seo-company">Fonthill, ON</Link>,{" "}
+              <Link to="/fort-erie-seo-company">Fort Erie, ON</Link>,{" "}
+              <Link to="/grimsby-seo-company">Grimsby, ON</Link>,{" "}
+              <Link to="/niagara-seo-company">Niagara, ON</Link>,{" "}
+              <Link to="/port-colborne-seo-company">Port Colborne, ON</Link>,{" "}
+              <Link to="/st-catharines-seo-company">St. Catharines, ON</Link>,{" "}
+              <Link to="/thorold-seo-company">Thorold, ON</Link>,{" "}
+              <Link to="/welland-seo-company">Welland, ON</Link>.
               <br />
               <br />
               <h3>Industries Served</h3>
