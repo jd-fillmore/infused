@@ -122,9 +122,7 @@ const Footer = () => {
               <Link to="/thorold-seo-company">Thorold, ON</Link>,{" "}
               <Link to="/welland-seo-company">Welland, ON</Link>.
               <p className="subtitle">Web Design</p>
-              <Link to="/beamsville-web-design-company">
-                Beamsville, ON
-              </Link>,{" "}
+              <Link to="/beamsville-web-design">Beamsville, ON</Link>,{" "}
               <Link to="/crystal-beach-web-design">Crystal Beach, ON</Link>,{" "}
               <Link to="/fonthill-web-design">Fonthill, ON</Link>,{" "}
               <Link to="/fort-erie-web-design">Fort Erie, ON</Link>,{" "}
