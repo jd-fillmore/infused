@@ -8,6 +8,12 @@
   @include bp-tablet-sm {
     padding: 30px 0px 0px 0px;
   }
+  p {
+    &.subtitle {
+      margin-bottom: 0px;
+      margin-top: 10px;
+    }
+  }
   p,
   li {
     color: rgba($white, 0.8);

@@ -110,6 +110,7 @@ const Footer = () => {
           <Row>
             <Col lg="8">
               <h3>Areas Served</h3>
+              <p className="subtitle">SEO</p>
               <Link to="/beamsville-seo-company">Beamsville, ON</Link>,{" "}
               <Link to="/crystal-beach-seo-company">Crystal Beach, ON</Link>,{" "}
               <Link to="/fonthill-seo-company">Fonthill, ON</Link>,{" "}
@@ -120,6 +121,17 @@ const Footer = () => {
               <Link to="/st-catharines-seo-company">St. Catharines, ON</Link>,{" "}
               <Link to="/thorold-seo-company">Thorold, ON</Link>,{" "}
               <Link to="/welland-seo-company">Welland, ON</Link>.
+              <p className="subtitle">Web Design</p>
+              <Link to="/beamsville-web-design-company">
+                Beamsville, ON
+              </Link>,{" "}
+              <Link to="/crystal-beach-web-design">Crystal Beach, ON</Link>,{" "}
+              <Link to="/fonthill-web-design">Fonthill, ON</Link>,{" "}
+              <Link to="/fort-erie-web-design">Fort Erie, ON</Link>,{" "}
+              <Link to="/grimsby-web-design">Grimsby, ON</Link>,{" "}
+              <Link to="/port-colborne-web-design">Port Colborne, ON</Link>,{" "}
+              <Link to="/thorold-web-design">Thorold, ON</Link>,{" "}
+              <Link to="/welland-web-design">Welland, ON</Link>.
               <br />
               <br />
               <h3>Industries Served</h3>
