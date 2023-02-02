@@ -178,7 +178,7 @@ const Pricing = () => {
                   <h3>Digital Marketing</h3>
                   <em>
                     <p>
-                      Starting from <sup>$</sup>2,000/mo
+                      Starting from <sup>$</sup>600/mo
                     </p>
                   </em>
                   <ul>
