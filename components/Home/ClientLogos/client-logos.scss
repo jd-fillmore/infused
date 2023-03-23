@@ -19,4 +19,9 @@
       margin-top: inherit;
     }
   }
+  h2 {
+    @include bp-tablet-sm {
+      font-size: 20px !important;
+    }
+  }
 }
