@@ -74,7 +74,7 @@ const Pricing = () => {
                   <h3>Custom Website</h3>
                   <em>
                     <p>
-                      Starting from <sup>$</sup>2,000
+                      Starting from <sup>$</sup>3,000
                     </p>
                   </em>
                   <ul>
@@ -108,7 +108,7 @@ const Pricing = () => {
                   <h3>WordPress Website</h3>
                   <em>
                     <p>
-                      Starting from <sup>$</sup>3,000
+                      Starting from <sup>$</sup>4,000
                     </p>
                   </em>
                   <ul>
@@ -142,7 +142,7 @@ const Pricing = () => {
                   <h3>E-Commerce Website</h3>
                   <em>
                     <p>
-                      Starting from <sup>$</sup>4,000
+                      Starting from <sup>$</sup>5,000
                     </p>
                   </em>
                   <ul>
@@ -178,7 +178,7 @@ const Pricing = () => {
                   <h3>Digital Marketing</h3>
                   <em>
                     <p>
-                      Starting from <sup>$</sup>600/mo
+                      Starting from <sup>$</sup>1,000/mo
                     </p>
                   </em>
                   <ul>
@@ -212,7 +212,7 @@ const Pricing = () => {
                   <h3>SEO</h3>
                   <em>
                     <p>
-                      Starting from <sup>$</sup>600/mo
+                      Starting from <sup>$</sup>900/mo
                     </p>
                   </em>
                   <ul>
@@ -246,7 +246,7 @@ const Pricing = () => {
                   <h3>Website / SEO Audit</h3>
                   <em>
                     <p>
-                      Starting from <sup>$</sup>600
+                      Starting from <sup>$</sup>1,000
                     </p>
                   </em>
                   <ul>

@@ -1,0 +1,22 @@
+@import "../../../src/pages/variables.scss";
+@import "../../../src/pages/breakpoints.scss";
+
+.client-logos {
+  padding: 120px 0px 120px 0px;
+  background: $dark-grey;
+  @include bp-tablet-sm {
+    padding: 40px 0px 40px 0px;
+  }
+  img {
+    filter: grayscale(1);
+    @include bp-tablet-sm {
+      margin-top: 20px;
+    }
+  }
+  .logos {
+    margin-top: 60px;
+    @include bp-tablet-sm {
+      margin-top: inherit;
+    }
+  }
+}

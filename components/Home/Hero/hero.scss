@@ -2,16 +2,26 @@
 @import "../../../src/pages/breakpoints.scss";
 
 .hero {
-  background-image: url("../../../src/img/niagara-web-design.jpg");
-  background-repeat: none;
-  background-position: center center;
-  background-size: cover;
-  padding: 250px 0px 140px 0px;
+  padding: 250px 0px 0px 0px;
   @include bp-tablet-sm {
     background-position: center center;
     text-align: left;
-    padding: 140px 0px 80px 0px;
+    padding: 100px 0px 40px 0px;
     margin-top: 0px;
+  }
+  img {
+    margin-top: 60px;
+    @include bp-tablet-sm {
+      display: none;
+    }
+  }
+  a {
+    &.learn {
+      font-size: 14px;
+      @include bp-tablet-sm {
+        display: none;
+      }
+    }
   }
   p {
     &.results {
@@ -47,7 +57,7 @@
   h1,
   h2,
   p {
-    color: $dark-grey !important;
+    color: $glow-blue !important;
   }
   h1 {
     padding: 30px 0px s0px 0px;
@@ -108,8 +118,11 @@
   button {
     z-index: 9999;
     position: relative;
+    background: $purple;
     color: $dark-blue;
-    border-bottom: 2px solid $purple;
+    &:hover {
+      background: $glow-blue;
+    }
     @include bp-tablet-sm {
       z-index: 1;
       margin-top: 0px;

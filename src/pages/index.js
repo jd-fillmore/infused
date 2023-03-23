@@ -19,10 +19,15 @@ import seoImg from "../../src/img/seoo.svg"
 import dmImg from "../../src/img/dm.svg"
 import ecommImg from "../../src/img/add-to-cart.png"
 import wpImg from "../../src/img/wordpress.png"
+import clientLmc from "../../src/img/client-lmc.png"
+import clientKd from "../../src/img/client-kd.png"
+import clientTr from "../../src/img/client-tr.png"
+import clientGgs from "../../src/img/client-ggs.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"
 import "../pages/home-services.scss"
+import ClientLogos from "../../components/Home/ClientLogos/clientLogos"
 
 const schema = {
   "@context": "http://schema.org",
@@ -131,6 +136,17 @@ const Home = () => {
         title="Niagara Web Design Company, Web Design St. Catharines"
         titleTwo="Web Design Services That Grow Your Business"
         subTitle="Infused Agency is a top web design agency hand-crafting beautiful website design since 2013."
+      />
+      <ClientLogos
+        title="We work with awesome, local clients"
+        logoOne={clientLmc}
+        logoOneAlt="lincoln medical centre - web design"
+        logoTwo={clientKd}
+        logoTwoAlt="kd flowers - web design"
+        logoThree={clientTr}
+        logoThreeAlt="tree reports - web design"
+        logoFour={clientGgs}
+        logoFourAlt="ggs landscaping niagara - web design"
       />
       <section className="home-services">
         <div className="container">
