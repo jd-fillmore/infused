@@ -19,7 +19,6 @@ import seoImg from "../../src/img/seoo.svg"
 import dmImg from "../../src/img/dm.svg"
 import ecommImg from "../../src/img/add-to-cart.png"
 import wpImg from "../../src/img/wordpress.png"
-import mtImg from "../../src/img/maintenance.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../pages/general.scss"

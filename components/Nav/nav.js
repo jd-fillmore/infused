@@ -82,6 +82,7 @@ const Example = props => {
                 className="nav-link btn"
                 href="https://calendly.com/infused-agency/project-discovery/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Get Free Quote
                 <svg

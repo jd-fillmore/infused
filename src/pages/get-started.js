@@ -1,12 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { Container, Row, Col } from "reactstrap"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
-import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import Form from "../../components/Form/form"
 import bgImage from "../img/inner-work.jpg"
 
 const GetEvaluation = () => {
@@ -25,7 +22,7 @@ const GetEvaluation = () => {
         description="Ready to start your project? Fill out the form below to get started."
         bgImage={bgImage}
       />
-      <InnerContent>
+      {/* <InnerContent>
         <Container>
           <Row>
             <Col lg="12">
@@ -33,7 +30,7 @@ const GetEvaluation = () => {
             </Col>
           </Row>
         </Container>
-      </InnerContent>
+      </InnerContent> */}
       <CTA />
       <Footer />
     </>

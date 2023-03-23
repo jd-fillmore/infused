@@ -6,7 +6,8 @@ excerpt: >-
   Ever wonder what are the best practices for responsive web design? We answer
   exactly that. Click here now!
 ---
-I'm sure you have seen your fair share of non <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank" rel="noopener noreferrer">responsive web design</a> examples online - and you're probably thinking,<!--more--> "it's 2018 - and there are STILL non responsive web design templates being used?!"
+
+I'm sure you have seen your fair share of non <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank" rel="noreferrer" rel="noopener noreferrer">responsive web design</a> examples online - and you're probably thinking,<!--more--> "it's 2018 - and there are STILL non responsive web design templates being used?!"
 
 Gross!
 
@@ -18,7 +19,7 @@ For those who don't know, lets dive a little deeper into the subject.
 
 The responsive web design definition is the ideology that a <a href="https://infused.agency/">website</a> or a web application should respond to the user's behaviour based on the size of the screen, the platform and orientation.
 
-In other words, the responsive <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank" rel="noopener noreferrer">web design</a> template that you're using should literally shape-shift to whichever device you're using. Be it a mobile phone, a tablet, a laptop or a computer. The website you're viewing should adapt to whichever screen you are looking at it on.
+In other words, the responsive <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank" rel="noreferrer" rel="noopener noreferrer">web design</a> template that you're using should literally shape-shift to whichever device you're using. Be it a mobile phone, a tablet, a laptop or a computer. The website you're viewing should adapt to whichever screen you are looking at it on.
 
 In practice, responsive website design consists of a mix of flexible grids, layouts, images and smart us of CSS media queries. For example, if you switch from using your computer to your iPad, the website you are viewing should automatically shape-shift to essentially accommodate to your experience.
 
@@ -34,7 +35,7 @@ While it's important for the content in your responsive web design to fit perfec
 
 <h4>Navigation Must Be Scalable</h4>
 
-More often than not, a <a href="https://www.smashingmagazine.com/2017/04/overview-responsive-navigation-patterns/" target="_blank" rel="noopener noreferrer">responsive navigation</a> is absolutely key to have in place. A large navigation that works as a mega menu on desktop, will not scale well if it's kept exactly the same when a user looks at it on a phone. When this happens, in most cases, it's best to hide the menu behind a hamburger icon. This way, when a user taps the icon, the menu items show. This allows for the responsive website design to be much more clean and concise.
+More often than not, a <a href="https://www.smashingmagazine.com/2017/04/overview-responsive-navigation-patterns/" target="_blank" rel="noreferrer" rel="noopener noreferrer">responsive navigation</a> is absolutely key to have in place. A large navigation that works as a mega menu on desktop, will not scale well if it's kept exactly the same when a user looks at it on a phone. When this happens, in most cases, it's best to hide the menu behind a hamburger icon. This way, when a user taps the icon, the menu items show. This allows for the responsive website design to be much more clean and concise.
 
 <h4>Speed Is A Must</h4>
 
@@ -48,7 +49,7 @@ If you've combed through any sort of responsive web design example online, you m
 
 However, before any developer dove into responsive web development, they would have used a responsive web design software tool to get the job done.
 
-The two most popular as of right now, are <a href="https://medium.com/sketch-app-sources/exploration-of-responsive-design-in-sketch-part-1-1af4cf415a82" target="_blank" rel="noopener noreferrer">Sketch</a> and <a href="https://www.smashingmagazine.com/2016/08/photoshop-etiquette-for-responsive-web-design/" target="_blank" rel="noopener noreferrer">Adobe Photoshop</a>.
+The two most popular as of right now, are <a href="https://medium.com/sketch-app-sources/exploration-of-responsive-design-in-sketch-part-1-1af4cf415a82" target="_blank" rel="noreferrer" rel="noopener noreferrer">Sketch</a> and <a href="https://www.smashingmagazine.com/2016/08/photoshop-etiquette-for-responsive-web-design/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Adobe Photoshop</a>.
 
 <h4>Benefits Of Using Sketch For Responsive Web Design</h4>
 <ul>
@@ -77,7 +78,7 @@ The core of most websites online, is that of HTML5 and CSS3. HTML is a hyper tex
 
 In the CSS, is where you'll be focusing on making your website responsive.
 
-Specifically within the CSS, we would be utilizing what are called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank" rel="noopener noreferrer">media queries</a>. Media queries allow you to target what happens at a certain screen size. So if you wanted an element to have a background of red on desktop, but blue on mobile, you would do so utilizing responsive media queries.
+Specifically within the CSS, we would be utilizing what are called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank" rel="noreferrer" rel="noopener noreferrer">media queries</a>. Media queries allow you to target what happens at a certain screen size. So if you wanted an element to have a background of red on desktop, but blue on mobile, you would do so utilizing responsive media queries.
 
 <h4>Text Editors</h4>
 
@@ -86,10 +87,10 @@ Remember Dreamweaver? Yeah, neither do we.
 Text editors have vastly evolved since then. Here's a few of our favourite text editors we like to use in order for developing responsive websites:
 
 <ul>
- 	<li><a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">Sublime Text</a></li>
- 	<li><a href="https://atom.io/" target="_blank" rel="noopener noreferrer">Atom</a></li>
- 	<li><a href="http://brackets.io/" target="_blank" rel="noopener noreferrer">Brackets</a></li>
- 	<li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code</a></li>
+ 	<li><a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Sublime Text</a></li>
+ 	<li><a href="https://atom.io/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Atom</a></li>
+ 	<li><a href="http://brackets.io/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Brackets</a></li>
+ 	<li><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer" rel="noopener noreferrer">VS Code</a></li>
 </ul>
 <h4>Responsive Frameworks</h4>
 
@@ -100,9 +101,9 @@ These frameworks speed up your development ten fold. They're built with semantic
 Some of our favourites are:
 
 <ul>
- 	<li><a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap 4</a></li>
- 	<li><a href="https://foundation.zurb.com/" target="_blank" rel="noopener noreferrer">Foundation 6</a></li>
- 	<li><a href="https://getuikit.com/" target="_blank" rel="noopener noreferrer">UI Kit</a></li>
+ 	<li><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Bootstrap 4</a></li>
+ 	<li><a href="https://foundation.zurb.com/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Foundation 6</a></li>
+ 	<li><a href="https://getuikit.com/" target="_blank" rel="noreferrer" rel="noopener noreferrer">UI Kit</a></li>
 </ul>
 <h2>Responsive Web Design Examples</h2>
 

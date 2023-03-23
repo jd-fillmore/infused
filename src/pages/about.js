@@ -7,7 +7,6 @@ import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import bgImage from "../img/inner-about.jpg"
 import about from "../img/about.jpg"
 
 import "../pages/about.scss"

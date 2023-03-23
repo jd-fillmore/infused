@@ -6,11 +6,12 @@ excerpt: >-
   We answer the question of, "how can search engine optimization help my
   business?". Click here to find out how!
 ---
+
 There's a few different ways that you can help promote, market and drive website traffic to your website.
 
 But one of the absolutely best ways to do so?
 
-<a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noopener noreferrer">Search engine optimization</a>.
+<a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noreferrer" rel="noopener noreferrer">Search engine optimization</a>.
 
 What is it, though?
 
@@ -34,7 +35,7 @@ Without further ado, lets go ahead and see how search engine optimization can he
 
 Sometimes you might a little bit of website traffic trickling in from your social media, whenever you post something. Other times, you'll get a bit of traffic to your business website if you show your website to family or friends.
 
-But the majority of searches online have been <a href="https://www.searchenginejournal.com/organic-search-sees-largest-growth-rate-2-years-report/236479/" target="_blank" rel="noopener noreferrer">steadily increasing</a>, and at this point, make up the most part of search today.
+But the majority of searches online have been <a href="https://www.searchenginejournal.com/organic-search-sees-largest-growth-rate-2-years-report/236479/" target="_blank" rel="noreferrer" rel="noopener noreferrer">steadily increasing</a>, and at this point, make up the most part of search today.
 
 What does this mean?
 
@@ -46,7 +47,7 @@ Since organic search is the primary source of all website traffic, it only makes
 
 <h2>SEO is a huge help for local businesses</h2>
 
-<a href="https://www.lyfemarketing.com/blog/local-seo/" target="_blank" rel="noopener noreferrer">95% of people search on Google for a local business</a> whenever they are interested in buying a product or service.
+<a href="https://www.lyfemarketing.com/blog/local-seo/" target="_blank" rel="noreferrer" rel="noopener noreferrer">95% of people search on Google for a local business</a> whenever they are interested in buying a product or service.
 
 So that means that if 95% of your customers are looking for the product or service that you offer, and you're not there - and to make matters worse, your competitors are there? Your competitors are getting all of that business. Not you.
 

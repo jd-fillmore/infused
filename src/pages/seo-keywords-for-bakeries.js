@@ -99,6 +99,7 @@ const About = () => {
                   <a
                     className="text-center"
                     target="_blank"
+                    rel="noreferrer"
                     href="https://calendly.com/infused-agency/project-discovery/"
                   >
                     <strong>Get Free Quote</strong>
@@ -198,6 +199,7 @@ const About = () => {
                   <a
                     className="text-center"
                     target="_blank"
+                    rel="noreferrer"
                     href="https://calendly.com/infused-agency/project-discovery/"
                   >
                     <strong>Get Free Quote</strong>

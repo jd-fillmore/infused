@@ -5,6 +5,7 @@ slug: /posts/web-design-process/
 excerpt: In this post, we go over our 8 step web design process for 2022. Lots
   of value here! Don't miss it.
 ---
+
 There are so many different tools on the market today for agencies and freelancers alike to utilize for their web step by step web design processes. On one hand, a lot of agencies tend to just focus on how "pretty" a design is. <!--more-->Which, in our opinion, is sort of the opposite of what they should actually be doing.
 
 Yes - part of your web design process for 2022 should help revamp your client's current site, but more importantly, it should be able to solve their business goals as well. Your client's target audience should be able to easily absorb the content on your client's website, and the aesthetics and content should also be able to pull their audience in.
@@ -14,7 +15,7 @@ Without further ado, lets go over our 8 step web design process for 2022.
 
 <h2>1. Identifying Design Goals</h2>
 
-This is arguably the most important step when it comes to any <a href="http://www.printmag.com/featured/phases-of-the-web-design-process/" target="_blank" rel="noopener noreferrer">web design process</a>. During this first stage, the agency needs to determine the client's website end goal(s). Often times, there could be more than one goal. It's imperative to ask the client exactly what they expect out of their website in terms of functionality, aesthetics - but also, what they expect in terms of a return of investment that their new web design will give them.
+This is arguably the most important step when it comes to any <a href="http://www.printmag.com/featured/phases-of-the-web-design-process/" target="_blank" rel="noreferrer" rel="noopener noreferrer">web design process</a>. During this first stage, the agency needs to determine the client's website end goal(s). Often times, there could be more than one goal. It's imperative to ask the client exactly what they expect out of their website in terms of functionality, aesthetics - but also, what they expect in terms of a return of investment that their new web design will give them.
 
 Some sample questions you could use for your clients:
 
@@ -33,7 +34,7 @@ Making sure that you and the client both understand and identify goals early upf
 
 <h2>2. Sketching Out Scope Definition</h2>
 
-A lot of web design agencies simply don't hash out what's called a "<a href="https://www.webpagefx.com/blog/web-design/web-design-project-scope/" target="_blank" rel="noopener noreferrer">project scope</a>". In a nutshell, project scope identifies exactly what tasks you will be completing for the client. For example:
+A lot of web design agencies simply don't hash out what's called a "<a href="https://www.webpagefx.com/blog/web-design/web-design-project-scope/" target="_blank" rel="noreferrer" rel="noopener noreferrer">project scope</a>". In a nutshell, project scope identifies exactly what tasks you will be completing for the client. For example:
 
 <ul>
  	<li>Mobile-friendly web design</li>
@@ -42,7 +43,7 @@ A lot of web design agencies simply don't hash out what's called a "<a href="htt
 </ul>
 This clearly defined scope helps maintain the project guidelines and gives both yourself and the client clear-cut expectations of what you both can expect from the project.
 
-One thing that can (and often does) happen is something called, "<a href="https://speckyboy.com/scope-creep-web-design/" target="_blank" rel="noopener noreferrer">scope creep</a>". Clients can and will have some amazing ideas of how to improve their website. However, it's imperative that if the client wants something (for example, adding membership functionality) added to their website, you must communicate with them that what they want is not within the original project scope. If you do not do that, a couple things may happen:
+One thing that can (and often does) happen is something called, "<a href="https://speckyboy.com/scope-creep-web-design/" target="_blank" rel="noreferrer" rel="noopener noreferrer">scope creep</a>". Clients can and will have some amazing ideas of how to improve their website. However, it's imperative that if the client wants something (for example, adding membership functionality) added to their website, you must communicate with them that what they want is not within the original project scope. If you do not do that, a couple things may happen:
 
 <ul>
  	<li>Project delays</li>
@@ -55,7 +56,7 @@ Make sure that your project scope is clearly defined at the beginning of any pro
 
 A clearly defined web design sitemap and wire-frame will clearly demonstrate to both yourself and the client how the website will flow. It explains the relationship between all elements within the website, and how your client's users will navigate throughout it.
 
-Think of a web design sitemap as a blueprint for your website, and the <a href="https://en.wikipedia.org/wiki/Website_wireframe" target="_blank" rel="noopener noreferrer">web design wire-frame</a> to be a guide of how your web design will actually look. The wire-frame won't contain any finalized design elements, it will simply act as a guide for how your web design will ultimately look.
+Think of a web design sitemap as a blueprint for your website, and the <a href="https://en.wikipedia.org/wiki/Website_wireframe" target="_blank" rel="noreferrer" rel="noopener noreferrer">web design wire-frame</a> to be a guide of how your web design will actually look. The wire-frame won't contain any finalized design elements, it will simply act as a guide for how your web design will ultimately look.
 
 A few tools to consider for wire-framing a website:
 
@@ -92,7 +93,7 @@ Tools to design a website:
 
 Once the web design has been completed and approved by the client, it's time to hop into actually developing out the website. We make sure that it's semantically built and is mobile, tablet, laptop and desktop-friendly.
 
-At Infused, we don't use pre-made templates that you can buy for $80 on a website, slap a logo on, on call it day. What we do instead, is custom build your entire website from the ground up.
+At Infused, we don't use pre-made templates that you can buy for \$80 on a website, slap a logo on, on call it day. What we do instead, is custom build your entire website from the ground up.
 
 There are a few advantages in doing so:
 

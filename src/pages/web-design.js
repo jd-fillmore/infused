@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -56,6 +55,7 @@ const WebDesign = () => {
                 </p>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://calendly.com/infused-agency/project-discovery/"
                 >
                   <button>Get Free Quote</button>

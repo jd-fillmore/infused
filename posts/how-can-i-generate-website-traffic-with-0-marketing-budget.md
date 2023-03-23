@@ -7,7 +7,8 @@ excerpt: >-
   I generate website traffic with $0 marketing budget?". Lets answer that
   question right now!
 ---
-One of the biggest questions that we come across from our clients is, "how can I generate <a href="https://en.wikipedia.org/wiki/Web_traffic" target="_blank" rel="noopener noreferrer">website traffic</a> with $0 <a href="https://en.wikipedia.org/wiki/Marketing_plan" target="_blank" rel="noopener noreferrer">marketing budget</a>?"
+
+One of the biggest questions that we come across from our clients is, "how can I generate <a href="https://en.wikipedia.org/wiki/Web_traffic" target="_blank" rel="noreferrer" rel="noopener noreferrer">website traffic</a> with \$0 <a href="https://en.wikipedia.org/wiki/Marketing_plan" target="_blank" rel="noreferrer" rel="noopener noreferrer">marketing budget</a>?"
 
 Well, thankfully, there are a far amount of ways to do this. Depending on the size of your company, you do not have to have a massive marketing budget to generate website traffic. You can start off small (which most companies do), and scale up from there.
 
@@ -17,7 +18,7 @@ Lets go over a few of those ways in this post. And by the end of it, write yours
 
 <h2>Blogging</h2>
 
-Publishing rich, weekly, educational content that relates directly to your niche is an amazing way to get generate website traffic with a $0 marketing budget.
+Publishing rich, weekly, educational content that relates directly to your niche is an amazing way to get generate website traffic with a \$0 marketing budget.
 
 It is very similar to what we do here at Infused. We generate weekly content (for example, our last one was answering a <a href="https://infused.agency/">question</a> about the cost of a website) that answers questions for our readers. The idea here is to write in-depth articles, at least once a week, that are a minimum of one thousand words.
 
@@ -82,7 +83,7 @@ They get fresh, valuable content posted that's related to their niche, and in ex
 
 The value in this is that when someone goes to their site and reads your article, they'll have a link back to your website.
 
-This has a great chance in terms of generating website traffic. Best part is? It costs $0. Takes nothing out of your marketing budget.
+This has a great chance in terms of generating website traffic. Best part is? It costs \$0. Takes nothing out of your marketing budget.
 
 <h2>Free Webinar</h2>
 
@@ -90,10 +91,10 @@ Using a free webinar is a great idea to help generate website traffic to your we
 
 A webinar is essentially setting up a live video feed on your website. You can amp it up and get people excited by advertising about it on your social media pages. So when the day comes, the people that have signed up for your webinar are attending.
 
-The key here, is to make that you tell your followers to also share this with as many people as possible. The more people attending your seminar, the better your value and awareness spreads. And better yet, you'll be able to even make some sales! All with spending $0 on your markeing budget?
+The key here, is to make that you tell your followers to also share this with as many people as possible. The more people attending your seminar, the better your value and awareness spreads. And better yet, you'll be able to even make some sales! All with spending \$0 on your markeing budget?
 
 The idea behind a webinar is to provide them with pure value. Don't sell. Just provide value. At the end of the video, drop a call-to-action that's focused around how you can help them further.
 
 <h2>Conclusion</h2>
 
-In conclusion, use blogging to your advantage and use it often. Once you have written an in-depth and educational blog post, use social media platforms and podcasts to promote them, as well as guest posting and free webinars, with links directly back to your website to generate website traffic with a $0 marketing budget.
+In conclusion, use blogging to your advantage and use it often. Once you have written an in-depth and educational blog post, use social media platforms and podcasts to promote them, as well as guest posting and free webinars, with links directly back to your website to generate website traffic with a \$0 marketing budget.

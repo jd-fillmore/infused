@@ -1,16 +1,17 @@
 ---
-title: ' How do I get my website higher up on Google search?'
+title: " How do I get my website higher up on Google search?"
 slug: /posts/how-do-i-get-my-website-higher-up-on-google-search/
 date: 2019-03-27T00:00:13.528Z
 excerpt: >-
   How do I get my website higher up on Google search? You may have asked this
   question in the past. Find the answer!
 ---
-One of the most important things about having a <a href="https://en.wikipedia.org/wiki/Website" target="_blank" rel="noopener noreferrer">website</a> online, is making sure you get enough traffic to your website.
+
+One of the most important things about having a <a href="https://en.wikipedia.org/wiki/Website" target="_blank" rel="noreferrer" rel="noopener noreferrer">website</a> online, is making sure you get enough traffic to your website.
 
 If you don't get any <a href="https://infused.agency/">website traffic</a>, then what good is your website?
 
-You need to get your website higher up on <a href="https://en.wikipedia.org/wiki/Google_Search" target="_blank" rel="noopener noreferrer">Google search</a>, in order for people to actually find your website. Once your website is higher up, then you will start to see the traffic rolling in. And hopefully, if your <a href="https://infused.agency/search-engine-optimization/">website is optimized</a>,
+You need to get your website higher up on <a href="https://en.wikipedia.org/wiki/Google_Search" target="_blank" rel="noreferrer" rel="noopener noreferrer">Google search</a>, in order for people to actually find your website. Once your website is higher up, then you will start to see the traffic rolling in. And hopefully, if your <a href="https://infused.agency/search-engine-optimization/">website is optimized</a>,
 
 <h2>So.. how do you get your website higher up on Google Search?</h2>
 
@@ -18,7 +19,7 @@ Lets go over some key points and answer the age-old question, "how do I get my w
 
 <h2>1. Publish relevant content on your website</h2>
 
-There's a few ways on how to improve Google search ranking. It's known that Google favours websites that <a href="https://seositecheckup.com/articles/5-reasons-why-fresh-content-is-critical-for-your-website-and-seo" target="_blank" rel="noopener noreferrer">pump out fresh content,</a> versus websites that don't. Think about it - if you had answers to questions, or you were looking for a local product or service, would it look better if the company had a 'blog' or 'resources' page? And on that page, had a bunch of helpful articles, videos and even podcasts that were updated on a weekly basis?
+There's a few ways on how to improve Google search ranking. It's known that Google favours websites that <a href="https://seositecheckup.com/articles/5-reasons-why-fresh-content-is-critical-for-your-website-and-seo" target="_blank" rel="noreferrer" rel="noopener noreferrer">pump out fresh content,</a> versus websites that don't. Think about it - if you had answers to questions, or you were looking for a local product or service, would it look better if the company had a 'blog' or 'resources' page? And on that page, had a bunch of helpful articles, videos and even podcasts that were updated on a weekly basis?
 
 And to top it off - the content is <strong>relevant?</strong>
 

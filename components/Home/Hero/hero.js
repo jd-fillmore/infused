@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 
 import "../Hero/hero.scss"
@@ -19,6 +18,7 @@ const Hero = ({ title, titleTwo, subTitle }) => {
                   <a
                     href="https://calendly.com/infused-agency/project-discovery/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button>
                       Get Free Quote{" "}

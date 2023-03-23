@@ -5,7 +5,8 @@ slug: /posts/10-best-seo-strategies-2021/
 excerpt: In this post, we go over 10 of the best SEO strategies for 2021. If you
   want more business, read more now!
 ---
-Some of the best <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noopener noreferrer">SEO</a> strategies any business can use in 2021 are right under your nose, and relatively easy for a <a href="https://infused.agency/">professional</a> to take care of for you.
+
+Some of the best <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank" rel="noreferrer" rel="noopener noreferrer">SEO</a> strategies any business can use in 2021 are right under your nose, and relatively easy for a <a href="https://infused.agency/">professional</a> to take care of for you.
 
 (Well, sort of).
 
@@ -21,19 +22,19 @@ Imagine how frustrated you get clicking on a website, and having it take more th
 
 And that's just you - how do you think everyone else feels?! They feel the exact same.
 
-Google has <a href="https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html" target="_blank" rel="noopener noreferrer">confirmed publicly </a> that one of it's biggest factors in ranking any website, is fast page speed loading times. You have to optimize all of your images, all of your coding scripts and all of your pages in general.
+Google has <a href="https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html" target="_blank" rel="noreferrer" rel="noopener noreferrer">confirmed publicly </a> that one of it's biggest factors in ranking any website, is fast page speed loading times. You have to optimize all of your images, all of your coding scripts and all of your pages in general.
 
-One of the best tools to run your website through, would be <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener noreferrer">Google PageSpeed Insights</a>. It will give you a clear cut path in terms of where you need improvement. It will even give you your optimized images, JS and CSS files. Nice that it does some heavy lifting for you!
+One of the best tools to run your website through, would be <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Google PageSpeed Insights</a>. It will give you a clear cut path in terms of where you need improvement. It will even give you your optimized images, JS and CSS files. Nice that it does some heavy lifting for you!
 
 <h2>2. Your website must be mobile-friendly</h2>
 
-The fact of the matter is, it's 2021. Everyone and their <a href="http://www.pewinternet.org/2017/05/17/technology-use-among-seniors/" target="_blank" rel="noopener noreferrer">grandfather now has a smart phone</a>, so that means your website <em>must </em>be <a href="https://en.wikipedia.org/wiki/Mobile_Web" target="_blank" rel="noopener noreferrer">mobile-friendly</a>.
+The fact of the matter is, it's 2021. Everyone and their <a href="http://www.pewinternet.org/2017/05/17/technology-use-among-seniors/" target="_blank" rel="noreferrer" rel="noopener noreferrer">grandfather now has a smart phone</a>, so that means your website <em>must </em>be <a href="https://en.wikipedia.org/wiki/Mobile_Web" target="_blank" rel="noreferrer" rel="noopener noreferrer">mobile-friendly</a>.
 
-Google had come out and announced way back in 2015 that mobile-friendly websites will be <a href="https://searchengineland.com/google-boost-mobile-friendly-algorithm-coming-may-244941" target="_blank" rel="noopener noreferrer">favoured and rank higher</a> compared to those websites that are not mobile-friendly.
+Google had come out and announced way back in 2015 that mobile-friendly websites will be <a href="https://searchengineland.com/google-boost-mobile-friendly-algorithm-coming-may-244941" target="_blank" rel="noreferrer" rel="noopener noreferrer">favoured and rank higher</a> compared to those websites that are not mobile-friendly.
 
 They did this because the vast majority of people browsing the web, are doing so on their phones. And since Google wants everyone to have a seamless experience on the web, it's a must that all websites must have be mobile-friendly in order to serve that specific purpose.
 
-One super easy way to find out if your website is mobile-friendly, is to use the <a href="https://search.google.com/test/mobile-friendly" target="_blank" rel="noopener noreferrer">Google Mobile-Friendly Test</a>. The test is pretty quick and you'll know immediately if you have to make changes.
+One super easy way to find out if your website is mobile-friendly, is to use the <a href="https://search.google.com/test/mobile-friendly" target="_blank" rel="noreferrer" rel="noopener noreferrer">Google Mobile-Friendly Test</a>. The test is pretty quick and you'll know immediately if you have to make changes.
 
 <h2>3. Use long-tail keywords in your SEO strategies</h2>
 
@@ -45,7 +46,7 @@ However..
 
 If you niche down, and try to rank for a longer search term such as, "kids sports shoes in Toronto", that will be much easier to rank for as there's not nearly as many companies trying to rank for a longer, more specific phrase.
 
-These types of phrases are known as <a href="https://www.wordstream.com/long-tail-keywords" target="_blank" rel="noopener noreferrer">long tail keywords</a>. They have less search volume, but they have a much, much higher conversion rate. Why is that?
+These types of phrases are known as <a href="https://www.wordstream.com/long-tail-keywords" target="_blank" rel="noreferrer" rel="noopener noreferrer">long tail keywords</a>. They have less search volume, but they have a much, much higher conversion rate. Why is that?
 
 Because the<strong> more specific people go into the searches, the more ready-to-buy they become.</strong>
 
@@ -60,7 +61,7 @@ So, lets recap:
 
 &nbsp;
 
-There's a few clients that have come to me in the past, wherein they are not seeing any sort of increasing in their SEO rankings. One of the 200 ranking factors that Google takes into account in order to rank a website, is that of producing <a href="https://moz.com/blog/google-fresh-factor-new" target="_blank" rel="noopener noreferrer">high quality, fresh, in-depth content</a>.
+There's a few clients that have come to me in the past, wherein they are not seeing any sort of increasing in their SEO rankings. One of the 200 ranking factors that Google takes into account in order to rank a website, is that of producing <a href="https://moz.com/blog/google-fresh-factor-new" target="_blank" rel="noreferrer" rel="noopener noreferrer">high quality, fresh, in-depth content</a>.
 
 Keyword: <strong>in-depth.</strong>
 
@@ -78,7 +79,7 @@ This one is absolutely huge to include in your <a href="https://infused.agency/s
 
 This post, is a shining example. I'm posting it in the year 2021, but I will be re-purposing it for the year 2021 when that year comes, and adjust the content accordingly.
 
-You can still rank <a href="https://www.searchenginejournal.com/increase-seo-traffic-updating-thickening-old-blog-posts/191891/" target="_blank" rel="noopener noreferrer">very well</a>, and you are still updating your site with fresh, relevant and educational content. It's a win-win for your users, and in Google's eyes!
+You can still rank <a href="https://www.searchenginejournal.com/increase-seo-traffic-updating-thickening-old-blog-posts/191891/" target="_blank" rel="noreferrer" rel="noopener noreferrer">very well</a>, and you are still updating your site with fresh, relevant and educational content. It's a win-win for your users, and in Google's eyes!
 
 <h2>6. Engage in quality link-building</h2>
 
@@ -118,7 +119,7 @@ There's a few ways on how to get good at getting these links, and I may go in de
 
 <h2>7. Switch your website over to https://</h2>
 
-Google wants all of it's users to feel 100% secure, <a href="https://www.searchenginejournal.com/google-is-requiring-https-for-secure-data-in-chrome/183756/" target="_blank" rel="noopener noreferrer">especially in 2021</a> when browsing any sort of website on the internet.
+Google wants all of it's users to feel 100% secure, <a href="https://www.searchenginejournal.com/google-is-requiring-https-for-secure-data-in-chrome/183756/" target="_blank" rel="noreferrer" rel="noopener noreferrer">especially in 2021</a> when browsing any sort of website on the internet.
 
 In the link in the previous sentence, you'll see that Google pushes hard for this. It's actually one of the top ranking factors when it comes to getting your website to rank high in Google, is switching it over to https:// over http://.
 
@@ -130,7 +131,7 @@ In my opinion, it's a great thing to do - not only for your business, but to ens
 
 <h2>8. Make your social media presence stronger</h2>
 
-Now this point, is <a href="https://moz.com/blog/your-guide-to-social-signals-for-seo" target="_blank" rel="noopener noreferrer">absolutely huge.</a>
+Now this point, is <a href="https://moz.com/blog/your-guide-to-social-signals-for-seo" target="_blank" rel="noreferrer" rel="noopener noreferrer">absolutely huge.</a>
 
 Another ranking factor that Google takes into account is how active and engaging your are with your audience, on social media platforms.
 
@@ -140,7 +141,7 @@ Now, solely doing this won't in itself boost rankings. But it definitely does he
 
 <h2>9. Don't forget about Bing and Yahoo</h2>
 
-At this specific point in time, Google does own <a href="https://netmarketshare.com/search-engine-market-share.aspx?options=%7B%22filter%22%3A%7B%22%24and%22%3A%5B%7B%22deviceType%22%3A%7B%22%24in%22%3A%5B%22Desktop%2Flaptop%22%5D%7D%7D%5D%7D%2C%22dateLabel%22%3A%22Trend%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22searchEngine%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22searchEnginesDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222017-02%22%2C%22dateEnd%22%3A%222018-01%22%2C%22segments%22%3A%22-1000%22%7D" target="_blank" rel="noopener noreferrer">74.52%</a> of the search engine market share. In a nut shell, the majority of people do use Google, whenever they intently search for a product or service that they're currently in need for.
+At this specific point in time, Google does own <a href="https://netmarketshare.com/search-engine-market-share.aspx?options=%7B%22filter%22%3A%7B%22%24and%22%3A%5B%7B%22deviceType%22%3A%7B%22%24in%22%3A%5B%22Desktop%2Flaptop%22%5D%7D%7D%5D%7D%2C%22dateLabel%22%3A%22Trend%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22searchEngine%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22searchEnginesDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222017-02%22%2C%22dateEnd%22%3A%222018-01%22%2C%22segments%22%3A%22-1000%22%7D" target="_blank" rel="noreferrer" rel="noopener noreferrer">74.52%</a> of the search engine market share. In a nut shell, the majority of people do use Google, whenever they intently search for a product or service that they're currently in need for.
 
 However..
 

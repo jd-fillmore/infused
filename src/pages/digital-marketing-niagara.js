@@ -71,6 +71,7 @@ const SEO = () => {
                 </p>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://calendly.com/infused-agency/project-discovery/"
                 >
                   <button>Get Free Quote</button>
@@ -128,6 +129,7 @@ const SEO = () => {
                 </p>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://calendly.com/infused-agency/project-discovery/"
                 >
                   <button>Get Free Quote</button>

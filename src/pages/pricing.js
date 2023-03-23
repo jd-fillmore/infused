@@ -257,6 +257,7 @@ const Pricing = () => {
                   </ul>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://calendly.com/infused-agency/project-discovery/"
                   >
                     <Button>

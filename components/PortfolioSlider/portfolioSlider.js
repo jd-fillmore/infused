@@ -18,6 +18,9 @@ import ce from "../../src/img/home-feat-ce.webp"
 import mc from "../../src/img/home-feat-mc.webp"
 import df from "../../src/img/home-feat-df.webp"
 import tr from "../../src/img/home-feat-tr.webp"
+import pd from "../../src/img/home-feat-pd.webp"
+import lmc from "../../src/img/home-feat-lmc.webp"
+import dc from "../../src/img/home-feat-dc.webp"
 
 const PortfolioSlider = () => {
   const settings = {
@@ -70,8 +73,8 @@ const PortfolioSlider = () => {
             width="800"
             height="799"
             className="img-fluid"
-            src={uc}
-            alt="uc web design"
+            src={dc}
+            alt="dc web design"
           />
         </div>
         <div>
@@ -79,8 +82,17 @@ const PortfolioSlider = () => {
             width="800"
             height="799"
             className="img-fluid"
-            src={plant}
-            alt="plant no. 1 web design"
+            src={lmc}
+            alt="lmc web design"
+          />
+        </div>
+        <div>
+          <img
+            width="800"
+            height="799"
+            className="img-fluid"
+            src={pd}
+            alt="pd web design"
           />
         </div>
         <div>
@@ -106,24 +118,6 @@ const PortfolioSlider = () => {
             width="800"
             height="799"
             className="img-fluid"
-            src={df}
-            alt="df web design"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={nj}
-            alt="nj web design"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
             src={cass}
             alt="cass web design"
           />
@@ -142,24 +136,6 @@ const PortfolioSlider = () => {
             width="800"
             height="799"
             className="img-fluid"
-            src={cc}
-            alt="cc web design"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={rb}
-            alt="rb web design"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
             src={krista}
             alt="krysta web design"
           />
@@ -171,15 +147,6 @@ const PortfolioSlider = () => {
             className="img-fluid"
             src={ce}
             alt="ce web design"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={mc}
-            alt="mc web design"
           />
         </div>
       </Slider>

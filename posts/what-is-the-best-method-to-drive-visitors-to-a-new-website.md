@@ -5,6 +5,7 @@ slug: /posts/drive-visitors-to-new-website/
 excerpt: Do you wonder what is the best method to drive visitors to a new
   website? Fear not! Click here for answers.
 ---
+
 As a company, you need to figure out how to get traffic to your website fast. We get this question asked almost weekly - “What is the best method to drive visitors to a <a href="https://infused.agency/">new website</a>?”.
 
 On a high level, there’s a few different ways on how to drive massive traffic to your website.
@@ -25,7 +26,7 @@ Without further ado, lets attempt to answer the question with practical answers,
 
 <h3>Google My Business</h3>
 
-One of the best ways on how to get traffic to your website fast, is using something called <a href="https://www.google.com/intl/en_ca/business/" target="_blank" rel="noopener noreferrer">Google My Business</a>.
+One of the best ways on how to get traffic to your website fast, is using something called <a href="https://www.google.com/intl/en_ca/business/" target="_blank" rel="noreferrer" rel="noopener noreferrer">Google My Business</a>.
 
 What is Google My Business?
 

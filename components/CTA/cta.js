@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
 import Button from "../Button/button"
 
 import "../CTA/cta.scss"
@@ -16,6 +15,7 @@ const CTA = () => {
               <a
                 href="https://calendly.com/infused-agency/project-discovery/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Button>
                   Get Free Quote

@@ -1,7 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { Link } from "gatsby"
-import WebDesignCities from "../Footer/cities-modal"
 import Industries from "../Footer/industries-modal"
 
 import "../Footer/footer.scss"
@@ -93,6 +92,7 @@ const Footer = () => {
               <a
                 href="https://calendly.com/infused-agency/project-discovery/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <strong>Get Free Quote</strong>
               </a>

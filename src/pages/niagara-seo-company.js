@@ -1,5 +1,4 @@
 import React from "react"
-import Card from "../../components/Card/card"
 import { Link } from "gatsby"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
@@ -239,6 +238,7 @@ const SEO = () => {
                   <p>Click the button below to get your free quote.</p>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://calendly.com/infused-agency/project-discovery/"
                   >
                     <button>Get Free Quote</button>
@@ -339,6 +339,7 @@ const SEO = () => {
                   <p>Click the button below to get your free quote.</p>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://calendly.com/infused-agency/project-discovery/"
                   >
                     <button>Get Free Quote</button>
@@ -456,6 +457,7 @@ const SEO = () => {
                 </p>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://calendly.com/infused-agency/project-discovery/"
                 >
                   <button>Get Free Quote</button>
