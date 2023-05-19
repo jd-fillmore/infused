@@ -1,7 +1,7 @@
 ---
 title: "Exploring the Top Web Design Trends of 2023: A Visual Revolution"
 date: 2023-05-19T01:16:45.665Z
-slug: web-design-trends
+slug: /posts/web-design-trends
 excerpt: As we venture into 2023, the world of web design continues to evolve
   and push boundaries. With advancements in technology, changing user
   preferences, and emerging design practices, websites are undergoing a visual
