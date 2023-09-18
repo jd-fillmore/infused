@@ -134,7 +134,7 @@ const Home = () => {
       <Nav />
       <Hero
         title="Niagara Web Design Company, Web Design St. Catharines"
-        titleTwo="Web Design Services That Grow Your Business"
+        titleTwo="Web design and SEO done right."
         subTitle="Infused Agency is a top web design agency hand-crafting beautiful website design since 2013."
       />
       <ClientLogos
