@@ -52,9 +52,6 @@ const Example = props => {
                 <Link to="/ecommerce-web-design-niagara/">
                   <DropdownItem>E-Commerce Development</DropdownItem>
                 </Link>
-                <Link to="/digital-marketing-niagara/">
-                  <DropdownItem>Digital Marketing</DropdownItem>
-                </Link>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
