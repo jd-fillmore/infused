@@ -315,7 +315,7 @@ const Pricing = () => {
               </Col>
               <Col lg="4">
                 <Card>
-                  <img src={seo} alt="SEO pricing" />
+                  <img src={seo} alt="SEO pricingg" />
                   <Link to="/niagara-seo-company">
                     <h3>Powerhouse</h3>
                   </Link>
