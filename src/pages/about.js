@@ -7,7 +7,7 @@ import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import about from "../img/about.jpg"
+import about from "../img/about.jpeg"
 
 import "../pages/about.scss"
 
@@ -26,7 +26,16 @@ const About = () => {
       <InnerContent>
         <section className="about">
           <Container>
-            <Row>
+            <Row className="d-flex align-items-center">
+              <Col lg="6">
+                <img className="img-fluid" src={about} alt="business needs" />
+                <br />
+                <p style="font-size: 14px;" className="text-center">
+                  <em>
+                    JD (Owner) and his daughter (side-kick) hiking in Banff
+                  </em>
+                </p>
+              </Col>
               <Col lg="6">
                 <p>
                   Since 2013 we've been able to help countless local St.
@@ -53,9 +62,6 @@ const About = () => {
                   websites, build modern websites for them and ultimately
                   bringing them more revenue through digital channels.
                 </p>
-              </Col>
-              <Col lg="6">
-                <img className="img-fluid" src={about} alt="business needs" />
               </Col>
             </Row>
             <Row className="pd-top-120">
