@@ -30,7 +30,7 @@ const About = () => {
               <Col lg="6">
                 <img className="img-fluid" src={about} alt="business needs" />
                 <br />
-                <p style="font-size: 14px;" className="text-center">
+                <p style={"font-size: 14px;"} className="text-center">
                   <em>
                     JD (Owner) and his daughter (side-kick) hiking in Banff
                   </em>
