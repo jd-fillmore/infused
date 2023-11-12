@@ -192,9 +192,6 @@ const SEOCity = () => {
             </div>
             <div className="col-lg-4">&nbsp;</div>
           </div>
-          <Link className="d-block text-center" to="/pricing">
-            <button className="price">View Our Pricing</button>
-          </Link>
         </div>
       </section>
       <section className="home-feat">

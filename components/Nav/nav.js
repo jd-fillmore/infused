@@ -60,11 +60,6 @@ const Example = props => {
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/pricing" className="nav-link">
-                Pricing
-              </Link>
-            </NavItem>
-            <NavItem>
               <Link to="/about" className="nav-link">
                 About
               </Link>
