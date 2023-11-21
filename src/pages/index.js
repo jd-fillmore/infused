@@ -127,7 +127,7 @@ const Home = () => {
         <title>Niagara Web Design | Website Designers St. Catharines</title>
         <meta
           name="description"
-          content="Niagara web design company that offers faster, better quality websites than the competition. Get a free quote today!"
+          content="Niagara Web Design company with unmatched speed and quality for superior websites. Elevate your online presence—get a free quote today!"
         />
         <meta
           name="google-site-verification"
