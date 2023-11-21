@@ -1,7 +1,7 @@
 ---
 title: Unveiling the Importance of SEO in Web Design
 date: 2023-11-21T18:01:00.423Z
-slug: /posts/10-best-seo-strategies-2021/
+slug: /posts/seo-in-web-design/
 excerpt: In the dynamic realm of the digital landscape, the synergy between web
   design and search engine optimization (SEO) has become increasingly pivotal.
   It's no longer sufficient for a website to boast a visually appealing
