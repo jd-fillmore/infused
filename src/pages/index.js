@@ -127,7 +127,7 @@ const Home = () => {
         <title>Niagara Web Design | Website Designers St. Catharines</title>
         <meta
           name="description"
-          content="Best Niagara web design company since 2013. Infused Agency are St. Catharines and Niagara's experts in custom website design, WordPress development and more."
+          content="Niagara web design company that offers faster, better quality websites than the competition. Get a free quote today!"
         />
         <meta
           name="google-site-verification"
