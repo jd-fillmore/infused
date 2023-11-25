@@ -133,6 +133,7 @@ const Home = () => {
           name="google-site-verification"
           content="VK8okfPDhG2ziQHXaOAh2Nerc_pVe6vR9pcCp1WtSW8"
         />
+        <link rel="canonical" href="https://infused.agency" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
       <Nav />
@@ -166,7 +167,7 @@ const Home = () => {
           </div>
           {/* Row One */}
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-6">
               <div className="card">
                 <img
                   className="img-fluid"
@@ -176,7 +177,7 @@ const Home = () => {
                 <h2>Web Design &amp; Development</h2>
                 <p>We create websites to help attract more customers.</p>
                 <Link to="/web-design">
-                  Learn More
+                  Hand-Coded Websites
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -192,7 +193,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-6">
               <div className="card">
                 <img
                   className="img-fluid"
@@ -202,33 +203,7 @@ const Home = () => {
                 <h2>WordPress Development</h2>
                 <p>Update your website without the need of a developer.</p>
                 <Link to="/wordpress-developer-niagara/">
-                  Learn More
-                  <svg
-                    stroke="currentColor"
-                    fill="currentColor"
-                    stroke-width="0"
-                    viewBox="0 0 512 512"
-                    class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
-                    height="20px"
-                    width="20px"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path>
-                  </svg>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="card">
-                <img
-                  className="img-fluid"
-                  src={dmImg}
-                  alt="digital marketing Niagara"
-                />
-                <h2>Digital Marketing</h2>
-                <p>Social media ads to drive traffic and increase revenue.</p>
-                <Link to="/digital-marketing-niagara/">
-                  Learn More
+                  WordPress Websites
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -247,13 +222,13 @@ const Home = () => {
           </div>
           {/* Row Two */}
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-6">
               <div className="card">
                 <img className="img-fluid" src={seoImg} alt="seo Niagara" />
                 <h2>SEO</h2>
                 <p>We help rank your website on the first page of Google.</p>
                 <Link to="/seo-niagara/">
-                  Learn More
+                  SEO Services
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -269,7 +244,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-6">
               <div className="card">
                 <img
                   className="img-fluid"
@@ -279,7 +254,7 @@ const Home = () => {
                 <h2>E-Commerce Development</h2>
                 <p>Robust e-commerce systems to help your sell online.</p>
                 <Link to="/ecommerce-web-design-niagara/">
-                  Learn More
+                  E-Commerce Services
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
