@@ -2,8 +2,6 @@ import React from "react"
 import { Container, Row } from "reactstrap"
 import Link from "next/link"
 
-import "../Intro/intro.scss"
-
 const Intro = ({ img }) => {
   return (
     <>

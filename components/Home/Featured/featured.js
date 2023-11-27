@@ -6,8 +6,6 @@ import featuredImg from "../../../src/img/niagara-web-design-1.webp"
 import treeImg from "../../../src/img/web-design-st-catharines.webp"
 import cassImg from "../../../src/img/niagara-digital-marketing.webp"
 
-import "../Featured/featured.scss"
-
 const projects = [
   {
     title: "TreeReports",

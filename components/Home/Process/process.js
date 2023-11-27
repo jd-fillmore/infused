@@ -1,8 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 
-import "../Process/process.scss"
-
 const Process = ({
   title,
   subTitle,

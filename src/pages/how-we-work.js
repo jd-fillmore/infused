@@ -7,8 +7,6 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-import "../pages/how-we-work.scss"
-
 const HowWeWork = () => {
   return (
     <>

@@ -9,8 +9,6 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import featuredImg from "../img/mc-phone.png"
 
-import "../pages/work-specific.scss"
-
 const MCAesthetics = () => {
   return (
     <>

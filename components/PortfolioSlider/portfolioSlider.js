@@ -1,9 +1,6 @@
 import React from "react"
 import Slider from "react-slick"
 
-import "../../node_modules/slick-carousel/slick/slick.css"
-import "../../node_modules/slick-carousel/slick/slick-theme.css"
-
 import ggs from "../../src/img/home-feat-ggs.webp"
 import plant from "../../src/img/home-feat-p1.webp"
 import kd from "../../src/img/home-feat-kd.webp"

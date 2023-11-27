@@ -8,8 +8,6 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import bgImage from "../img/inner-about.jpg"
 
-import "../pages/work-specific.scss"
-
 const CassABella = () => {
   return (
     <>

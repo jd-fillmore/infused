@@ -2,8 +2,6 @@ import React from "react"
 import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 
-import "../seoFAQ/seo-faq.scss"
-
 const SEOFAQ = props => {
   return (
     <Container>

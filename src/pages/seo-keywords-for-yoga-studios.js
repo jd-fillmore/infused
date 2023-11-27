@@ -10,7 +10,6 @@ import Footer from "../../components/Footer/footer"
 
 import img from "../img/seo-keywords-for-yoga-studios.jpg"
 import Card from "../../components/Card/card"
-import "../pages/about.scss"
 
 const About = () => {
   return (

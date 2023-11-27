@@ -13,8 +13,6 @@ import wp from "../img/wordpress.png"
 import ecomm from "../img/add-to-cart.png"
 import wm from "../img/maintenance.png"
 
-import "../pages/services.scss"
-
 const About = () => {
   return (
     <>

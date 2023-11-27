@@ -10,8 +10,6 @@ import Footer from "../../components/Footer/footer"
 import website from "../img/wordpress.png"
 import bgImage from "../img/inner-wordpress.jpg"
 
-import "../pages/services.scss"
-
 const WordPress = () => {
   return (
     <>

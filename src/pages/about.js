@@ -9,8 +9,6 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import about from "../img/about.jpeg"
 
-import "../pages/about.scss"
-
 const About = () => {
   return (
     <>

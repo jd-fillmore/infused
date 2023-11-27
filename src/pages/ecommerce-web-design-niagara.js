@@ -10,8 +10,6 @@ import Footer from "../../components/Footer/footer"
 import website from "../img/add-to-cart.png"
 import bgImage from "../img/inner-ecomm.jpg"
 
-import "../pages/services.scss"
-
 const ECommerce = () => {
   return (
     <>

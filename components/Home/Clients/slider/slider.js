@@ -2,8 +2,6 @@ import React, { Component } from "react"
 import Slider from "react-slick"
 import TestimonialCard from "../../../testimonialCard/testimonialCard"
 
-import "../slider/slider.scss"
-
 export default class Fade extends Component {
   render() {
     const settings = {

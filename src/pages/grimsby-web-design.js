@@ -15,9 +15,6 @@ import bgImage from "../img/inner-seo.jpg"
 import about from "../img/about.jpg"
 import About from "../../components/Home/About/about"
 
-import "../pages/services.scss"
-import "../pages/seo.scss"
-
 const SEO = () => {
   return (
     <>

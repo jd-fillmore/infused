@@ -10,8 +10,6 @@ import Footer from "../../components/Footer/footer"
 import website from "../img/dm.svg"
 import bgImage from "../img/inner-dm.jpg"
 
-import "../pages/services.scss"
-
 const SEO = () => {
   return (
     <>

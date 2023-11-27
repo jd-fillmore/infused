@@ -24,7 +24,6 @@ import clientKd from "../../src/img/client-kd.png"
 import clientTr from "../../src/img/client-tr.png"
 import clientGgs from "../../src/img/client-ggs.png"
 
-import "bootstrap/dist/css/bootstrap.min.css"
 import ClientLogos from "../../components/Home/ClientLogos/clientLogos"
 
 const schema = {

@@ -2,8 +2,6 @@ import React from "react"
 import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 
-import "../websiteFAQ/website-faq.scss"
-
 const WebsiteFAQ = props => {
   return (
     <Container>
