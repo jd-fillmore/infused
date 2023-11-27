@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 import PostLink from "../../components/postLink.js"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"

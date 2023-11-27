@@ -21,6 +21,26 @@ eval("/**\n * Hoists a name from a module or promised module.\n *\n * @param mod
 
 /***/ }),
 
+/***/ "./node_modules/next/font/google/target.css?{\"path\":\"src/pages/_app.js\",\"import\":\"Open_Sans\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"openSans\"}":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/font/google/target.css?{"path":"src/pages/_app.js","import":"Open_Sans","arguments":[{"subsets":["latin"],"display":"swap"}],"variableName":"openSans"} ***!
+  \***********************************************************************************************************************************************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__Open_Sans_a5ed60', '__Open_Sans_Fallback_a5ed60'\",\"fontStyle\":\"normal\"},\n\t\"className\": \"__className_a5ed60\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2dvb2dsZS90YXJnZXQuY3NzP3tcInBhdGhcIjpcInNyYy9wYWdlcy9fYXBwLmpzXCIsXCJpbXBvcnRcIjpcIk9wZW5fU2Fuc1wiLFwiYXJndW1lbnRzXCI6W3tcInN1YnNldHNcIjpbXCJsYXRpblwiXSxcImRpc3BsYXlcIjpcInN3YXBcIn1dLFwidmFyaWFibGVOYW1lXCI6XCJvcGVuU2Fuc1wifSIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0EsV0FBVyx3RkFBd0Y7QUFDbkc7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL2luZnVzZWQvLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2dvb2dsZS90YXJnZXQuY3NzPzEzMWIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwic3R5bGVcIjoge1wiZm9udEZhbWlseVwiOlwiJ19fT3Blbl9TYW5zX2E1ZWQ2MCcsICdfX09wZW5fU2Fuc19GYWxsYmFja19hNWVkNjAnXCIsXCJmb250U3R5bGVcIjpcIm5vcm1hbFwifSxcblx0XCJjbGFzc05hbWVcIjogXCJfX2NsYXNzTmFtZV9hNWVkNjBcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/next/font/google/target.css?{\"path\":\"src/pages/_app.js\",\"import\":\"Open_Sans\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"openSans\"}\n");
+
+/***/ }),
+
+/***/ "./node_modules/next/font/google/target.css?{\"path\":\"src/pages/_app.js\",\"import\":\"Playfair_Display\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"playfairDisplay\"}":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/font/google/target.css?{"path":"src/pages/_app.js","import":"Playfair_Display","arguments":[{"subsets":["latin"],"display":"swap"}],"variableName":"playfairDisplay"} ***!
+  \*************************************************************************************************************************************************************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__Playfair_Display_18035e', '__Playfair_Display_Fallback_18035e'\",\"fontStyle\":\"normal\"},\n\t\"className\": \"__className_18035e\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2dvb2dsZS90YXJnZXQuY3NzP3tcInBhdGhcIjpcInNyYy9wYWdlcy9fYXBwLmpzXCIsXCJpbXBvcnRcIjpcIlBsYXlmYWlyX0Rpc3BsYXlcIixcImFyZ3VtZW50c1wiOlt7XCJzdWJzZXRzXCI6W1wibGF0aW5cIl0sXCJkaXNwbGF5XCI6XCJzd2FwXCJ9XSxcInZhcmlhYmxlTmFtZVwiOlwicGxheWZhaXJEaXNwbGF5XCJ9IiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQSxXQUFXLHNHQUFzRztBQUNqSDtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaW5mdXNlZC8uL25vZGVfbW9kdWxlcy9uZXh0L2ZvbnQvZ29vZ2xlL3RhcmdldC5jc3M/NjZkZSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJzdHlsZVwiOiB7XCJmb250RmFtaWx5XCI6XCInX19QbGF5ZmFpcl9EaXNwbGF5XzE4MDM1ZScsICdfX1BsYXlmYWlyX0Rpc3BsYXlfRmFsbGJhY2tfMTgwMzVlJ1wiLFwiZm9udFN0eWxlXCI6XCJub3JtYWxcIn0sXG5cdFwiY2xhc3NOYW1lXCI6IFwiX19jbGFzc05hbWVfMTgwMzVlXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/next/font/google/target.css?{\"path\":\"src/pages/_app.js\",\"import\":\"Playfair_Display\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"playfairDisplay\"}\n");
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/client/add-base-path.js":
 /*!********************************************************!*\
   !*** ./node_modules/next/dist/client/add-base-path.js ***!

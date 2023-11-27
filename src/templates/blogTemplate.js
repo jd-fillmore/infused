@@ -5,7 +5,6 @@ import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
-import { graphql } from "gatsby"
 import bgImage from "../img/inner-work.jpg"
 
 export default function Template({

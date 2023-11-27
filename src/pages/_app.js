@@ -26,11 +26,29 @@ import "../../components/ecommFAQ/ecomm-faq.scss"
 import "../../components/Home/Clients/slider/slider.scss"
 import "../../components/Home/FAQ/faq.scss"
 import "../../components/Home/Featured/featured.scss"
-import "../../../node_modules/slick-carousel/slick/slick.css"
-import "../../../node_modules/slick-carousel/slick/slick-theme.css"
+import "../../node_modules/slick-carousel/slick/slick.css"
+import "../../node_modules/slick-carousel/slick/slick-theme.css"
 import "../../components/Home/Process/process.scss"
 import "../../components/websiteFAQ/website-faq.scss"
 
+import { Playfair_Display, Open_Sans } from "next/font/google"
+
+export const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+})
+
+export const openSans = Open_Sans({
+  subsets: ["latin"],
+  display: "swap",
+})
+
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <main className={`${playfairDisplay.className} ${openSans.className}`}>
+        <Component {...pageProps} />
+      </main>
+    </>
+  )
 }
