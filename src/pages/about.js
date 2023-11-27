@@ -2,6 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Link from "next/link"
+import Image from 'next/image'
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -26,7 +27,7 @@ const About = () => {
           <Container>
             <Row className="d-flex align-items-center">
               <Col lg="6">
-                <img className="img-fluid" src={about} alt="business needs" />
+                <Image className="img-fluid" src={about} alt="business needs" />
                 <br />
                 <p className="text-center">
                   <em>

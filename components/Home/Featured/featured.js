@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import Fade from "react-reveal/Fade"
 import Card from "../../Card/card"
 import featuredImg from "../../../src/img/niagara-web-design-1.webp"
@@ -70,7 +71,7 @@ const Featured = ({ title, subTitle }) => {
                       </Link>
                     </div>
                     <div className="col-lg-6">
-                      <img
+                      <Image
                         className="img-fluid"
                         src={project.pic}
                         alt={project.title}

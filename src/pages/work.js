@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
 import Link from "next/link"
+import Image from "next/image"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -44,7 +45,11 @@ const OurWork = () => {
             <Row>
               <Col lg="4">
                 <Card>
-                  <img className="img-fluid" src={treeImg} alt="treereports" />
+                  <Image
+                    className="img-fluid"
+                    src={treeImg}
+                    alt="treereports"
+                  />
                   <h3>TreeReports</h3>
                   <p>
                     A local certified consulting arborist specializing in
@@ -69,7 +74,7 @@ const OurWork = () => {
               </Col>
               <Col lg="4">
                 <Card>
-                  <img className="img-fluid" src={kdImg} alt="KD Flowers" />
+                  <Image className="img-fluid" src={kdImg} alt="KD Flowers" />
                   <h3>KD Flowers</h3>
                   <p>
                     A boutique affordable wedding flower business in the heart
@@ -94,7 +99,7 @@ const OurWork = () => {
               </Col>
               <Col lg="4">
                 <Card>
-                  <img
+                  <Image
                     className="img-fluid"
                     src={cassImg}
                     alt="Cass-A-Bella Construction"

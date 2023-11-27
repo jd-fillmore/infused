@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import Fade from "react-reveal/Fade"
+import Image from "next/image"
 
 const ClientLogos = ({
   title,
@@ -25,16 +26,16 @@ const ClientLogos = ({
             </Row>
             <Row className="text-center logos align-items-center">
               <Col lg="3">
-                <img src={logoOne} alt={logoOneAlt} />
+                <Image src={logoOne} alt={logoOneAlt} />
               </Col>
               <Col lg="3">
-                <img src={logoTwo} alt={logoTwoAlt} />
+                <Image src={logoTwo} alt={logoTwoAlt} />
               </Col>
               <Col lg="3">
-                <img src={logoThree} alt={logoThreeAlt} />
+                <Image src={logoThree} alt={logoThreeAlt} />
               </Col>
               <Col lg="3">
-                <img src={logoFour} alt={logoFourAlt} />
+                <Image src={logoFour} alt={logoFourAlt} />
               </Col>
             </Row>
           </Fade>

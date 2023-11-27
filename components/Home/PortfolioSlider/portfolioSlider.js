@@ -1,5 +1,6 @@
 import React from "react"
 import Slider from "react-slick"
+import Image from "next/image"
 
 import ggs from "../../../src/img/home-feat-ggs.webp"
 import kd from "../../../src/img/home-feat-kd.webp"
@@ -47,14 +48,14 @@ const PortfolioSlider = () => {
     <>
       <Slider {...settings}>
         <div>
-          <img
+          <Image
             className="img-fluid"
             src={ggs}
             alt="ggs niagara landscaping web design"
           />
         </div>
         <div>
-          <img
+          <Image
             width="800"
             height="799"
             className="img-fluid"
@@ -63,7 +64,7 @@ const PortfolioSlider = () => {
           />
         </div>
         <div>
-          <img
+          <Image
             width="800"
             height="799"
             className="img-fluid"
@@ -72,7 +73,7 @@ const PortfolioSlider = () => {
           />
         </div>
         <div>
-          <img
+          <Image
             width="800"
             height="799"
             className="img-fluid"
@@ -81,7 +82,7 @@ const PortfolioSlider = () => {
           />
         </div>
         <div>
-          <img
+          <Image
             width="800"
             height="799"
             className="img-fluid"

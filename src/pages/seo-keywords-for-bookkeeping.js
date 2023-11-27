@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import Link from "next/link"
+import Image from "next/image"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -28,7 +29,7 @@ const About = () => {
           <Container>
             <Row>
               <Col lg="12">
-                <img
+                <Image
                   className="img-fluid"
                   src={img}
                   alt="best seo keywords for bookkeeping"

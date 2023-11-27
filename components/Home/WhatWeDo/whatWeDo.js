@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import { Container, Row, Col } from "reactstrap"
+import Image from "next/image"
 
 import responsive from "../../../src/img/responsive.svg"
 import optimize from "../../../src/img/web-optimization.svg"
@@ -51,7 +52,7 @@ const WhatWeDo = ({
           <Row>
             <Col lg="4">
               <Fade>
-                <img
+                <Image
                   src={responsive}
                   width="100"
                   height="100"
@@ -64,7 +65,7 @@ const WhatWeDo = ({
             </Col>
             <Col lg="4">
               <Fade delay={300}>
-                <img
+                <Image
                   src={optimize}
                   width="100"
                   height="100"
@@ -77,7 +78,7 @@ const WhatWeDo = ({
             </Col>
             <Col lg="4">
               <Fade delay={600}>
-                <img
+                <Image
                   src={secure}
                   width="100"
                   height="100"

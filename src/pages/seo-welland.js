@@ -11,6 +11,7 @@ import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
 import Link from "next/link"
+import Image from "next/image"
 
 import webImg from "../../src/img/responsive.svg"
 import seoImg from "../../src/img/seoo.svg"
@@ -53,7 +54,7 @@ const SEOCity = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className="card">
-                <img className="img-fluid" src={webImg} alt="SEO Welland" />
+                <Image className="img-fluid" src={webImg} alt="SEO Welland" />
                 <h2>Web Design &amp; Development</h2>
                 <p>
                   We create Welland websites to help attract more customers.
@@ -77,7 +78,7 @@ const SEOCity = () => {
             </div>
             <div className="col-lg-4">
               <div className="card">
-                <img
+                <Image
                   className="img-fluid"
                   src={wpImg}
                   alt="SEO Welland Services"
@@ -105,7 +106,7 @@ const SEOCity = () => {
             </div>
             <div className="col-lg-4">
               <div className="card">
-                <img
+                <Image
                   className="img-fluid"
                   src={dmImg}
                   alt="Welland SEO experts"
@@ -137,7 +138,7 @@ const SEOCity = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className="card">
-                <img className="img-fluid" src={seoImg} alt="seo Niagara" />
+                <Image className="img-fluid" src={seoImg} alt="seo Niagara" />
                 <h2>Welland SEO</h2>
                 <p>
                   We help rank your Welland website on the first page of Google.
@@ -161,7 +162,7 @@ const SEOCity = () => {
             </div>
             <div className="col-lg-4">
               <div className="card">
-                <img
+                <Image
                   className="img-fluid"
                   src={ecommImg}
                   alt="Best SEO Agency Welland"

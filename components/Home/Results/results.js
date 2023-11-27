@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import Image from "next/image"
 import { Container, Row, Col } from "reactstrap"
 
 import featuredImg from "../../../src/img/kd-home.webp"
@@ -21,7 +22,7 @@ const Results = ({ title, subTitle }) => {
           <Row className="d-flex align-items-center">
             <Col lg="6">
               <Fade>
-                <img
+                <Image
                   width="383"
                   height="636"
                   className="img-fluid top"
@@ -32,7 +33,7 @@ const Results = ({ title, subTitle }) => {
             </Col>
             <Col lg="6">
               <Fade>
-                <img
+                <Image
                   width="383"
                   height="636"
                   className="img-fluid"

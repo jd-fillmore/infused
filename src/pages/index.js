@@ -13,6 +13,7 @@ import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
 import Link from "next/link"
+import Image from "next/image"
 
 import webImg from "../../src/img/responsive.svg"
 import seoImg from "../../src/img/seoo.svg"
@@ -167,7 +168,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="card">
-                <img
+                <Image
                   className="img-fluid"
                   src={webImg}
                   alt="Niagara web design company"
@@ -193,7 +194,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6">
               <div className="card">
-                <img
+                <Image
                   className="img-fluid"
                   src={wpImg}
                   alt="Niagara WordPress website development"
@@ -222,7 +223,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="card">
-                <img className="img-fluid" src={seoImg} alt="seo Niagara" />
+                <Image className="img-fluid" src={seoImg} alt="seo Niagara" />
                 <h2>SEO</h2>
                 <p>We help rank your website on the first page of Google.</p>
                 <Link href="/seo-niagara/">
@@ -244,7 +245,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6">
               <div className="card">
-                <img
+                <Image
                   className="img-fluid"
                   src={ecommImg}
                   alt="e-commerce website wordpress development niagara"

@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -38,7 +39,7 @@ const SEO = () => {
           <Container>
             <Row className="web pd-btm-80">
               <Col md="4">
-                <img
+                <Image
                   className="img-fluid"
                   src={website}
                   alt="Crystal Beach web design company, Crystal Beach web design agency, Crystal Beach web design services"
@@ -82,7 +83,7 @@ const SEO = () => {
               <Row>
                 <Col lg="4">
                   <div className="card">
-                    <img
+                    <Image
                       className="img-fluid"
                       src={treeImg}
                       alt="treereports"
@@ -131,7 +132,7 @@ const SEO = () => {
                 </Col>
                 <Col lg="4">
                   <div className="card">
-                    <img className="img-fluid" src={kdImg} alt="KD Flowers" />
+                    <Image className="img-fluid" src={kdImg} alt="KD Flowers" />
                     <h4>KD Flowers</h4>
                     <p>
                       "Infused Agency drastically improved my online presence.
@@ -177,7 +178,7 @@ const SEO = () => {
                 </Col>
                 <Col lg="4">
                   <div className="card">
-                    <img
+                    <Image
                       className="img-fluid"
                       src={cassImg}
                       alt="Cass-A-Bella Construction"
@@ -395,7 +396,11 @@ const SEO = () => {
                   </p>
                 </Col>
                 <Col lg="6">
-                  <img className="img-fluid" src={about} alt="business needs" />
+                  <Image
+                    className="img-fluid"
+                    src={about}
+                    alt="business needs"
+                  />
                 </Col>
               </Row>
             </Container>

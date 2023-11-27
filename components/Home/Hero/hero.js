@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Container, Row, Col } from "reactstrap"
 import heroImg from "../../../src/img/hero.webp"
 import reviews from "../../../src/img/infused-reviews.jpg"
@@ -32,7 +33,7 @@ const Hero = ({ title, titleTwo }) => {
                   </button>
                 </Link>
                 <br />
-                <img
+                <Image
                   className="img-fluid"
                   src={reviews}
                   alt="infused agency reviews"
@@ -41,12 +42,12 @@ const Hero = ({ title, titleTwo }) => {
                 <br />
               </Col>
               {/* <Col lg="5" className="text-center">
-                  <img src={reviews} alt="infused agency reviews" />
+                  <Image src={reviews} alt="infused agency reviews" />
                   <p>Reliable. Credible. Dependable.</p>
                 </Col> */}
             </Row>
           </div>
-          <img
+          <Image
             className="img-fluid showcase"
             src={heroImg}
             alt="niagara web design"

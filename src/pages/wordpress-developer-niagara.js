@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -41,7 +42,7 @@ const WordPress = () => {
             </Row>
             <Row className="web align-items-center">
               <Col md="4">
-                <img
+                <Image
                   src={website}
                   alt="wordpress developer niagara, st catharines wordpress development agency"
                 />

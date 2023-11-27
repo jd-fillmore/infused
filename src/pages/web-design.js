@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
+import Image from 'next/image'
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -31,7 +32,7 @@ const WebDesign = () => {
             {/* Websites */}
             <Row className="web align-items-center">
               <Col md="4">
-                <img src={website} alt="local web design and development" />
+                <Image src={website} alt="local web design and development" />
               </Col>
               <Col lg={{ size: 7, offset: 1 }}>
                 <p>

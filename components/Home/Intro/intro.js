@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row } from "reactstrap"
 import Link from "next/link"
+import Image from 'next/image'
 
 const Intro = ({ img }) => {
   return (
@@ -9,7 +10,7 @@ const Intro = ({ img }) => {
         <Container>
           <Row className="align-items-center">
             <div className="col-lg-6">
-              <img
+              <Image
                 className="img-fluid"
                 src={img}
                 alt="digital marketing agency niagara"

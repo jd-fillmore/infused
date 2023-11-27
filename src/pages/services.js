@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
+import Image from "next/image"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -34,7 +35,7 @@ const About = () => {
             {/* Websites */}
             <Row className="web align-items-center">
               <Col md="4">
-                <img src={website} alt="web design and development" />
+                <Image src={website} alt="web design and development" />
               </Col>
               <Col lg={{ size: 7, offset: 1 }}>
                 <a id="web-design"></a>
@@ -60,7 +61,7 @@ const About = () => {
             </Row>
             {/* WordPress Development */}
             <Row className="seo align-items-center">
-              <img className="seo" src={wp} alt="WordPress Development" />
+              <Image className="seo" src={wp} alt="WordPress Development" />
               <Col lg={{ size: 5, offset: 1 }}>
                 <h3>WordPress Development</h3>
                 <p>
@@ -77,7 +78,7 @@ const About = () => {
                 </p>
               </Col>
               <Col md="5">
-                <img
+                <Image
                   className="img-fluid seo-two"
                   src={wp}
                   alt="wordpress development"
@@ -87,7 +88,7 @@ const About = () => {
             {/* DM */}
             <Row className="dm align-items-center">
               <Col md="4">
-                <img className="img-fluid" src={dm} alt="digital marketing" />
+                <Image className="img-fluid" src={dm} alt="digital marketing" />
               </Col>
               <Col lg={{ size: 7, offset: 1 }}>
                 <h3>Digital Marketing</h3>
@@ -113,7 +114,7 @@ const About = () => {
             </Row>
             {/* Local SEO */}
             <Row className="seo align-items-center">
-              <img className="seo" src={seo} alt="local seo" />
+              <Image className="seo" src={seo} alt="local seo" />
               <Col lg={{ size: 5, offset: 1 }}>
                 <h3>Local SEO</h3>
                 <p>
@@ -134,13 +135,17 @@ const About = () => {
                 </ul>
               </Col>
               <Col md="5">
-                <img className="img-fluid seo-two" src={seo} alt="local seo" />
+                <Image
+                  className="img-fluid seo-two"
+                  src={seo}
+                  alt="local seo"
+                />
               </Col>
             </Row>
             {/* E-Comm */}
             <Row className="dm align-items-center">
               <Col md="4">
-                <img
+                <Image
                   className="img-fluid"
                   src={ecomm}
                   alt="E-Commerce Development"
@@ -162,7 +167,7 @@ const About = () => {
             </Row>
             {/* Website Maintenance */}
             <Row className="seo align-items-center">
-              <img className="seo" src={wm} alt="Website Maintenance" />
+              <Image className="seo" src={wm} alt="Website Maintenance" />
               <Col lg={{ size: 5, offset: 1 }}>
                 <h3>Website Maintenance</h3>
                 <p>
@@ -177,7 +182,7 @@ const About = () => {
                 </p>
               </Col>
               <Col md="5">
-                <img
+                <Image
                   className="img-fluid seo-two"
                   src={wm}
                   alt="Website Maintenance"
