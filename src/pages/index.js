@@ -12,7 +12,7 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
+import Link from "next/link"
 
 import webImg from "../../src/img/responsive.svg"
 import seoImg from "../../src/img/seoo.svg"
@@ -25,8 +25,6 @@ import clientTr from "../../src/img/client-tr.png"
 import clientGgs from "../../src/img/client-ggs.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import "../pages/general.scss"
-import "../pages/home-services.scss"
 import ClientLogos from "../../components/Home/ClientLogos/clientLogos"
 
 const schema = {
@@ -159,9 +157,10 @@ const Home = () => {
             <div className="col-lg-12 text-center">
               <h2>Niagara Web Design Company</h2>
               <p className="serv-intro">
-                We design <Link to="/web-design">mobile-friendly websites</Link>{" "}
-                that help grow your business. From our initial discovery meeting
-                to post-launch support, we're always here to help.
+                We design{" "}
+                <Link href="/web-design">mobile-friendly websites</Link> that
+                help grow your business. From our initial discovery meeting to
+                post-launch support, we're always here to help.
               </p>
             </div>
           </div>
@@ -176,12 +175,12 @@ const Home = () => {
                 />
                 <h2>Web Design &amp; Development</h2>
                 <p>We create websites to help attract more customers.</p>
-                <Link to="/web-design">
+                <Link href="/web-design">
                   Hand-Coded Websites
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -202,12 +201,12 @@ const Home = () => {
                 />
                 <h2>WordPress Development</h2>
                 <p>Update your website without the need of a developer.</p>
-                <Link to="/wordpress-developer-niagara/">
+                <Link href="/wordpress-developer-niagara/">
                   WordPress Websites
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -227,12 +226,12 @@ const Home = () => {
                 <img className="img-fluid" src={seoImg} alt="seo Niagara" />
                 <h2>SEO</h2>
                 <p>We help rank your website on the first page of Google.</p>
-                <Link to="/seo-niagara/">
+                <Link href="/seo-niagara/">
                   SEO Services
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -253,12 +252,12 @@ const Home = () => {
                 />
                 <h2>E-Commerce Development</h2>
                 <p>Robust e-commerce systems to help your sell online.</p>
-                <Link to="/ecommerce-web-design-niagara/">
+                <Link href="/ecommerce-web-design-niagara/">
                   E-Commerce Services
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -293,7 +292,7 @@ const Home = () => {
         </div>
       </section>
       <PortfolioSlider />
-      <Link className="d-block text-center pd-top-80" to="/work">
+      <Link className="d-block text-center pd-top-80" href="/work">
         <button>View More Work</button>
       </Link>
       <Results
@@ -304,9 +303,9 @@ const Home = () => {
         title="Web Design Services in Niagara, St. Catharines"
         subTitle={[
           "As a small business in St. Catharines, Niagara ourselves, we understand that your small business in Niagara or St. Catharines cannot fork out upfront thousands of dollars for a ",
-          <Link to="/services">web design</Link>,
+          <Link href="/services">web design</Link>,
           ". That's why we offer local and affordable Niagara web design & St. Catharines ",
-          <Link to="/work">website design</Link>,
+          <Link href="/work">website design</Link>,
           " solutions to fit your small business budget. Our web designs are secure and modern, which helps bring in more local Niagara or St. Catharines leads near you and revenue through your new web design.",
         ]}
         boxOneTitle="Responsive"
@@ -321,9 +320,9 @@ const Home = () => {
         whatTitle="What Makes A Good Web Design?"
         whatText={[
           "Does your current ",
-          <Link to="/services">web design</Link>,
+          <Link href="/services">web design</Link>,
           " not bring in new Niagara or St. Catharines leads? Sometimes web design problems are obvious like when a website is not mobile-friendly or if a web design doesn't have a modern design. Other times, a closer inspection into your web design practices are required in order to identify issues. Most issues relating to any Niagara or St. Catharines ",
-          <Link to="/why-is-my-website-not-bringing-in-new-business/">
+          <Link href="/why-is-my-website-not-bringing-in-new-business/">
             web design
           </Link>,
           " can be a web design that doesn't rank on the first page of Google, which means it's SEO isn't up to par. A web design message that doesn't align with your customers, or a web design that doesn't convert users into paying customers.",
@@ -331,7 +330,7 @@ const Home = () => {
         servicesTitle="Why Is Hiring a Good Web Design Company Important?"
         servicesText={[
           "Your Niagara or St. Catharines ",
-          <Link to="/tree-reports">web design</Link>,
+          <Link href="/tree-reports">web design</Link>,
           " acts as the main hub on the internet. The fact that your web design is the first stop to any new customers is absolutely vital to your business, in terms of gaining new revenue from your web design. This means that you need the best web design company in Niagara & St. Catharines to deliver great web design results to your business. Infused Agency makes sure that we do a custom-tailored web design job right from the start, to ensure your web design is a success and is optimized. Not only do we create a modern web design for your business, we're the only web design business in St. Catharines and Niagara that offers monthly web design packages to help alleviate any financial strain.",
         ]}
         whatKindTitle="What Type of Web Design Services Do You Need?"

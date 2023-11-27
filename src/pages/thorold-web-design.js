@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -114,12 +114,12 @@ const SEO = () => {
                         </strong>
                       </li>
                     </ul>
-                    <Link to="/tree-reports">
+                    <Link href="/tree-reports">
                       Learn More
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 512 512"
                         class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                         height="20px"
@@ -160,12 +160,12 @@ const SEO = () => {
                         </strong>
                       </li>
                     </ul>
-                    <Link to="/kd-florist">
+                    <Link href="/kd-florist">
                       Learn More
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 512 512"
                         class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                         height="20px"
@@ -210,12 +210,12 @@ const SEO = () => {
                         </strong>
                       </li>
                     </ul>
-                    <Link to="/cass-a-bella-construction">
+                    <Link href="/cass-a-bella-construction">
                       Learn More
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 512 512"
                         class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                         height="20px"
@@ -269,7 +269,9 @@ const SEO = () => {
                     key part of our Thorold web design services to help make
                     sure that your customers can find your website. When using
                     our Thorold web design experts and{" "}
-                    <Link to="/thorold-seo-company/">Thorold SEO services</Link>
+                    <Link href="/thorold-seo-company/">
+                      Thorold SEO services
+                    </Link>
                     , your website should help bring in new company revenue and
                     customers.
                   </p>
@@ -368,20 +370,20 @@ const SEO = () => {
                   <p>
                     Since 2013 we've been able to help countless local Thorold
                     businesses (and beyond!) with their{" "}
-                    <Link to="/web-design">website design</Link>,{" "}
-                    <Link to="/digital-marketing-niagara">
+                    <Link href="/web-design">website design</Link>,{" "}
+                    <Link href="/digital-marketing-niagara">
                       digital marketing
                     </Link>
                     ,{" "}
-                    <Link to="/Thorold-seo-company/">
+                    <Link href="/Thorold-seo-company/">
                       search engine optimization (SEO)
                     </Link>{" "}
                     ,{" "}
-                    <Link to="/wordpress-developer-niagara">
+                    <Link href="/wordpress-developer-niagara">
                       WordPress development
                     </Link>{" "}
                     and{" "}
-                    <Link to="/ecommerce-web-design-niagara">
+                    <Link href="/ecommerce-web-design-niagara">
                       e-commerce website development
                     </Link>
                     .

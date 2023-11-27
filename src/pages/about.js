@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
+import Link from "next/link"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -40,18 +40,20 @@ const About = () => {
                 <p>
                   Since 2013 we've been able to help countless local St.
                   Catharines, Niagara businesses (and beyond!) with their{" "}
-                  <Link to="/web-design">website design</Link>,{" "}
-                  <Link to="/digital-marketing-niagara">digital marketing</Link>
+                  <Link href="/web-design">website design</Link>,{" "}
+                  <Link href="/digital-marketing-niagara">
+                    digital marketing
+                  </Link>
                   ,{" "}
-                  <Link to="/seo-niagara">
+                  <Link href="/seo-niagara">
                     search engine optimization (SEO)
                   </Link>
                   ,{" "}
-                  <Link to="/wordpress-developer-niagara">
+                  <Link href="/wordpress-developer-niagara">
                     WordPress development
                   </Link>{" "}
                   and{" "}
-                  <Link to="/ecommerce-web-design-niagara">
+                  <Link href="/ecommerce-web-design-niagara">
                     e-commerce website development
                   </Link>
                   .
@@ -69,7 +71,7 @@ const About = () => {
                 <h2>How we can help you</h2>
                 <p>
                   If you're looking for help in any of the areas below, please
-                  head over to our <Link to="/get-started">Get Started</Link>{" "}
+                  head over to our <Link href="/get-started">Get Started</Link>{" "}
                   page and a member from our team will respond to you promptly.
                 </p>
               </Col>

@@ -1,7 +1,5 @@
 import React from "react"
 
-import "../testimonialCard/testimonial-card.scss"
-
 const TestimonialCard = props => {
   return (
     <>

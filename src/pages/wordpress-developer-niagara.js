@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -88,9 +88,10 @@ const WordPress = () => {
                 <h3>What is WordPress?</h3>
                 <p>
                   WordPress is a very powerful content management system (CMS).
-                  It powers over 40% of all <Link to="/websites">websites</Link>{" "}
-                  online. WordPress developers can add functionality to your
-                  site with ease and get you up and running very quickly.
+                  It powers over 40% of all{" "}
+                  <Link href="/websites">websites</Link> online. WordPress
+                  developers can add functionality to your site with ease and
+                  get you up and running very quickly.
                 </p>
                 <h3>What is a WordPress CMS?</h3>
                 <p>
@@ -108,9 +109,9 @@ const WordPress = () => {
                   functionality to your WordPress website. We have Niagara
                   WordPress developers that can add these to your website no
                   problem. There's plugins for{" "}
-                  <Link to="/ecommerce-company-niagara/">e-commerce</Link>,
+                  <Link href="/ecommerce-company-niagara/">e-commerce</Link>,
                   WordPress plugins for{" "}
-                  <Link to="/niagara-seo-agency">SEO</Link>, and more.
+                  <Link href="/niagara-seo-agency">SEO</Link>, and more.
                 </p>
                 <h3>Is WordPress secure?</h3>
                 <p>
@@ -143,7 +144,7 @@ const WordPress = () => {
                 </p>
                 <p>
                   For more questions regarding a new website project, please{" "}
-                  <Link to="/web-design">click here.</Link>
+                  <Link href="/web-design">click here.</Link>
                 </p>
                 <h3>
                   Our Niagara &amp; St. Catharines WordPress Developer Experts

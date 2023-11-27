@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 
 import "../ecommFAQ/ecomm-faq.scss"
@@ -63,7 +63,7 @@ const EcommFAQ = props => {
           <h4>Is SEO included in my website?</h4>
           <p>
             No, monthly SEO efforts are not included. If you'd like pricing for
-            SEO, check out SEO pricing <Link to="/seo">here</Link>.
+            SEO, check out SEO pricing <Link href="/seo">here</Link>.
           </p>
           <h4>What forms of payment do you accept?</h4>
           <p>
@@ -72,7 +72,7 @@ const EcommFAQ = props => {
           </p>
           <h4>How do we get started?</h4>
           <p>
-            <Link to="/get-started">Click here</Link> to fill out our form.
+            <Link href="/get-started">Click here</Link> to fill out our form.
             Please include website details, page breakdown and any sample
             websites you'd like for us to reference. Upon review, we will
             provide an estimate for your project.

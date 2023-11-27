@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -49,11 +49,12 @@ const About = () => {
                   <li>What city are you located in?</li>
                 </ul>
                 <p>
-                  Since local <Link to="/seo">search engine optimization</Link>{" "}
-                  is going to be so huge for you as an brewery (since you offer
-                  a local service), it's super important to build an SEO keyword{" "}
-                  <Link to="/digital-strategy">digital strategy</Link> for your
-                  business.{" "}
+                  Since local{" "}
+                  <Link href="/seo">search engine optimization</Link> is going
+                  to be so huge for you as an brewery (since you offer a local
+                  service), it's super important to build an SEO keyword{" "}
+                  <Link href="/digital-strategy">digital strategy</Link> for
+                  your business.{" "}
                 </p>
                 <p>
                   The entire point of SEO is inbound marketing - that is, to

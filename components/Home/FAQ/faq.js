@@ -1,9 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
+import Link from "next/link"
 import Fade from "react-reveal/Fade"
-
-import "../FAQ/faq.scss"
 
 const FAQ = () => {
   return (
@@ -37,8 +35,8 @@ const FAQ = () => {
                     </strong>
                   </p>
                   <p>
-                    Comparing an old <Link to="/services">web design</Link> to a
-                    new web design is a lot like a car; can you put a Porsche
+                    Comparing an old <Link href="/services">web design</Link> to
+                    a new web design is a lot like a car; can you put a Porsche
                     engine inside of a Ford Tempo and make it perform like a
                     Porsche? Probably not. While you can certainly make small
                     updates here and there to a current web design, it's much

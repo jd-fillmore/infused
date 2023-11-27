@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: github
   repo: jd-fillmore/infused-gridsome

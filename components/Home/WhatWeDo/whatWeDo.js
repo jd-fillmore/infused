@@ -6,8 +6,6 @@ import responsive from "../../../src/img/responsive.svg"
 import optimize from "../../../src/img/web-optimization.svg"
 import secure from "../../../src/img/shield.svg"
 
-import "../WhatWeDo/what-we-do.scss"
-
 const WhatWeDo = ({
   title,
   subTitle,
@@ -107,11 +105,13 @@ const WhatWeDo = ({
               </Fade>
             </Col>
           </Row>
-          <Row className="what-kind">
+          <Row>
             <Col lg="12">
               <Fade>
                 <h2>{whatKindTitle}</h2>
-                <p id="sub">{whatKindText}</p>
+                <div>
+                  <p id="sub">{whatKindText}</p>
+                </div>
               </Fade>
             </Col>
           </Row>

@@ -2,8 +2,6 @@ import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import Fade from "react-reveal/Fade"
 
-import "../About/about.scss"
-
 const About = ({
   city,
   intro,

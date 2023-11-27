@@ -1,9 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
+import Link from "next/link"
 import Industries from "../Footer/industries-modal"
-
-import "../Footer/footer.scss"
 
 const pages = [
   {
@@ -53,7 +51,7 @@ const Footer = () => {
               <ul>
                 {pages.map(page => (
                   <li>
-                    <Link to={page.link}>{page.name}</Link>
+                    <Link href={`${page.link}`}>{page.name}</Link>
                   </li>
                 ))}
               </ul>
@@ -62,20 +60,20 @@ const Footer = () => {
               <h3>Services</h3>
               <ul>
                 <li>
-                  <Link to="/web-design">Web Design & Development</Link>
+                  <Link href="/web-design">Web Design & Development</Link>
                 </li>
                 <li>
-                  <Link to="/wordpress-developer-niagara">
+                  <Link href="/wordpress-developer-niagara">
                     WordPress Development
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ecommerce-web-design-niagara">
+                  <Link href="/ecommerce-web-design-niagara">
                     E-Commerce Development
                   </Link>
                 </li>
                 <li>
-                  <Link to="/niagara-seo-company">SEO</Link>
+                  <Link href="/niagara-seo-company">SEO</Link>
                 </li>
               </ul>
             </Col>
@@ -103,25 +101,25 @@ const Footer = () => {
             <Col lg="8">
               <h3>Areas Served</h3>
               <p className="subtitle">SEO</p>
-              <Link to="/beamsville-seo-company">Beamsville, ON</Link>,{" "}
-              <Link to="/crystal-beach-seo-company">Crystal Beach, ON</Link>,{" "}
-              <Link to="/fonthill-seo-company">Fonthill, ON</Link>,{" "}
-              <Link to="/fort-erie-seo-company">Fort Erie, ON</Link>,{" "}
-              <Link to="/grimsby-seo-company">Grimsby, ON</Link>,{" "}
-              <Link to="/niagara-seo-company">Niagara, ON</Link>,{" "}
-              <Link to="/port-colborne-seo-company">Port Colborne, ON</Link>,{" "}
-              <Link to="/st-catharines-seo-company">St. Catharines, ON</Link>,{" "}
-              <Link to="/thorold-seo-company">Thorold, ON</Link>,{" "}
-              <Link to="/welland-seo-company">Welland, ON</Link>.
+              <Link href="/beamsville-seo-company">Beamsville, ON</Link>,{" "}
+              <Link href="/crystal-beach-seo-company">Crystal Beach, ON</Link>,{" "}
+              <Link href="/fonthill-seo-company">Fonthill, ON</Link>,{" "}
+              <Link href="/fort-erie-seo-company">Fort Erie, ON</Link>,{" "}
+              <Link href="/grimsby-seo-company">Grimsby, ON</Link>,{" "}
+              <Link href="/niagara-seo-company">Niagara, ON</Link>,{" "}
+              <Link href="/port-colborne-seo-company">Port Colborne, ON</Link>,{" "}
+              <Link href="/st-catharines-seo-company">St. Catharines, ON</Link>,{" "}
+              <Link href="/thorold-seo-company">Thorold, ON</Link>,{" "}
+              <Link href="/welland-seo-company">Welland, ON</Link>.
               <p className="subtitle">Web Design</p>
-              <Link to="/beamsville-web-design">Beamsville, ON</Link>,{" "}
-              <Link to="/crystal-beach-web-design">Crystal Beach, ON</Link>,{" "}
-              <Link to="/fonthill-web-design">Fonthill, ON</Link>,{" "}
-              <Link to="/fort-erie-web-design">Fort Erie, ON</Link>,{" "}
-              <Link to="/grimsby-web-design">Grimsby, ON</Link>,{" "}
-              <Link to="/port-colborne-web-design">Port Colborne, ON</Link>,{" "}
-              <Link to="/thorold-web-design">Thorold, ON</Link>,{" "}
-              <Link to="/welland-web-design">Welland, ON</Link>.
+              <Link href="/beamsville-web-design">Beamsville, ON</Link>,{" "}
+              <Link href="/crystal-beach-web-design">Crystal Beach, ON</Link>,{" "}
+              <Link href="/fonthill-web-design">Fonthill, ON</Link>,{" "}
+              <Link href="/fort-erie-web-design">Fort Erie, ON</Link>,{" "}
+              <Link href="/grimsby-web-design">Grimsby, ON</Link>,{" "}
+              <Link href="/port-colborne-web-design">Port Colborne, ON</Link>,{" "}
+              <Link href="/thorold-web-design">Thorold, ON</Link>,{" "}
+              <Link href="/welland-web-design">Welland, ON</Link>.
               <br />
               <br />
               <h3>Industries Served</h3>

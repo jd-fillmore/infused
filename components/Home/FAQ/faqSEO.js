@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
+import Link from "next/link"
 import Fade from "react-reveal/Fade"
 
 import "../FAQ/faq.scss"
@@ -34,12 +34,12 @@ const FAQSEO = () => {
                     </strong>
                   </p>
                   <p>
-                    Comparing an old <Link to="/services">SEO project</Link> to
-                    a new SEO project is a lot like a car; can you put a Porsche
-                    engine inside of a Ford Tempo and make it perform like a
-                    Porsche? Probably not. While you can certainly make small
-                    updates here and there to a current SEO, it's much more
-                    effective if you had an all-around modern SEO to be
+                    Comparing an old <Link href="/services">SEO project</Link>{" "}
+                    to a new SEO project is a lot like a car; can you put a
+                    Porsche engine inside of a Ford Tempo and make it perform
+                    like a Porsche? Probably not. While you can certainly make
+                    small updates here and there to a current SEO, it's much
+                    more effective if you had an all-around modern SEO to be
                     implemented. It's much more effective in terms of bringing
                     in local leads if you're a company in the St. Catharines,
                     Niagara region.

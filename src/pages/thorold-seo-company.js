@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -112,12 +112,12 @@ const SEO = () => {
                         </strong>
                       </li>
                     </ul>
-                    <Link to="/tree-reports">
+                    <Link href="/tree-reports">
                       Learn More
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 512 512"
                         class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                         height="20px"
@@ -158,12 +158,12 @@ const SEO = () => {
                         </strong>
                       </li>
                     </ul>
-                    <Link to="/kd-florist">
+                    <Link href="/kd-florist">
                       Learn More
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 512 512"
                         class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                         height="20px"
@@ -208,12 +208,12 @@ const SEO = () => {
                         </strong>
                       </li>
                     </ul>
-                    <Link to="/cass-a-bella-construction">
+                    <Link href="/cass-a-bella-construction">
                       Learn More
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 512 512"
                         class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                         height="20px"
@@ -364,16 +364,16 @@ const SEO = () => {
                   <p>
                     Since 2013 we've been able to help countless local Thorold
                     businesses (and beyond!) with their{" "}
-                    <Link to="/web-design">website design</Link>,{" "}
-                    <Link to="/digital-marketing-Thorold">
+                    <Link href="/web-design">website design</Link>,{" "}
+                    <Link href="/digital-marketing-Thorold">
                       digital marketing
                     </Link>
                     , search engine optimization (SEO) ,{" "}
-                    <Link to="/wordpress-developer-Thorold">
+                    <Link href="/wordpress-developer-Thorold">
                       WordPress development
                     </Link>{" "}
                     and{" "}
-                    <Link to="/ecommerce-web-design-Thorold">
+                    <Link href="/ecommerce-web-design-Thorold">
                       e-commerce website development
                     </Link>
                     .
@@ -398,7 +398,7 @@ const SEO = () => {
                 <h3>What is SEO?</h3>
                 <p>
                   Search Engine Optimization (SEO) is the process of increasing
-                  your <Link to="/websites">websites</Link> visibility within
+                  your <Link href="/websites">websites</Link> visibility within
                   Google's search results. If your website is on the first page
                   of Google with our SEO services versus your website being on
                   the 10th page, you will get a lot more customers.

@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
+import Link from "next/link"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -13,7 +13,6 @@ import kdImg from "../img/niagara-web-design.png"
 import cassImg from "../img/featured-seo.png"
 import bgImage from "../img/inner-work.jpg"
 
-import "../pages/work.scss"
 import PortfolioSlider from "../../components/PortfolioSlider/portfolioSlider"
 
 const OurWork = () => {
@@ -51,12 +50,12 @@ const OurWork = () => {
                     A local certified consulting arborist specializing in
                     reports, planning and consulting.
                   </p>
-                  <Link to="/tree-reports">
+                  <Link href="/tree-reports">
                     Discover
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 512 512"
                       class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                       height="20px"
@@ -76,12 +75,12 @@ const OurWork = () => {
                     A boutique affordable wedding flower business in the heart
                     of St. Catharines.
                   </p>
-                  <Link to="/kd-florist">
+                  <Link href="/kd-florist">
                     Discover
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 512 512"
                       class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                       height="20px"
@@ -105,12 +104,12 @@ const OurWork = () => {
                     A contracting company focused on custom home building and
                     renovation in Toronto.
                   </p>
-                  <Link to="/cass-a-bella-construction">
+                  <Link href="/cass-a-bella-construction">
                     Discover
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 512 512"
                       class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                       height="20px"

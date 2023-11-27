@@ -3,8 +3,6 @@ import Fade from "react-reveal/Fade"
 import { Container, Row, Col } from "reactstrap"
 import TestimonialCard from "./../../testimonialCard/testimonialCard"
 
-import "../Clients/clients.scss"
-
 const Clients = ({ title, subTitle }) => {
   return (
     <>

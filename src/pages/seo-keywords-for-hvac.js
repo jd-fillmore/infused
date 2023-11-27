@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -39,8 +39,8 @@ const About = () => {
                 <br />
                 <p>
                   A big part in finding the best{" "}
-                  <Link to="/seo-beamsville">SEO</Link> keywords for HVAC &amp;
-                  AC repair comes down to a couple things:
+                  <Link href="/seo-beamsville">SEO</Link> keywords for HVAC
+                  &amp; AC repair comes down to a couple things:
                 </p>
                 <ul>
                   <li>
@@ -51,20 +51,20 @@ const About = () => {
                 </ul>
                 <p>
                   Since local{" "}
-                  <Link to="/seo-crystal-beach">
+                  <Link href="/seo-crystal-beach">
                     search engine optimization
                   </Link>{" "}
                   is going to be so huge for you as an HVAC &amp; AC repair
                   company (since you offer a local service), it's super
-                  important to build an <Link to="/seo-fonthill">SEO</Link>{" "}
-                  keyword <Link to="/digital-strategy">digital strategy</Link>{" "}
+                  important to build an <Link href="/seo-fonthill">SEO</Link>{" "}
+                  keyword <Link href="/digital-strategy">digital strategy</Link>{" "}
                   for your business.{" "}
                 </p>
                 <p>
-                  The entire point of <Link to="/seo-fort-erie">SEO</Link> is
+                  The entire point of <Link href="/seo-fort-erie">SEO</Link> is
                   inbound marketing - that is, to bring clients that are looking
                   for what you offer, directly to you.{" "}
-                  <Link to="/seo-grimsby">SEO</Link> for HVAC &amp; AC repairs
+                  <Link href="/seo-grimsby">SEO</Link> for HVAC &amp; AC repairs
                   works so well because even when times are tough - recessions,
                   slow times - it doesn't matter. You're tapping into a market
                   that's outside of your network (people you don't know), who
@@ -113,7 +113,7 @@ const About = () => {
                 </h2>
                 <p>
                   In this short post, we'll go through some{" "}
-                  <Link to="/seo-port-colborne">SEO</Link> keyword ideas that
+                  <Link href="/seo-port-colborne">SEO</Link> keyword ideas that
                   are the best to use for HVAC &amp; AC repair.
                 </p>
                 <h2>"City + HVAC &amp; AC repair"</h2>
@@ -138,7 +138,7 @@ const About = () => {
                   These are a bit harder to rank for, because they're such
                   generic terms. Not to mention, since every other HVAC &amp; AC
                   repair or HVAC &amp; AC repair company is using{" "}
-                  <Link to="/seo-thorold">SEO</Link> to try and rank for that
+                  <Link href="/seo-thorold">SEO</Link> to try and rank for that
                   keyword, it's super competitive.
                   <br />
                   <br />
@@ -189,7 +189,7 @@ const About = () => {
                   <br />A lot of people surprisingly use this search term. It's
                   pretty difficult to rank for - but if you can, you're tapping
                   into a fairly large market of people using{" "}
-                  <Link to="/seo-welland">SEO</Link> to search for what you
+                  <Link href="/seo-welland">SEO</Link> to search for what you
                   offer.
                 </p>
                 <h2>

@@ -2,8 +2,6 @@ import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import Button from "../Button/button"
 
-import "../CTA/cta.scss"
-
 const CTA = () => {
   return (
     <>
@@ -22,7 +20,7 @@ const CTA = () => {
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"

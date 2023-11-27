@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import Fade from "react-reveal/Fade"
 import Card from "../../Card/card"
 import featuredImg from "../../../src/img/niagara-web-design-1.webp"
@@ -55,12 +55,12 @@ const Featured = ({ title, subTitle }) => {
                     <div className="col-lg-6 text-left">
                       <h3>{project.title}</h3>
                       <p>{project.desc}</p>
-                      <Link to={project.link}>
+                      <Link href={`${project.link}`}>
                         Discover
                         <svg
                           stroke="currentColor"
                           fill="currentColor"
-                          stroke-width="0"
+                          strokeWidth="0"
                           viewBox="0 0 512 512"
                           class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                           height="20px"

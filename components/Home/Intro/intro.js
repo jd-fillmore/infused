@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row } from "reactstrap"
-import { Link } from "gatsby"
+import Link from "next/link"
 
 import "../Intro/intro.scss"
 
@@ -36,7 +36,7 @@ const Intro = ({ img }) => {
                 We have successfully helped many clients across Niagara, Toronto
                 and beyond build and grow their businesses since 2010.
               </p>
-              <Link to="/get-started">
+              <Link href="/get-started">
                 <button>Request A Quote</button>
               </Link>
             </div>

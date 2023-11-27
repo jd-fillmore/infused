@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 
 import "../seoFAQ/seo-faq.scss"
@@ -78,7 +78,7 @@ const SEOFAQ = props => {
           </p>
           <h4>How do we get started?</h4>
           <p>
-            <Link to="/get-started">Click here</Link> to fill out our form.
+            <Link href="/get-started">Click here</Link> to fill out our form.
             Please include the any details relating to SEO (which keywords you
             want to rank for, which geographical areas, etc.). Upon review, we
             will provide an estimate for your project.

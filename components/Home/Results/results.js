@@ -2,7 +2,6 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import { Container, Row, Col } from "reactstrap"
 
-import "../Results/results.scss"
 import featuredImg from "../../../src/img/kd-home.webp"
 import resultsImg from "../../../src/img/kd-results.webp"
 

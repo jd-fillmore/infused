@@ -2,8 +2,6 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import { Container, Row, Col } from "reactstrap"
 
-import "../innerHero/inner-hero.scss"
-
 const InnerHero = ({ title, description, bgImage }) => {
   return (
     <>

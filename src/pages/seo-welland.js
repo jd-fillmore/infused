@@ -10,7 +10,7 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
 import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
+import Link from "next/link"
 
 import webImg from "../../src/img/responsive.svg"
 import seoImg from "../../src/img/seoo.svg"
@@ -45,7 +45,7 @@ const SEOCity = () => {
               <h2>SEO Agency Welland</h2>
               <p className="serv-intro">
                 We specialize in{" "}
-                <Link to="/seo-niagara">Welland SEO services</Link> that help
+                <Link href="/seo-niagara">Welland SEO services</Link> that help
                 grow your Welland business. Alongside our SEO services, we can
                 also help your Welland company with the following services.
               </p>
@@ -60,12 +60,12 @@ const SEOCity = () => {
                 <p>
                   We create Welland websites to help attract more customers.
                 </p>
-                <Link to="/web-design">
+                <Link href="/web-design">
                   Learn More
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -88,12 +88,12 @@ const SEOCity = () => {
                 <p>
                   Update your Welland website without the need of a developer.
                 </p>
-                <Link to="/wordpress-developer-niagara/">
+                <Link href="/wordpress-developer-niagara/">
                   Learn More
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -117,12 +117,12 @@ const SEOCity = () => {
                   Social media ads to drive Welland traffic and increase
                   revenue.
                 </p>
-                <Link to="/digital-marketing-niagara/">
+                <Link href="/digital-marketing-niagara/">
                   Learn More
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -144,12 +144,12 @@ const SEOCity = () => {
                 <p>
                   We help rank your Welland website on the first page of Google.
                 </p>
-                <Link to="/seo-niagara/">
+                <Link href="/seo-niagara/">
                   Learn More
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -173,12 +173,12 @@ const SEOCity = () => {
                   Robust e-commerce systems to help your Welland company sell
                   online.
                 </p>
-                <Link to="/ecommerce-web-design-niagara/">
+                <Link href="/ecommerce-web-design-niagara/">
                   Learn More
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 512 512"
                     class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                     height="20px"
@@ -212,7 +212,7 @@ const SEOCity = () => {
         </div>
       </section>
       <PortfolioSlider />
-      <Link className="d-block text-center pd-top-80" to="/work">
+      <Link className="d-block text-center pd-top-80" href="/work">
         <button>View More Work</button>
       </Link>
       <Results
@@ -223,9 +223,9 @@ const SEOCity = () => {
         title="SEO services in Welland"
         subTitle={[
           "As a small business that's near Welland ourselves, we understand that your small business in Welland cannot fork out upfront thousands of dollars for a ",
-          <Link to="/seo-niagara">SEO company</Link>,
+          <Link href="/seo-niagara">SEO company</Link>,
           ". That's why we offer local and affordable Welland ",
-          <Link to="/work">SEO services</Link>,
+          <Link href="/work">SEO services</Link>,
           " to fit your small business budget. Our SEO experts use the latest trends, which helps bring in more local Welland leads near you and revenue through your new SEO services campaign.",
         ]}
         boxOneTitle="Responsive"
@@ -240,9 +240,9 @@ const SEOCity = () => {
         whatTitle="What Makes A Good SEO Service in Welland?"
         whatText={[
           "Does your current ",
-          <Link to="/seo-niagara">SEO</Link>,
+          <Link href="/seo-niagara">SEO</Link>,
           " not bring in new Welland leads? Sometimes SEO problems are obvious like when a website is not mobile-friendly or if your on-page SEO isn't up to snuff. Other times, a closer inspection into your SEO practices are required in order to identify issues. Most issues relating to any Welland company's ",
-          <Link to="/seo-niagara">SEO</Link>,
+          <Link href="/seo-niagara">SEO</Link>,
           " can be directly related to not enough content, backlinks or website's code foundation being proper. In other words, the lack of good SEO is simply not converting your Welland users into paying customers.",
         ]}
         servicesTitle="Why Is Hiring a Good SEO Company near Welland Important?"

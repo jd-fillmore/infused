@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -95,7 +95,7 @@ const ECommerce = () => {
                   services?
                 </h3>
                 <p>
-                  Like any <Link to="/websites">website</Link>, the cost can
+                  Like any <Link href="/websites">website</Link>, the cost can
                   wildly vary. This depends on a lot of factors for your Niagara
                   e-commerce website development project. How many products will
                   you have? Is it a product-based or digital download-based
@@ -138,7 +138,7 @@ const ECommerce = () => {
                 </ul>
                 <p>
                   For more questions regarding a new website project, please{" "}
-                  <Link to="/web-design">click here.</Link>
+                  <Link href="/web-design">click here.</Link>
                 </p>
                 <h3>
                   Our Niagara &amp; St. Catharines e-commerce website

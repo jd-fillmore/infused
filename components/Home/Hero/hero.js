@@ -1,8 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import heroImg from "../../../src/img/hero.webp"
-
-import "../Hero/hero.scss"
 import reviews from "../../../src/img/infused-reviews.jpg"
 
 const Hero = ({ title, titleTwo }) => {
@@ -21,7 +19,7 @@ const Hero = ({ title, titleTwo }) => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 512 512"
                       class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                       height="20px"

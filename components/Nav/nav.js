@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import {
   Collapse,
   Navbar,
@@ -12,7 +12,6 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap"
-import "../Nav/nav.scss"
 
 const Example = props => {
   const [isOpen, setIsOpen] = useState(false)
@@ -23,7 +22,7 @@ const Example = props => {
     <div>
       <Navbar className="fixed-top" id="nav" expand="lg">
         <NavbarBrand href="/">
-          <Link to="/" className="logo">
+          <Link href="/" className="logo">
             infused
           </Link>
         </NavbarBrand>
@@ -31,7 +30,7 @@ const Example = props => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="/" title="Niagara Web Design" className="nav-link">
+              <Link href="/" title="Niagara Web Design" className="nav-link">
                 Home
               </Link>
             </NavItem>
@@ -40,32 +39,32 @@ const Example = props => {
                 Services
               </DropdownToggle>
               <DropdownMenu right>
-                <Link to="/niagara-seo-company/">
+                <Link href="/niagara-seo-company/">
                   <DropdownItem>SEO</DropdownItem>
                 </Link>
-                <Link to="/web-design/">
+                <Link href="/web-design/">
                   <DropdownItem>Web Design &amp; Development</DropdownItem>
                 </Link>
-                <Link to="/wordpress-developer-niagara/">
+                <Link href="/wordpress-developer-niagara/">
                   <DropdownItem>WordPress Development</DropdownItem>
                 </Link>
-                <Link to="/ecommerce-web-design-niagara/">
+                <Link href="/ecommerce-web-design-niagara/">
                   <DropdownItem>E-Commerce Development</DropdownItem>
                 </Link>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <Link to="/work" className="nav-link">
+              <Link href="/work" className="nav-link">
                 Work
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/about" className="nav-link">
+              <Link href="/about" className="nav-link">
                 About
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="/posts" className="nav-link">
+              <Link href="/posts" className="nav-link">
                 Blog
               </Link>
             </NavItem>
@@ -80,7 +79,7 @@ const Example = props => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 512 512"
                   class="absolute left-1/2 top-1/2 translate-centered group-hover:ml-1 transition-250"
                   height="20px"

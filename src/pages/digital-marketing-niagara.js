@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "next/link"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
@@ -84,9 +84,10 @@ const SEO = () => {
                 <p>
                   Digital marketing is the process of a company leverage digital
                   channels to bring in new business directly through your
-                  <Link to="/websites">website</Link>. Companies can leverage
-                  things like <Link to="/seo">search engine optimization</Link>,
-                  Facebook ads, Instagram ads,
+                  <Link href="/websites">website</Link>. Companies can leverage
+                  things like{" "}
+                  <Link href="/seo">search engine optimization</Link>, Facebook
+                  ads, Instagram ads,
                 </p>
                 <h3>Is digital marketing important?</h3>
                 <p>
