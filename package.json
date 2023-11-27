@@ -13,14 +13,15 @@
     "preload-fonts": ""
   },
   "dependencies": {
+    "@next/font": "^14.0.3",
     "bootstrap": "^4.5.3",
     "framer-motion": "^2.9.4",
     "netlify-cms-app": "^2.13.3",
-    "next": "14.0.3",
+    "next": "13",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-helmet": "^6.1.0",
     "react-id-swiper": "^4.0.0",
     "react-reveal": "^1.2.2",

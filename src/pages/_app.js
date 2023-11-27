@@ -31,7 +31,7 @@ import "../../node_modules/slick-carousel/slick/slick-theme.css"
 import "../../components/Home/Process/process.scss"
 import "../../components/websiteFAQ/website-faq.scss"
 
-import { Playfair_Display, Open_Sans } from "next/font/google"
+import { Playfair_Display, Open_Sans } from "@next/font/google"
 
 export const playfairDisplay = Playfair_Display({
   subsets: ["latin"],

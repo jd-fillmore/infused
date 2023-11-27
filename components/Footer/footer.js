@@ -35,16 +35,14 @@ const Footer = () => {
                 company. We help local and non-local businesses build their
                 credibility online, as well as help bring in more sales.
               </p>
-              <p>
-                Follow us on{" "}
-                <a
-                  rel="noreferrer"
-                  href="https://www.instagram.com/infusedweb/"
-                  target="_blank"
-                >
-                  Instagram
-                </a>
-              </p>
+              Follow us on{" "}
+              <a
+                rel="noreferrer"
+                href="https://www.instagram.com/infusedweb/"
+                target="_blank"
+              >
+                Instagram
+              </a>
             </Col>
             <Col lg="2">
               <h3>Pages</h3>

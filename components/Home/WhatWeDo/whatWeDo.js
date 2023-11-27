@@ -109,9 +109,8 @@ const WhatWeDo = ({
             <Col lg="12">
               <Fade>
                 <h2>{whatKindTitle}</h2>
-                <div>
-                  <p id="sub">{whatKindText}</p>
-                </div>
+
+                <p id="sub">{whatKindText}</p>
               </Fade>
             </Col>
           </Row>
