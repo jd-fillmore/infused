@@ -1,8 +1,8 @@
-local_backend: true
-
 backend:
   name: github
   repo: jd-fillmore/infused-gridsome
+
+local_backend: true
 
 media_folder: "img"
 public_folder: "../img"

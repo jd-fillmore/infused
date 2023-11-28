@@ -21,10 +21,8 @@ const Example = props => {
   return (
     <div>
       <Navbar className="fixed-top" id="nav" expand="lg">
-        <NavbarBrand href="/">
-          <Link href="/" className="logo">
-            infused
-          </Link>
+        <NavbarBrand href="/" className="logo">
+          infused
         </NavbarBrand>
         <NavbarToggler className="custom-toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

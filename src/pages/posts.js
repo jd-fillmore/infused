@@ -1,21 +1,19 @@
 import React from "react"
-import PostLink from "../../components/postLink.js"
+import Link from "next/link.js"
+import matter from "gray-matter"
+import PostLink from "./postLink.js"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
-import bgImage from "../img/inner-work.jpg"
+import fs from "fs/promises" // Import the fs module
 
-const PostsPage = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+const PostsPage = ({ blogs }) => {
+  const Posts = blogs
+    .filter(blog => !!blog.date) // You can filter your blogs based on some criteria
+    .map(blog => <PostLink key={blog.id} post={blog} />)
 
   return (
     <>
@@ -30,12 +28,20 @@ const PostsPage = ({
       <InnerHero
         title="Blog"
         description="Educating companies on best practices"
-        bgImage={bgImage}
+        bgImage="/path/to/your/bgImage.jpg" // Update with the correct path
       />
       <section className="inner-content">
         <Container>
           <Row>
-            <Col lg="12">{Posts}</Col>
+            <ul>
+              {blogs.map(blog => (
+                <li key={blog.slug}>
+                  <Link href={`./posts/${blog.slug}`}>
+                    {blog.date}:{blog.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </Row>
         </Container>
       </section>
@@ -45,22 +51,34 @@ const PostsPage = ({
   )
 }
 
-export default PostsPage
+export async function getStaticProps() {
+  // List of files in the blogs folder
+  const filesInBlogs = await fs.readdir(`./posts`)
 
-export const pageQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-          }
-        }
+  // Get the front matter and slug (the filename without .md) of all files
+  const blogs = await Promise.all(
+    filesInBlogs.map(async filename => {
+      const fileContent = await fs.readFile(`./posts/${filename}`, "utf8")
+      const matterData = matter(fileContent)
+
+      const date =
+        matterData.data.date instanceof Date
+          ? matterData.data.date.toISOString()
+          : null
+
+      return {
+        ...matterData.data, // matterData.data contains front matter
+        slug: filename.slice(0, filename.indexOf(".")),
+        date, // Convert Date to string or set to null if undefined
       }
-    }
+    })
+  )
+
+  return {
+    props: {
+      blogs,
+    },
   }
-`
+}
+
+export default PostsPage
