@@ -4,6 +4,7 @@
 .home-services {
   padding: 160px 0px 0px 0px;
   h2 {
+    font-size: 60px;
     @include bp-tablet-sm {
       text-align: left;
     }

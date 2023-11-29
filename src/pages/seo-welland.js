@@ -19,8 +19,6 @@ import dmImg from "../../src/img/dm.svg"
 import ecommImg from "../../src/img/add-to-cart.png"
 import wpImg from "../../src/img/wordpress.png"
 
-import "bootstrap/dist/css/bootstrap.min.css"
-
 const SEOCity = () => {
   return (
     <>

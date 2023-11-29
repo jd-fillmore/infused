@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1600px !important;
 }
 
 h1,
@@ -16,7 +16,7 @@ h4,
 h5,
 h6 {
   font-family: $heading;
-  font-weight: bold;
+  font-weight: bold !important;
   color: $grey;
   @include bp-tablet-sm {
     line-height: 1.6;
@@ -41,7 +41,6 @@ ul {
 a {
   color: $light-blue;
   transition: 0.2s;
-  border-bottom: 2px solid $dark-blue;
   &:focus,
   &:hover {
     color: $purple;

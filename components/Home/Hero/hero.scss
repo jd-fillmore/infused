@@ -74,8 +74,7 @@
     }
     &.intro {
       font-size: 14px;
-      font-weight: normal;
-      font-family: $body;
+      font-weight: normal !important;
       letter-spacing: 2px;
       text-transform: uppercase;
       @include bp-tablet-sm {

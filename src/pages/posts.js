@@ -8,13 +8,9 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
-import fs from "fs/promises" // Import the fs module
+import fs from "fs/promises"
 
 const PostsPage = ({ blogs }) => {
-  const Posts = blogs
-    .filter(blog => !!blog.date) // You can filter your blogs based on some criteria
-    .map(blog => <PostLink key={blog.id} post={blog} />)
-
   return (
     <>
       <Helmet>
@@ -28,15 +24,14 @@ const PostsPage = ({ blogs }) => {
       <InnerHero
         title="Blog"
         description="Educating companies on best practices"
-        bgImage="/path/to/your/bgImage.jpg" // Update with the correct path
       />
       <section className="inner-content">
         <Container>
           <Row>
-            <ul>
+            <ul className="post">
               {blogs.map(blog => (
                 <li key={blog.slug}>
-                  <Link href={`./posts/${blog.slug}`}>
+                  <Link href={`/posts/${blog.slug}`}>
                     {blog.date}:{blog.title}
                   </Link>
                 </li>

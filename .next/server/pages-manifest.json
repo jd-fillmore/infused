@@ -2,7 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.js",
+  "/": "pages/index.js",
+  "/web-design": "pages/web-design.js",
+  "/wordpress-developer-niagara": "pages/wordpress-developer-niagara.js",
+  "/work": "pages/work.js",
+  "/about": "pages/about.js",
+  "/ecommerce-web-design-niagara": "pages/ecommerce-web-design-niagara.js",
+  "/niagara-seo-company": "pages/niagara-seo-company.js",
   "/posts": "pages/posts.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.js"
 }

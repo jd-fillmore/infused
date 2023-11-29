@@ -32,10 +32,40 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about.js"
+    ],
+    "/ecommerce-web-design-niagara": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ecommerce-web-design-niagara.js"
+    ],
+    "/niagara-seo-company": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/niagara-seo-company.js"
+    ],
     "/posts": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/posts.js"
+    ],
+    "/web-design": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/web-design.js"
+    ],
+    "/wordpress-developer-niagara": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/wordpress-developer-niagara.js"
+    ],
+    "/work": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/work.js"
     ]
   },
   "ampFirstPages": []

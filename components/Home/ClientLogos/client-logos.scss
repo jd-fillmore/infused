@@ -4,6 +4,9 @@
 .client-logos {
   padding: 120px 0px 120px 0px;
   background: $dark-grey;
+  h2 {
+    font-size: 60px;
+  }
   @include bp-tablet-sm {
     padding: 40px 0px 40px 0px;
   }
