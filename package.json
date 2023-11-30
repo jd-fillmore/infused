@@ -8,6 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "postbuild": "next-sitemap",
     "lint": "next lint",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "preload-fonts": ""
@@ -17,8 +18,10 @@
     "bootstrap": "^4.5.3",
     "framer-motion": "^2.9.4",
     "gray-matter": "^4.0.3",
+    "marked": "^11.0.0",
     "netlify-cms-app": "^2.13.3",
     "next": "13",
+    "next-sitemap": "^4.2.3",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
     "react": "18.2.0",

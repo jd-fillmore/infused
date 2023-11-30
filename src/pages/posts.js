@@ -1,16 +1,17 @@
 import React from "react"
 import Link from "next/link.js"
 import matter from "gray-matter"
-import PostLink from "./postLink.js"
+import path from "path"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
-import fs from "fs/promises"
+import fs from "fs"
+import { sortByDate } from "../../utils"
 
-const PostsPage = ({ blogs }) => {
+const PostsPage = ({ posts }) => {
   return (
     <>
       <Helmet>
@@ -28,15 +29,19 @@ const PostsPage = ({ blogs }) => {
       <section className="inner-content">
         <Container>
           <Row>
-            <ul className="post">
-              {blogs.map(blog => (
-                <li key={blog.slug}>
-                  <Link href={`/posts/${blog.slug}`}>
-                    {blog.date}:{blog.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <Col lg="12">
+              <div className="post">
+                {posts.map((post, index) => (
+                  <div key={index} className="card">
+                    <h3>
+                      <Link href={`/posts/${post.slug}`}>
+                        {post.frontmatter.title}
+                      </Link>
+                    </h3>
+                  </div>
+                ))}
+              </div>
+            </Col>
           </Row>
         </Container>
       </section>
@@ -47,31 +52,43 @@ const PostsPage = ({ blogs }) => {
 }
 
 export async function getStaticProps() {
-  // List of files in the blogs folder
-  const filesInBlogs = await fs.readdir(`./posts`)
+  // Get files from the posts dir
+  const files = fs.readdirSync(path.join("./posts"))
 
-  // Get the front matter and slug (the filename without .md) of all files
-  const blogs = await Promise.all(
-    filesInBlogs.map(async filename => {
-      const fileContent = await fs.readFile(`./posts/${filename}`, "utf8")
-      const matterData = matter(fileContent)
+  // Get slug and frontmatter from posts
+  const posts = files.map(filename => {
+    // Create slug
+    const slug = filename.replace(".md", "")
 
-      const date =
-        matterData.data.date instanceof Date
-          ? matterData.data.date.toISOString()
-          : null
+    // Get frontmatter
+    const markdownWithMeta = fs.readFileSync(
+      path.join("./posts", filename),
+      "utf-8"
+    )
 
-      return {
-        ...matterData.data, // matterData.data contains front matter
-        slug: filename.slice(0, filename.indexOf(".")),
-        date, // Convert Date to string or set to null if undefined
-      }
-    })
-  )
+    const { data: frontmatter } = matter(markdownWithMeta)
+
+    // Check if frontmatter.date is a Date object or a valid date string
+    if (
+      frontmatter.date &&
+      (frontmatter.date instanceof Date || !isNaN(new Date(frontmatter.date)))
+    ) {
+      // Convert Date object to string
+      frontmatter.date = new Date(frontmatter.date).toISOString()
+    } else {
+      console.error(`Invalid date in post: ${slug}`)
+      // You might want to set a default date or handle this error in some way
+    }
+
+    return {
+      slug,
+      frontmatter,
+    }
+  })
 
   return {
     props: {
-      blogs,
+      posts: posts.sort(sortByDate),
     },
   }
 }

@@ -40,13 +40,13 @@ const About = ({
                     <strong>Top sights in {city}:</strong>
                   </p>
                   <p>{topSights}</p>
-                  <h4>{qOne}</h4>
+                  <h3>{qOne}</h3>
                   <p>{qOneAns}</p>
-                  <h4>{qTwo}</h4>
+                  <h3>{qTwo}</h3>
                   <p>{qTwoAns}</p>
-                  <h4>{qThree}</h4>
+                  <h3>{qThree}</h3>
                   <p>{qThreeAns}</p>
-                  <h4>{qFour}</h4>
+                  <h3>{qFour}</h3>
                   <p>{qFourAns}</p>
                   <iframe
                     src={mapURL}

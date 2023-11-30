@@ -4,7 +4,6 @@ node_modules
 # Next.js
 .next
 out
-.next/cache
 
 # Editor files
 .vscode

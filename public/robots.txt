@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://infused.agency
+
+# Sitemaps
+Sitemap: https://infused.agency/sitemap.xml
