@@ -78,10 +78,15 @@ const WebsiteFAQ = props => {
           </p>
           <h4>How do we get started?</h4>
           <p>
-            <Link href="/get-started">Click here</Link> to fill out our form.
-            Please include website details, page breakdown and any sample
-            websites you'd like for us to reference. Upon review, we will
-            provide an estimate for your project.
+            <a
+              href="https://calendly.com/infused-agency/project-discovery/"
+              target="_blank"
+            >
+              Click here
+            </a>{" "}
+            to fill out our form. Please include website details, page breakdown
+            and any sample websites you'd like for us to reference. Upon review,
+            we will provide an estimate for your project.
           </p>
         </Col>
       </Row>

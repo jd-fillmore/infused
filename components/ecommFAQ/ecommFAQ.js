@@ -22,7 +22,7 @@ const EcommFAQ = props => {
             clients all over North America and even in Australia.
           </p>
           <h4>
-            Will I be able to update my website myself when it's launched?
+            Will I be able to update my website myself when it is launched?
           </h4>
           <p>Yes. You will be able to add and edit content and products.</p>
           <h4>Can you maintain our website for us?</h4>
@@ -42,7 +42,7 @@ const EcommFAQ = props => {
           </p>
           <h4>How much input do I have in the website design process?</h4>
           <p>
-            In our discovery call, we will flesh out what you'd like in the
+            In our discovery call, we will flesh out what you would like in the
             design in terms of colours and feel. Based on our call, we will
             design your website by combining what you want with what our experts
             know what works.
@@ -56,12 +56,12 @@ const EcommFAQ = props => {
           <h4>What if I need help with my website in the future?</h4>
           <p>
             Not a problem, we can help. Any questions or requests you may have,
-            we'll be happy to look at.
+            we will be happy to look at.
           </p>
           <h4>Is SEO included in my website?</h4>
           <p>
-            No, monthly SEO efforts are not included. If you'd like pricing for
-            SEO, check out SEO pricing <Link href="/seo">here</Link>.
+            No, monthly SEO efforts are not included. If you would like pricing
+            for SEO, check out SEO pricing <Link href="/seo">here</Link>.
           </p>
           <h4>What forms of payment do you accept?</h4>
           <p>
@@ -70,10 +70,15 @@ const EcommFAQ = props => {
           </p>
           <h4>How do we get started?</h4>
           <p>
-            <Link href="/get-started">Click here</Link> to fill out our form.
-            Please include website details, page breakdown and any sample
-            websites you'd like for us to reference. Upon review, we will
-            provide an estimate for your project.
+            <a
+              href="https://calendly.com/infused-agency/project-discovery/"
+              target="_blank"
+            >
+              Click here
+            </a>
+            to fill out our form. Please include website details, page breakdown
+            and any sample websites you would like for us to reference. Upon
+            review, we will provide an estimate for your project.
           </p>
         </Col>
       </Row>

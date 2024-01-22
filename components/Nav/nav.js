@@ -46,14 +46,16 @@ const Example = props => {
                 <Link href="/wordpress-developer-niagara/">
                   <DropdownItem>WordPress Development</DropdownItem>
                 </Link>
-                <Link href="/ecommerce-web-design-niagara/">
-                  <DropdownItem>E-Commerce Development</DropdownItem>
-                </Link>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
               <Link href="/work" className="nav-link">
                 Work
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link href="/pricing" className="nav-link">
+                Pricing
               </Link>
             </NavItem>
             <NavItem>

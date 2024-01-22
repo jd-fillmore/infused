@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Link from "next/link"
-import Image from 'next/image'
+import Image from "next/image"
 import Nav from "../../components/Nav/nav"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerContent from "../../components/innerContent/innerContent"
@@ -10,7 +10,7 @@ import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import about from "../img/about.jpeg"
 
-const About = () => {
+const Pricing = () => {
   return (
     <>
       <Helmet>
@@ -70,7 +70,13 @@ const About = () => {
                 <h2>How we can help you</h2>
                 <p>
                   If you're looking for help in any of the areas below, please
-                  head over to our <Link href="/get-started">Get Started</Link>{" "}
+                  head over to our{" "}
+                  <a
+                    href="https://calendly.com/infused-agency/project-discovery/"
+                    target="_blank"
+                  >
+                    Get Started
+                  </a>{" "}
                   page and a member from our team will respond to you promptly.
                 </p>
               </Col>
@@ -103,4 +109,4 @@ const About = () => {
   )
 }
 
-export default About
+export default APr
